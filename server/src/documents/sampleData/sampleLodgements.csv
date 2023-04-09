@@ -1,0 +1,11 @@
+lotId,lotNumber,trademark.trademark,trademark.customerName,productName,numBagsLodged,lodgementDate,locationCodes,transportChargesPaid,totalChargesReceivable,totalChargesReceived,rents.rentalYear,rents.rentalMode,rents.totalRentReceivable,rents.totalRentReceived,numBagsBalance,numDeliveries,lastTransactionDate
+64211da589e23509760b02aa,2525/589,MTC/Sreenu,Manikanta Trading Company,Tamarind (Nagari) 30 Kg Bags,123,12/30/2019,"A2/13C, A2/13D",0,0,0,2019,Monthly,0,0,0,9,12/30/2019
+64211da589e23509760b02ab,4025/807,RR/Jaya Ram,Jaya Ram,Tamarind (Karipuli) 15 Kg Bags,807,2/5/2020,A2/23CBA,0,0,0,2020,Yearly,0,0,0,18,2/5/2020
+64211da589e23509760b02ac,4571/201,SNT/PKL,Vilasarapu Koteswara Rao,Tamarind (Chikkulu) 50 Kg Bags,201,5/8/2020,B1/21B;B1/21C,5000,0,0,2020,Yearly,0,0,0,96,5/8/2020
+64211da589e23509760b02ad,4892/739,AVR/AMP,Venkateswara Rao,Tamarind (Palta) 15 Kg Bags,739,9/17/2020,B2/23B,0,0,0,2020,Monthly,0,0,0,21,9/17/2020
+64211da589e23509760b02ae,6503/44,KVR/Penugonda,Kambala Venkateswara Rao,Chillies (Warangal Mirchi) 50 Kg Bags,44,3/29/2021,B4/8A,0,0,0,2021,Yearly,0,0,0,20,3/29/2021
+64211da589e23509760b02af,6720/409,MTC/Sreenu,Manikanta Trading Company,Tamarind (Chikkulu) 50 Kg Bags,409,4/16/2021,"A2/1DCB,A1/22DCBA",0,0,0,2021,Yearly,0,0,0,72,4/16/2021
+64211da589e23509760b02b0,6749/200,OME/YPR,Yadlapalli Pothu Raju,Chillies (Uttaradi Lavulu) 50 Kg Bags,200,4/18/2021,"A4/20D,21DC",0,0,0,2021,Yearly,0,0,0,69,4/18/2021
+64211da589e23509760b02b1,7044/24,Mypala,Mypala Siva Rama Krishna,Tamarind (Deasavali) 10 Kg Bags,24,10/29/2021,A2/4A,0,0,0,2021,Monthly,0,0,0,1,10/29/2021
+64211da589e23509760b02b2,7294/202,OME/YPR,M.Subba Rao,Chillies (Endo 5) 50 Kg Bags,202,2/27/2022,"A4/24B, A4/24C, A4/24D, A4/25C, A4/25D",0,0,0,2022,Yearly,0,0,0,72,2/27/2022
+64211da589e23509760b02b3,8162/201,YB/TPG,Sri Venkateswara Trading Company,Tamarind-Tita 40Kg Bags,201,8/12/2022,"B1/18B, B1/18C",0,0,0,2022,Monthly,0,0,16,9,8/12/2022

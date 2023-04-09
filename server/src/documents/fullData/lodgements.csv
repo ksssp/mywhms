@@ -1,0 +1,102 @@
+
+deliveries: 
+        ["lotId", "lotNumber",  "trademark", "customerName", "productName", 
+            "numBagsDelivered", "numBagsBalance", "locationCodes", "deliveryDate", "numMonthsLodged", 
+            "trasportChargesPaid", "deliveryChargesReceivable", "deliveryChargesReceived", "rents"],
+
+
+
+            rents: {
+                bsonType: "object",
+                description: "'rents' is a consolidation of all kinds of rents & their details",
+                required: ["rentalMode", "rentalYear", "monthlyRentReceivable", "yearlyRentReceivable"],
+                properties: {
+                    "rentalMode": { bsonType: "string", enum: ["monthly", "yearly"] },
+                    "rentalYear": { bsonType: "int", minimum: 2000 },
+                    "totalRentReceivable": { bsonType: "double", minimum: 0 },
+                    "totalRentReceived": { bsonType: "double", minimum: 0 }
+                }
+            }
+
+lodgements: ["lotId", "lotNumber", "trademark", "customerName", "productName", 
+            "numBagsLodged", "lodgementDate", "locationCodes", 
+            "trasportChargesPaid", "totalChargesReceivable", "totalChargesReceived", "rents",
+            "numBagsBalance", "numDeliveries", "lastTransactionDate" ],
+
+
+            rents: {
+                bsonType: "object",
+                description: "'rents' is a consolidation of all kinds of rents & their details",
+                required: ["rentalMode", "rentalYear", "monthlyRentReceivable", "yearlyRentReceivable"],
+                properties: {
+                    "rentalMode": { bsonType: "string", enum: ["monthly", "yearly"] },
+                    "rentalYear": { bsonType: "int", minimum: 2000 },
+                    "totalRentReceivable": { bsonType: "double", minimum: 0 },
+                    "totalRentReceived": { bsonType: "double", minimum: 0 }
+                }
+            }
+
+lots: [  "lotNumber", "trademark", "product", "numBagsLodged", "numBagsBalance", "locationCodes", 
+            "lodgementDate", "lastTransactionDate", "charges",  "rents", 
+            "trasportChargesPaid", "vehicleNumber", "driverName", "deliveries"],
+
+
+            trademark: {
+                bsonType: "object",
+                properties: {
+                    "trademarkId": { bsonType: "binData" },
+                    "trademark": { bsonType: "string" },     // decide if ID is enough, else keep trademark & customerName
+                    "customerName": { bsonType: "string" }
+                }
+            },
+            product: {
+                bsonType: "object",
+                properties: {
+                    "productId": { bsonType: "binData" },
+                    "productName": { bsonType: "string" }
+                }
+            },
+
+            charges: {
+                bsonType: "object",
+                properties: {
+                    "hamaliCharges": { bsonType: "double", minimum: 0 },
+                    "platformCoolieCharges": { bsonType: "double", minimum: 0 },
+                    "kataCoolieCharges": { bsonType: "double", minimum: 0 },
+                    "mamulluCharges": { bsonType: "double", minimum: 0 },
+                    "insuranceCharges": { bsonType: "double", minimum: 0 },
+                    "totalLodgementChargesReceivable": { bsonType: "double", minimum: 0 },
+                    "totalLodgementChargesReceived": { bsonType: "double", minimum: 0 },
+                    "totalDeliveryChargesReceivable": { bsonType: "double", minimum: 0 },
+                    "totalDeliveryChargesReceived": { bsonType: "double", minimum: 0 },
+                }
+            },
+            rents: {
+                bsonType: "object",
+                properties: {
+                    "rentalMode": { bsonType: "string", enum: ["monthly", "yearly"] },
+                    "rentalYear": { bsonType: "int", minimum: 2000 },
+                    "monthlyRentReceivable": { bsonType: "double", minimum: 0 },
+                    "yearlyRentReceivable": { bsonType: "double", minimum: 0 },
+                    "totalRentReceivable": { bsonType: "double", minimum: 0}
+                }
+            },
+            deliveries: {
+                bsonType: "array",
+                items: {
+                    properties: {
+                        "deliveryId": { bsonType: "binData" },            // do we need to track mamulluCharges at delivery time?
+                        "deliveryDate": { bsonType: "date" },
+                        "numBagsDelivered": { bsonType: "int", minimum: 0 },
+                        "numBagsBalance": { bsonType: "int", minimum: 0 },
+                        "deliveryNotes": { bsonType: "string" },
+                        "deliveryChargesReceivable": { bsonType: "double", minimum: 0 },
+                        "deliveryChargesPaid": { bsonType: "double", minimum: 0 },
+                        "numMonthsforDeliveredBags": { bsonType: "int", minimum: 1 },
+                        "rentReceivableOnDeliveredBags": { bsonType: "double", minimum: 0 },
+                        "vehicleNumber": { bsonType: ["string", "null"] },
+                        "driverName": { bsonType: ["string", "null"] },
+                        "transportChargesPaid": { bsonType: "double", minimum: 0 }
+                    }
+                }
+            }

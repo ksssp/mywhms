@@ -1,0 +1,393 @@
+[
+  {
+    "lotNumber": "2525/589",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f3aac",
+      "trademark": "MTC/Sreenu",
+      "customerName": "Manikanta Trading Company"
+    },
+    "product": {
+      "productId": "641bf80b89e2350976358086",
+      "productName": "Tamarind (Nagari) 30 Kg Bags"
+    },
+    "numBagsLodged": 123,
+    "numBagsBalance": 123,
+    "locationCodes": "A2/13C, A2/13D",
+    "lodgementDate": "12/30/2019",
+    "lastTransactionDate": "12/30/2019",
+    "transportChargesPaid": 0,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "AP05TU1118",
+    "driverName": "Pandu",
+    "rentals": {
+      "rentalYear": 2019,
+      "rentalMode": "Monthly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "Mtc",
+    "deliveries": []
+  },
+  {
+    "lotNumber": "4025/807",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f3b0f",
+      "trademark": "RR/Jaya Ram",
+      "customerName": "Jaya Ram"
+    },
+    "product": {
+      "productId": "641bf80b89e235097635807b",
+      "productName": "Tamarind (Karipuli) 15 Kg Bags"
+    },
+    "numBagsLodged": 807,
+    "numBagsBalance": 807,
+    "locationCodes": "A2/23CBA",
+    "lodgementDate": "2/5/2020",
+    "lastTransactionDate": "2/5/2020",
+    "transportChargesPaid": 0,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "AP37TU2375",
+    "driverName": "Satish",
+    "rents": {
+      "rentalYear": 2020,
+      "rentalMode": "Yearly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "NIL",
+    "deliveries": []
+  },
+  {
+    "lotNumber": "4571/201",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f3b3e",
+      "trademark": "SNT/PKL",
+      "customerName": "Vilasarapu Koteswara Rao"
+    },
+    "product": {
+      "productId": "641bf80b89e235097635806f",
+      "productName": "Tamarind (Chikkulu) 50 Kg Bags"
+    },
+    "numBagsLodged": 201,
+    "numBagsBalance": 201,
+    "locationCodes": "B1/21B;B1/21C",
+    "lodgementDate": "5/8/2020",
+    "lastTransactionDate": "5/8/2020",
+    "transportChargesPaid": 5000,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "AP37TU2375",
+    "driverName": "Satish",
+    "rents": {
+      "rentalYear": 2020,
+      "rentalMode": "Yearly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "NIL",
+    "deliveries": []
+  },
+  {
+    "lotNumber": "4892/739",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f39a6",
+      "trademark": "AVR/AMP",
+      "customerName": "Venkateswara Rao"
+    },
+    "product": {
+      "productId": "641bf80b89e2350976358089",
+      "product.productName": "Tamarind (Palta) 15 Kg Bags"
+    },
+    "numBagsLodged": 739,
+    "numBagsBalance": 739,
+    "locationCodes": "B2/23B",
+    "lodgementDate": "9/17/2020",
+    "lastTransactionDate": "9/17/2020",
+    "transportChargesPaid": 0,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "AP37TU2375",
+    "driverName": "Satish",
+    "rentals": {
+      "rentalYear": 2020,
+      "rentalMode": "Monthly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "NIL",
+    "deliveries": []
+  },
+  {
+    "lotNumber": "6503/44",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f3a7b",
+      "trademark": "KVR/Penugonda",
+      "customerName": "Kambala Venkateswara Rao"
+    },
+    "product": {
+      "productId": "641bf80b89e235097635803e",
+      "productName": "Chillies (Warangal Mirchi) 50 Kg Bags"
+    },
+    "numBagsLodged": 44,
+    "numBagsBalance": 44,
+    "locationCodes": "B4/8A",
+    "lodgementDate": "3/29/2021",
+    "lastTransactionDate": "3/29/2021",
+    "transportChargesPaid": 0,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "AP37TU2375",
+    "driverName": "Satish",
+    "rents": {
+      "rentalYear": 2021,
+      "rentalMode": "Yearly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "NIL",
+    "deliveries": []
+  },
+  {
+    "lotNumber": "6720/409",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f3aac",
+      "trademark": "MTC/Sreenu",
+      "customerName": "Manikanta Trading Company"
+    },
+    "product": {
+      "productId": "641bf80b89e235097635806f",
+      "productName": "Tamarind (Chikkulu) 50 Kg Bags"
+    },
+    "numBagsLodged": 409,
+    "numBagsBalance": 409,
+    "locationCodes": "A2/1DCB,A1/22DCBA",
+    "lodgementDate": "4/16/2021",
+    "lastTransactionDate": "4/16/2021",
+    "transportChargesPaid": 0,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "AP37TU2375",
+    "driverName": "Satish",
+    "rents": {
+      "rentalYear": 2021,
+      "rentalMode": "Yearly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "NIL",
+    "deliveries": []
+  },
+  {
+    "lotNumber": "6749/200",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f3acf",
+      "trademark": "OME/YPR",
+      "customerName": "Yadlapalli Pothu Raju"
+    },
+    "product": {
+      "productId": "641bf80b89e235097635803d",
+      "productName": "Chillies (Uttaradi Lavulu) 50 Kg Bags"
+    },
+    "numBagsLodged": 200,
+    "numBagsBalance": 200,
+    "locationCodes": "A4/20D,21DC",
+    "lodgementDate": "4/18/2021",
+    "lastTransactionDate": "4/18/2021",
+    "transportChargesPaid": 0,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "AP37TU2375",
+    "driverName": "Satish",
+    "rents": {
+      "rentalYear": 2021,
+      "rentalMode": "Yearly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "RR mark",
+    "deliveries": []
+  },
+  {
+    "lotNumber": "7044/24",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f3ab6",
+      "trademark": "Mypala",
+      "customerName": "Mypala Siva Rama Krishna"
+    },
+    "product": {
+      "productId": "641bf80b89e2350976358072",
+      "productName": "Tamarind (Deasavali) 10 Kg Bags"
+    },
+    "numBagsLodged": 24,
+    "numBagsBalance": 24,
+    "locationCodes": "A2/4A",
+    "lodgementDate": "10/29/2021",
+    "lastTransactionDate": "10/29/2021",
+    "transportChargesPaid": 0,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "AP30Y1374",
+    "driverName": "Balu",
+    "rents": {
+      "rentalYear": 2021,
+      "rentalMode": "Monthly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "Tita 10kg",
+    "deliveries": []
+  },
+  {
+    "lotNumber": "7294/202",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f3ad5",
+      "trademark": "OME/YPR",
+      "customerName": "M.Subba Rao"
+
+    },
+    "product": {
+      "productId": "641bf80b89e2350976358039",
+      "productName": "Chillies (Endo 5) 50 Kg Bags"
+    },
+    "numBagsLodged": 202,
+    "numBagsBalance": 202,
+    "locationCodes": "A4/24B, A4/24C, A4/24D, A4/25C, A4/25D",
+    "lodgementDate": "2/27/2022",
+    "lastTransactionDate": "2/27/2022",
+    "transportChargesPaid": 0,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "AP24X4486",
+    "driverName": "Self",
+    "rents": {
+      "rentalYear": 2022,
+      "rentalMode": "Yearly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "Ome 48,36,13,78, Jh 12 No",
+    "deliveries": []
+  },
+  {
+    "lotNumber": "8162/201",
+    "trademark": {
+      "trademarkId": "6417384ed4dc6515d58f3b84",
+      "trademark": "YB/TPG",
+      "customerName": "Sri Venkateswara Trading Company"
+    },
+    "product": {
+      "productId": "641bf80b89e235097635808c",
+      "productName": "Tamarind (Tita) 40Kg Bags"
+    },
+    "numBagsLodged": 201,
+    "numBagsBalance": 201,
+    "locationCodes": "B1/18B, B1/18C",
+    "lodgementDate": "8/12/2022",
+    "lastTransactionDate": "8/12/2022",
+    "transportChargesPaid": 0,
+    "charges": {
+        "hamaliCharges": 0,
+        "platformCoolieCharges": 0,
+        "kataCoolieCharges": 0,
+        "mamulluCharges": 0,
+        "insuranceCharges": 0,
+        "totalLodgementChargesReceivable": 0,
+        "totalLodgementChargesReceived": 0,
+        "totalDeliveryChargesReceivable": 0,
+        "totalDeliveryChargesReceived": 0
+    },
+    "vehicleNumber": "NIL",
+    "driverName": "Self",
+    "rents": {
+      "rentalYear": 2022,
+      "rentalMode": "Monthly",
+      "totalRentReceivable":0,
+      "totalRentReceived": 0
+    },
+    "lodgementNotes": "Tita",
+    "deliveries": []
+  }
+]

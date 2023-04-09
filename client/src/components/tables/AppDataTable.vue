@@ -1,0 +1,94 @@
+<template>
+    <div class="tables">
+        <table id="app-table-list" class="table hover row-border stripe order-column" style="width:100%"></table>
+    </div>
+</template>
+
+<script lang="js">
+import router from "@/router";
+
+import $ from "jquery";
+
+import jszip from 'jszip';
+import 'datatables.net-buttons-bs4';
+import 'datatables.net-buttons/js/buttons.colVis.mjs';
+import 'datatables.net-buttons/js/buttons.html5.mjs';
+import 'datatables.net-colreorder-bs4';
+
+export default {
+    name: "AppDataTable",
+    props: [
+        "downloadFileName",
+        "fields",
+        "fieldDefs",
+        "tableData",
+    ],
+    components: {
+    },
+    data: function () {
+        return {
+            totalRows: 0,
+            exportFileName: "",
+        };
+    },
+    mounted() {
+        this.exportFileName = this.downloadFileName;
+        var table = $("#app-table-list").DataTable({
+            paging: true,
+            searching: true,
+            ordering: true,
+            scrollX: true,
+            columns: this.fields,
+            columnDefs: this.fieldDefs,
+            data: this.tableData,
+            colReorder: true,
+            dom: "<'row'<'col-md-2'l><'col-md-4'f><'col-md-6'B>>" +
+                "<'row'<'col-md-12'tr>>" +
+                "<'row'<'col-md-5'i><'col-md-7'p>>",
+            buttons: [ 
+                {
+                    extend: 'collection',
+                    text: 'Export',
+                    autoClose: true,
+                    buttons: [ 
+                        {
+                            extend: 'csv',
+                            text: "Export as CSV",
+                            exportOptions: { columns: ':visible' } 
+                        },
+                        {
+                            extend: 'excelHtml5',
+                            text: "Export as Excel",
+                            exportOptions: { columns: ':visible' } 
+                        }
+                    ],
+                    collectionLayout: 'dropdown'
+                },
+                {
+                    extend: 'colvis',
+                    text: 'Show/Hide Columns',
+                    postfixButtons: ['colvisRestore']
+
+                }
+            ]
+        });
+
+        $('#app-table-list tbody').on('click', 'tr', function () {
+            var data = table.row(this).data();
+            router.push(data._id);
+        });
+    },
+    methods: {
+        edit(item, index, button) {
+            // this.infoModal.title = `Row index: ${index}`
+            // this.infoModal.content = JSON.stringify(item, null, 2)
+            // this.$root.$emit('bv::show::modal', this.infoModal.id, button)
+        },
+        delete(item, index, button) {
+            // this.infoModal.title = `Row index: ${index}`
+            // this.infoModal.content = JSON.stringify(item, null, 2)
+            // this.$root.$emit('bv::show::modal', this.infoModal.id, button)
+        }
+    }
+}
+</script>
