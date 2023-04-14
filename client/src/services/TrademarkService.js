@@ -1,6 +1,6 @@
 const axios = require ( 'axios' );
 
-export async function getAllTrademarks() {
+export async function getTrademarks() {
     const response = await fetch('/api/referenceData/trademarks');
     return await response.json();
 }

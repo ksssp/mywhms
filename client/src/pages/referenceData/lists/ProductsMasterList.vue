@@ -30,7 +30,8 @@
                     </div>
 
                     <br />
-                    <AppDataTable v-if="items" :download-file-name="downloadFileName" :fields="fields" :fieldDefs="fieldDefs" :table-data="items"></AppDataTable>
+                    <AppDataTable v-if="items" :download-file-name="downloadFileName" :fields="fields" 
+                        :fieldDefs="fieldDefs" :table-data="items" :is-main-table="isMainTable"></AppDataTable>
                 </div>
             </div>
         </div>
@@ -39,7 +40,7 @@
 
 <script>
 
-import { getAllProducts } from "@/services/ProductService";
+import { getProducts } from "@/services/ProductService";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 
@@ -70,11 +71,12 @@ export default {
                 { data: "creationDate", title: "Creation Date", render : function(creationDate) { return (new Date(creationDate)).toLocaleDateString();} }
             ],
             fieldDefs: [],
-            items: null
+            items: null,
+            isMainTable: true
         };
     },
     async created() {
-        getAllProducts().then(response => {
+        getProducts().then(response => {
             this.items = response;
             this.totalRows = this.items.length;
         }).catch(error => {

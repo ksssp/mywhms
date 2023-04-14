@@ -43,6 +43,9 @@ div.page-header {
     width: 400px;
 }
 
+div.tickets-tab-switch li.nav-item {
+    width: 25%;
+}
 
 /* vue-form-generator style overrides */
 .vue-form-generator > div {

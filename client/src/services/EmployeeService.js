@@ -1,6 +1,6 @@
 const axios = require ( 'axios' );
 
-export async function getAllEmployees() {
+export async function getEmployees() {
     const response = await fetch('/api/referenceData/employees');
     return await response.json();
 }

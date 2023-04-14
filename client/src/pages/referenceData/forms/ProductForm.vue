@@ -19,7 +19,7 @@
 import ProductFormSchema from './schemas/ProductFormSchema';
 import { createProduct, updateProduct } from '@/services/ProductService';
 
-import { getAllProductGroups } from '@/services/ProductGroupService';
+import { getProductGroups } from '@/services/ProductGroupService';
 import Multiselect from 'vue-multiselect';
 
 export default {
@@ -42,7 +42,7 @@ export default {
             isSaving: false,
             formModel: {
                 productName: "",
-                productSubGroupPrefix: { _id:"", name: "" },
+                productGroup: { productGroupId:"", productSubGroupPrefix: "" },
                 bagSize: 0,
                 computedProductName: "",
                 hamaliPerBag: 0,
@@ -55,18 +55,19 @@ export default {
                 yearlyRentPerKg: 0,
                 computedYearlyRentPerBag: 0
             },
-            productGroupOptions: []
+            productGroupOptions: [],
+            productGroupMap: new Map(),
         }
     },
     created() {
         this.formModel = JSON.parse(JSON.stringify(this.formData));
         this.loadedEntityId = this.formData._id;
-        let productGroupField = this.formSchema.groups[0].fields.find(fields => fields.model==='productSubGroupPrefix');
+        let productGroupField = this.formSchema.groups[0].fields.find(fields => fields.model==='productGroup');
         productGroupField.values = this.getProductGroupOptions();
     },
     methods: {
         getProductGroupOptions() {
-            getAllProductGroups().then(response => {
+            getProductGroups().then(response => {
                 let productGroups = response;
                 productGroups.forEach(this.addToProductGroupOptions);
             });
@@ -74,16 +75,23 @@ export default {
         },
         addToProductGroupOptions(productGroup) {
             this.productGroupOptions.push({
-                "_id": productGroup._id,
-                "name": productGroup.productSubGroupPrefix
+                "productGroupId": productGroup._id,
+                "productSubGroupPrefix": productGroup.productSubGroupPrefix
+            });
+            
+            this.productGroupMap.set(productGroup._id, {
+                productGroupId: productGroup._id,
+                productGroup: productGroup.productGroup,
+                productSubGroup: productGroup.productSubGroup,
+                productSubGroupPrefix: productGroup.productSubGroupPrefix
             });
         },
         submitForm() {
             // submit form data to the backend - entity - Product
             let product = {
                 productName: this.formModel.productName,
-                productGroupId: this.formModel.productSubGroupPrefix._id,
-                productSubGroupPrefix: this.formModel.productSubGroupPrefix.name,
+                productGroup: this.productGroupMap.get(this.formModel.productGroup.productGroupId),
+                productSubGroupPrefix: this.formModel.productGroup.productSubGroupPrefix,
                 bagSize: this.formModel.bagSize,
                 computedProductName: this.formModel.computedProductName,
                 hamaliPerBag: this.formModel.hamaliPerBag,

@@ -2,7 +2,12 @@ const mongoose = require('mongoose');
 
 const productSchema = new mongoose.Schema({
         productName: String,
-        productGroupId: String,
+        productGroup: {
+            productGroupId: String,
+            productGroup: String,
+            productSubGroup: String,
+            productSubGroupPrefix: String
+        },
         productSubGroupPrefix: String,
         bagSize: Number,
         computedProductName: String,

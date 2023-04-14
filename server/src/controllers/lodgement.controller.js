@@ -8,9 +8,19 @@ class LodgementController {
         return await lodgementService.getLodgements();
     }
 
+    async getLodgementsForLotsView() {
+        logger.info('Controller: getLodgementsForLotsView')
+        return await lodgementService.getLodgementsForLotsView();
+    }
+
     async getLodgementById(lodgementId) {
         logger.info('Controller: getLodgementById', lodgementId);
         return await lodgementService.getLodgementById(lodgementId);
+    }
+
+    async getLodgementsByTrademarkId(trademarkId) {
+        logger.info('Controller: getLodgementsByTrademarkId', trademarkId);
+        return await lodgementService.getLodgementsByTrademarkId(trademarkId);
     }
 
     async createLodgement(lodgement) {

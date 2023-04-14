@@ -7,9 +7,16 @@ class LodgementService {
     async getLodgements() {
         return await lodgementRepository.getLodgements();
     }
+    async getLodgementsForLotsView() {
+        return await lodgementRepository.getLodgementsForLotsView();
+    }
 
     async getLodgementById(lodgementId) {
         return await lodgementRepository.getLodgementById(lodgementId);
+    }
+    
+    async getLodgementsByTrademarkId(trademarkId) {
+        return await lodgementRepository.getLodgementsByTrademarkId(trademarkId);
     }
 
     async createLodgement(lodgement) {

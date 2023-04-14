@@ -11,8 +11,52 @@ class LodgementRepository {
     }
 
     async getLodgements() {
-        const lodgements = await Lodgement.find({});
+        const lodgements = await Lodgement.find({
+                numBagsBalance: { $gt : 0 }
+            }).
+            select({
+                _id: 1,
+                lodgementDate: 1,
+                lotNumber: 1,
+                trademark: 1,
+                product: 1,
+                numBagsLodged: 1,
+                numBagsBalance: 1,
+                isPlatformLot: 1,
+                locationCodes: 1,
+                chargesReceivable: 1,
+                chargesPaid: 1,
+                rents: 1
+            }).
+            sort({ lodgementDate: -1 });
         return lodgements;
+    }
+
+    async getLodgementsForLotsView() {
+        const lots = await Lodgement.find({
+                numBagsBalance: { $gt : 0 }
+            }).
+            select({
+                _id: 1,
+                lodgementDate: 1,
+                lotNumber: 1,
+                trademark: 1,
+                product: 1,
+                numBagsLodged: 1,
+                numBagsBalance: 1,
+                isPlatformLot: 1,
+                locationCodes: 1,
+                chargesReceivable: 1,
+                chargesPaid: 1,
+                rents: 1,
+                stockRelease: {
+                    numDeliveries: 1,
+                    lastDeliveryDate: 1,
+                    totalRentReceivable: 1
+                }
+            }).
+            sort({ lodgementDate: -1 });
+        return lots;
     }
 
     async getLodgementById(lodgementId) {
@@ -20,6 +64,29 @@ class LodgementRepository {
         try {
             logger.info("lodgement repository findById: ", new mongoose.Types.ObjectId(lodgementId));
             data = await Lodgement.findById(new mongoose.Types.ObjectId(lodgementId));
+        } catch(err) {
+            logger.error('Error::' + err);
+        }
+        return data;
+    }
+    
+    async getLodgementsByTrademarkId(trademarkId) {
+        let data = {};
+        try {
+            logger.info("lodgement repository findByTrademarkId: ", new mongoose.Types.ObjectId(trademarkId));
+            data = await Lodgement.find({
+                numBagsBalance: { $gt : 0 },
+                'trademark.trademarkId': { $eq : trademarkId }
+            }).select({
+                _id: 1,
+                lotNumber: 1,
+                trademark: 1,
+                product: 1,
+                numBagsLodged: 1,
+                numBagsBalance: 1
+            }).sort({ 
+                lotNumber: 1 
+            });
         } catch(err) {
             logger.error('Error::' + err);
         }
@@ -36,14 +103,15 @@ class LodgementRepository {
         return data;
     }
 
-    async updateLodgement(lodgement) {
+    async updateLodgement(lodgementId, lodgement) {
         let data = {};
         try {
-            data = await Lodgement.updateOne(lodgement);
+            logger.info("lodgement repository updateOne: ", lodgementId);
+            data = await Lodgement.updateOne({_id : lodgementId}, lodgement);
         } catch(err) {
             logger.error('Error::' + err);
         }
-        return data;
+        return { status: (data.modifiedCount > 0) };
     }
 
     async deleteLodgement(lodgementId) {
@@ -53,7 +121,7 @@ class LodgementRepository {
         } catch(err) {
             logger.error('Error::' + err);
         }
-        return {status: `${data.deletedCount > 0 ? true : false}`};
+        return { status: (data.deletedCount > 0) };
     }
 
 }

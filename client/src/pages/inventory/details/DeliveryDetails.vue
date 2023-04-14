@@ -72,9 +72,19 @@
                                 </div>
                             </div>
                         </b-tab>
-                        <b-tab title="Charges & Rentals">
-                            <div class="row mx-4">
-                                <div class="col-sm-6">
+                        <b-tab title="Charges Paid & Rentals">
+                            <div class="row mx-2">
+                                <div class="col-md-4">
+                                    <b-table-lite responsive borderless :fields="entityIndicativeChargesTable.fields"
+                                        :items="entityIndicativeChargesTable.items"> <!-- thead-class="hidden_header" -->
+                                    </b-table-lite>
+                                </div>
+                                <div class="col-md-4">
+                                    <b-table-lite responsive borderless :fields="entityChargesPaidTable.fields"
+                                        :items="entityChargesPaidTable.items"> <!-- thead-class="hidden_header" -->
+                                    </b-table-lite>
+                                </div>
+                                <div class="col-md-4">
                                     <b-table-lite responsive borderless :fields="entityRentalsDetailsTable.fields"
                                         :items="entityRentalsDetailsTable.items"> <!-- thead-class="hidden_header" -->
                                     </b-table-lite>
@@ -91,12 +101,12 @@
 <script>
 
 import { getDeliveryById, deleteLDelivery } from "@/services/DeliveryService";
-import DeliveryForm from "../forms/DeliveryForm.vue";
+import DeliveryCreateForm from "../forms/DeliveryCreateForm.vue";
 
 export default {
     name: "DeliveryDetails",
     components: {
-        DeliveryForm
+        DeliveryCreateForm
     },
     data: function () {
         return {
@@ -134,7 +144,6 @@ export default {
                 items: [       // update entity specific json data in an array format - Lodgement
                     { infoLabel: "Vehicle Number", infoValue: "" },
                     { infoLabel: "Driver Name", infoValue: "" },
-                    { infoLabel: "Transport Charges paid by Store", infoValue: "" },
                 ]
             },
             entityLodgementDetailsTable: {
@@ -146,6 +155,33 @@ export default {
                     { infoLabel: "Lodgement Date", infoValue: ""},
                     { infoLabel: "Number of Bags Lodged", infoValue: "" },
                     { infoLabel: "Number of Bags left in Store", infoValue: "" }
+                ]
+            },
+            entityIndicativeChargesTable: {
+                fields: [
+                    { key: "infoLabel", label: "Indicative Charges", sortable: false, thStyle: "width: 20%;" },
+                    { key: "infoValue", label: "", sortable: false, thStyle: "word-wrap: break-word;" }
+                ],
+                items: [       // update entity specific json data in an array format - Lodgement
+                    { infoLabel: "Hamali Charges", infoValue: "" },
+                    { infoLabel: "Kata Coolie Charges", infoValue: "" },
+                    { infoLabel: "Platform Coolie Charges", infoValue: "" },
+                    { infoLabel: "Mamullu Charges", infoValue: "" },
+                    { infoLabel: "Insurance Charges Paid", infoValue: "" },
+                ]
+            },
+            entityChargesPaidTable: {
+                fields: [
+                    { key: "infoLabel", label: "Charges Paid", sortable: false, thStyle: "width: 20%;" },
+                    { key: "infoValue", label: "", sortable: false, thStyle: "word-wrap: break-word;" }
+                ],
+                items: [       // update entity specific json data in an array format - Lodgement
+                    { infoLabel: "Hamali Paid", infoValue: "" },
+                    { infoLabel: "Kata Coolie Paid", infoValue: "" },
+                    { infoLabel: "Platform Coolie Paid", infoValue: "" },
+                    { infoLabel: "Mamullu Paid", infoValue: "" },
+                    { infoLabel: "Transport Charges Paid", infoValue: "" },
+                    { infoLabel: "Total Charges Paid", infoValue: "" },
                 ]
             },
             entityRentalsDetailsTable: {
@@ -174,10 +210,10 @@ export default {
                 if(this.loadedEntity != null) {
                     this.entityTitle = this.loadedEntity.lotNumber + " ( " + this.loadedEntity.numBagsDelivered + " Bags )";
                     this.entityDetailsTable.items[0].infoValue = `${this.loadedEntity.lotNumber}  
-                        <a href="/inventory/lots/${this.loadedEntity.lotId}" target="blank"><span class="ml-1 mdi mdi-open-in-new btn-icon-prepend md" /></a>`;
-                    this.entityDetailsTable.items[1].infoValue = `${this.loadedEntity.trademark.trademark} ( ${this.loadedEntity.trademark.customerName} )
+                        <a href="/inventory/lodgements/${this.loadedEntity.lodgementId}" target="blank"><span class="ml-1 mdi mdi-open-in-new btn-icon-prepend md" /></a>`;
+                    this.entityDetailsTable.items[1].infoValue = `${this.loadedEntity.trademark.trademarkName} ( ${this.loadedEntity.trademark.customerName} )
                         <a href="/trademarks/" target="blank"><span class="ml-1 mdi mdi-open-in-new btn-icon-prepend"/></a>`;
-                    this.entityDetailsTable.items[2].infoValue = `${this.loadedEntity.productName}
+                    this.entityDetailsTable.items[2].infoValue = `${this.loadedEntity.product.productName}
                         <a href="/products/" target="blank"><span class="ml-1 mdi mdi-open-in-new btn-icon-prepend" /></a>`;
                     this.entityDetailsTable.items[3].infoValue = this.loadedEntity.numBagsDelivered + " Bags";
                     this.entityDetailsTable.items[4].infoValue = (new Date(this.loadedEntity.deliveryDate)).toLocaleDateString();
@@ -189,15 +225,24 @@ export default {
                     this.entityLodgementDetailsTable.items[1].infoValue = this.loadedEntity.numBagsLodged + " Bags";
                     this.entityLodgementDetailsTable.items[2].infoValue = this.loadedEntity.numBagsBalance + " Bags";
                     
-                    this.entityTransportDetailsTable.items[0].infoValue = this.loadedEntity.vehicleNumber;
-                    this.entityTransportDetailsTable.items[1].infoValue = this.loadedEntity.driverName;
-                    this.entityTransportDetailsTable.items[2].infoValue = "Rs. " + this.loadedEntity.transportChargesPaid.$numberDecimal + "/-";
-                              
+                    this.entityTransportDetailsTable.items[0].infoValue = this.loadedEntity.transport.vehicleNumber;
+                    this.entityTransportDetailsTable.items[1].infoValue = this.loadedEntity.transport.driverName;
+                    
+                    this.entityIndicativeChargesTable.items[0].infoValue = "Rs. " + this.loadedEntity.indicativeCharges.hamaliCharges.$numberDecimal + "/-";
+                    this.entityIndicativeChargesTable.items[1].infoValue = "Rs. " + this.loadedEntity.indicativeCharges.kataCoolieCharges.$numberDecimal + "/-";
+                    this.entityIndicativeChargesTable.items[2].infoValue = "Rs. " + this.loadedEntity.indicativeCharges.platformCoolieCharges.$numberDecimal + "/-";
+                    this.entityIndicativeChargesTable.items[3].infoValue = "Rs. " + this.loadedEntity.indicativeCharges.mamulluCharges.$numberDecimal + "/-";
+
+                    this.entityChargesPaidTable.items[0].infoValue = "Rs. " + this.loadedEntity.chargesPaid.hamaliCharges.$numberDecimal + "/-";
+                    this.entityChargesPaidTable.items[1].infoValue = "Rs. " + this.loadedEntity.chargesPaid.kataCoolieCharges.$numberDecimal + "/-";
+                    this.entityChargesPaidTable.items[2].infoValue = "Rs. " + this.loadedEntity.chargesPaid.platformCoolieCharges.$numberDecimal + "/-";
+                    this.entityChargesPaidTable.items[3].infoValue = "Rs. " + this.loadedEntity.chargesPaid.mamulluCharges.$numberDecimal + "/-";
+                    this.entityChargesPaidTable.items[4].infoValue = "Rs. " + this.loadedEntity.chargesPaid.transportCharges.$numberDecimal + "/-";
+                    this.entityChargesPaidTable.items[5].infoValue = "Rs. " + this.loadedEntity.chargesPaid.totalChargesPaid.$numberDecimal + "/-";
+
                     this.entityRentalsDetailsTable.items[0].infoValue = this.loadedEntity.rents.rentalMode;
                     this.entityRentalsDetailsTable.items[1].infoValue = this.loadedEntity.rents.rentalYear;
-                    this.entityRentalsDetailsTable.items[2].infoValue = this.loadedEntity.rents.totalRentReceivable.$numberDecimal;
-
-
+                    this.entityRentalsDetailsTable.items[2].infoValue = "Rs. " + this.loadedEntity.rents.rentReceivableOnDeliveredBags.$numberDecimal + "/-";
                 }
             });
         },

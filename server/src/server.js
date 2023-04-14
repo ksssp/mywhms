@@ -12,7 +12,6 @@ const trademarkController = require ( "./controllers/trademark.controller" );
 const productGroupController = require ( "./controllers/productGroup.controller" );
 const productController = require ( "./controllers/product.controller" );
 const employeeController = require ( "./controllers/employee.controller" );
-const lotController = require ( './controllers/lot.controller' );
 const lodgementController = require ( './controllers/lodgement.controller' );
 const deliveryController = require ( './controllers/delivery.controller' );
 
@@ -120,29 +119,8 @@ app.delete('/api/referenceData/employees/:id', (req, res) => {
 // Add routes for other models as well
 // Routes for inventory/lots
 app.get('/api/inventory/lots', (req, res) => {
-    lotController.getLots().then(data => res.json(data));
+    lodgementController.getLodgementsForLotsView().then(data => res.json(data));
 });
-
-app.get('/api/inventory/lots/:id', (req, res) => {
-    lotController.getLotById(req.params.id).then(data => res.json(data));
-});
-
-app.get('/api/inventory/lotsByFitler', (req, res) => {
-    lotController.getLotsByFilter(req.body.filter).then(data => res.json(data));
-});
-
-app.post('/api/inventory/lot', (req, res) => {
-    lotController.createLot(req.body.employee).then(data => res.json(data));
-});
-
-app.put('/api/inventory/lot', (req, res) => {
-    lotController.updateLot(req.body.employee).then(data => res.json(data));
-});
-
-app.delete('/api/inventory/lot/:id', (req, res) => {
-    lotController.deleteLot(req.params.id).then(data => res.json(data));
-});
-
 
 // Routes for inventory/lodgements
 app.get('/api/inventory/lodgements', (req, res) => {
@@ -151,6 +129,10 @@ app.get('/api/inventory/lodgements', (req, res) => {
 
 app.get('/api/inventory/lodgements/:id', (req, res) => {
     lodgementController.getLodgementById(req.params.id).then(data => res.json(data));
+});
+
+app.get('/api/inventory/lodgementsByTrademark/:id', (req, res) => {
+    lodgementController.getLodgementsByTrademarkId(req.params.id).then(data => res.json(data));
 });
 
 app.post('/api/inventory/lodgements/', (req, res) => {
