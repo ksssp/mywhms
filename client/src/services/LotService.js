@@ -1,6 +1,6 @@
 const axios = require ( 'axios' );
 
-export async function getAllLots() {
+export async function getLots() {
     const response = await fetch('/api/inventory/lots');
     return await response.json();
 }

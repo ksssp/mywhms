@@ -16,8 +16,8 @@
             <div class="card">
                 <div class="card-body">
                     <div class="mx-4">
-                        <EmployeeForm :form-data="loadedEntity" :submit-mode="submitMode" 
-                            @saved="saved" @cancelForm="createCancelled"></EmployeeForm>
+                        <DeliveryCreateForm :form-data="loadedEntity" :submit-mode="submitMode" 
+                            @saved="saved" @cancelForm="createCancelled"></DeliveryCreateForm>
                     </div>
                 </div>
             </div>
@@ -26,18 +26,18 @@
 </template>
 
 <script>
-import DeliveryForm from "../forms/DeliveryForm.vue";
+import DeliveryCreateForm from "../forms/DeliveryCreateForm.vue";
 
 export default {
     name: "DeliveryCreate",
     components: {
-        EmployeeForm
+        DeliveryCreateForm
     },
     data: function () {
         return {
-            pageTitle: "Create new Employee",
-            entityNamePlural: "Employees",
-            entityListingUrl: "/referenceData/employees/",
+            pageTitle: "Create new Delivery",
+            entityNamePlural: "Deliveries",
+            entityListingUrl: "/inventory/deliveries/",
             loadedEntity: {},
             loadedEntityId: null,
             submitMode: "create"

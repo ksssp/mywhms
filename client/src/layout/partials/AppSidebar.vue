@@ -30,13 +30,13 @@
           <b-collapse accordion="sidebar-accordion" id="inventory">
             <ul class="nav flex-column sub-menu">
               <li class="nav-item">
-                <router-link class="nav-link" to="/inventory/lots/">Lots</router-link>
-              </li>
-              <li class="nav-item">
                 <router-link class="nav-link" to="/inventory/lodgements/">Lodgements</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/inventory/deliveries/">Deliveries</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/inventory/platformLots/">Platform Lots</router-link>
               </li>
             </ul>
           </b-collapse>

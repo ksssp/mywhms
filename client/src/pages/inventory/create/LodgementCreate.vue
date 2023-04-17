@@ -16,8 +16,8 @@
             <div class="card">
                 <div class="card-body">
                     <div class="mx-4">
-                        <LodgementCreateForm :form-data="loadedEntity" :submit-mode="submitMode" 
-                            @saved="saved" @cancelForm="createCancelled"></LodgementCreateForm>
+                        <LodgementDetailsForm :form-data="loadedEntity" :submit-mode="submitMode" 
+                            @saved="saved" @cancelForm="createCancelled"></LodgementDetailsForm>
                     </div>
                 </div>
             </div>
@@ -26,12 +26,12 @@
 </template>
 
 <script>
-import LodgementCreateForm from "../forms/LodgementCreateForm.vue";
+import LodgementDetailsForm from "../forms/LodgementDetailsForm.vue";
 
 export default {
     name: "LodgementCreate",
     components: {
-        LodgementCreateForm
+        LodgementDetailsForm
     },
     data: function () {
         return {

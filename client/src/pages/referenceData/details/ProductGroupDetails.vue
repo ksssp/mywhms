@@ -40,8 +40,7 @@
                     <br />
                     <b-tabs class="tickets-tab-switch">
                         <b-tab title="Details" active>
-                            <div v-if="!editMode" class="d-sm-flex mx-4 py-2 justify-content-between">
-                                <h4>Basic Details</h4>
+                            <div v-if="!editMode" class="mx-2 d-md-flex justify-content-end">
                                 <b-button v-on:click="editLoadedEntity" class="btn btn-gradient-primary btn-icon-text">
                                     <i class="mdi mdi-pencil btn-icon-prepend"></i>
                                     Edit

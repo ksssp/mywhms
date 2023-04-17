@@ -40,8 +40,7 @@
                     <br />
                     <b-tabs class="tickets-tab-switch">
                         <b-tab title="Details" active>
-                            <div v-if="!editMode" class="d-sm-flex mx-4 py-2 justify-content-between">
-                                <h4>Basic Details</h4>
+                            <div v-if="!editMode" class="mx-2 d-md-flex justify-content-end">
                                 <b-button v-on:click="editLoadedEntity" class="btn btn-gradient-primary btn-icon-text">
                                     <i class="mdi mdi-pencil btn-icon-prepend"></i>
                                     Edit
@@ -54,6 +53,10 @@
                                     <div class="col-sm-6">
                                         <b-table-lite responsive borderless :fields="entityDetailsTable.fields"
                                             :items="entityDetailsTable.items"> <!-- thead-class="hidden_header" -->
+                                            <template v-slot:cell(infoValue)="data">
+                                                <span v-html="data.value"></span>
+                                            </template>
+                                            </b-table-lite>
                                         </b-table-lite>
                                     </div>
                                     <div class="col-sm-6">
@@ -63,8 +66,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </b-tab>
-                        <b-tab title="Loans & Payments">
                         </b-tab>
                     </b-tabs>
                 </div>
@@ -102,7 +103,7 @@ export default {
                 ],
                 items: [       // update entity specific json data in an array format - Product
                     { infoLabel: "Product Name", infoValue: "" },
-                    { infoLabel: "Product Sub Group", infoValue: "" },
+                    { infoLabel: "Product Group", infoValue: "" },
                     { infoLabel: "Bag Size (Kgs)", infoValue: "" },
                     { infoLabel: "Computed Product Name", infoValue: "" },
                     { infoLabel: "Creation Date", infoValue: "" }
@@ -140,7 +141,8 @@ export default {
                 if (this.loadedEntity != null) {
                     this.entityTitle = this.loadedEntity.productName;
                     this.entityDetailsTable.items[0].infoValue = this.loadedEntity.productName;
-                    this.entityDetailsTable.items[1].infoValue = this.loadedEntity.productSubGroupPrefix;
+                    this.entityDetailsTable.items[1].infoValue = `${this.loadedEntity.productGroup.productSubGroupPrefix} 
+                        <a href="/referenceData/productGroups/${this.loadedEntity.productGroup.productGroupId}/" target="blank"><span class="ml-1 mdi mdi-open-in-new btn-icon-prepend"/></a>`;
                     this.entityDetailsTable.items[2].infoValue = this.loadedEntity.bagSize + "Kgs";
                     this.entityDetailsTable.items[3].infoValue = this.loadedEntity.computedProductName;
                     this.entityDetailsTable.items[4].infoValue = (new Date(this.loadedEntity.creationDate)).toLocaleDateString();

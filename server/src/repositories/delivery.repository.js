@@ -41,14 +41,14 @@ class DeliveryRepository {
         return data;
     }
 
-    async updateDelivery(delivery) {
+    async updateDelivery(deliveryId, delivery) {
         let data = {};
         try {
-            data = await Delivery.updateOne(delivery);
+            data = await Delivery.updateOne({_id : deliveryId}, delivery);
         } catch(err) {
             logger.error('Error::' + err);
         }
-        return data;
+        return { status: (data.modifiedCount > 0) };
     }
 
     async deleteDelivery(deliveryId) {
@@ -58,7 +58,7 @@ class DeliveryRepository {
         } catch(err) {
             logger.error('Error::' + err);
         }
-        return {status: `${data.deletedCount > 0 ? true : false}`};
+        return { status: (data.deletedCount > 0) };
     }
 
 }

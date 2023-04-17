@@ -21,14 +21,19 @@ const routes = [
     component: AppLayout,
     children: [
       {
-        path: 'lots',
-        name: 'LotsList',
-        component: () => import('@/pages/inventory/lists/LotsList.vue')
+        path: 'platformLots',
+        name: 'PlatformLotsList',
+        component: () => import('@/pages/inventory/lists/PlatformLotsList.vue')
       },
       {
-        path: 'lots/:_id',
-        name: 'LotDetails',
-        component: () => import('@/pages/inventory/details/LotDetails.vue')
+        path: 'platformLots/create/',
+        name: 'PlatformLotCreate',
+        component: () => import('@/pages/inventory/create/PlatformLotCreate.vue')
+      },
+      {
+        path: 'platformLots/:_id',
+        name: 'PlatformLotDetails',
+        component: () => import('@/pages/inventory/details/PlatformLotDetails.vue')
       },
       {
         path: 'lodgements',
@@ -36,14 +41,14 @@ const routes = [
         component: () => import('@/pages/inventory/lists/LodgementsList.vue')
       },
       {
+        path: 'lodgements/create/',
+        name: 'LodgementCreate',
+        component: () => import('@/pages/inventory/create/LodgementCreate.vue')
+      },
+      {
         path: 'lodgements/:_id',
         name: 'LodgementDetails',
         component: () => import('@/pages/inventory/details/LodgementDetails.vue')
-      },
-      {
-        path: 'lodgements/create',
-        name: 'LodgementCreate',
-        component: () => import('@/pages/inventory/create/LodgementCreate.vue')
       },
       {
         path: 'deliveries',
@@ -51,7 +56,7 @@ const routes = [
         component: () => import('@/pages/inventory/lists/DeliveriesList.vue')
       },
       {
-        path: 'deliveries/create',
+        path: 'deliveries/create/',
         name: 'DeliveryCreate',
         component: () => import('@/pages/inventory/create/DeliveryCreate.vue')
       },

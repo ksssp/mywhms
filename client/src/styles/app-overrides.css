@@ -1,5 +1,6 @@
-div.dataTables_filter input { 
-    width: 300px 
+/* Setup custom layout for jquery data tables fields & buttons */
+div.dataTables_filter input {
+    width: 300px
 }
 
 .dt-buttons .btn-group {
@@ -18,74 +19,58 @@ div.dataTables_wrapper div.dataTables_filter input {
     width: 240px;
 }
 
-div.wizard-tab-content {
-    background-color: #f2edf3;
-    margin: 1rem 0;
-}
-
-form.app-crud-form {
-    background-color: #f2edf3;
-}
-
-.vue-form-wizard .wizard-tab-content {
-    padding: 30px 30px 30px;
-}
-
-.vue-form-wizard .wizard-header {
-    padding: 0px;
-}
-
-div.page-header {
-    margin: 0 0 0.5rem 0;
-}
-
+/* Setup a longer global-search bar */
 .navbar.default-layout-navbar .navbar-menu-wrapper .search-field .input-group input {
     width: 400px;
 }
 
+/* Setup 4 tabs layout (shorter tab-titles) for details screens */
+div.tickets-tab-switch li.nav-item {
+    width: 25%;
+}
 
 /* vue-form-generator style overrides */
-.vue-form-generator > div {
+.vue-form-generator>div {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-grow: 1;
-  }
+}
 
-  .form-group{
+.form-group {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0 2%;
     width: 50%;
-  }
+}
 
-  .field-wrap, .wrapper{
+.field-wrap, .wrapper {
     width: 100%;
-  }
+}
 
-  .dropList{
+.dropList {
     z-index: 10;
     background-color: #FFF;
     position: relative;
     width: 40%;
     top: 5px;
     right: 12px;
-  }
+}
 
 .vue-form-generator legend {
     margin: 10px 0 20px 18px;
     font-size: 1rem;
     font-weight: bold;
     text-align: left;
-  }
+}
 
-  .hint{
+.hint {
     font-size: 10px;
     font-style: italic;
     color: purple;
-  }
+}
 
-  .help-block{
+.help-block {
     color: red;
-  }
+}

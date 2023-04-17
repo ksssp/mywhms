@@ -123,23 +123,19 @@
 <script>
 
 import { getLotById, deleteLot } from "@/services/LotService";
-import LotForm from "../forms/LotForm.vue";
 
 export default {
-    name: "LotDetails",
-    components: {
-        LotForm
-    },
+    name: "PlatformLotDetails",
     data: function () {
         return {
-            entityName: "Lot",
-            entityNamePlural: "Lots",
-            pageTitle: "Lot Details",
-            entityListingUrl: "/inventory/lots/",
+            entityName: "Platform Lot",
+            entityNamePlural: "Platform Lots",
+            pageTitle: "Platform Lot Details",
+            entityListingUrl: "/inventory/platformLots/",
             entityTitle: "",
             loadedEntity: {},
             loadedEntityId: null,
-            entityDoesNotExistMessage: "The Lot you are looking for does not exist.",
+            entityDoesNotExistMessage: "The Platform Lot you are looking for does not exist.",
             editMode: false,
             submitMode: "update",
             entityDetailsTable: {

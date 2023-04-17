@@ -16,8 +16,8 @@
             <div class="card">
                 <div class="card-body">
                     <div class="mx-4">
-                        <EmployeeForm :form-data="loadedEntity" :submit-mode="submitMode" 
-                            @saved="saved" @cancelForm="createCancelled"></EmployeeForm>
+                        <PlatformLotDetailsForm :form-data="loadedEntity" :submit-mode="submitMode" 
+                            @saved="saved" @cancelForm="createCancelled"></PlatformLotDetailsForm>
                     </div>
                 </div>
             </div>
@@ -26,18 +26,18 @@
 </template>
 
 <script>
-import LodgementForm from "../forms/LodgementCreateForm.vue";
+import PlatformLotDetailsForm from "../forms/PlatformLotDetailsForm.vue";
 
 export default {
-    name: "LodgementCreate",
+    name: "PlatformLotCreate",
     components: {
-        EmployeeForm
+        PlatformLotDetailsForm
     },
     data: function () {
         return {
-            pageTitle: "Create new Employee",
-            entityNamePlural: "Employees",
-            entityListingUrl: "/referenceData/employees/",
+            pageTitle: "Create new Platform Lot",
+            entityNamePlural: "Platform Lots",
+            entityListingUrl: "/inventory/platformLots/",
             loadedEntity: {},
             loadedEntityId: null,
             submitMode: "create"

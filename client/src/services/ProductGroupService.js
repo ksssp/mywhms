@@ -1,6 +1,6 @@
 const axios = require ( 'axios' );
 
-export async function getAllProductGroups() {
+export async function getProductGroups() {
 
     const response = await fetch('/api/referenceData/productGroups');
     return await response.json();

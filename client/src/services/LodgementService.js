@@ -1,12 +1,17 @@
 const axios = require ( 'axios' );
 
-export async function getAllLodgements() {
+export async function getLodgements() {
     const response = await fetch('/api/inventory/lodgements');
     return await response.json();
 }
 
 export async function getLodgementById(lodgementId) {
     const response = await fetch('/api/inventory/lodgements/'+lodgementId);
+    return await response.json();
+}
+
+export async function getLodgementsByTrademarkId(trademarkId) {
+    const response = await fetch('/api/inventory/lodgementsByTrademark/'+trademarkId);
     return await response.json();
 }
 

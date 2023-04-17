@@ -2,31 +2,51 @@ const mongoose = require('mongoose');
 
 var SchemaTypes = mongoose.Schema.Types;
 const deliverySchema = new mongoose.Schema({
+        lodgementId: String,
         lotNumber: String,
         trademark: {
-            trademark: String,
+            trademarkId: String,
+            trademarkName: String,
             customerName: String
         },
-        productName: String,
-        numBagsDelivered: Number,
-        numBagsLodged: Number,
-        numBagsBalance: Number,
-        locationCodes: String,
+        product: {
+            productId: String,
+            productName: String,
+        },
         deliveryDate: Date,
+        numBagsDelivered: { type: Number, min: 1 },
+        numBagsKataCoolie: { type: Number, min: 0 },
+        numBagsLodged: { type: Number, min: 1 },
+        numBagsBalance: { type: Number, min: 0 },
+        locationCodes: String,
         lodgementDate: Date,
-        numMonthsLodged: Number,
-        transportChargesPaid: SchemaTypes.Decimal128,
-        deliveryChargesReceivable: SchemaTypes.Decimal128,
-        deliveryChargesReceived: SchemaTypes.Decimal128,
+        deliveryNotes: String,
+        numMonthsLodged: { type: Number, min: 1 },
+        transport: {
+            vehicleNumber: String,
+            driverName: String
+        },
+        indicativeCharges: {
+            hamaliCharges: SchemaTypes.Decimal128,
+            kataCoolieCharges: SchemaTypes.Decimal128,
+            platformCoolieCharges: SchemaTypes.Decimal128,
+            mamulluCharges: SchemaTypes.Decimal128
+        },
+        chargesPaid: {
+            hamaliCharges: SchemaTypes.Decimal128,
+            kataCoolieCharges: SchemaTypes.Decimal128,
+            platformCoolieCharges: SchemaTypes.Decimal128,
+            mamulluCharges: SchemaTypes.Decimal128,
+            transportCharges: SchemaTypes.Decimal128,
+            totalChargesPaid: SchemaTypes.Decimal128
+        },
         rents: {
             rentalYear: Number,
-            rentalMode: String,
-            totalRentReceivable: SchemaTypes.Decimal128,
-            totalRentReceived: SchemaTypes.Decimal128
+            rentalMode: String, 
+            indicativeRent: Number,
+            rentReceivableOnDeliveredBags: SchemaTypes.Decimal128
         },
-        vehicleNumber: String,
-        driverName: String,
-        deliveryNotes: String
+        lastModifiedDate: Date
     }, { collection: 'deliveries' });
 
 const Delivery = mongoose.model('delivery', deliverySchema);

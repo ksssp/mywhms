@@ -1,6 +1,6 @@
 const axios = require ( 'axios' );
 
-export async function getAllProducts() {
+export async function getProducts() {
     const response = await fetch('/api/referenceData/products');
     return await response.json();
 }

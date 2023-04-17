@@ -9,7 +9,7 @@ export default {
                 {
                     type: 'vueMultiSelect',
                     label: 'Product Group',
-                    model: 'productSubGroupPrefix',
+                    model: 'productGroup',
                     required: true,
                     selectOptions: {
                         noneSelectedText: 'Select a Product Group',
@@ -18,14 +18,14 @@ export default {
                         clearOnSelect: true,
                         hideSelected: true,
                         showPointer: true,
-                        key: "_id",
-                        label: "name",
+                        key: "productGroupId",
+                        label: "productSubGroupPrefix",
                     },
                     values: [],
                     validator: ['required'],
                     onChanged: function(model, newVal, oldVal, field) {
                         model.computedProductName = (model.bagSize == undefined || newVal == undefined) ? "" :
-                            (newVal.name + " " + model.bagSize + "Kg Bags");
+                            (newVal.productSubGroupPrefix + " " + model.bagSize + "Kg Bags");
                     },
                 },
                 {
@@ -37,8 +37,8 @@ export default {
                     required: true,
                     validator: ['double', 'required'],
                     onChanged: function(model, newVal, oldVal, field) {
-                        model.computedProductName = (model.productSubGroupPrefix == undefined || newVal == undefined) ? "" :
-                            (model.productSubGroupPrefix.name + " " + newVal + "Kg Bags");
+                        model.computedProductName = (model.productGroup.productSubGroupPrefix == undefined || newVal == undefined) ? "" :
+                            (model.productGroup.productSubGroupPrefix + " " + newVal + "Kg Bags");
                         model.computedYearlyRentPerBag = (newVal == undefined || model.yearlyRentPerKg == undefined) ? 0 :
                             (newVal * model.yearlyRentPerKg);
                     },
@@ -243,14 +243,14 @@ https://jsfiddle.net/2y9cLsnz/2/
 								"VueJS"
 							]
 						}, {
-               type: "switch",
-                label: "Status",
-                model: "status",
-                multi: true,
-                readonly: false,
-                featured: false,
-                disabled: false,
-                default: true,
+                                type: "switch",
+                                label: "Status",
+                                model: "status",
+                                multi: true,
+                                readonly: false,
+                                featured: false,
+                                disabled: false,
+                                default: true,
 								textOn: "Active",
 								textOff: "Inactive"
             }]

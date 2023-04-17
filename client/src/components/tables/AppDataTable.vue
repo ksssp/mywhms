@@ -1,6 +1,6 @@
 <template>
     <div class="tables">
-        <table id="app-table-list" class="table hover row-border stripe order-column" style="width:100%"></table>
+        <table id="app-table-list" class="app-table table hover row-border stripe order-column" style="width:100%"></table>
     </div>
 </template>
 
@@ -22,30 +22,18 @@ export default {
         "fields",
         "fieldDefs",
         "tableData",
+        "isMainTable"
     ],
     components: {
     },
     data: function () {
         return {
-            totalRows: 0,
-            exportFileName: "",
-        };
-    },
-    mounted() {
-        this.exportFileName = this.downloadFileName;
-        var table = $("#app-table-list").DataTable({
-            paging: true,
-            searching: true,
-            ordering: true,
-            scrollX: true,
-            columns: this.fields,
-            columnDefs: this.fieldDefs,
-            data: this.tableData,
-            colReorder: true,
-            dom: "<'row'<'col-md-2'l><'col-md-4'f><'col-md-6'B>>" +
-                "<'row'<'col-md-12'tr>>" +
-                "<'row'<'col-md-5'i><'col-md-7'p>>",
-            buttons: [ 
+            totalRows: this.tableData.length,
+            exportFileName: this.downloadFileName,
+            customDom: this.isMainTable == false ? "" :  "<'row'<'col-md-2'l><'col-md-4'f><'col-md-6'B>>" +
+                                                            "<'row'<'col-md-12'tr>>" +
+                                                            "<'row'<'col-md-5'i><'col-md-7'p>>",
+            buttonsList: this.isMainTable == false ? [] : [ 
                 {
                     extend: 'collection',
                     text: 'Export',
@@ -70,13 +58,36 @@ export default {
                     postfixButtons: ['colvisRestore']
 
                 }
-            ]
+            ],
+        };
+    },
+    mounted() {
+        this.exportFileName = this.downloadFileName;
+        var table = $("table.app-table").DataTable({
+            paging: this.isMainTable,
+            searching:  this.isMainTable,
+            order: [],
+            ordering:  this.isMainTable,
+            scrollX:  true,
+            columns: this.fields,
+            columnDefs: this.fieldDefs,
+            data: this.tableData,
+            colReorder: true,
+            dom: this.customDom,
+            buttons: this.buttonsList
         });
 
-        $('#app-table-list tbody').on('click', 'tr', function () {
-            var data = table.row(this).data();
-            router.push(data._id);
-        });
+        if(this.isMainTable) {
+            $('table.app-table tbody').on('click', 'tr', function () {
+                var data = table.row(this).data();
+                if(router.currentRoute.path == '/inventory/lots/') {
+                    router.push('/inventory/lodgements/' + data._id);
+                } else {
+                    router.push(data._id);
+                }
+            });
+        }
+        
     },
     methods: {
         edit(item, index, button) {
