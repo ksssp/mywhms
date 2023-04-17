@@ -62,7 +62,6 @@ export default {
                 { data: "trademark.customerName", title: "Customer Name" },
                 { data: "product.productName", title: "Product Name" },
                 { data: "numBagsLodged", title: "Lodged Bags", class: "text-center" },
-                { data: "isPlatformLot", title: "Platform Lot", class: "text-center" },
                 { data: "locationCodes", title: "Locations" },
                 { data: "chargesPaid.hamaliCharges.$numberDecimal", title: "Hamali Paid", class: "text-right" },
                 { data: "chargesPaid.kataCoolieCharges.$numberDecimal", title: "Kata Coolie Paid", visible: false, class: "text-right" },

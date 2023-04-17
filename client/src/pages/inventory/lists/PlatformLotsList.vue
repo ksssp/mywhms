@@ -14,10 +14,20 @@
         <div class="row col-lg-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
-                    <div class="row">
-                        <h4 class="card-title">Platform Lots ( {{ totalRows }} )</h4>
+                    <div class="row template-demo">
+                        <div class="col-md-6">
+                            <h4 class="card-title">Platform Lots ( {{ totalRows }} )</h4>
+                        </div>
+                        <div class="col-md-6" align="right">
+                            <a href="/inventory/platformLots/create/">
+                                <button type="button"
+                                    class="btn btn-gradient-primary btn-icon-text">
+                                    <i class="mdi mdi-account-plus btn-icon-prepend"></i>
+                                    Create
+                                </button>
+                            </a>
+                        </div>
                     </div>
-
                     <br />
                     <AppDataTable v-if="items" :download-file-name="downloadFileName" :fields="fields" 
                         :fieldDefs="fieldDefs" :table-data="items" :is-main-table="isMainTable"></AppDataTable>

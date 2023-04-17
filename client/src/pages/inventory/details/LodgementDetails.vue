@@ -27,10 +27,6 @@
                     <div class="d-sm-flex pb-2 mb-2 justify-content-between">
                         <h4 class="card-title" v-if="loadedEntity!=null">{{ entityTitle }}</h4>
                         <div>
-                            <b-button class="btn btn-gradient-danger btn-icon-text" @click="deleteLoadedEntity">
-                                <i class="mdi mdi-delete btn-icon-prepend"></i>
-                                Delete
-                            </b-button>
                             <b-button class="btn btn-gradient-primary btn-icon-text">
                                 <i class="mdi mdi-printer btn-icon-prepend"></i>
                                 Lot Certificate
@@ -75,26 +71,20 @@
                                     <h6>Deliveries ( {{ this.loadedEntity.stockRelease.numDeliveries }})</h6>
                                     <b-table-lite responsive :fields="loadedLodgementDeliveries.fields"
                                         :items="loadedLodgementDeliveries.items"> <!-- thead-class="hidden_header" -->
-                                        <!-- <template v-slot:cell(deliveryDate)="data">
-                                            {{ (new Date(data.value)).toLocaleDateString() }}
-                                        </template> -->
                                     </b-table-lite>
-                                    <!-- <AppDataTable :download-file-name="loadedLodgementDeliveries.downloadFileName" 
-                                        :fields="loadedLodgementDeliveries.fields" :fieldDefs="loadedLodgementDeliveries.fieldDefs" 
-                                        :table-data="loadedLodgementDeliveries.items" :is-main-table="loadedLodgementDeliveries.isMainTable"></AppDataTable> -->
                                 </div>
                             </div>
                         </b-tab>
-                        <b-tab title="Details">
-                            <div v-if="!editMode" class="mx-2 d-md-flex justify-content-end">
-                                <b-button v-on:click="editLoadedEntity" class="btn btn-gradient-primary btn-icon-text">
+                        <b-tab title="Basic Details">
+                            <div v-if="!editDetailsMode" class="mx-2 d-md-flex justify-content-end">
+                                <b-button v-on:click="editLoadedEntityDetails" class="btn btn-gradient-primary btn-icon-text">
                                     <i class="mdi mdi-pencil btn-icon-prepend"></i>
-                                    Edit
+                                    Edit Lodgement Details
                                 </b-button>
                             </div>
                             <div>
-                                <LodgementForm v-if="editMode" :form-data="loadedEntity" :submit-mode="submitMode" 
-                                    @saved="saved" @cancelForm="editCancelled"></LodgementForm>
+                                <LodgementDetailsForm v-if="editDetailsMode" :form-data="loadedEntity" :submit-mode="submitMode" 
+                                    @saved="saved" @cancelForm="editCancelled"></LodgementDetailsForm>
                                 <div v-else>
                                     <div class="row mx-2">
                                         <div class="col-md-6">
@@ -115,35 +105,55 @@
                             </div>
                         </b-tab>
                         <b-tab title="Charges Paid & Receivable">
-                            <div class="row mx-2">
-                                <div class="col-md-4">
-                                    <b-table-lite responsive borderless :fields="entityIndicativeChargesTable.fields"
-                                        :items="entityIndicativeChargesTable.items"> <!-- thead-class="hidden_header" -->
-                                    </b-table-lite>
-                                </div>
-                                <div class="col-md-4">
-                                    <b-table-lite responsive borderless :fields="entityChargesPaidTable.fields"
-                                        :items="entityChargesPaidTable.items"> <!-- thead-class="hidden_header" -->
-                                    </b-table-lite>
-                                </div>
-                                <div class="col-md-4">
-                                    <b-table-lite responsive borderless :fields="entityChargesReceivableTable.fields"
-                                        :items="entityChargesReceivableTable.items"> <!-- thead-class="hidden_header" -->
-                                    </b-table-lite>
+                            <div v-if="!editChargesMode" class="mx-2 d-md-flex justify-content-end">
+                                <b-button v-on:click="editLoadedEntityCharges" class="btn btn-gradient-primary btn-icon-text">
+                                    <i class="mdi mdi-pencil btn-icon-prepend"></i>
+                                    Edit Charges Paid
+                                </b-button>
+                            </div>
+                            <div>
+                                <ChargesForm v-if="editChargesMode" :form-data="chargesPaidFormData" :submit-mode="submitMode" 
+                                    @saved="saved" @cancelForm="editCancelled"></ChargesForm>
+                                <div v-else class="row mx-2">
+                                    <div class="col-md-4">
+                                        <b-table-lite responsive borderless :fields="entityIndicativeChargesTable.fields"
+                                            :items="entityIndicativeChargesTable.items"> <!-- thead-class="hidden_header" -->
+                                        </b-table-lite>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <b-table-lite responsive borderless :fields="entityChargesPaidTable.fields"
+                                            :items="entityChargesPaidTable.items"> <!-- thead-class="hidden_header" -->
+                                        </b-table-lite>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <b-table-lite responsive borderless :fields="entityChargesReceivableTable.fields"
+                                            :items="entityChargesReceivableTable.items"> <!-- thead-class="hidden_header" -->
+                                        </b-table-lite>
+                                    </div>
                                 </div>
                             </div>
                         </b-tab>
                         <b-tab title="Deliveries">
-                            <div class="row mx-2">
-                                <div class="col-sm-6">
-                                    <b-table-lite responsive borderless :fields="entityDeliveryDetailsTable.fields"
-                                        :items="entityDeliveryDetailsTable.items"> <!-- thead-class="hidden_header" -->
-                                    </b-table-lite>
-                                </div>
-                                <div class="col-sm-6">
-                                    <b-table-lite responsive borderless :fields="entityRentalsDetailsTable.fields"
-                                        :items="entityRentalsDetailsTable.items"> <!-- thead-class="hidden_header" -->
-                                    </b-table-lite>
+                            <div v-if="!addDeliveryMode" class="mx-2 d-md-flex justify-content-end">
+                                <b-button v-on:click="addDelivery" class="btn btn-gradient-primary btn-icon-text">
+                                    <i class="mdi mdi-truck-delivery btn-icon-prepend"></i>
+                                    Add a Delivery
+                                </b-button>
+                            </div>
+                            <div>
+                                <DeliveryCreateForm v-if="addDeliveryMode" :form-data="loadedEntity" :submit-mode="submitMode" 
+                                    @saved="saved" @cancelForm="editCancelled"></DeliveryCreateForm>
+                                <div v-else class="row mx-2">
+                                    <div class="col-md-6">
+                                        <b-table-lite responsive borderless :fields="entityDeliveryDetailsTable.fields"
+                                            :items="entityDeliveryDetailsTable.items"> <!-- thead-class="hidden_header" -->
+                                        </b-table-lite>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <b-table-lite responsive borderless :fields="entityRentalsDetailsTable.fields"
+                                            :items="entityRentalsDetailsTable.items"> <!-- thead-class="hidden_header" -->
+                                        </b-table-lite>
+                                    </div>
                                 </div>
                             </div>
                             <br />
@@ -169,14 +179,16 @@
 <script>
 
 import { getLodgementById, deleteLodgement } from "@/services/LodgementService";
-import LodgementForm from "../forms/LodgementCreateForm.vue";
-import AppDataTable from "@/components/tables/AppDataTable.vue";
+import LodgementDetailsForm from "../forms/LodgementDetailsForm.vue";
+import ChargesForm from "../forms/ChargesForm.vue";
+import DeliveryCreateForm from "../forms/DeliveryCreateForm.vue";
 
 export default {
     name: "LodgementDetails",
     components: {
-        LodgementForm,
-        AppDataTable
+        LodgementDetailsForm,
+        ChargesForm,
+        DeliveryCreateForm
     },
     data: function () {
         return {
@@ -188,7 +200,9 @@ export default {
             loadedEntity: null,
             loadedEntityId: null,
             entityDoesNotExistMessage: "The Lodgement you are looking for does not exist.",
-            editMode: false,
+            editDetailsMode: false,
+            editChargesMode: false,
+            addDeliveryMode: false,
             submitMode: "update",
             stockStatmentLeftTable: {
                 fields: [
@@ -286,6 +300,7 @@ export default {
                 items: [       // update entity specific json data in an array format - Lodgement
                     { infoLabel: "Two-way Hamali Charges", infoValue: "" },
                     { infoLabel: "Insurance Charges", infoValue: "" },
+                    { infoLabel: "Total Charges Paid (except Hamali)", infoValue: "" },
                     { infoLabel: "Total Charges Receivable", infoValue: "" },
                 ]
             },
@@ -313,6 +328,16 @@ export default {
                 items: [],
                 downloadFileName: "deliveriesForLodgement",
                 isMainTable: false
+            },
+            chargesPaidFormData: {
+                entityType: "lodgement",
+                entityId: null,
+                hamaliCharges: 0,
+                kataCoolieCharges: 0,
+                platformCoolieCharges: 0,
+                mamulluCharges: 0,
+                transportCharges: 0,
+                totalChargesPaid: 0
             }
         };
     },
@@ -366,7 +391,9 @@ export default {
                  
                     this.entityChargesReceivableTable.items[0].infoValue = "Rs. " + this.loadedEntity.chargesReceivable.hamaliCharges.$numberDecimal + "/-";
                     this.entityChargesReceivableTable.items[1].infoValue = "Rs. " + this.loadedEntity.chargesReceivable.insuranceCharges.$numberDecimal + "/-";
-                    this.entityChargesReceivableTable.items[2].infoValue = "Rs. " + this.loadedEntity.chargesReceivable.totalChargesReceivable.$numberDecimal + "/-";
+                    this.entityChargesReceivableTable.items[2].infoValue = "Rs. " + (this.loadedEntity.chargesPaid.totalChargesPaid.$numberDecimal - 
+                                                                                        this.loadedEntity.chargesPaid.hamaliCharges.$numberDecimal) + "/-";
+                    this.entityChargesReceivableTable.items[3].infoValue = "Rs. " + this.loadedEntity.chargesReceivable.totalChargesReceivable.$numberDecimal + "/-";
                     
                     this.entityRentalsDetailsTable.items[0].infoValue = this.loadedEntity.rents.rentalMode;
                     this.entityRentalsDetailsTable.items[1].infoValue = this.loadedEntity.rents.rentalYear;
@@ -380,19 +407,36 @@ export default {
                     this.entityDeliveryDetailsTable.items[5].infoValue = "Rs. " + this.loadedEntity.stockRelease.totalRentReceivable.$numberDecimal + "/-";
 
                     this.loadedLodgementDeliveries.items = this.loadedEntity.stockRelease.deliveries;
+
+                    this.chargesPaidFormData.lodgementId = this.loadedEntity.lodgementId;
+                    this.chargesPaidFormData.hamaliCharges = this.loadedEntity.chargesPaid.hamaliCharges.$numberDecimal;
+                    this.chargesPaidFormData.kataCoolieCharges = this.loadedEntity.chargesPaid.kataCoolieCharges.$numberDecimal;
+                    this.chargesPaidFormData.platformCoolieCharges = this.loadedEntity.chargesPaid.platformCoolieCharges.$numberDecimal;
+                    this.chargesPaidFormData.mamulluCharges = this.loadedEntity.chargesPaid.mamulluCharges.$numberDecimal;
+                    this.chargesPaidFormData.transportCharges = this.loadedEntity.chargesPaid.transportCharges.$numberDecimal;
+                    this.chargesPaidFormData.totalChargesPaid = this.loadedEntity.chargesPaid.totalChargesPaid.$numberDecimal;
                 }
             });
         },
-        editLoadedEntity() {
-            this.editMode=true;
+        editLoadedEntityDetails() {
+            this.editDetailsMode = true;
+        },
+        editLoadedEntityCharges() {
+            this.editChargesMode = true;
+        },
+        addDelivery() {
+            this.addDeliveryMode = true;
         },
         editCancelled() {
-            this.editMode=false;
+            this.editDetailsMode=false;
+            this.editChargesMode=false;
+            this.addDeliveryMode = false;
         },
         saved(saveActionStatus) {
             if(saveActionStatus) {
                 this.loadEntityData(this.loadedEntityId);
-                this.editMode=false;
+            this.editDetailsMode=false;
+            this.editChargesMode=false;
             }
         },
         deleteLoadedEntity(){

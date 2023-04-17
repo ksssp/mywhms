@@ -8,6 +8,7 @@ require('dotenv').config();
 const port = 5200;
 const app = express();
 
+const locationController = require ( './controllers/location.controller');
 const trademarkController = require ( "./controllers/trademark.controller" );
 const productGroupController = require ( "./controllers/productGroup.controller" );
 const productController = require ( "./controllers/product.controller" );
@@ -15,11 +16,12 @@ const employeeController = require ( "./controllers/employee.controller" );
 const lodgementController = require ( './controllers/lodgement.controller' );
 const deliveryController = require ( './controllers/delivery.controller' );
 
+
 // const path = require('path');
 // app.use(express.static(path.join(__dirname, './client/public')));
-app.use(bodyParser.json());
 // app.use(cors);
 
+app.use(bodyParser.json());
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     next();
@@ -28,6 +30,11 @@ app.use((req, res, next) => {
 // Basic default route - for verification
 app.get('/', (req, res) => {
     res.send(`<h1>API Works !!!</h1>`)
+});
+
+// Routes for locations
+app.get('/api/referenceData/locations', (req, res) => {
+    locationController.getLocations().then(data => res.json(data));
 });
 
 // Routes for referenceData/trademarks

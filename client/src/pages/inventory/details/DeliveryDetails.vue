@@ -67,27 +67,41 @@
                                             <b-table-lite responsive borderless :fields="entityLodgementDetailsTable.fields"
                                                 :items="entityLodgementDetailsTable.items"> <!-- thead-class="hidden_header" -->
                                             </b-table-lite>
+
+                                            <b-table-lite responsive borderless :fields="entityRentalsDetailsTable.fields"
+                                                :items="entityRentalsDetailsTable.items"> <!-- thead-class="hidden_header" -->
+                                            </b-table-lite>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </b-tab>
                         <b-tab title="Charges Paid & Rentals">
-                            <div class="row mx-2">
-                                <div class="col-md-4">
-                                    <b-table-lite responsive borderless :fields="entityIndicativeChargesTable.fields"
-                                        :items="entityIndicativeChargesTable.items"> <!-- thead-class="hidden_header" -->
-                                    </b-table-lite>
-                                </div>
-                                <div class="col-md-4">
-                                    <b-table-lite responsive borderless :fields="entityChargesPaidTable.fields"
-                                        :items="entityChargesPaidTable.items"> <!-- thead-class="hidden_header" -->
-                                    </b-table-lite>
-                                </div>
-                                <div class="col-md-4">
-                                    <b-table-lite responsive borderless :fields="entityRentalsDetailsTable.fields"
-                                        :items="entityRentalsDetailsTable.items"> <!-- thead-class="hidden_header" -->
-                                    </b-table-lite>
+                            <div v-if="!editChargesMode" class="mx-2 d-md-flex justify-content-end">
+                                <b-button v-on:click="editLoadedEntityCharges" class="btn btn-gradient-primary btn-icon-text">
+                                    <i class="mdi mdi-pencil btn-icon-prepend"></i>
+                                    Edit Charges Paid
+                                </b-button>
+                            </div>
+                            <div>
+                                <ChargesForm v-if="editChargesMode" :form-data="chargesPaidFormData" :submit-mode="submitMode" 
+                                    @saved="saved" @cancelForm="editCancelled"></ChargesForm>
+                                <div v-else class="row mx-2">
+                                    <div class="col-md-4">
+                                        <b-table-lite responsive borderless :fields="entityIndicativeChargesTable.fields"
+                                            :items="entityIndicativeChargesTable.items"> <!-- thead-class="hidden_header" -->
+                                        </b-table-lite>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <b-table-lite responsive borderless :fields="entityChargesPaidTable.fields"
+                                            :items="entityChargesPaidTable.items"> <!-- thead-class="hidden_header" -->
+                                        </b-table-lite>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <b-table-lite responsive borderless :fields="entityChargesReceivableTable.fields"
+                                            :items="entityChargesReceivableTable.items"> <!-- thead-class="hidden_header" -->
+                                        </b-table-lite>
+                                    </div>
                                 </div>
                             </div>
                         </b-tab>
@@ -102,11 +116,13 @@
 
 import { getDeliveryById, deleteLDelivery } from "@/services/DeliveryService";
 import DeliveryCreateForm from "../forms/DeliveryCreateForm.vue";
+import ChargesForm from "../forms/ChargesForm.vue";
 
 export default {
     name: "DeliveryDetails",
     components: {
-        DeliveryCreateForm
+        DeliveryCreateForm,
+        ChargesForm
     },
     data: function () {
         return {
@@ -119,6 +135,7 @@ export default {
             loadedEntityId: null,
             entityDoesNotExistMessage: "The Delivery you are looking for does not exist.",
             editMode: false,
+            editChargesMode: false,
             submitMode: "update",
             entityDetailsTable: {
                 fields: [
@@ -195,6 +212,16 @@ export default {
                     { infoLabel: "Rent Receivable till date", infoValue: "" }
                 ]
             },
+            chargesPaidFormData: {
+                entityType: "delivery",
+                entityId: null,
+                hamaliCharges: 0,
+                kataCoolieCharges: 0,
+                platformCoolieCharges: 0,
+                mamulluCharges: 0,
+                transportCharges: 0,
+                totalChargesPaid: 0
+            }
         };
     },
     created() {
@@ -249,8 +276,12 @@ export default {
         editLoadedEntity() {
             this.editMode=true;
         },
+        editLoadedEntityCharges() {
+            this.editChargesMode = true;
+        },
         editCancelled() {
             this.editMode=false;
+            this.editChargesMode = true;
         },
         saved(saveActionStatus) {
             if(saveActionStatus) {
