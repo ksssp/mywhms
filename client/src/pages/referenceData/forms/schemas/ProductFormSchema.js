@@ -8,54 +8,65 @@ export default {
             fields: [
                 {
                     type: 'vueMultiSelect',
-                    label: 'Product Group',
-                    model: 'productGroup',
+                    label: 'Product Category',
+                    model: 'productCategory',
                     required: true,
                     selectOptions: {
-                        noneSelectedText: 'Select a Product Group',
+                        noneSelectedText: 'Select a Product Category',
                         multiple: false,
                         searchable: true,
                         clearOnSelect: true,
                         hideSelected: true,
                         showPointer: true,
-                        key: "productGroupId",
-                        label: "productSubGroupPrefix",
+                        key: "productCategoryId",
+                        label: "productCategoryPrefix",
                     },
                     values: [],
                     validator: ['required'],
                     onChanged: function(model, newVal, oldVal, field) {
-                        model.computedProductName = (model.bagSize == undefined || newVal == undefined) ? "" :
-                            (newVal.productSubGroupPrefix + " " + model.bagSize + "Kg Bags");
+                        model.productName = (model.bagSize == undefined || newVal == undefined) ? "" :
+                            (newVal.productCategoryPrefix + " " + model.bagSize + " Kg " + model.unitName);
                     },
                 },
                 {
                     type: 'input',
                     inputType: 'number',
-                    label: 'Bag Size (in kgs)',
+                    label: 'Bag/Box Size (in kgs)',
                     model: 'bagSize',
                     default: 0,
                     required: true,
                     validator: ['double', 'required'],
                     onChanged: function(model, newVal, oldVal, field) {
-                        model.computedProductName = (model.productGroup.productSubGroupPrefix == undefined || newVal == undefined) ? "" :
-                            (model.productGroup.productSubGroupPrefix + " " + newVal + "Kg Bags");
-                        model.computedYearlyRentPerBag = (newVal == undefined || model.yearlyRentPerKg == undefined) ? 0 :
-                            (newVal * model.yearlyRentPerKg);
+                        model.productName = (model.productCategory.productCategoryPrefix == undefined || newVal == undefined) ? "" :
+                            (model.productCategory.productCategoryPrefix + " " + newVal + " Kg " + model.unitName);
+                    },
+                },
+                {
+                    type: 'vueMultiSelect',
+                    inputType: 'text',
+                    label: 'Storage Unit Name',
+                    model: 'unitName',
+                    readonly: true,
+                    required: true,
+                    selectOptions: {
+                        noneSelectedText: 'Select a Storage Unit Type',
+                        multiple: false,
+                        searchable: true,
+                        clearOnSelect: true,
+                        hideSelected: false,
+                        showPointer: true,
+                    },
+                    values: [ "Bags", "Boxes" ],
+                    validator: ['string', 'required'],
+                    onChanged: function(model, newVal, oldVal, field) {
+                        model.productName = (model.productCategory.productCategoryPrefix == undefined || newVal == undefined) ? "" :
+                            (model.productCategory.productCategoryPrefix + " " + model.bagSize + " Kg " + newVal);
                     },
                 },
                 {
                     type: 'input',
                     inputType: 'text',
-                    label: 'Computed Product Name',
-                    model: 'computedProductName',
-                    readonly: true,
-                    required: true,
-                    validator: ['string', 'required']
-                },
-                {
-                    type: 'input',
-                    inputType: 'text',
-                    label: 'Display Product Name',
+                    label: 'Product Name',
                     model: 'productName',
                     required: true,
                     validator: ['string', 'required']
@@ -134,21 +145,16 @@ export default {
                     required: true,
                     default: 0,
                     validator: ['double', 'required'],
-                    onChanged: function(model, newVal, oldVal, field) {
-                        model.computedYearlyRentPerBag = (model.bagSize == undefined || newVal == undefined) ? 0 :
-                            (model.bagSize * newVal);
-                    },
                 },
                 {
                     type: 'input',
                     inputType: 'number',
-                    step: '0.01',
-                    label: 'Computed Yearly Rent per bag',
-                    model: 'computedYearlyRentPerBag',
+                    step: '1',
+                    label: 'Bag Size for Rent Calculations',
+                    model: 'bagSizeForRent',
                     required: true,
-                    readonly: true,
                     default: 0,
-                    validator: ['double', 'required']
+                    validator: ['double', 'required'],
                 },
                 {
                     type: 'input',

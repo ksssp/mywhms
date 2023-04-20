@@ -1,0 +1,5202 @@
+[
+  {
+    "customerCode": "A.Balaji/TPG",
+    "customerName": "Akula Balaji",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "A.SAI/RJY",
+    "customerName": "Sai",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AA",
+    "customerName": "Allu Appi Reddy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AA/KA",
+    "customerName": "Kondeti Appa Rao",
+    "mobileNumber": 12345,
+    "town": "Kakinada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AA/RJY",
+    "customerName": "AA",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AB",
+    "customerName": "Abhiruchi",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Abhiruchi/BVRM",
+    "customerName": "Abhiruchi Super Market",
+    "mobileNumber": 9533434348,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Abhiruchi/BVRM",
+    "customerName": "Abhiruchi Foods",
+    "mobileNumber": 9533434348,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Abhiruchi/BVRM",
+    "customerName": "Madhu",
+    "mobileNumber": 9533434348,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ABR/Kavitam",
+    "customerName": "ABR",
+    "mobileNumber": 12345,
+    "town": "Kavitam",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ADB/VPD",
+    "customerName": "Dora Babu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AER",
+    "customerName": "Eswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AJS/Thallapudi",
+    "customerName": "Sri Anjaneya Swamy General Store/ kasi",
+    "mobileNumber": 9440789476,
+    "town": "Thallapudi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AKR/MSR.R",
+    "customerName": "A.Karunakar Reddy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AM",
+    "customerName": "A.Madhu",
+    "mobileNumber": 8328116372,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ANR/Duvva",
+    "customerName": "Adda Nageswara Rao",
+    "mobileNumber": 12345,
+    "town": "Duvva",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ANR/RVP",
+    "customerName": "Akula Pallayya",
+    "mobileNumber": 6301010868,
+    "town": "Ravulapalem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ANR/SCC/RamBabu",
+    "customerName": "RamBabu",
+    "mobileNumber": 9441075357,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AR/RVP",
+    "customerName": "Sri Srinivasa General Merchants",
+    "mobileNumber": 9493326666,
+    "town": "Ravulapalem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AR/RVP",
+    "customerName": "Akula Ramu",
+    "mobileNumber": 9493326666,
+    "town": "Ravulapalem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AR/RVP",
+    "customerName": "N.Satyanarayana",
+    "mobileNumber": 12345,
+    "town": "Ravulapalem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ARK",
+    "customerName": "Rama Krishna",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ASB/Mukkamala",
+    "customerName": "Ambati Subrahmanyam",
+    "mobileNumber": 9985062564,
+    "town": "Mukkamala",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ASG/Sattupalli",
+    "customerName": "Kasi",
+    "mobileNumber": 12345,
+    "town": "Sattupalli",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ASG/Thallapudi",
+    "customerName": "Kasi",
+    "mobileNumber": 12345,
+    "town": "Thallapudi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ASM",
+    "customerName": "Appana Subrahmanyam",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ASP",
+    "customerName": "Srinivasa Pulla Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ASP/Challapalli",
+    "customerName": "Prasad",
+    "mobileNumber": 12345,
+    "town": "Challapalli",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ASR",
+    "customerName": "A.Srinivasa Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AT/TNK",
+    "customerName": "Aruna Traders",
+    "mobileNumber": 12345,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ATC",
+    "customerName": "ATC",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ATL/Attili",
+    "customerName": "Akula Thrimurthulu",
+    "mobileNumber": 9866832644,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AVG",
+    "customerName": "Venkateswara Rao",
+    "mobileNumber": 9848570304,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AVR/AMP",
+    "customerName": "Venkateswara Rao",
+    "mobileNumber": 7981632115,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AVR/AMP",
+    "customerName": "Achanta Venkataramana",
+    "mobileNumber": 7981632115,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AVR/AMP",
+    "customerName": "Sri Venkata Durga Traders",
+    "mobileNumber": 7981632115,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AVR/AMP",
+    "customerName": "Sri Venkateswara Jaggery & General Marchants",
+    "mobileNumber": 7981632115,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AVR/AMP",
+    "customerName": "Maddala Satya Narayana",
+    "mobileNumber": 7981632115,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AVR/AMP",
+    "customerName": "Achanta Yedukondalu",
+    "mobileNumber": 7981632115,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AVR/TPG",
+    "customerName": "Akula Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "AYK/AMP",
+    "customerName": "Kondalu",
+    "mobileNumber": 12345,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Balaji/Ganti",
+    "customerName": "Balaji",
+    "mobileNumber": 12345,
+    "town": "Ganti",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Balusulu/TPG",
+    "customerName": "Balusulu",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Balusulu/TPG",
+    "customerName": "Kate Srinivasa Rao",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Balusulu/TPG",
+    "customerName": "Kate Krishanayya",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BAV/Pendyala",
+    "customerName": "Maddala Sreenu",
+    "mobileNumber": 12345,
+    "town": "Pendyala",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BAV/Pendyala",
+    "customerName": "Palagani Adinarayana",
+    "mobileNumber": 12345,
+    "town": "Pendyala",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BAV/Pendyala",
+    "customerName": "Battina Annavaram",
+    "mobileNumber": 12345,
+    "town": "Pendyala",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BB/RJY",
+    "customerName": "B.Babu",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BGK/BVRM",
+    "customerName": "Gopala Krishna",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BM/NDD",
+    "customerName": "B.Mahesh",
+    "mobileNumber": 12345,
+    "town": "Nidadavole",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BN/TPG",
+    "customerName": "B.Narayana",
+    "mobileNumber": 9705622415,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Bose/VJA",
+    "customerName": "Venkata Krishna",
+    "mobileNumber": 12345,
+    "town": "Vijayawada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Bose/VJA",
+    "customerName": "Bose",
+    "mobileNumber": 12345,
+    "town": "Vijayawada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BSN",
+    "customerName": "Satya Narayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BSR/AMP",
+    "customerName": "Badri Srinu",
+    "mobileNumber": 9441463148,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Bujji/PKL",
+    "customerName": "Bujji",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BV/TPG",
+    "customerName": "Bandela Prasad",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BV/Vipparru",
+    "customerName": "Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Vipparru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BVB",
+    "customerName": "BVB",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BVN/Yalamanchili",
+    "customerName": "Buddreddy Kasi",
+    "mobileNumber": 12345,
+    "town": "Yalamanchili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BVR/PRR",
+    "customerName": "Bollam Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "BVR/RCPM",
+    "customerName": "G.N.V.Sudhakar",
+    "mobileNumber": 12345,
+    "town": "Ramachandrapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CB/YPR",
+    "customerName": "Chitti Babu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Ch.Lakshmi",
+    "customerName": "Lakshmi",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHA/TPG",
+    "customerName": "Gayatri Enterprises",
+    "mobileNumber": 9490110837,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHA/TPG",
+    "customerName": "Kompella Satyam",
+    "mobileNumber": 7676232041,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHA/TPG",
+    "customerName": "Rama Krishna",
+    "mobileNumber": 9490110837,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHA/TPG",
+    "customerName": "Regella Rami Reddy",
+    "mobileNumber": 9490110837,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHA/TPG",
+    "customerName": "Gajula Ganesh",
+    "mobileNumber": 9490110837,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHA/TPG",
+    "customerName": "Ravi",
+    "mobileNumber": 9490110837,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHA/TPG",
+    "customerName": "Chilaka Chennayya",
+    "mobileNumber": 9490110837,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHA/TPG",
+    "customerName": "Chegondi Anjaneyulu",
+    "mobileNumber": 9490110837,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Chenni",
+    "customerName": "RamBabu",
+    "mobileNumber": 7893598131,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Chinni/RJY",
+    "customerName": "Chinni",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHN/JRGudem",
+    "customerName": "Nageswara Rao",
+    "mobileNumber": 12345,
+    "town": "Jangareddigudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHNB/Pragadavaram",
+    "customerName": "CH.Naga Bhushanam",
+    "mobileNumber": 12345,
+    "town": "Pragadavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHR",
+    "customerName": "Chegondi Raju",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CHSRM",
+    "customerName": "CH.Sri Rama Murthy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CKV",
+    "customerName": "Chilukuru Venkanna",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CMR/ELR",
+    "customerName": "Lakshmi Super Bazar",
+    "mobileNumber": 12345,
+    "town": "Eluru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CNR/JRGudem",
+    "customerName": "Chenni NageswaRao",
+    "mobileNumber": 12345,
+    "town": "Jangareddigudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CVR/RVS",
+    "customerName": "R.V.S.Ramu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "CVS/AMP",
+    "customerName": "Chikkala Venkanna",
+    "mobileNumber": 9553495576,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "D.Kasi/ATTILI",
+    "customerName": "D. Kasi",
+    "mobileNumber": 8985220089,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Devika",
+    "customerName": "Devika Kiraana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "D.K.Prasad",
+    "mobileNumber": 9440477424,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "D.Vara",
+    "mobileNumber": 9030877424,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "Venkata Narayana",
+    "mobileNumber": 9440374365,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "Sri Venkata Naga Durga Chillies Company",
+    "mobileNumber": 6300437199,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "Venkata Ramana/BVRM",
+    "mobileNumber": 9440477424,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "D.Subrahmanyam",
+    "mobileNumber": 9440477424,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "Venkata Satya Sai",
+    "mobileNumber": 9440477424,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "Tammala Nagendra",
+    "mobileNumber": 9440477424,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "D.Ramu",
+    "mobileNumber": 9440477424,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "Lalitha Kirana",
+    "mobileNumber": 9440477424,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK",
+    "customerName": "Sri Venkata Naga Durga Chillies Companyv",
+    "mobileNumber": 9440477424,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DK/ATL",
+    "customerName": "Akula Trimurthulu",
+    "mobileNumber": 12345,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DKL/Bandar",
+    "customerName": "Dindikurthi Atchutha Ramayya",
+    "mobileNumber": 12345,
+    "town": "Bandaru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DKL/ELR",
+    "customerName": "Subrahmanyam",
+    "mobileNumber": 9989513185,
+    "town": "Eluru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DKR/PRR",
+    "customerName": "Deenaboina Kantha Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DMR/VK",
+    "customerName": "K.Nageswara Rao",
+    "mobileNumber": 9493307735,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DMR/VK",
+    "customerName": "Maheswara Rao",
+    "mobileNumber": 9493307735,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DP/TPG",
+    "customerName": "Pattiyya",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DR/Malkipuram",
+    "customerName": "Kesari Avish Sri Sai",
+    "mobileNumber": 12345,
+    "town": "Malkipuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DR/Samaba",
+    "customerName": "Samba Murthy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DR/Samaba",
+    "customerName": "Sambamurthy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DSN/TPG",
+    "customerName": "D.SatyaNarayana",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Durga",
+    "customerName": "Rama Sai Traders",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Durga",
+    "customerName": "Karuturi Soma Sundara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Durga",
+    "customerName": "Immani Syamala Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Durga",
+    "customerName": "Karuturi Rambabu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DurgaBhavani/BVRM",
+    "customerName": "Pilli Satya Narayana",
+    "mobileNumber": 9573201047,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DVK/PRR",
+    "customerName": "Danaboyina Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DVR/GVR",
+    "customerName": "D.V. R",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "DVS/Relangi",
+    "customerName": "Mallipudi Satyanarayana",
+    "mobileNumber": 12345,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "EKY/PRR",
+    "customerName": "Eethakota Kittayya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ESR/Sivayya",
+    "customerName": "Eswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GAGA",
+    "customerName": "Mylavarapu Srinivasu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GAGA",
+    "customerName": "Mylavarapu Ganga Raju",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GC",
+    "customerName": "Chanti",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GCC/Chinturu",
+    "customerName": "Rajesh",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GCC/Rampachodavaram",
+    "customerName": "Arjun",
+    "mobileNumber": 8985724096,
+    "town": "Rampachodavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GCC/Rampachodavaram",
+    "customerName": "Rajesh",
+    "mobileNumber": 8985724096,
+    "town": "Rampachodavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GG/TNK",
+    "customerName": "Gandhi",
+    "mobileNumber": 12345,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GG/TNK",
+    "customerName": "Ganesh",
+    "mobileNumber": 12345,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GGS/PRR",
+    "customerName": "Sukru",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GK/BVRM",
+    "customerName": "GK Traders",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GKR/PRG",
+    "customerName": "Gadi Kesava Reddy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GM/BVRM",
+    "customerName": "Mavullu",
+    "mobileNumber": 944033144,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GMK/Thethali",
+    "customerName": "G.Murali Krishna",
+    "mobileNumber": 12345,
+    "town": "Thethali",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GMR/Peravali",
+    "customerName": "Gudivada Mukteswara Rao",
+    "mobileNumber": 12345,
+    "town": "Peravali",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GMR/TPG",
+    "customerName": "Manikyala Rao",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GMVS",
+    "customerName": "Venkata Subba Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GN/TPG",
+    "customerName": "Gandrothu Naveen",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GNB/KKD",
+    "customerName": "Sri Shyam Traders",
+    "mobileNumber": 12345,
+    "town": "Kakinada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GNR",
+    "customerName": "Ramesh",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GP",
+    "customerName": "Pullayya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GPR/ELR",
+    "customerName": "Gadamsetti Prakasha Rao",
+    "mobileNumber": 12345,
+    "town": "Eluru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GR",
+    "customerName": "Ganeswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GR/TPG",
+    "customerName": "Guneswara Rao",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GRB/TPG",
+    "customerName": "G.V.V.R.Satyanarayana/Rambabu",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GRB/TPG",
+    "customerName": "Sri Ramanjaneya Traders",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GRB/TPG",
+    "customerName": "Sri Kanaka Durga Chillies & General Merchants",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GRK/TPG",
+    "customerName": "Rama Krishna",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GS/Bhadra",
+    "customerName": "Bhadra",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GS/RJY",
+    "customerName": "Gouri Sankar",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GSP/BVRM",
+    "customerName": "Ganapathi Sai Pavan General Merchants",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GSR/AMP",
+    "customerName": "Badri Srinu",
+    "mobileNumber": 12345,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GSR/Yerraguntapadu",
+    "customerName": "Gade Satya Narayana Reddy",
+    "mobileNumber": 12345,
+    "town": "Yerraguntapadu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Gunneswara Rao",
+    "customerName": "Gunneswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Guntur Ramu",
+    "customerName": "Ramu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVKR/Someswaram",
+    "customerName": "Surya Prakash Reddy",
+    "mobileNumber": 12345,
+    "town": "Someswaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVR/TPG",
+    "customerName": "Magapu Lona Raju",
+    "mobileNumber": 9948527555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVR/TPG",
+    "customerName": "Gopisetti Venkaetswara Rao",
+    "mobileNumber": 9948527555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVR/TPG",
+    "customerName": "Krishna",
+    "mobileNumber": 9948527555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVR/TPG",
+    "customerName": "Chalavadi Pavani",
+    "mobileNumber": 9948527555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVR/TPG",
+    "customerName": "Sri Ramanjaneya Traders",
+    "mobileNumber": 9948527555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVR/TPG",
+    "customerName": "Maddala Sai",
+    "mobileNumber": 9948527555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVR/TPG",
+    "customerName": "Pasupuleti Narasimha Rao",
+    "mobileNumber": 9948527555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVR/TPG",
+    "customerName": "M.Srinivasu",
+    "mobileNumber": 9948527555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVR/TPG",
+    "customerName": "Linganaboina Nageswara Rao",
+    "mobileNumber": 9948527555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "GVVCS",
+    "customerName": "Godavari Vidya Vikas Chaithanya Society",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "HARI/ELR",
+    "customerName": "N.Ramesh",
+    "mobileNumber": 9866830423,
+    "town": "Eluru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "HKT",
+    "customerName": "Frakuruddhin",
+    "mobileNumber": 9848291133,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "HKT",
+    "customerName": "Hari Krishna Traders",
+    "mobileNumber": 9848291133,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "HKT",
+    "customerName": "Karuturi Padma kumar",
+    "mobileNumber": 9848291133,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "HSN",
+    "customerName": "Hanumanthu  Satya Narayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "JB/KKD",
+    "customerName": "Jai Baba",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "JD/Chintalapudi",
+    "customerName": "Jaya Durga",
+    "mobileNumber": 12345,
+    "town": "Chintalapudi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "JS /Chanti",
+    "customerName": "Chanti",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "JS/Nani",
+    "customerName": "Nani",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "JT/JDP",
+    "customerName": "Jaya Traders, Jagdalpur",
+    "mobileNumber": 12345,
+    "town": "Jagdalpur",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "JVR/GNP",
+    "customerName": "Juvvala Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.Kittayya",
+    "customerName": "Kittayya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.Koti/NDD",
+    "customerName": "Konathala Koteswara Rao",
+    "mobileNumber": 8555960644,
+    "town": "Nidadavole",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.Koti/NDD",
+    "customerName": "Rama Krishna",
+    "mobileNumber": 8555960644,
+    "town": "Nidadavole",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.Koti/NDD",
+    "customerName": "Koti",
+    "mobileNumber": 8555960644,
+    "town": "Nidadavole",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.KRISHNA",
+    "customerName": "Krishna",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.Nancharayya",
+    "customerName": "Nancharayya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.RAMJI/RJY",
+    "customerName": "K.Ramjee",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.Ravi/Kothapet",
+    "customerName": "Ravi",
+    "mobileNumber": 9912122320,
+    "town": "Kothapet",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.Ravi/Kothapet",
+    "customerName": "Bogatta Chittibabu",
+    "mobileNumber": 12345,
+    "town": "Kothapet",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "K.Ravi/Kothapet",
+    "customerName": "K. Ravi",
+    "mobileNumber": 7672044050,
+    "town": "Kothapet",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KA/Attili",
+    "customerName": "Anjaneyulu",
+    "mobileNumber": 12345,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KA/PRR",
+    "customerName": "Kotla Appa Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KA/PRR",
+    "customerName": "Kotla Apparao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KA/TPG",
+    "customerName": "Kollati Adhinarayana",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KAR/BVRM",
+    "customerName": "Kondeti Appa Rao",
+    "mobileNumber": 9052233408,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KAR/BVRM",
+    "customerName": "Kranthi Kumar",
+    "mobileNumber": 9052233408,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KB/TPG",
+    "customerName": "KB",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KCT/RJY",
+    "customerName": "V.Sridhar",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KH",
+    "customerName": "Kesireddi Hari Babu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KH",
+    "customerName": "Kesireddy Haribabu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KH/PRR",
+    "customerName": "Sode Ranga Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KH/VJA",
+    "customerName": "Kovvasu Ramudu",
+    "mobileNumber": 12345,
+    "town": "Vijayawada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KKR/TPG",
+    "customerName": "Karthikeya Reddy Traders",
+    "mobileNumber": 7093056729,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KKR/TPG",
+    "customerName": "Y. Satya Narayana",
+    "mobileNumber": 7093056729,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KLGS",
+    "customerName": "Kalyana Lakshmi General Stores",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KMR",
+    "customerName": "Mahesa Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KN",
+    "customerName": "Naidu Traders/Jagdalpur",
+    "mobileNumber": 7036254999,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KN",
+    "customerName": "Ganesh",
+    "mobileNumber": 7337277993,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KN",
+    "customerName": "Manikanta",
+    "mobileNumber": 7036254999,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KN",
+    "customerName": "KN Traders",
+    "mobileNumber": 7036254999,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KN",
+    "customerName": "Kakarla Venkateswara Rao",
+    "mobileNumber": 9494705034,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KN Foods",
+    "customerName": "Ganesh",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KN Foods",
+    "customerName": "KN Foods",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KNB",
+    "customerName": "Maniikanta",
+    "mobileNumber": 9493914599,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KNB",
+    "customerName": "Manikanta",
+    "mobileNumber": 9493914599,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KNB",
+    "customerName": "Krishna",
+    "mobileNumber": 9493914599,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KNB",
+    "customerName": "Yemireddy Narasimha Reddy",
+    "mobileNumber": 9493914599,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KNB",
+    "customerName": "KN Chilles",
+    "mobileNumber": 9493914599,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KNB",
+    "customerName": "Y. Satya Narayana",
+    "mobileNumber": 9493914599,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KNR/DMR",
+    "customerName": "K.Nageswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KNR/PRR",
+    "customerName": "Kotla Narsimha Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KNR/TPG",
+    "customerName": "Kandula Nageswara Rao",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KP/PKL",
+    "customerName": "Kesireddy Prasadu",
+    "mobileNumber": 9948259679,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KP/PKL",
+    "customerName": "Kesireddy Srinivasu",
+    "mobileNumber": 9948259679,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KP/PRR",
+    "customerName": "K.Pandu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KPM/Murali",
+    "customerName": "Konala Prasad/ Mallipudi",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KR/BVRM",
+    "customerName": "Kotikalapudi Ravi Kumar",
+    "mobileNumber": 8019916076,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KRB/Bhagavan",
+    "customerName": "Bhagavan",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KRB/PRR",
+    "customerName": "Kancharla Narendra",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KRC/TPG",
+    "customerName": "Kalyana Rama Chandra Rao",
+    "mobileNumber": 9949895334,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KRK/NDD",
+    "customerName": "Kora Rama Krishna",
+    "mobileNumber": 12345,
+    "town": "Nidadavole",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KRK/NDD",
+    "customerName": "Kora Ramakrishna",
+    "mobileNumber": 12345,
+    "town": "Nidadavole",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KRK/NDD",
+    "customerName": "K.Rama Kkrishna",
+    "mobileNumber": 12345,
+    "town": "Nidadavole",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KRK/NDD",
+    "customerName": "Kora Babi",
+    "mobileNumber": 12345,
+    "town": "Nidadavole",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KS/Attili",
+    "customerName": "Kakulapati Srinu",
+    "mobileNumber": 12345,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KS/RJY",
+    "customerName": "Karumuuri Sridhar",
+    "mobileNumber": 9849793144,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSK/Relangi",
+    "customerName": "Kothapalli Siva Kumar",
+    "mobileNumber": 12345,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSM",
+    "customerName": "Kurapati Subrahmanyam",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSR/Relangi",
+    "customerName": "Kasani Srinivasa Rao",
+    "mobileNumber": 12345,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSR/Sattupalli",
+    "customerName": "Kancharla Samba Siva Rao",
+    "mobileNumber": 12345,
+    "town": "Sattupalli",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSR/TPG",
+    "customerName": "C. Sanyasi Naidu",
+    "mobileNumber": 9949086555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSR/TPG",
+    "customerName": "Ramisetti Pothu Raju",
+    "mobileNumber": 9949086555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSR/TPG",
+    "customerName": "Veerayya",
+    "mobileNumber": 9949086555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSR/TPG",
+    "customerName": "Surya Kiran",
+    "mobileNumber": 9949086555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSR/TPG",
+    "customerName": "Sri Lakshmi Traders",
+    "mobileNumber": 9949086555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSR/TPG",
+    "customerName": "Y.Surya Kiran",
+    "mobileNumber": 9949086555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KSRCM/K.Kota",
+    "customerName": "Kantakala Sri Chandra Murthy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KV/TNK",
+    "customerName": "Koppisetti Visweswara Rao",
+    "mobileNumber": 12345,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KVM/PRR",
+    "customerName": "Kotla Venkata Muthyam",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KVR/BVRM",
+    "customerName": "Karumuri Prakasa Rao",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KVR/Penugonda",
+    "customerName": "Kambala Abbulu",
+    "mobileNumber": 7660886556,
+    "town": "Penugonda",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KVR/Penugonda",
+    "customerName": "Kambala Naga Venkata Rama Naidu",
+    "mobileNumber": 7660886556,
+    "town": "Penugonda",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KVR/Penugonda",
+    "customerName": "Kambala Venkateswara Rao",
+    "mobileNumber": 7660886556,
+    "town": "Penugonda",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KVR/TPG",
+    "customerName": "Venkata Narayana",
+    "mobileNumber": 9440374365,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "KVS/KKD",
+    "customerName": "K.V.Satyanarayana",
+    "mobileNumber": 12345,
+    "town": "Kakinada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "LG/Palivela",
+    "customerName": "Lakshmi Ganapathi Traders",
+    "mobileNumber": 12345,
+    "town": "Palivela",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "LNT",
+    "customerName": "Moduga Subba Rao",
+    "mobileNumber": 9491172117,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "LNT",
+    "customerName": "Lakshmi Narayana Traders",
+    "mobileNumber": 9491172117,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "LS/PRR",
+    "customerName": "Lingolu Satya Narayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "LS/TPG",
+    "customerName": "Lakshmi Sai",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "M.Ramesh",
+    "customerName": "Lakshmaiah",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "M.Ravi/GVD",
+    "customerName": "Ravi",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "M.SU/RJY",
+    "customerName": "Mandavalli Suryanarayana",
+    "mobileNumber": 9949268623,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "M.SU/RJY",
+    "customerName": "Mandavalli Subrahamanyam",
+    "mobileNumber": 9949268623,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "M.SU/RJY",
+    "customerName": "Mandavalli Krishnaveni",
+    "mobileNumber": 9949268623,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MBR/RJY",
+    "customerName": "Maripi Bhaskar Rao",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MCK/Yanam",
+    "customerName": "Magapu Chandra Sekhar",
+    "mobileNumber": 12345,
+    "town": "Yanam",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MCVN/PRR",
+    "customerName": "Muthyala China Venkanna",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MD/PRR",
+    "customerName": "Mandapati Durga Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MGR",
+    "customerName": "Ganga Raju",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MLR/CKV",
+    "customerName": "Chilukuri Venkanna",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MLTC",
+    "customerName": "Pothineedi Nani",
+    "mobileNumber": 9849734299,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MLTC",
+    "customerName": "Nani",
+    "mobileNumber": 9849734299,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MLTC",
+    "customerName": "Maha Lakshmi Tamarind Company",
+    "mobileNumber": 9849734299,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MLTC",
+    "customerName": "Shadnagar Raju",
+    "mobileNumber": 7416616637,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MMR/BVRM",
+    "customerName": "Medidi Manga Raju",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MNR/TNK",
+    "customerName": "M.Nageswara Rao",
+    "mobileNumber": 12345,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MR/AMP",
+    "customerName": "Medida Rama Rao",
+    "mobileNumber": 9441073231,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MR/AMP",
+    "customerName": "Sri Rama Krishnanjaneya Traders",
+    "mobileNumber": 9441073231,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MR/AMP",
+    "customerName": "Veera Babu",
+    "mobileNumber": 9441073231,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MR/AMP",
+    "customerName": "Sri Ganesh Traders",
+    "mobileNumber": 9441073231,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MR/AMP",
+    "customerName": "Sri Kanaka Durga Chillies & General Merchants",
+    "mobileNumber": 9441073231,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MR/AMP",
+    "customerName": "Sri Ramanjaneya Traders",
+    "mobileNumber": 9441073231,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MR/Ramesh",
+    "customerName": "M.Ramesh",
+    "mobileNumber": 7386044425,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MR/TPG",
+    "customerName": "Naga Raju",
+    "mobileNumber": 9391813555,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MS",
+    "customerName": "M.Srinu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MSK",
+    "customerName": "MSK",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MSN/Relangi",
+    "customerName": "Mypala Suryanarayana",
+    "mobileNumber": 9703914888,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MSN/Thatipaka",
+    "customerName": "Maddala Satya Narayana",
+    "mobileNumber": 9640642954,
+    "town": "Thatipaka",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MSN/Thatipaka",
+    "customerName": "Maddala Satya Prabhas",
+    "mobileNumber": 9640642954,
+    "town": "Thatipaka",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MSR/PRR",
+    "customerName": "Muthyala Srinu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MSR/Relangi",
+    "customerName": "Battina Annavaram",
+    "mobileNumber": 9440711228,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MSR/Relangi",
+    "customerName": "Maddala Srinu",
+    "mobileNumber": 9440711228,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MSR/Relangi",
+    "customerName": "Palagani Adinarayana",
+    "mobileNumber": 9440711228,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MSY/Relangi",
+    "customerName": "Marisetti Sivayya",
+    "mobileNumber": 9440711228,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MT",
+    "customerName": "Manchala Thrimurthulu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "ASP.Prasad",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Devika Kirana",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Kurapati Subrahmanyam",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Koppisetti Visweswara Rao",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Paidi Appa Rao",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Manikanta Trading Company",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Inti Sreenu",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Manchala Thrimurthulu",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Srinu",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Uppala Kasi Viswanadham",
+    "mobileNumber": 89885220089,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "Inti Shanmukha",
+    "mobileNumber": 9440180052,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MTC/Sreenu",
+    "customerName": "M.Ramesh",
+    "mobileNumber": 7386044425,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MVN/PRR",
+    "customerName": "Molu Venkata Ramana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MVR/PKL",
+    "customerName": "Maddala Ramu",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "MVR/RJY",
+    "customerName": "Mavuri Veera Raju",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Mypala",
+    "customerName": "Mypala Siva Rama Krishna",
+    "mobileNumber": 9441067333,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Mypala",
+    "customerName": "Mypala Naga Traders",
+    "mobileNumber": 9441067333,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NA/Duvva",
+    "customerName": "Neelam adi Narayana",
+    "mobileNumber": 12345,
+    "town": "Duvva",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Nani/Bandar",
+    "customerName": "Nani",
+    "mobileNumber": 12345,
+    "town": "Bandaru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NHT/Bhadra",
+    "customerName": "Bhadra",
+    "mobileNumber": 9676308182,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NHT/Bhadra",
+    "customerName": "Naga Hanuma Traders",
+    "mobileNumber": 9676308182,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NHT/Bhadra",
+    "customerName": "Gandam Sathish",
+    "mobileNumber": 9676308182,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NP/RVP",
+    "customerName": "Nallam Rama Krishna",
+    "mobileNumber": 9441046002,
+    "town": "Ravulapalem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NP/RVP",
+    "customerName": "Nallam Pallayya",
+    "mobileNumber": 9441046002,
+    "town": "Ravulapalem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NPR/PRR",
+    "customerName": "Nalluri Pulla Rao",
+    "mobileNumber": 8688513383,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NR/Attili",
+    "customerName": "Nandhyala Reddamma",
+    "mobileNumber": 12345,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NR/TPG",
+    "customerName": "Kunkatla Satya Naga Raju",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NRB/JRG",
+    "customerName": "Nakka Rambabu",
+    "mobileNumber": 9848477974,
+    "town": "Jangareddigudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NRC/PRR",
+    "customerName": "Nalla Ramachandra Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NRK/Duvva",
+    "customerName": "Neelam Rama Krishna",
+    "mobileNumber": 12345,
+    "town": "Duvva",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NSK/K.Kota",
+    "customerName": "Nalluri Sunil Kumar",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NSN/Velpur",
+    "customerName": "Nunna Satya Narayana",
+    "mobileNumber": 12345,
+    "town": "Velpur",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NSS/PKL",
+    "customerName": "Pasupuleti Chanti Babu",
+    "mobileNumber": 9849119829,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NSS/PKL",
+    "customerName": "Singloori Venkateswara Rao",
+    "mobileNumber": 9849119829,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NSS/RJY",
+    "customerName": "Pasupuleti Chanti Babu",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NSS/RJY",
+    "customerName": "Jagarlamudi Anjana Devi",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NSS/RJY",
+    "customerName": "Manepalli Chiranjeevi",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NT/JDP",
+    "customerName": "Naidu Traders/Jagdalpur",
+    "mobileNumber": 12345,
+    "town": "Jagdalpur",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NV/K.Gudem",
+    "customerName": "Nakka Venkateswara Rao",
+    "mobileNumber": 9581983699,
+    "town": "Koyyalagudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "NVR/Attili",
+    "customerName": "Narukula Veera Raghavulu",
+    "mobileNumber": 9441390519,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Yadlapalli Pothu Raju",
+    "mobileNumber": 94407038169,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Y.Sreenu",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Akki Bulliyya",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Palivela Dharma Rao",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Badiganti Satyanarayana",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Puthineedi Srinivasa Rao",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "M.Subba Rao",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Munigalla Narasimha Rao",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Munigala Narasimha Rao",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Chitti Babu",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OME/YPR",
+    "customerName": "Sri Mahalakshmi Kirana& General Stores",
+    "mobileNumber": 9441390519,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OMY",
+    "customerName": "Osuri Mariyya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "OMY",
+    "customerName": "Chadalavada Vijaya Mohana Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "P.Nani/PKL",
+    "customerName": "Pothineedi Nani",
+    "mobileNumber": 9948843357,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "P.Nani/PKL",
+    "customerName": "Bhavani Enterpises",
+    "mobileNumber": 9948843357,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "P.Nani/PKL",
+    "customerName": "Bhavani Enterprises",
+    "mobileNumber": 9948843357,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "P.Prasad",
+    "customerName": "Puppala Prasad",
+    "mobileNumber": 9440364818,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "P.Srinu/PRR",
+    "customerName": "P.Srinu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "P.Vasu",
+    "customerName": "Manvitha Generals",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "P.Vasu",
+    "customerName": "Puppala Vasu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PA",
+    "customerName": "Paidi Appa Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PAR/TPG",
+    "customerName": "Padala Appi Reddy",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PAR/TPG",
+    "customerName": "Mahalakshmi Aparala Store",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PCR/RJY",
+    "customerName": "P.Chinna Rao",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PG/Duvva",
+    "customerName": "Pindi Govind",
+    "mobileNumber": 12345,
+    "town": "Duvva",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PGN/Duvva",
+    "customerName": "Pendyala Gangadhara Narasimha",
+    "mobileNumber": 12345,
+    "town": "Duvva",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Phani/KKD",
+    "customerName": "Phani General Stores",
+    "mobileNumber": 12345,
+    "town": "Kakinada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PHS/TPG",
+    "customerName": "Pogireddy Hemanth Sai",
+    "mobileNumber": 9440778238,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PKS/TPG",
+    "customerName": "Pasupuleti Narasimha Rao",
+    "mobileNumber": 7993553757,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PNR/PRR",
+    "customerName": "Pottula Narayana Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Pabolu Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Pasupuleti Sai",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Lingolu Satya Narayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Kola Krishnarjuna Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "K.Pandu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Kancharla Narendra",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Veera Swamy/SKR",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Karpurapu Gopalakrishna",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Danaboyina Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Kotla Appa Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Mandapati Durga Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR",
+    "customerName": "Nalla Ramachandra Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PRR/MLR",
+    "customerName": "Mandapati Laxmana Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PS/Duvva",
+    "customerName": "Pindi Subba Rao",
+    "mobileNumber": 12345,
+    "town": "Duvva",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PS/Duvva",
+    "customerName": "Pindi Subba Rao/VCC",
+    "mobileNumber": 12345,
+    "town": "Duvva",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PSD/Relangi",
+    "customerName": "Pasupuleti Sahadevudu",
+    "mobileNumber": 12345,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PSR/PRR",
+    "customerName": "Pothula Srinu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PSS/Babi",
+    "customerName": "Babi",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PSS/TPG",
+    "customerName": "Satti Babu",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PSS/TPG",
+    "customerName": "Mani Sai Traders",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PSY/Relangi",
+    "customerName": "Ramu",
+    "mobileNumber": 12345,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PSY/Relangi",
+    "customerName": "Paruchuri Surya Rao",
+    "mobileNumber": 12345,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PT/AMP",
+    "customerName": "Tummalapati Pullayya",
+    "mobileNumber": 12345,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PTR/SDE",
+    "customerName": "Tavita Raju",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PVR/PRR",
+    "customerName": "P. V.Raju",
+    "mobileNumber": 8639862280,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "PY/Attili",
+    "customerName": "Pindi Yedukondalu",
+    "mobileNumber": 12345,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Raghava Traders",
+    "customerName": "P.Satya Narayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Ravi/KKD",
+    "customerName": "Ravi General Stores",
+    "mobileNumber": 7989882869,
+    "town": "Kakinada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Revathi",
+    "customerName": "Revathi",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RH",
+    "customerName": "Ramayanam Hanumantha Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RK/JDP",
+    "customerName": "RK, Jagdalpur",
+    "mobileNumber": 12345,
+    "town": "Jagdalpur",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RK/Kolamuru",
+    "customerName": "P.Radha Krishna",
+    "mobileNumber": 12345,
+    "town": "Kolamarru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RNR/Challapalli",
+    "customerName": "Reddi Narasimha Rao",
+    "mobileNumber": 12345,
+    "town": "Challapalli",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RPR/KSR",
+    "customerName": "Ramisetti Pothu Raju",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RR/Jaya Ram",
+    "customerName": "Jaya Ram",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RR/Jaya Ram",
+    "customerName": "Ch.Lakshmi",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RR/Jaya Ram",
+    "customerName": "Janardhan",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RR/PRR",
+    "customerName": "Janaki Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RR/PRR",
+    "customerName": "Vasam Ananda Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RR/TPGM",
+    "customerName": "Jaya Ram",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RS/MVM",
+    "customerName": "Ramayanam Subba Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RS/Velpur",
+    "customerName": "Reddy Savithri",
+    "mobileNumber": 12345,
+    "town": "Velpur",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RSR/MLTC",
+    "customerName": "R.Sreenu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RSR/MLTC",
+    "customerName": "P.Suresh",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RVR/Attili",
+    "customerName": "Rachapothu Venkata Ramana",
+    "mobileNumber": 12345,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "RVS/Ramu",
+    "customerName": "Ramu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SB/AMP",
+    "customerName": "Arigela Jagapathi",
+    "mobileNumber": 12345,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SBR/H.Junction",
+    "customerName": "Sammetla Bhaskara Rao",
+    "mobileNumber": 12345,
+    "town": "Hanuman Junction",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SBT/PKL",
+    "customerName": "Sri Balaji Traders",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SCC",
+    "customerName": "SCC",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SCC/RJY",
+    "customerName": "Swarajya Chillies",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SCC/Santhi",
+    "customerName": "Kode Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SCC/SanthiI",
+    "customerName": "Kode Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SDEP/TPG",
+    "customerName": "Sri Durga Enterprises",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SGR",
+    "customerName": "Sunkara Ganga Raju",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SGT/Kanuru",
+    "customerName": "Nageswara Rao",
+    "mobileNumber": 12345,
+    "town": "Kanuru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SGT/Kanuru",
+    "customerName": "Sri Venkateswara General Stores",
+    "mobileNumber": 12345,
+    "town": "Kanuru",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SHAD NAGAR",
+    "customerName": "Shadnagar Raju",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKC/Chinna",
+    "customerName": "Sasanala Chinna",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKK/PKL",
+    "customerName": "Krishna",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKK/PKL",
+    "customerName": "Srinivasa Khayada Kottu",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKK/PKL",
+    "customerName": "Panja Srinu",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKK/PKL",
+    "customerName": "Panja Jaya Ram",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKK/PKL",
+    "customerName": "Ganta Yesu",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKK/PKL",
+    "customerName": "Panja Sreenu",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKK/PKL",
+    "customerName": "Sula Vishnu Murthy",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKK/PKL",
+    "customerName": "Bandaru Pedakapu",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKK/PKL",
+    "customerName": "Bugga Sekhar",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKR/PRR",
+    "customerName": "Veera Swamy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SKT/TPG",
+    "customerName": "Sai Krishna Traders",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SLG/Malleswaram",
+    "customerName": "Sanku Jaganmohana Rao",
+    "mobileNumber": 9866068753,
+    "town": "Malleswaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SLG/TPG",
+    "customerName": "Ananthala Ramesh",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SLG/TPG",
+    "customerName": "Y.Subba Rao",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SLT/Duvva",
+    "customerName": "Sri Lakshmi Traders",
+    "mobileNumber": 12345,
+    "town": "Duvva",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SM",
+    "customerName": "Maruthiram Traders",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SMGS/JRG",
+    "customerName": "Satya Maruthi General Stores",
+    "mobileNumber": 12345,
+    "town": "Jangareddigudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SMK/Bainapalem",
+    "customerName": "Sri Mahalakshmi Kirana& General Stores",
+    "mobileNumber": 12345,
+    "town": "Bainapalem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SMKG/KKD",
+    "customerName": "Sri Maheswari Kirana & General Stores",
+    "mobileNumber": 12345,
+    "town": "Kakinada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SNK/TPG",
+    "customerName": "Satya Nnarayana Kirana",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SNM",
+    "customerName": "Singamsetti Narasimha Murthy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SNT/PKL",
+    "customerName": "Bujji",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SNT/PKL",
+    "customerName": "Vilasarapu Koteswara Rao",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SNT/PKL",
+    "customerName": "Vilasarapu Koteswara Ra",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SNT/PKL",
+    "customerName": "Sri Naga Jyothi Chillies Traders",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SNT/PKL",
+    "customerName": "Yekkali Srinivasa Rao",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SRI/TPG",
+    "customerName": "Mangina Prasad",
+    "mobileNumber": 9948794474,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SRK/GVR",
+    "customerName": "Krishna",
+    "mobileNumber": 9948527555,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SRT/RajaRao",
+    "customerName": "Karibandi Satyanarayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SRT/RajaRao",
+    "customerName": "Bolle Mohana Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SRT/RajaRao",
+    "customerName": "Bolle  Satyanarayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SS",
+    "customerName": "SRI SAI",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SSB",
+    "customerName": "Pasupuleti Sivayya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SSC/RJY",
+    "customerName": "Maddala Srinivasa Rao",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SSC/RJY",
+    "customerName": "Swarajya Chillies Company",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SSCT/RJY",
+    "customerName": "Bheemeswara Rao",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SSN/KKD",
+    "customerName": "S.Satya Narayana",
+    "mobileNumber": 9396899536,
+    "town": "Kakinada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SSPG/H.Junction",
+    "customerName": "Sri Sai Pawan General Stores",
+    "mobileNumber": 12345,
+    "town": "Hanuman Junction",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SST/BVRM",
+    "customerName": "Sri Saravana Stores",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ST/Hindupuram",
+    "customerName": "Shabana Traders",
+    "mobileNumber": 12345,
+    "town": "Hindupuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "ST/TPG",
+    "customerName": "Sahasra Traders",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Surya Products",
+    "customerName": "Surya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SVNT/BVRM",
+    "customerName": "Siva Venkata Naga Traders",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SVR/TPG",
+    "customerName": "Yadlapalli Ramana",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SVS/Nagayya",
+    "customerName": "S.Nagayya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SVT/AMP",
+    "customerName": "Arigala Bhushanam",
+    "mobileNumber": 12345,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SVT/BVRM",
+    "customerName": "S.Chinna",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SVT/Samba",
+    "customerName": "Samba Murthy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "SVT/TPG",
+    "customerName": "Sri Venkateswara Traders",
+    "mobileNumber": 9948794474,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "T.Kasi",
+    "customerName": "T.Kasi",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "TA/KKD",
+    "customerName": "Anil Kumar",
+    "mobileNumber": 12345,
+    "town": "Kakinada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "TGK/PRR",
+    "customerName": "T.Gopala Krishna",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "TLN/Peravali",
+    "customerName": "Lakshmi Narayana",
+    "mobileNumber": 12345,
+    "town": "Peravali",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "TP/AMP",
+    "customerName": "Tummalapati Pullayya",
+    "mobileNumber": 12345,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "TU/ATL",
+    "customerName": "Talari Ugandhar",
+    "mobileNumber": 12345,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "TU/PRR",
+    "customerName": "Talari Ugandhar",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "TV",
+    "customerName": "Thotapalli Vijaya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "TVR/RJY",
+    "customerName": "Thota Venkateswara Rao",
+    "mobileNumber": 12345,
+    "town": "Rajahmundry",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "UR/PRR",
+    "customerName": "Uppala Rambabu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Usha/TPG",
+    "customerName": "Usha General Stores",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "USK",
+    "customerName": "Reddi Surya Kumari",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "USK/TPG",
+    "customerName": "Polina Lakshmi Parvathi",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Vasavi/TNK",
+    "customerName": "Sri Vasavi Super Market",
+    "mobileNumber": 9491142824,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Vasavi/TNK",
+    "customerName": "Vasavi",
+    "mobileNumber": 9491142824,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Vasavi/TNK",
+    "customerName": "Vasavi Dry Fruits",
+    "mobileNumber": 9491142824,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "Vasavi/TNK",
+    "customerName": "Vasavi Super Market",
+    "mobileNumber": 9491142824,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VBR/AMP",
+    "customerName": "Arigala Veerabhadra Rao",
+    "mobileNumber": 12345,
+    "town": "Amalapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VCC/RVS",
+    "customerName": "Venkateswara Chillies Company",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VDT/PKL",
+    "customerName": "Vijaya Durga Traders",
+    "mobileNumber": 12345,
+    "town": "Palakollu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VI",
+    "customerName": "Valavai Indrayya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VI",
+    "customerName": "Pasupuleti Sai",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VK/VJA",
+    "customerName": "N.Venkata Krishna",
+    "mobileNumber": 12345,
+    "town": "Vijayawada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VK/VJA",
+    "customerName": "Venkata Krishna",
+    "mobileNumber": 12345,
+    "town": "Vijayawada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VKR/PRR",
+    "customerName": "Vasam Krishnarjuna Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VM",
+    "customerName": "Vosuri Mariyya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VNR/Babi",
+    "customerName": "V.V.V.Satyanarayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VNR/TPG",
+    "customerName": "Velagala Narasimha Rao",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VNT/GDV",
+    "customerName": "K.Subba Rao",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VPR/Bantumilli",
+    "customerName": "Veeramalla Pandu Ranga Rao",
+    "mobileNumber": 12345,
+    "town": "Bantumilli",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VR/TPG",
+    "customerName": "Sri Vaibhav Ram General Marchants",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VR/TPG",
+    "customerName": "Gandrothu Naveen",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VR/TPG",
+    "customerName": "G.Shyam",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VR/TPG",
+    "customerName": "Janardhan",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VSN/KKD",
+    "customerName": "V.S.N.Murthy",
+    "mobileNumber": 12345,
+    "town": "Kakinada",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VSN/Thatipaka",
+    "customerName": "Vardhineedi Satya Narayana",
+    "mobileNumber": 12345,
+    "town": "Thatipaka",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VSR/GNT",
+    "customerName": "Vakkalagadda Subba Rao",
+    "mobileNumber": 12345,
+    "town": "Gunturu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VT/BVRM",
+    "customerName": "Vinayaka Traders",
+    "mobileNumber": 12345,
+    "town": "Bhimavaram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VTC",
+    "customerName": "Vinayaka Traders",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VV/TPG",
+    "customerName": "Veera Venkayya",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "VVS/Bandar",
+    "customerName": "Veeramallu Veera Swamy",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YB/TPG",
+    "customerName": "Y.Babulu",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YB/TPG",
+    "customerName": "Sri Venkateswara Trading Company",
+    "mobileNumber": 12345,
+    "town": "Tadepalligudem",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YBK/NSP",
+    "customerName": "Yallamki Bala Krishna",
+    "mobileNumber": 12345,
+    "town": "Narasapuram",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YGT/Veera Babu",
+    "customerName": "Veera Babu",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YS/AKVD",
+    "customerName": "Y.Suresh",
+    "mobileNumber": 12345,
+    "town": "Akividu",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YS/Attili",
+    "customerName": "Yadlapalli Swamy",
+    "mobileNumber": 12345,
+    "town": "Attili",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YSN/NSN",
+    "customerName": "N.Satyanarayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YSN/NSN",
+    "customerName": "N.Satya Narayana",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YSR/PRR",
+    "customerName": "Karpurapu Gopalakrishna",
+    "mobileNumber": 12345,
+    "town": "Unknown",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YVR/TNK",
+    "customerName": "Y.Veera Narayana",
+    "mobileNumber": 12345,
+    "town": "Tanuku",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "customerCode": "YVSN/RELANGI",
+    "customerName": "Y. Satya Narayana",
+    "mobileNumber": 12345,
+    "town": "Relangi",
+    "creationDate": "2023-04-17",
+    "lastModifiedDate": "2023-04-17",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  }
+]

@@ -39,7 +39,7 @@
 
 
 <script lang="js">
-import { getLots } from "@/services/LotService";
+import { getPlatformLots } from "@/services/lodgement.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 
@@ -77,7 +77,7 @@ export default {
         };
     },
     async created() {
-        getLots().then(response => {
+        getPlatformLots().then(response => {
             this.items = response;
             this.totalRows = this.items.length;
         }).catch(error => {

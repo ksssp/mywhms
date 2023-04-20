@@ -1,0 +1,263 @@
+[
+  {
+    "employeeCode": "SSCS01",
+    "employeeFullName": "M.Nageswara Rao",
+    "designation": "Office Manager",
+    "monthlySalary": 15000,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS02",
+    "employeeFullName": "R.G.Prasad",
+    "designation": "Senior Plant Operator",
+    "monthlySalary": 10000,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS03",
+    "employeeFullName": "V.S.V.Prasad",
+    "designation": "Computer Operator",
+    "monthlySalary": 7500,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS04",
+    "employeeFullName": "Ch.V.N.Dhana Lakshmi",
+    "designation": "Computer Operator",
+    "monthlySalary": 5000,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS05",
+    "employeeFullName": "Satyanarayana",
+    "designation": "Store Maintenance Clerk",
+    "monthlySalary": 8000,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS06",
+    "employeeFullName": "Subrahmanyam",
+    "designation": "Store Maintenance Clerk",
+    "monthlySalary": 7500,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS07",
+    "employeeFullName": "K.Chakradhara Rao",
+    "designation": "Plant Operator",
+    "monthlySalary": 8500,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS08",
+    "employeeFullName": "T.Sarveswara Rao",
+    "designation": "Plant Operator",
+    "monthlySalary": 8500,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS09",
+    "employeeFullName": "SweeperLakshmi",
+    "designation": "Sweeper",
+    "monthlySalary": 2500,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS10",
+    "employeeFullName": "MD & Son",
+    "designation": "MD & Son",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS11",
+    "employeeFullName": "Balaji",
+    "designation": "Data Entry Operator",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS12",
+    "employeeFullName": "SweeperVenkayamma",
+    "designation": "Sweeper",
+    "monthlySalary": 3000,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS13",
+    "employeeFullName": "Mohan",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS14",
+    "employeeFullName": "Kittayya",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS15",
+    "employeeFullName": "Jayababu",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS16",
+    "employeeFullName": "Kasi",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS17",
+    "employeeFullName": "NagaRaju",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS18",
+    "employeeFullName": "Paddayya",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS19",
+    "employeeFullName": "Gopi",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS20",
+    "employeeFullName": "Jattu Hamali",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS21",
+    "employeeFullName": "Sitaramayya",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS22",
+    "employeeFullName": "Subbanna",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS23",
+    "employeeFullName": "Peddodu",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS24",
+    "employeeFullName": "K.Eswar",
+    "designation": "Store Maintenance Clerk",
+    "monthlySalary": 7500,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS25",
+    "employeeFullName": "Konda",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS26",
+    "employeeFullName": "Bujji",
+    "designation": "Hamalies",
+    "monthlySalary": 0,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS27",
+    "employeeFullName": "WatchmanKannyya",
+    "designation": "Watchman",
+    "monthlySalary": 5000,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS28",
+    "employeeFullName": "WatchmanSubba Rao",
+    "designation": "Watchman",
+    "monthlySalary": 4500,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeCode": "SSCS29",
+    "employeeFullName": "B. Prasad",
+    "designation": "Store Maintenance Clerk",
+    "monthlySalary": 7500,
+    "creationDate": "2023-14-03",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  }
+]

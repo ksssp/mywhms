@@ -122,7 +122,7 @@
 
 <script>
 
-import { getLotById, deleteLot } from "@/services/LotService";
+import { getLotById, deleteLot } from "@/services/lodgement.service";
 
 export default {
     name: "PlatformLotDetails",

@@ -3,10 +3,9 @@ const mongoose = require('mongoose');
 var SchemaTypes = mongoose.Schema.Types;
 const lodgementSchema = new mongoose.Schema({
         lotNumber: String,
-        trademark: {
-            trademarkId: String,
-            trademarkName: String,
-            customerName: String
+        customer: {
+            customerId: String,
+            customerDisplayName: String
         },
         product: {
             productId: String,
@@ -16,56 +15,67 @@ const lodgementSchema = new mongoose.Schema({
         numBagsKataCoolie: { type: Number, min: 0 },
         lodgementDate: Date,
         isPlatformLot: Boolean,
-        isCarryForwardLot: Boolean,
         locationCodes: String,
         lodgementNotes: String,
         transport: {
             vehicleNumber: String,
             driverName: String,
         },
-        indicativeCharges: {
-            hamaliCharges: SchemaTypes.Decimal128,
-            kataCoolieCharges: SchemaTypes.Decimal128,
-            platformCoolieCharges: SchemaTypes.Decimal128,
-            mamulluCharges: SchemaTypes.Decimal128,
-            insuranceCharges: SchemaTypes.Decimal128
+        chargesPerBag: {
+            hamaliPerBag: { type: Number, min: 0 },
+            kataCooliePerBag: { type: Number, min: 0 },
+            platformCooliePerBag: { type: Number, min: 0 },
+            mamulluPerBag: { type: Number, min: 0 },
+            insurancePerBag: { type: Number, min: 0 }
         },
         chargesPaid: {
-            hamaliCharges: SchemaTypes.Decimal128,
-            kataCoolieCharges: SchemaTypes.Decimal128,
-            platformCoolieCharges: SchemaTypes.Decimal128,
-            mamulluCharges: SchemaTypes.Decimal128,
-            transportCharges: SchemaTypes.Decimal128,
-            totalChargesPaid: SchemaTypes.Decimal128,
+            hamaliCharges: { type: Number, min: 0 },
+            kataCoolieCharges: { type: Number, min: 0 },
+            platformCoolieCharges: { type: Number, min: 0 },
+            mamulluCharges: { type: Number, min: 0 },
+            transportCharges: { type: Number, min: 0 },
+            totalChargesPaid: { type: Number, min: 0 },
         },
         chargesReceivable: {
-            hamaliCharges: SchemaTypes.Decimal128,
-            insuranceCharges: SchemaTypes.Decimal128,
-            totalChargesReceivable: SchemaTypes.Decimal128
+            hamaliCharges: { type: Number, min: 0 },
+            insuranceCharges: { type: Number, min: 0 },
+            nonHamaliChargesPaid: { type: Number, min: 0 },
+            totalChargesReceivable: { type: Number, min: 0 }
         },
         rents: {
             rentalYear: Number,
             rentalMode: String, 
-            indicativeRent: SchemaTypes.Decimal128,
+            monthlyRentPerBag: { type: Number, min: 0 },
+            yearlyRentPerBag: { type: Number, min: 0 },
             rentSettled: Boolean
         },
         numBagsBalance: { type: Number, min: 0 },
         stockRelease: {
             numDeliveries: Number,
+            numBagsDelivered: Number,
             lastDeliveryDate: Date,
-            totalChargesPaid: SchemaTypes.Decimal128,
-            totalRentReceivable: SchemaTypes.Decimal128,
+            totalChargesPaid: { type: Number, min: 0 },
+            totalChargesReceivable: { type: Number, min: 0 },
+            totalRentReceivable: { type: Number, min: 0 },
             deliveries: [ {
                 deliveryId: String,
                 deliveryDate: Date,
                 numBagsDelivered: { type: Number, min: 1 },
                 numBagsBalance: { type: Number, min: 0 },
                 numMonthsLodged: Number,
-                rentReceivableOnDeliveredBags: SchemaTypes.Decimal128,
-                totalChargesPaid: SchemaTypes.Decimal128
+                rentReceivableOnDeliveredBags: { type: Number, min: 0 },
+                nonHamaliChargesPaid: { type: Number, min: 0 }
             } ]
         },
-        lastModifiedDate: Date
+        lastModifiedDate: Date,
+        carryForward: {
+            hasCarryForwardLot: Boolean,
+            carryForwardLodgementId: String,
+            carryForwardLotNumer: String,
+            isCarryForwardLot: Boolean,
+            originalLodgementId: String,
+            originalLotNumber: String
+        }
     });
 
 const Lodgement = mongoose.model('lodgement', lodgementSchema);

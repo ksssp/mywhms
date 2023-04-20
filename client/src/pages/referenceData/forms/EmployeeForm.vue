@@ -17,7 +17,9 @@
 <script scoped lang="js">
 
 import EmployeeFormSchema from './schemas/EmployeeFormSchema';
-import { createEmployee, updateEmployee } from '@/services/EmployeeService';
+import { createEmployee, updateEmployee } from '@/services/employee.service';
+import { labeledStatement } from '@babel/types';
+import { DateTime } from 'luxon';
 
 export default {
     name: 'EmployeeForm',
@@ -49,11 +51,13 @@ export default {
     methods: {
         submitForm() {
             // submit form data to the backend - entity - Employee
+            let currentDate = DateTime.now().toLocal();
             let employee = {
                 employeeCode: this.formModel.employeeCode,
                 employeeFullName: this.formModel.employeeFullName,
                 designation: this.formModel.designation,
-                monthlySalary: this.formModel.monthlySalary
+                monthlySalary: this.formModel.monthlySalary,
+                lastModifiedDate: currentDate
             };
 
             if(this.submitMode=="update") {
@@ -63,7 +67,9 @@ export default {
                     this.$emit('saved', saveActionStatus);
                 });
             } else if (this.submitMode == "create") {
-                employee.creationDate = Date.now();
+                employee.creationDate = currentDate;
+                employee.activeFrom = currentDate;
+                employee.activeUntil = DateTime.fromFormat('2100-01-01', 'yyyy-MM-dd');
                 createEmployee(employee).then(response => {
                     var savedObject = response;
                     this.$emit('saved', savedObject);

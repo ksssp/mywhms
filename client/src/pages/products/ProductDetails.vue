@@ -40,8 +40,8 @@ import Vue from "vue";
 import SortedTablePlugin from "vue-sorted-table";
 import axios from "axios";
 
-import { getDeliveriesByFilter } from "@/services/DeliveryService";
-import { getLotDetails } from "@/services/LotService";
+import { getDeliveriesByFilter } from "@/services/delivery.service";
+// import { getLotDetails } from "@/services/lodgement.service";
 
 Vue.use(SortedTablePlugin, {
     ascIcon: '<i class="mdi mdi-arrow-down"></i>',
@@ -123,16 +123,16 @@ export default {
     },
     mounted() {
         let loadedlotId = this.$route.params._id;
-        getLotDetails(loadedlotId).then(response => {
-            this.loadedLot = JSON.parse(JSON.stringify(response));
-            let deliveriesFilter = {
-                "lotId": this.loadedLot.lotId
-            };
-            getDeliveriesByFilter(deliveriesFilter).then(response => {
-                this.loadedLotDeliveries = response;
-                this.totalRows = this.loadedLotDeliveries.length
-            });
-        });
+        // getLotDetails(loadedlotId).then(response => {
+        //     this.loadedLot = JSON.parse(JSON.stringify(response));
+        //     let deliveriesFilter = {
+        //         "lotId": this.loadedLot.lotId
+        //     };
+        //     getDeliveriesByFilter(deliveriesFilter).then(response => {
+        //         this.loadedLotDeliveries = response;
+        //         this.totalRows = this.loadedLotDeliveries.length
+        //     });
+        // });
     },
     computed: {
         lotDetails() {

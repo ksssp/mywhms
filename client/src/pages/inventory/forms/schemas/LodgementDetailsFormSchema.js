@@ -89,8 +89,6 @@ export default {
                         multiple: true,
                         clearOnSelect: true,
                         hideSelected: true,
-                        key: "locationId",
-                        label: "locationCode",
                         taggable: true,
                         tagPlaceholder: "tagPlaceholder",
                         onNewTag(newTag, id, options, value) {
@@ -119,7 +117,7 @@ export default {
                     type: 'input',
                     inputType: 'text',
                     label: 'Driver Name',
-                    model: 'driverName',
+                    model: 'transport.driverName',
                     validator: ['string']
                 },
                 {

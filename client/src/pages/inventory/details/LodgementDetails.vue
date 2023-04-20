@@ -178,7 +178,7 @@
 
 <script>
 
-import { getLodgementById, deleteLodgement } from "@/services/LodgementService";
+import { getLodgementById, deleteLodgement } from "@/services/lodgement.service";
 import LodgementDetailsForm from "../forms/LodgementDetailsForm.vue";
 import ChargesForm from "../forms/ChargesForm.vue";
 import DeliveryCreateForm from "../forms/DeliveryCreateForm.vue";

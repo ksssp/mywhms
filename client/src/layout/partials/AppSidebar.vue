@@ -42,8 +42,8 @@
           </b-collapse>
         </li>
         <li class="nav-item" v-on:click="collapseAll">
-          <router-link class="nav-link" to="/Trademarks/">
-            <span class="menu-title">Trademarks</span>
+          <router-link class="nav-link" to="/Customers/">
+            <span class="menu-title">Customers</span>
             <i class="mdi mdi-account-multiple menu-icon"></i>
           </router-link>
         </li>
@@ -85,10 +85,10 @@
           <b-collapse accordion="sidebar-accordion" id="reference-data">
             <ul class="nav flex-column sub-menu">
               <li class="nav-item">
-                <router-link class="nav-link" to="/referenceData/trademarks/">Trademarks</router-link>
+                <router-link class="nav-link" to="/referenceData/customers/">Customers</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/referenceData/productGroups/">Product Groups</router-link>
+                <router-link class="nav-link" to="/referenceData/productCategories/">Product Categories</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/referenceData/products/">Products</router-link>

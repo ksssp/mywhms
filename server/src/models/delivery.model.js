@@ -4,10 +4,9 @@ var SchemaTypes = mongoose.Schema.Types;
 const deliverySchema = new mongoose.Schema({
         lodgementId: String,
         lotNumber: String,
-        trademark: {
-            trademarkId: String,
-            trademarkName: String,
-            customerName: String
+        customer: {
+            customerId: String,
+            customerDisplayName: String,
         },
         product: {
             productId: String,
@@ -26,25 +25,30 @@ const deliverySchema = new mongoose.Schema({
             vehicleNumber: String,
             driverName: String
         },
-        indicativeCharges: {
-            hamaliCharges: SchemaTypes.Decimal128,
-            kataCoolieCharges: SchemaTypes.Decimal128,
-            platformCoolieCharges: SchemaTypes.Decimal128,
-            mamulluCharges: SchemaTypes.Decimal128
+        chargesPerBag: {
+            hamaliPerBag: { type: Number, min: 0 },
+            kataCooliePerBag: { type: Number, min: 0 },
+            platformCooliePerBag: { type: Number, min: 0 },
+            mamulluPerBag: { type: Number, min: 0 },
+            insurancePerBag: { type: Number, min: 0 }
         },
         chargesPaid: {
-            hamaliCharges: SchemaTypes.Decimal128,
-            kataCoolieCharges: SchemaTypes.Decimal128,
-            platformCoolieCharges: SchemaTypes.Decimal128,
-            mamulluCharges: SchemaTypes.Decimal128,
-            transportCharges: SchemaTypes.Decimal128,
-            totalChargesPaid: SchemaTypes.Decimal128
+            hamaliCharges: { type: Number, min: 0 },
+            kataCoolieCharges: { type: Number, min: 0 },
+            platformCoolieCharges: { type: Number, min: 0 },
+            mamulluCharges: { type: Number, min: 0 },
+            transportCharges: { type: Number, min: 0 },
+            totalChargesPaid: { type: Number, min: 0 },
         },
-        rents: {
+        chargesReceivable: {
+            nonHamaliChargesPaid: { type: Number, min: 0 }
+        },
+        rentals: {
             rentalYear: Number,
             rentalMode: String, 
-            indicativeRent: Number,
-            rentReceivableOnDeliveredBags: SchemaTypes.Decimal128
+            monthlyRentPerBag: { type: Number, min: 0 },
+            yearlyRentPerBag: { type: Number, min: 0 },
+            rentReceivableOnDeliveredBags: { type: Number, min: 0 }
         },
         lastModifiedDate: Date
     }, { collection: 'deliveries' });

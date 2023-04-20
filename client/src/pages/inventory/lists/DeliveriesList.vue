@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import { getDeliveries } from "@/services/DeliveryService";
+import { getDeliveries } from "@/services/delivery.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 

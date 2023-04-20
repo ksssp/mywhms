@@ -9,8 +9,8 @@ const port = 5200;
 const app = express();
 
 const locationController = require ( './controllers/location.controller');
-const trademarkController = require ( "./controllers/trademark.controller" );
-const productGroupController = require ( "./controllers/productGroup.controller" );
+const customerController = require ( "./controllers/customer.controller" );
+const productCategoryController = require ( "./controllers/productCategory.controller" );
 const productController = require ( "./controllers/product.controller" );
 const employeeController = require ( "./controllers/employee.controller" );
 const lodgementController = require ( './controllers/lodgement.controller' );
@@ -37,25 +37,25 @@ app.get('/api/referenceData/locations', (req, res) => {
     locationController.getLocations().then(data => res.json(data));
 });
 
-// Routes for referenceData/trademarks
-app.get('/api/referenceData/trademarks', (req, res) => {
-    trademarkController.getTrademarks().then(data => res.json(data));
+// Routes for referenceData/customers
+app.get('/api/referenceData/customers', (req, res) => {
+    customerController.getCustomers().then(data => res.json(data));
 });
 
-app.get('/api/referenceData/trademarks/:id', (req, res) => {
-    trademarkController.getTrademarkById(req.params.id).then(data => res.json(data));
+app.get('/api/referenceData/customers/:id', (req, res) => {
+    customerController.getCustomerById(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/referenceData/trademarks/', (req, res) => {
-    trademarkController.createTrademark(req.body.trademark).then(data => res.json(data));
+app.post('/api/referenceData/customers/', (req, res) => {
+    customerController.createCustomer(req.body.customer).then(data => res.json(data));
 });
 
-app.put('/api/referenceData/trademarks/:id', (req, res) => {
-    trademarkController.updateTrademark(req.params.id, req.body.trademark).then(data => res.json(data));
+app.put('/api/referenceData/customers/:id', (req, res) => {
+    customerController.updateCustomer(req.params.id, req.body.customer).then(data => res.json(data));
 });
 
-app.delete('/api/referenceData/trademarks/:id', (req, res) => {
-    trademarkController.deleteTrademark(req.params.id).then(data => res.json(data));
+app.delete('/api/referenceData/customers/:id', (req, res) => {
+    customerController.deleteCustomer(req.params.id).then(data => res.json(data));
 });
 
 // Routes for referenceData/products
@@ -80,25 +80,25 @@ app.delete('/api/referenceData/products/:id', (req, res) => {
 });
 
 
-// Routes for referenceData/productGroups
-app.get('/api/referenceData/productGroups', (req, res) => {
-    productGroupController.getProductGroups().then(data => res.json(data));
+// Routes for referenceData/productCategories
+app.get('/api/referenceData/productCategories', (req, res) => {
+    productCategoryController.getProductCategories().then(data => res.json(data));
 });
 
-app.get('/api/referenceData/productGroups/:id', (req, res) => {
-    productGroupController.getProductGroupById(req.params.id).then(data => res.json(data));
+app.get('/api/referenceData/productCategories/:id', (req, res) => {
+    productCategoryController.getProductCategoryById(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/referenceData/productGroups/', (req, res) => {
-    productGroupController.createProductGroup(req.body.productGroup).then(data => res.json(data));
+app.post('/api/referenceData/productCategories/', (req, res) => {
+    productCategoryController.createProductCategory(req.body.productCategory).then(data => res.json(data));
 });
 
-app.put('/api/referenceData/productGroups/:id', (req, res) => {
-    productGroupController.updateProductGroup(req.params.id, req.body.productGroup).then(data => res.json(data));
+app.put('/api/referenceData/productCategories/:id', (req, res) => {
+    productCategoryController.updateProductCategory(req.params.id, req.body.productCategory).then(data => res.json(data));
 });
 
-app.delete('/api/referenceData/productGroups/:id', (req, res) => {
-    productGroupController.deleteProductGroup(req.params.id).then(data => res.json(data));
+app.delete('/api/referenceData/productCategories/:id', (req, res) => {
+    productCategoryController.deleteProductCategoru(req.params.id).then(data => res.json(data));
 });
 
 
@@ -138,8 +138,8 @@ app.get('/api/inventory/lodgements/:id', (req, res) => {
     lodgementController.getLodgementById(req.params.id).then(data => res.json(data));
 });
 
-app.get('/api/inventory/lodgementsByTrademark/:id', (req, res) => {
-    lodgementController.getLodgementsByTrademarkId(req.params.id).then(data => res.json(data));
+app.get('/api/inventory/lodgementsByCustomer/:id', (req, res) => {
+    lodgementController.getLodgementsByCustomerId(req.params.id).then(data => res.json(data));
 });
 
 app.post('/api/inventory/lodgements/', (req, res) => {

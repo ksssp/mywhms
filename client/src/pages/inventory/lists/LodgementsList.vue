@@ -40,7 +40,7 @@
 
 <script>
 
-import { getLodgements } from "@/services/LodgementService";
+import { getLodgements } from "@/services/lodgement.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 
@@ -56,10 +56,9 @@ export default {
             downloadFileName: "lodgementsList",
             fields: [
                 { data: "_id", title: "Lodgement Id", visible: false },
-                { data: "lodgementDate", title: "Lodgement Date", render : function(lodgementDate) { return (new Date(lodgementDate)).toLocaleDateString();} },
+                { data: "lodgementDate", title: "Lodgement Date", render : function(lodgementDate) { return moment(lodgementDate).format('DD-MM-YYYY'); } },
                 { data: "lotNumber", title: "Lot Number" },
-                { data: "trademark.trademarkName", title: "Trademark" },
-                { data: "trademark.customerName", title: "Customer Name" },
+                { data: "customer", title: "Customer Code", render: function(customer) { return customer.customerCode + '( ' + customer.customerName + ' )'; } },
                 { data: "product.productName", title: "Product Name" },
                 { data: "numBagsLodged", title: "Lodged Bags", class: "text-center" },
                 { data: "locationCodes", title: "Locations" },

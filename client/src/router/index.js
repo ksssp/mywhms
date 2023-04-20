@@ -68,18 +68,18 @@ const routes = [
     ]
   },
   {
-    path: '/trademarks',
+    path: '/customers',
     component: AppLayout,
     children: [
       {
         path: '',
-        name: 'TrademarksList',
-        component: () => import('@/pages/trademarks/TrademarksList.vue')
+        name: 'CustomersSummaryList',
+        component: () => import('@/pages/customers/CustomersList.vue')
       },
       {
         path: ':_id',
-        name: 'TrademarkSummaryDetails',
-        component: () => import('@/pages/trademarks/TrademarkDetails.vue')
+        name: 'CustomerSummaryDetails',
+        component: () => import('@/pages/customers/CustomerDetails.vue')
       }
     ]
   },
@@ -89,7 +89,7 @@ const routes = [
     children: [
       {
         path: '',
-        name: 'ProductsList',
+        name: 'ProductsSummaryList',
         component: () => import('@/pages/products/ProductsList.vue')
       },
       {
@@ -105,8 +105,8 @@ const routes = [
     children: [
       {
         path: 'products',
-        name: 'ProductsMasterList',
-        component: () => import('@/pages/referenceData/lists/ProductsMasterList.vue')
+        name: 'ProductsList',
+        component: () => import('@/pages/referenceData/lists/ProductsList.vue')
       },
       {
         path: 'products/create',
@@ -119,39 +119,39 @@ const routes = [
         component: () => import('@/pages/referenceData/details/ProductDetails.vue')
       },
       {
-        path: 'productGroups',
-        name: 'ProductGroupsMasterList',
-        component: () => import('@/pages/referenceData/lists/ProductGroupsMasterList.vue')
+        path: 'productCategories',
+        name: 'ProductCategoriesList',
+        component: () => import('@/pages/referenceData/lists/ProductCategoriesList.vue')
       },
       {
-        path: 'productGroups/create',
-        name: 'ProductGroupCreate',
-        component: () => import('@/pages/referenceData/create/ProductGroupCreate.vue')
+        path: 'productCategories/create',
+        name: 'ProductCategoryCreate',
+        component: () => import('@/pages/referenceData/create/ProductCategoryCreate.vue')
       },
       {
-        path: 'productGroups/:_id',
-        name: 'ProductGroupDetails',
-        component: () => import('@/pages/referenceData/details/ProductGroupDetails.vue')
+        path: 'productCategories/:_id',
+        name: 'ProductCategoryDetails',
+        component: () => import('@/pages/referenceData/details/ProductCategoryDetails.vue')
       },
       {
-        path: 'trademarks',
-        name: 'TrademarksMasterList',
-        component: () => import('@/pages/referenceData/lists/TrademarksMasterList.vue')
+        path: 'customers',
+        name: 'CustomersList',
+        component: () => import('@/pages/referenceData/lists/CustomersList.vue')
       },
       {
-        path: 'trademarks/create',
-        name: 'TrademarkCreate',
-        component: () => import('@/pages/referenceData/create/TrademarkCreate.vue')
+        path: 'customers/create',
+        name: 'CustomerCreate',
+        component: () => import('@/pages/referenceData/create/CustomerCreate.vue')
       },
       {
-        path: 'trademarks/:_id',
-        name: 'TrademarkDetails',
-        component: () => import('@/pages/referenceData/details/TrademarkDetails.vue')
+        path: 'customers/:_id',
+        name: 'CustomerDetails',
+        component: () => import('@/pages/referenceData/details/CustomerDetails.vue')
       },
       {
         path: 'employees',
-        name: 'EmployeesMasterList',
-        component: () => import('@/pages/referenceData/lists/EmployeesMasterList.vue')
+        name: 'EmployeesList',
+        component: () => import('@/pages/referenceData/lists/EmployeesList.vue')
       },
       {
         path: 'employees/create',
@@ -160,7 +160,7 @@ const routes = [
       },
       {
         path: 'employees/:_id',
-        name: 'EmployeeDetailsRef',
+        name: 'EmployeeDetails',
         component: () => import('@/pages/referenceData/details/EmployeeDetails.vue')
       }
     ]

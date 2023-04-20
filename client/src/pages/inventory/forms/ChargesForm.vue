@@ -19,7 +19,7 @@
 <script scoped lang="js">
 
 import ChargesFormSchema from './schemas/ChargesFormSchema';
-import { updateLodgement } from '@/services/LodgementService';
+import { updateLodgement } from '@/services/lodgement.service';
 
 export default {
     name: 'LodgementChargesForm',

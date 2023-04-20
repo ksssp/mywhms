@@ -67,7 +67,7 @@
 
 <script>
 
-import { getEmployeeById, deleteEmployee } from "@/services/EmployeeService";
+import { getEmployeeById, deleteEmployee } from "@/services/employee.service";
 import EmployeeForm from "../forms/EmployeeForm.vue";
 
 export default {
@@ -132,7 +132,7 @@ export default {
             }
         },
         deleteLoadedEntity(){
-            this.$bvModal.msgBoxConfirm('Are you sure you want to delete the ' + this.entityName + '?', {
+            this.$bvModal.msgBoxConfirm('Are you sure you want to mark the ' + this.entityName + ' as inactive?', {
                 title: 'Please Confirm',
                 size: 'md',
                 buttonSize: 'md',

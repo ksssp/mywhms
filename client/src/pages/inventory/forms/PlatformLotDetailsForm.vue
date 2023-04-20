@@ -17,9 +17,9 @@
 <script scoped lang="js">
 
 import PlatformLotDetailsFormSchema from './schemas/PlatformLotDetailsFormSchema';
-import { createLodgement, updateLodgement } from '@/services/LodgementService';
-import { getProducts } from '@/services/ProductService';
-import { getTrademarks } from '@/services/TrademarkService';
+import { createLodgement, updateLodgement } from '@/services/lodgement.service';
+import { getProducts } from '@/services/product.service';
+import { getTrademarks } from '@/services/customer.service';
 import Multiselect from 'vue-multiselect';
 
 export default {

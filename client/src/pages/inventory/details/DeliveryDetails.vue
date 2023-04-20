@@ -114,7 +114,7 @@
 
 <script>
 
-import { getDeliveryById, deleteLDelivery } from "@/services/DeliveryService";
+import { getDeliveryById, deleteLDelivery } from "@/services/delivery.service";
 import DeliveryCreateForm from "../forms/DeliveryCreateForm.vue";
 import ChargesForm from "../forms/ChargesForm.vue";
 

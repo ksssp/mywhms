@@ -17,9 +17,9 @@
 <script scoped lang="js">
 
 import ProductFormSchema from './schemas/ProductFormSchema';
-import { createProduct, updateProduct } from '@/services/ProductService';
+import { createProduct, updateProduct } from '@/services/product.service';
+import { getProductCategories } from '@/services/productCategory.service';
 
-import { getProductGroups } from '@/services/ProductGroupService';
 import Multiselect from 'vue-multiselect';
 
 export default {
@@ -42,8 +42,9 @@ export default {
             isSaving: false,
             formModel: {
                 productName: "",
-                productGroup: { productGroupId:"", productSubGroupPrefix: "" },
+                productCategory: { productCategoryId:"", productCategoryPrefix: "" },
                 bagSize: 0,
+                unitName: "Bags",
                 computedProductName: "",
                 hamaliPerBag: 0,
                 platformCooliePerBag: 0,
@@ -53,47 +54,53 @@ export default {
                 monthlyRentPerBag: 0,
                 yearlyRentPerBag: 0,
                 yearlyRentPerKg: 0,
-                computedYearlyRentPerBag: 0
+                bagSizeForRent: 0
             },
-            productGroupOptions: [],
-            productGroupMap: new Map(),
+            productCategoryOptions: [],
+            productCategoryMap: new Map(),
         }
     },
     created() {
+        // load data for dropdown fields
+        let productCategoryField = this.formSchema.groups[0].fields.find(fields => fields.model==='productCategory');
+        productCategoryField.values = this.getProductCategoryOptions();
+
+        // setup the form with data if this is for editing any entity
         this.formModel = JSON.parse(JSON.stringify(this.formData));
         this.loadedEntityId = this.formData._id;
-        let productGroupField = this.formSchema.groups[0].fields.find(fields => fields.model==='productGroup');
-        productGroupField.values = this.getProductGroupOptions();
     },
     methods: {
-        getProductGroupOptions() {
-            getProductGroups().then(response => {
-                let productGroups = response;
-                productGroups.forEach(this.addToProductGroupOptions);
+        getProductCategoryOptions() {
+            getProductCategories().then(response => {
+                let productCategories = response;
+                productCategories.forEach(this.addToProductCategoryOptions);
             });
-            return this.productGroupOptions;
+            return this.productCategoryOptions;
         },
-        addToProductGroupOptions(productGroup) {
-            this.productGroupOptions.push({
-                "productGroupId": productGroup._id,
-                "productSubGroupPrefix": productGroup.productSubGroupPrefix
+        addToProductCategoryOptions(productCategory) {
+            this.productCategoryOptions.push({
+                "productCategoryId": productCategory._id,
+                "productCategoryPrefix": productCategory.productCategoryPrefix
             });
             
-            this.productGroupMap.set(productGroup._id, {
-                productGroupId: productGroup._id,
-                productGroup: productGroup.productGroup,
-                productSubGroup: productGroup.productSubGroup,
-                productSubGroupPrefix: productGroup.productSubGroupPrefix
+            this.productCategoryMap.set(productCategory._id, {
+                productCategoryId: productCategory._id,
+                productCategoryPrefix: productCategory.productCategoryPrefix
             });
         },
         submitForm() {
             // submit form data to the backend - entity - Product
+            let currentDate = Date.now();
             let product = {
                 productName: this.formModel.productName,
-                productGroup: this.productGroupMap.get(this.formModel.productGroup.productGroupId),
-                productSubGroupPrefix: this.formModel.productGroup.productSubGroupPrefix,
+                productCategory: {
+                    productCategoryId: this.formModel.productCategory.productCategoryId,
+                    productCategoryPrefix: this.formModel.productCategory.productCategoryPrefix,
+                },
                 bagSize: this.formModel.bagSize,
-                computedProductName: this.formModel.computedProductName,
+                unitName: this.formModel.unitName,
+                computedProductName: this.formModel.productCategory.productCategoryPrefix + 
+                                        ' ' + this.formModel.bagSize + ' Kg ' + this.formModel.unitName,
                 hamaliPerBag: this.formModel.hamaliPerBag,
                 platformCooliePerBag: this.formModel.platformCooliePerBag,
                 kataCooliePerBag: this.formModel.kataCooliePerBag,
@@ -101,8 +108,10 @@ export default {
                 insurancePerBag: this.formModel.insurancePerBag,
                 monthlyRentPerBag: this.formModel.monthlyRentPerBag,
                 yearlyRentPerKg: this.formModel.yearlyRentPerKg,
-                computedYearlyRentPerBag: this.formModel.computedYearlyRentPerBag,
-                yearlyRentPerBag: this.formModel.yearlyRentPerBag
+                bagSizeForRent: this.formModel.bagSizeForRent,
+                computedYearlyRentPerBag: this.formModel.yearlyRentPerKg * this.formModel.bagSizeForRent,
+                yearlyRentPerBag: this.formModel.yearlyRentPerBag,
+                lastModifiedDate: currentDate
             };
             
             if(this.submitMode=="update") {
@@ -112,7 +121,9 @@ export default {
                     this.$emit('saved', saveActionStatus);
                 });
             } else if (this.submitMode == "create") {
-                product.creationDate = Date.now();
+                product.creationDate = currentDate;
+                product.activeFrom = currentDate,
+                product.activeUntil = new Date('2100-01-01')
                 createProduct(product).then(response => {
                     var savedObject = response;
                     this.$emit('saved', savedObject);

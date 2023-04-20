@@ -17,10 +17,10 @@
 <script scoped lang="js">
 
 import LodgementDetailsFormSchema from './schemas/LodgementDetailsFormSchema';
-import { createLodgement, updateLodgement } from '@/services/LodgementService';
-import { getProducts } from '@/services/ProductService';
-import { getTrademarks } from '@/services/TrademarkService';
-import { getLocations } from '@/services/LocationService';
+import { createLodgement, updateLodgement } from '@/services/lodgement.service';
+import { getProducts } from '@/services/product.service';
+import { getTrademarks } from '@/services/customer.service';
+import { getLocations } from '@/services/location.service';
 import Multiselect from 'vue-multiselect';
 
 export default {
@@ -41,32 +41,33 @@ export default {
             },
             loadedEntityId: "",
             isSaving: false,
-            formModel: {},
-            //     lotNumber: "",
-            //     trademark: {
-            //         trademarkId: "",
-            //         trademarkName: ""
-            //     },
-            //     product: {
-            //         productId: "",
-            //         productName: ""
-            //     },
-            //     numBagsLodged: 0,
-            //     numBagsKataCoolie: 0,
-            //     locationCodes: "",
-            //     lodgementNotes: "",
-            //     transport: {
-            //         vehicleNumber: "",
-            //         driverName: ""
-            //     },
-            //     indicativeCharges: {
-            //         kataCoolieCharges: 0,
-            //         hamaliCharges: 0,
-            //         platformCoolieCharges: 0,
-            //         mamulluCharges: 0,
-            //         insuranceCharges: 0
-            //     },
-            // },
+            formModel: {
+                lotNumber: "",
+                trademark: {
+                    trademarkId: "",
+                    trademarkName: "",
+                    customerName: ""
+                },
+                product: {
+                    productId: "",
+                    productName: ""
+                },
+                numBagsLodged: 0,
+                numBagsKataCoolie: 0,
+                locationCodes: "",
+                lodgementNotes: "",
+                transport: {
+                    vehicleNumber: "",
+                    driverName: ""
+                },
+                indicativeCharges: {
+                    kataCoolieCharges: 0,
+                    hamaliCharges: 0,
+                    platformCoolieCharges: 0,
+                    mamulluCharges: 0,
+                    insuranceCharges: 0
+                },
+            },
             productMap: new Map(),
             selectedProduct: null,
             productOptions: [],
@@ -88,20 +89,12 @@ export default {
 
         if(this.submitMode == 'update') {
             this.formModel = JSON.parse(JSON.stringify(this.formData));
-            let lodgementLocations = this.formModel.locationCodes.split(', ');
-            this.formModel.locationCodes = [];
-            lodgementLocations.forEach(this.parseLocationCode);
-            console.log(this.formModel.locationCodes);
+            this.formModel.locationCodes = this.formModel.locationCodes.split(', ');
+            this.formModel.trademark.trademarkName = this.formModel.trademark.trademarkName + ' ( ' +  
+                this.formModel.trademark.customerName + ' )';
         }
     },
     methods: {
-        parseLocationCode(locationCode) {
-            // let location = this.locationMap.get(locationCode);
-            this.formModel.locationCodes.push({
-                'locationId': locationCode,
-                'locationCode': locationCode
-            });
-        },
         getProductOptions() {
             getProducts().then(response => {
                 let products = response;
@@ -138,20 +131,41 @@ export default {
             return this.locationOptions;
         },
         addToLocationOptions(location) {
-            this.locationOptions.push({
-                "locationId": location.locationCode,
-                "locationCode": location.locationCode
-            });
+            this.locationOptions.push(location.locationCode);
             this.locationMap.set(location.locationCode, location);
         },
         submitForm() {
             // submit form data to the backend - entity - Lodgement
             let lodgement = {
-                
+                lotNumber: this.formModel.lotNumber,
+                trademark: {
+                    trademarkId: this.formModel.trademark.trademarkId,
+                    trademarkName: this.trademarkMap.get(this.formModel.trademark.trademarkId).trademarkName,
+                    customerName: this.trademarkMap.get(this.formModel.trademark.trademarkId).customerName
+                },
+                product: {
+                    productId: this.formModel.product.productId,
+                    productName: this.formModel.product.productName
+                },
+                numBagsLodged: this.formModel.numBagsLodged,
+                numBagsKataCoolie: this.formModel.numBagsKataCoolie,
+                locationCodes: this.formModel.locationCodes.join(', '),
+                lodgementNotes: this.formModel.lodgementNotes,
+                transport: {
+                    vehicleNumber: this.formModel.transport.vehicleNumber,
+                    driverName: this.formModel.transport.driverName
+                }
             };
 
             if(this.submitMode=="update") {
                 lodgement._id = this.loadedEntityId;
+                lodgement.indicativeCharges = {
+                    hamaliCharges: this.selectedProduct.hamaliPerBag * numBagsLodged,
+                    kataCoolieCharges: this.selectedProduct.kataCooliePerBag * numBagsLodged,
+                    insuranceCharges: this.selectedProduct.insurancePerBag * numBagsLodged,
+                    platformCoolieCharges: this.selectedProduct.platformCoolieCharges * numBagsLodged,
+                    mamullucharges: this.selectedProduct.mamullucharges * numBagsLodged,
+                }
                 updateLodgement(this.loadedEntityId, lodgement).then(response => {
                     var saveActionStatus = response;
                     this.$emit('saved', saveActionStatus);

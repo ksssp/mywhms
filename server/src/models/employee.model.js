@@ -6,6 +6,9 @@ const employeeSchema = new mongoose.Schema({
         designation: String,
         monthlySalary: Number,
         creationDate: Date, 
+        lastModifiedDate: Date, 
+        activeFrom: Date, 
+        activeUntil: Date, 
     });
 
 const Employee = mongoose.model('employee', employeeSchema);

@@ -2,14 +2,10 @@ const mongoose = require('mongoose');
 
 const productSchema = new mongoose.Schema({
         productName: String,
-        productGroup: {
-            productGroupId: String,
-            productGroup: String,
-            productSubGroup: String,
-            productSubGroupPrefix: String
+        productCategory: {
+            productCategoryId: String,
+            productCategoryPrefix: String
         },
-        productSubGroupPrefix: String,
-        bagSize: Number,
         computedProductName: String,
         hamaliPerBag: Number,
         platformCooliePerBag: Number,
@@ -19,8 +15,14 @@ const productSchema = new mongoose.Schema({
         monthlyRentPerBag: Number,
         yearlyRentPerBag: Number,
         yearlyRentPerKg: Number,
+        unitName: String,
+        bagSize: Number,
+        bagSizeForRent: Number,
         computedYearlyRentPerBag: Number,
         creationDate: Date, 
+        lastModifiedDate: Date,
+        activeFrom: Date,
+        activeUntil: Date
     });
 
 const Product = mongoose.model('product', productSchema);

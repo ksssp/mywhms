@@ -32,33 +32,6 @@ class LodgementRepository {
         return lodgements;
     }
 
-    async getLodgementsForLotsView() {
-        const lots = await Lodgement.find({
-                numBagsBalance: { $gt : 0 }
-            }).
-            select({
-                _id: 1,
-                lodgementDate: 1,
-                lotNumber: 1,
-                trademark: 1,
-                product: 1,
-                numBagsLodged: 1,
-                numBagsBalance: 1,
-                isPlatformLot: 1,
-                locationCodes: 1,
-                chargesReceivable: 1,
-                chargesPaid: 1,
-                rents: 1,
-                stockRelease: {
-                    numDeliveries: 1,
-                    lastDeliveryDate: 1,
-                    totalRentReceivable: 1
-                }
-            }).
-            sort({ lodgementDate: -1 });
-        return lots;
-    }
-
     async getLodgementById(lodgementId) {
         let data = {};
         try {
@@ -70,17 +43,30 @@ class LodgementRepository {
         return data;
     }
     
-    async getLodgementsByTrademarkId(trademarkId) {
+    async getLodgementByLotNumber(lotNumber) {
+        let data = {};
+        try {
+            logger.info("lodgement repository findByLotNumber: ", lotNumber);
+            data = await Lodgement.find({
+                lotNumber: { $eq : lotNumber }
+            });
+        } catch(err) {
+            logger.error('Error::' + err);
+        }
+        return data;
+    }
+
+    async getLodgementsByCustomerId(customerId) {
         let data = {};
         try {
             logger.info("lodgement repository findByTrademarkId: ", new mongoose.Types.ObjectId(trademarkId));
             data = await Lodgement.find({
                 numBagsBalance: { $gt : 0 },
-                'trademark.trademarkId': { $eq : trademarkId }
+                'customer.customerId': { $eq : customerId }
             }).select({
                 _id: 1,
                 lotNumber: 1,
-                trademark: 1,
+                customer: 1,
                 product: 1,
                 numBagsLodged: 1,
                 numBagsBalance: 1

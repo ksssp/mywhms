@@ -17,10 +17,10 @@
 <script scoped lang="js">
 
 import DeliveryCreateFormSchema from './schemas/DeliveryCreateFormSchema';
-import { createDelivery, updateDelivery } from '@/services/DeliveryService';
-import { getLodgementsByTrademarkId } from '@/services/LodgementService';
-import { getProductById } from '@/services/ProductService';
-import { getTrademarks } from '@/services/TrademarkService';
+import { createDelivery, updateDelivery } from '@/services/delivery.service';
+import { getLodgementsByTrademarkId } from '@/services/lodgement.service';
+import { getProductById } from '@/services/product.service';
+import { getTrademarks } from '@/services/customer.service';
 
 export default {
     name: 'DeliveryCreateForm',
