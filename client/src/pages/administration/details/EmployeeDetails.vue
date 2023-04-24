@@ -80,7 +80,7 @@ export default {
             entityName: "Employee",
             entityNamePlural: "Employees",
             pageTitle: "Employee Details",
-            entityListingUrl: "/referenceData/employees/",
+            entityListingUrl: "/administration/employees/",
             entityTitle: "",
             loadedEntity: null,
             loadedEntityId: null,

@@ -43,8 +43,8 @@
                                 </b-button>
                             </div>
                             <div class="mx-4">
-                                <CustomerForm v-if="editMode" :form-data="loadedEntity" :submit-mode="submitMode" 
-                                    @saved="saved" @cancelForm="editCancelled"></CustomerForm>
+                                <ProductCategoryForm v-if="editMode" :form-data="loadedEntity" :submit-mode="submitMode" 
+                                    @saved="saved" @cancelForm="editCancelled"></ProductCategoryForm>
                                 <div class="row" v-else>
                                     <b-table-lite responsive borderless :fields="entityDetailsTable.fields"
                                         :items="entityDetailsTable.items"> <!-- thead-class="hidden_header" -->
@@ -60,26 +60,27 @@
 </template>
 
 <script>
-import { DateTime } from 'luxon';
-import { getCustomerById, updateCustomer } from "@/services/customer.service";
-import CustomerForm from "../forms/CustomerForm.vue";
+import moment from "moment";
+
+import { getProductCategoryById, updateProductCategory } from "@/services/productCategory.service";
+import ProductCategoryForm from "../forms/ProductCategoryForm.vue";
 
 export default {
-    name: "CustomerDetails",
+    name: "ProductCategoryDetails",
     components: {
-        CustomerForm
+        ProductCategoryForm
     },
     data: function () {
         return {
-            entityName: "Customer",
-            entityNamePlural: "Customers",
-            pageTitle: "Customer Details",
-            entityListingUrl: "/referenceData/customers/",
+            entityName: "Product Category",
+            entityNamePlural: "Product Categories",
+            pageTitle: "Product Category Details",
+            entityListingUrl: "/administration/productCategories/",
             entityTitle: "",
-            loadedEntity: {},
+            loadedEntity: null,
             loadedEntityId: null,
             loadedEntityIsActive: false,
-            entityDoesNotExistMessage: "The customer you are looking for does not exist.",
+            entityDoesNotExistMessage: "The Product Category you are looking for does not exist.",
             editMode: false,
             submitMode: "update",
             entityDetailsTable: {
@@ -87,15 +88,16 @@ export default {
                     { key: "infoLabel", label: "", sortable: false, thStyle: "width: 20%;" },
                     { key: "infoValue", label: "", sortable: false, thStyle: "word-wrap: break-word;" }
                 ],
-                items: [       // update entity specific json data in an array format - Customer
-                    { infoLabel: "Customer Code", infoValue: "" },
-                    { infoLabel: "Customer Name", infoValue: "" },
-                    { infoLabel: "Mobile Number", infoValue: "" },
-                    { infoLabel: "Town / Village", infoValue: "" },
-                    { infoLabel: "Creation Date", infoValue: "" },
-                    { infoLabel: "Last Modified Date", infoValue: "" },
-                    { infoLabel: "Effective From", infoValue: "" },
-                    { infoLabel: "Active Status", infoValue: "" },
+                items: [       // update entity specific json data in an array format - Product Category
+                    { infoLabel: "Product Category", infoValue: "" },
+                    { infoLabel: "Product Variety", infoValue: "" },
+                    { infoLabel: "Product Category Prefix", infoValue: "" },
+                    { infoLabel: "Yearly Rent per Quintal", infoValue: "" },
+                    { infoLabel: "One Side Hamali per Quintal", infoValue: ""},
+                    { infoLabel: "Creation Date", infoValue: ""},
+                    { infoLabel: "Last Modified Date", infoValue: ""},
+                    { infoLabel: "Effective From", infoValue: ""},
+                    { infoLabel: "Active Status", infoValue: ""},
                 ]
             }
         };
@@ -106,20 +108,24 @@ export default {
     },
     methods: {
         loadEntityData(entityId) {
-            // load entity data from backend: entity - Customer
-            getCustomerById(entityId).then(response => {
+            // load entity data from backend: entity - Product Category
+            getProductCategoryById(entityId).then(response => {
                 this.loadedEntity = JSON.parse(JSON.stringify(response));
+                console.log(this.loadedEntity);
                 if(this.loadedEntity != null) {
-                    this.entityTitle = this.loadedEntity.customerName;
-                    this.loadedEntityIsActive = DateTime.fromISO(this.loadedEntity.activeUntil).toLocal() > DateTime.now() ? 'Active' : 'Inactive';
-                    this.entityDetailsTable.items[0].infoValue = this.loadedEntity.customerCode;
-                    this.entityDetailsTable.items[1].infoValue = this.loadedEntity.customerName;
-                    this.entityDetailsTable.items[2].infoValue = this.loadedEntity.mobileNumber;
-                    this.entityDetailsTable.items[3].infoValue = this.loadedEntity.town;
-                    this.entityDetailsTable.items[4].infoValue = DateTime.fromISO(this.loadedEntity.creationDate).toLocal().toFormat('dd-MM-yyyy');
-                    this.entityDetailsTable.items[5].infoValue = DateTime.fromISO(this.loadedEntity.lastModifiedDate).toLocal().toFormat('dd-MM-yyyy');
-                    this.entityDetailsTable.items[6].infoValue = DateTime.fromISO(this.loadedEntity.activeFrom).toLocal().toFormat('dd-MM-yyyy');
-                    this.entityDetailsTable.items[7].infoValue = this.loadedEntityIsActive ? 'Active' : 'Inactive';
+                    this.loadedEntityIsActive = !moment().isAfter(this.loadedEntity.activeUntil);
+                    this.entityTitle = this.loadedEntity.productCategoryPrefix;
+                    this.entityDetailsTable.items[0].infoValue = this.loadedEntity.productCategory;
+                    this.entityDetailsTable.items[1].infoValue = this.loadedEntity.productVariety;
+                    this.entityDetailsTable.items[2].infoValue = this.loadedEntity.productCategoryPrefix;
+                    this.entityDetailsTable.items[3].infoValue = this.loadedEntity.yearlyRentPerQuintal === "" || this.loadedEntity.yearlyRentPerQuintal === null ? "Not defined" :
+                         "Rs. " + this.loadedEntity.yearlyRentPerQuintal + "/-";
+                    this.entityDetailsTable.items[4].infoValue = this.loadedEntity.oneSideHamaliPerQuintal === "" || this.loadedEntity.oneSideHamaliPerQuintal === null ? "Not defined" :
+                         "Rs. " + this.loadedEntity.oneSideHamaliPerQuintal + "/-";
+                    this.entityDetailsTable.items[5].infoValue = moment(this.loadedEntity.creationDate).format('DD-MM-YYYY');
+                    this.entityDetailsTable.items[6].infoValue = moment(this.loadedEntity.lastModifiedDate).format('DD-MM-YYYY');
+                    this.entityDetailsTable.items[7].infoValue = moment(this.loadedEntity.activeFrom).format('DD-MM-YYYY');
+                    this.entityDetailsTable.items[8].infoValue = this.loadedEntityIsActive ? 'Active' : 'Inactive';
                 }
             });
         },
@@ -150,9 +156,9 @@ export default {
                 headerBgVariant: 'light'
             }).then(value => {
                 if(value==true) {
-                    // mark entity data at the backend as inactive: entity - Customer
+                    // delete entity data at the backend: entity - Product Category
                     this.loadedEntity.activeUntil = Date.now();
-                    updateCustomer(this.loadedEntityId, this.loadedEntity).then(response => {
+                    updateProductCategory(this.loadedEntityId, this.loadedEntity).then(response => {
                         if(response.status==true) {
                             this.$router.replace(this.entityListingUrl);
                         } else {

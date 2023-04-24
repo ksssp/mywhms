@@ -100,68 +100,68 @@ const routes = [
     ]
   },
   {
-    path: '/referenceData',
+    path: '/administration',
     component: AppLayout,
     children: [
       {
         path: 'products',
         name: 'ProductsList',
-        component: () => import('@/pages/referenceData/lists/ProductsList.vue')
+        component: () => import('@/pages/administration/lists/ProductsList.vue')
       },
       {
         path: 'products/create',
         name: 'ProductCreate',
-        component: () => import('@/pages/referenceData/create/ProductCreate.vue')
+        component: () => import('@/pages/administration/create/ProductCreate.vue')
       },
       {
         path: 'products/:_id',
         name: 'ProductDetailsRef',
-        component: () => import('@/pages/referenceData/details/ProductDetails.vue')
+        component: () => import('@/pages/administration/details/ProductDetails.vue')
       },
       {
         path: 'productCategories',
         name: 'ProductCategoriesList',
-        component: () => import('@/pages/referenceData/lists/ProductCategoriesList.vue')
+        component: () => import('@/pages/administration/lists/ProductCategoriesList.vue')
       },
       {
         path: 'productCategories/create',
         name: 'ProductCategoryCreate',
-        component: () => import('@/pages/referenceData/create/ProductCategoryCreate.vue')
+        component: () => import('@/pages/administration/create/ProductCategoryCreate.vue')
       },
       {
         path: 'productCategories/:_id',
         name: 'ProductCategoryDetails',
-        component: () => import('@/pages/referenceData/details/ProductCategoryDetails.vue')
+        component: () => import('@/pages/administration/details/ProductCategoryDetails.vue')
       },
       {
         path: 'customers',
         name: 'CustomersList',
-        component: () => import('@/pages/referenceData/lists/CustomersList.vue')
+        component: () => import('@/pages/administration/lists/CustomersList.vue')
       },
       {
         path: 'customers/create',
         name: 'CustomerCreate',
-        component: () => import('@/pages/referenceData/create/CustomerCreate.vue')
+        component: () => import('@/pages/administration/create/CustomerCreate.vue')
       },
       {
         path: 'customers/:_id',
         name: 'CustomerDetails',
-        component: () => import('@/pages/referenceData/details/CustomerDetails.vue')
+        component: () => import('@/pages/administration/details/CustomerDetails.vue')
       },
       {
         path: 'employees',
         name: 'EmployeesList',
-        component: () => import('@/pages/referenceData/lists/EmployeesList.vue')
+        component: () => import('@/pages/administration/lists/EmployeesList.vue')
       },
       {
         path: 'employees/create',
         name: 'EmployeeCreate',
-        component: () => import('@/pages/referenceData/create/EmployeeCreate.vue')
+        component: () => import('@/pages/administration/create/EmployeeCreate.vue')
       },
       {
         path: 'employees/:_id',
         name: 'EmployeeDetails',
-        component: () => import('@/pages/referenceData/details/EmployeeDetails.vue')
+        component: () => import('@/pages/administration/details/EmployeeDetails.vue')
       }
     ]
   },

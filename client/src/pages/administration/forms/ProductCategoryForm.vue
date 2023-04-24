@@ -27,7 +27,7 @@ export default {
     ],
     data: function () {
         return {
-            entityListingUrl: "/referenceData/productCategories/",
+            entityListingUrl: "/administration/productCategories/",
             formSchema: ProductCategoryFormSchema,
             formOptions: {
                 validateAfterChanged: true

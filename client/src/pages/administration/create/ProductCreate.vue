@@ -16,8 +16,8 @@
             <div class="card">
                 <div class="card-body">
                     <div class="mx-4">
-                        <CustomerForm :form-data="loadedEntity" :submit-mode="submitMode" 
-                            @saved="saved" @cancelForm="createCancelled"></CustomerForm>
+                        <ProductForm :form-data="loadedEntity" :submit-mode="submitMode" 
+                            @saved="saved" @cancelForm="createCancelled"></ProductForm>
                     </div>
                 </div>
             </div>
@@ -26,18 +26,18 @@
 </template>
 
 <script>
-import CustomerForm from "../forms/CustomerForm.vue";
+import ProductForm from "../forms/ProductForm.vue";
 
 export default {
-    name: "CustomerCreate",
+    name: "ProductCreate",
     components: {
-        CustomerForm
+        ProductForm
     },
     data: function () {
         return {
-            pageTitle: "Create new Customer",
-            entityNamePlural: "Customers",
-            entityListingUrl: "/referenceData/customers/",
+            pageTitle: "Create new Product",
+            entityNamePlural: "Products",
+            entityListingUrl: "/administration/products/",
             loadedEntity: {},
             loadedEntityId: null,
             submitMode: "create"

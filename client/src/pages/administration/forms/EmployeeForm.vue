@@ -16,30 +16,31 @@
 
 <script scoped lang="js">
 
-import CustomerFormSchema from './schemas/CustomerFormSchema';
-import { createCustomer, updateCustomer } from '@/services/customer.service';
+import EmployeeFormSchema from './schemas/EmployeeFormSchema';
+import { createEmployee, updateEmployee } from '@/services/employee.service';
+import { labeledStatement } from '@babel/types';
+import { DateTime } from 'luxon';
 
 export default {
-    name: 'CustomerForm',
+    name: 'EmployeeForm',
     props: [
         "formData",
         "submitMode"
     ],
     data: function () {
         return {
-            entityListingUrl: "/referenceData/customers/",
-            formSchema: CustomerFormSchema,
+            entityListingUrl: "/administration/employees/",
+            formSchema: EmployeeFormSchema,
             formOptions: {
                 validateAfterChanged: true
             },
             loadedEntityId: "",
             isSaving: false,
             formModel: {
-                customerCode: "",
-                customerName: "",
-                mobileNumber: "",
-                town: "",
-                isActive: true
+                employeeCode: "",
+                employeeFullName: "",
+                designation: "",
+                monthlySalary: ""
             }
         }
     },
@@ -49,26 +50,28 @@ export default {
     },
     methods: {
         submitForm() {
-            // submit form data to the backend - entity - Customer
-            let currentDate = Date.now();
-            let customer = {
-                customerCode: this.formModel.customerCode,
-                customerName: this.formModel.customerName,
-                mobileNumber: this.formModel.mobileNumber,
-                town: this.formModel.town,
-                isActive: this.formModel.isActive,
+            // submit form data to the backend - entity - Employee
+            let currentDate = DateTime.now().toLocal();
+            let employee = {
+                employeeCode: this.formModel.employeeCode,
+                employeeFullName: this.formModel.employeeFullName,
+                designation: this.formModel.designation,
+                monthlySalary: this.formModel.monthlySalary,
                 lastModifiedDate: currentDate
             };
 
-            if(this.submitMode=="update") {
-                customer._id = this.loadedEntityId;
-                updateCustomer(this.loadedEntityId, customer).then(response => {
+            if(this.submitMode == "update") {
+                employee._id = this.loadedEntityId;
+                console.log(employee);
+                updateEmployee(this.loadedEntityId, employee).then(response => {
                     var saveActionStatus = response;
                     this.$emit('saved', saveActionStatus);
                 });
             } else if (this.submitMode == "create") {
-                customer.creationDate = currentDate;
-                createCustomer(customer).then(response => {
+                employee.creationDate = currentDate;
+                employee.activeFrom = currentDate;
+                employee.activeUntil = DateTime.fromFormat('2100-01-01', 'yyyy-MM-dd');
+                createEmployee(employee).then(response => {
                     var savedObject = response;
                     this.$emit('saved', savedObject);
                 });

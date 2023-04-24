@@ -33,93 +33,93 @@ app.get('/', (req, res) => {
 });
 
 // Routes for locations
-app.get('/api/referenceData/locations', (req, res) => {
+app.get('/api/administration/locations', (req, res) => {
     locationController.getLocations().then(data => res.json(data));
 });
 
-// Routes for referenceData/customers
-app.get('/api/referenceData/customers', (req, res) => {
+// Routes for administration/customers
+app.get('/api/administration/customers', (req, res) => {
     customerController.getCustomers().then(data => res.json(data));
 });
 
-app.get('/api/referenceData/customers/:id', (req, res) => {
+app.get('/api/administration/customers/:id', (req, res) => {
     customerController.getCustomerById(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/referenceData/customers/', (req, res) => {
+app.post('/api/administration/customers/', (req, res) => {
     customerController.createCustomer(req.body.customer).then(data => res.json(data));
 });
 
-app.put('/api/referenceData/customers/:id', (req, res) => {
+app.put('/api/administration/customers/:id', (req, res) => {
     customerController.updateCustomer(req.params.id, req.body.customer).then(data => res.json(data));
 });
 
-app.delete('/api/referenceData/customers/:id', (req, res) => {
+app.delete('/api/administration/customers/:id', (req, res) => {
     customerController.deleteCustomer(req.params.id).then(data => res.json(data));
 });
 
-// Routes for referenceData/products
-app.get('/api/referenceData/products', (req, res) => {
+// Routes for administration/products
+app.get('/api/administration/products', (req, res) => {
     productController.getProducts().then(data => res.json(data));
 });
 
-app.get('/api/referenceData/products/:id', (req, res) => {
+app.get('/api/administration/products/:id', (req, res) => {
     productController.getProductById(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/referenceData/products', (req, res) => {
+app.post('/api/administration/products', (req, res) => {
     productController.createProduct(req.body.product).then(data => res.json(data));
 });
 
-app.put('/api/referenceData/products/:id', (req, res) => {
+app.put('/api/administration/products/:id', (req, res) => {
     productController.updateProduct(req.params.id, req.body.product).then(data => res.json(data));
 });
 
-app.delete('/api/referenceData/products/:id', (req, res) => {
+app.delete('/api/administration/products/:id', (req, res) => {
     productController.deleteProduct(req.params.id).then(data => res.json(data));
 });
 
 
-// Routes for referenceData/productCategories
-app.get('/api/referenceData/productCategories', (req, res) => {
+// Routes for administration/productCategories
+app.get('/api/administration/productCategories', (req, res) => {
     productCategoryController.getProductCategories().then(data => res.json(data));
 });
 
-app.get('/api/referenceData/productCategories/:id', (req, res) => {
+app.get('/api/administration/productCategories/:id', (req, res) => {
     productCategoryController.getProductCategoryById(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/referenceData/productCategories/', (req, res) => {
+app.post('/api/administration/productCategories/', (req, res) => {
     productCategoryController.createProductCategory(req.body.productCategory).then(data => res.json(data));
 });
 
-app.put('/api/referenceData/productCategories/:id', (req, res) => {
+app.put('/api/administration/productCategories/:id', (req, res) => {
     productCategoryController.updateProductCategory(req.params.id, req.body.productCategory).then(data => res.json(data));
 });
 
-app.delete('/api/referenceData/productCategories/:id', (req, res) => {
+app.delete('/api/administration/productCategories/:id', (req, res) => {
     productCategoryController.deleteProductCategoru(req.params.id).then(data => res.json(data));
 });
 
 
-// Routes for referenceData/employees
-app.get('/api/referenceData/employees', (req, res) => {
+// Routes for administration/employees
+app.get('/api/administration/employees', (req, res) => {
     employeeController.getEmployees().then(data => res.json(data));
 });
 
-app.get('/api/referenceData/employees/:id', (req, res) => {
+app.get('/api/administration/employees/:id', (req, res) => {
     employeeController.getEmployeeById(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/referenceData/employees', (req, res) => {
+app.post('/api/administration/employees', (req, res) => {
     employeeController.createEmployee(req.body.employee).then(data => res.json(data));
 });
 
-app.put('/api/referenceData/employees/:id', (req, res) => {
+app.put('/api/administration/employees/:id', (req, res) => {
     employeeController.updateEmployee(req.params.id, req.body.employee).then(data => res.json(data));
 });
 
-app.delete('/api/referenceData/employees/:id', (req, res) => {
+app.delete('/api/administration/employees/:id', (req, res) => {
     employeeController.deleteEmployee(req.params.id).then(data => res.json(data));
 });
 

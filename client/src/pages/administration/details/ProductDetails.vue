@@ -86,7 +86,7 @@ export default {
             entityName: "Product",
             entityNamePlural: "Products",
             pageTitle: "Product Details",
-            entityListingUrl: "/referenceData/products/",
+            entityListingUrl: "/administration/products/",
             entityTitle: "",
             loadedEntity: null,
             loadedEntityId: null,
@@ -144,7 +144,7 @@ export default {
                     this.loadedEntityIsActive = !moment().isAfter(this.loadedEntity.activeUntil);
                     this.entityDetailsTable.items[0].infoValue = this.loadedEntity.productName;
                     this.entityDetailsTable.items[1].infoValue = `${this.loadedEntity.productCategory.productCategoryPrefix} 
-                        <a href="/referenceData/productCategories/${this.loadedEntity.productCategory.productCategoryId}/" target="blank"><span class="ml-1 mdi mdi-open-in-new btn-icon-prepend"/></a>`;
+                        <a href="/administration/productCategories/${this.loadedEntity.productCategory.productCategoryId}/" target="blank"><span class="ml-1 mdi mdi-open-in-new btn-icon-prepend"/></a>`;
                     this.entityDetailsTable.items[2].infoValue = this.loadedEntity.bagSize + " Kgs " + this.loadedEntity.unitName;
                     this.entityDetailsTable.items[3].infoValue = this.loadedEntity.computedProductName;
                     this.entityDetailsTable.items[4].infoValue = moment(this.loadedEntity.creationDate).format('DD-MM-YYYY');

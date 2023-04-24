@@ -2,12 +2,12 @@
     <div class="tables">
         <div class="page-header">
             <h3 class="page-title">
-                Product Categories
+                Customers
             </h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="javascript:void(0);">Reference Data</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Product Categories</li>
+                    <li class="breadcrumb-item active" aria-current="page">Customers</li>
                 </ol>
             </nav>
         </div>
@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <div class="row template-demo">
                         <div class="col-md-6">
-                            <h4 class="card-title">Product Categories ( {{ totalRows }} )</h4>
+                            <h4 class="card-title">Customers ( {{ totalRows }} )</h4>
                         </div>
                         <div class="col-md-6" align="right">
                             <a :href="entityCreateUrl">
@@ -39,33 +39,33 @@
 </template>
 
 <script>
-
-import { getProductCategories } from "@/services/productCategory.service";
+import { DateTime } from 'luxon';
+import { getCustomers } from "@/services/customer.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
-import moment from "moment";
+import { labeledStatement } from "@babel/types";
 
 export default {
-    name: "ProductCategoriesList",
+    name: "CustomersList",
     components: {
         AppDataTable
     },
     data: function () {
         return {
             totalRows: 0,
+            entityCreateUrl: "/administration/customers/create/",
             footerBgVariant: "light",
-            entityCreateUrl: "/referenceData/productCategories/create",
-            downloadFileName: "productCategoriesList",
+            downloadFileName: "customersList",
             fields: [
-                { data: "productCategory", title: "Product Category" },
-                { data: "productVariety", title: "Product Variety" },
-                { data: "productCategoryPrefix", title: "Product Category Prefix" },
-                { data: "oneSideHamaliPerQuintal", title: "One Side Hamali per quintal", visible: false, class: 'text-center' },
-                { data: "yearlyRentPerQuintal", title: "Yearly rent per quintal", class: 'text-center' },
-                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return moment(creationDate).format('DD-MM-YYYY'); } },
-                { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return moment(activeFrom).format('DD-MM-YYYY'); } },
-                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return moment(activeUntil).format('DD-MM-YYYY'); } },
-                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return moment(lastModifiedDate).format('DD-MM-YYYY'); } }
+                { data: "customerCode", title: "Customer Code" },
+                { data: "customerName", title: "Customer Name" },
+                { data: "mobileNumber", title: "Mobile Number" },
+                { data: "town", title: "Town/Village" },
+                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return DateTime.fromISO(creationDate).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return DateTime.fromISO(activeFrom).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return DateTime.fromISO(activeUntil).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return DateTime.fromISO(lastModifiedDate).toLocal().toFormat('dd-MM-yyyy'); } }
+                
             ],
             fieldDefs: [],
             items: null,
@@ -73,7 +73,7 @@ export default {
         };
     },
     async created() {
-        getProductCategories().then(response => {
+        getCustomers().then(response => {
             this.items = response;
             this.totalRows = this.items.length;
         }).catch(error => {

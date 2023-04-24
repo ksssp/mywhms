@@ -51,7 +51,7 @@ export default {
     data: function () {
         return {
             totalRows: 0,
-            entityCreateUrl: "/referenceData/employees/create/",
+            entityCreateUrl: "/administration/employees/create/",
             footerBgVariant: "light",
             downloadFileName: "employeesList",
             fields: [

@@ -37,7 +37,7 @@ export default {
         return {
             pageTitle: "Create new Employee",
             entityNamePlural: "Employees",
-            entityListingUrl: "/referenceData/employees/",
+            entityListingUrl: "/administration/employees/",
             loadedEntity: {},
             loadedEntityId: null,
             submitMode: "create"

@@ -52,7 +52,7 @@ export default {
     data: function () {
         return {
             totalRows: 1,
-            entityCreateUrl: "/referenceData/products/create/",
+            entityCreateUrl: "/administration/products/create/",
             footerBgVariant: "light",
             downloadFileName: "productsList",
             fields: [

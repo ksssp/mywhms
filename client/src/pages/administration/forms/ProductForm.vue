@@ -33,7 +33,7 @@ export default {
     ],
     data: function () {
         return {
-            entityListingUrl: "/referenceData/products/",
+            entityListingUrl: "/administration/products/",
             formSchema: ProductFormSchema,
             formOptions: {
                 validateAfterChanged: true

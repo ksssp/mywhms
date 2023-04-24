@@ -78,23 +78,23 @@
         </li>
         <li class="nav-item">
           <span class="nav-link" v-b-toggle="'reference-data'">
-            <span class="menu-title">Reference Data</span>
+            <span class="menu-title">Administration</span>
             <i class="menu-arrow"></i>
             <i class="mdi mdi-book-plus menu-icon"></i>
           </span>
           <b-collapse accordion="sidebar-accordion" id="reference-data">
             <ul class="nav flex-column sub-menu">
               <li class="nav-item">
-                <router-link class="nav-link" to="/referenceData/customers/">Customers</router-link>
+                <router-link class="nav-link" to="/administration/customers/">Customers</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/referenceData/productCategories/">Product Categories</router-link>
+                <router-link class="nav-link" to="/administration/productCategories/">Product Categories</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/referenceData/products/">Products</router-link>
+                <router-link class="nav-link" to="/administration/products/">Products</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/referenceData/employees/">Employees <i class="mdi mdi-worker menu-icon"></i></router-link>
+                <router-link class="nav-link" to="/administration/employees/">Employees <i class="mdi mdi-worker menu-icon"></i></router-link>
               </li>
             </ul>
           </b-collapse>
