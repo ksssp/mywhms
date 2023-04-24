@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import moment from "moment";
+import { DateTime } from 'luxon';
 import { getCustomerById, updateCustomer } from "@/services/customer.service";
 import CustomerForm from "../forms/CustomerForm.vue";
 
@@ -111,14 +111,14 @@ export default {
                 this.loadedEntity = JSON.parse(JSON.stringify(response));
                 if(this.loadedEntity != null) {
                     this.entityTitle = this.loadedEntity.customerName;
-                    this.loadedEntityIsActive = !moment().isAfter(this.loadedEntity.activeUntil);
+                    this.loadedEntityIsActive = DateTime.fromISO(this.loadedEntity.activeUntil).toLocal() > DateTime.now() ? 'Active' : 'Inactive';
                     this.entityDetailsTable.items[0].infoValue = this.loadedEntity.customerCode;
                     this.entityDetailsTable.items[1].infoValue = this.loadedEntity.customerName;
                     this.entityDetailsTable.items[2].infoValue = this.loadedEntity.mobileNumber;
                     this.entityDetailsTable.items[3].infoValue = this.loadedEntity.town;
-                    this.entityDetailsTable.items[4].infoValue = moment(this.loadedEntity.creationDate).format('DD-MM-YYYY');
-                    this.entityDetailsTable.items[5].infoValue = moment(this.loadedEntity.lastModified).format('DD-MM-YYYY');
-                    this.entityDetailsTable.items[6].infoValue = moment(this.loadedEntity.activeFrom).format('DD-MM-YYYY');
+                    this.entityDetailsTable.items[4].infoValue = DateTime.fromISO(this.loadedEntity.creationDate).toLocal().toFormat('dd-MM-yyyy');
+                    this.entityDetailsTable.items[5].infoValue = DateTime.fromISO(this.loadedEntity.lastModifiedDate).toLocal().toFormat('dd-MM-yyyy');
+                    this.entityDetailsTable.items[6].infoValue = DateTime.fromISO(this.loadedEntity.activeFrom).toLocal().toFormat('dd-MM-yyyy');
                     this.entityDetailsTable.items[7].infoValue = this.loadedEntityIsActive ? 'Active' : 'Inactive';
                 }
             });

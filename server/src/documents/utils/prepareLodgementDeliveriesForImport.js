@@ -3,19 +3,16 @@ const deliveries = require('../sampleData/sampleDeliveriesForLodgementsNew.json'
 var fs = require('fs');
 const lodgementRepository = require('../../repositories/lodgement.repository');
 
-var outputJson = {};
-var formattedDeliveries = [];
 var lodgementToDeliveriesMap = new Map();
-
 deliveries.forEach(element => {
     if(!lodgementToDeliveriesMap.has(element.lodgementId)) {
         lodgementToDeliveriesMap.set(element.lodgementId, []);
     }
 
-    var dateParts = element.deliveryDate.split("/");   
+    var dateParts = element.deliveryDate;   
     var formattedDelivery = {
         deliveryId: element.deliveryId,
-        deliveryDate: new Date(+dateParts[2], dateParts[1] - 1, +dateParts[0]),
+        deliveryDate: element.deliveryDate,
         numBagsDelivered: element.numBagsDelivered,
         numBagsBalance: element.numBagsBalance,
         numMonthsLodged: element.numMonthsLodged,
@@ -39,6 +36,7 @@ lodgementToDeliveriesMap.forEach(function(value, key) {
             lodgement.stockRelease.totalRentReceivable = lodgement.stockRelease.totalRentReceivable + delivery.rentReceivableOnDeliveredBags;
             lodgement.stockRelease.deliveries.push(delivery);
         });
+        
         // console.log(lodgement);
         lodgementRepository.updateLodgement(key, lodgement).then(response => {
             console.log(response);

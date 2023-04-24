@@ -61,6 +61,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""
@@ -128,6 +129,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""
@@ -195,6 +197,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""
@@ -262,6 +265,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""
@@ -329,6 +333,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""
@@ -396,6 +401,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""
@@ -463,6 +469,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""
@@ -530,6 +537,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""
@@ -597,6 +605,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""
@@ -664,6 +673,7 @@
             "hasCarryForwardLot": false,
             "carryForwardLodgementId": "",
             "carryForwardLotNumer": "",
+            "numBagsCarryForward": 0,
             "isCarryForwardLot": false,
             "originalLodgementId": "",
             "originalLotNumber": ""

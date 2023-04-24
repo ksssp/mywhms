@@ -1,6 +1,6 @@
 <template>
     <div class="tables app-crud-form py-4 my-2">
-        <div class="row mx-2">
+        <div class="mx-2">
             <form action="" @submit.prevent="submitForm">
                 <vue-form-generator tag="div" :schema="formSchema" :options="formOptions" :model="formModel" />
                 <div class="d-flex justify-content-end mt-3 pr-4">
@@ -20,63 +20,59 @@
 
 import ChargesFormSchema from './schemas/ChargesFormSchema';
 import { updateLodgement } from '@/services/lodgement.service';
+import { updateDelivery } from '@/services/delivery.service';
 
 export default {
-    name: 'LodgementChargesForm',
+    name: 'ChargesForm',
     props: [
         "formData",
-        "submitMode"
+        "entityName"
     ],
     data: function () {
         return {
-            entityListingUrl: "/inventory/lodgements/",
+            entityType: '',
             formSchema: ChargesFormSchema,
             formOptions: {
                 validateAfterChanged: true
             },
             loadedEntityId: "",
             isSaving: false,
-            formModel: {
-                lodgementId: "",
-                chargesPaid: {
-                    kataCoolieCharges: 0,
-                    hamaliCharges: 0,
-                    platformCoolieCharges: 0,
-                    mamulluCharges: 0,
-                    transportCharges: 0,
-                    totalChargesPaid: 0
-                }
-            }
+            formModel: {}
         }
     },
     created() {
-        if (this.submitMode == 'update')
-            this.formModel = JSON.parse(JSON.stringify(this.formData));
+        this.formModel = JSON.parse(JSON.stringify(this.formData));
+        this.loadedEntityId = this.formData._id;
     },
     methods: {
         submitForm() {
-            // // submit form data to the backend - entity - Lodgement Charges
-            // let lodgement = {
-            //     // setup data from form into the object to be saved
-            // };
+            // submit form data to the backend - entity - Lodgement Charges
+            let loadedEntity = this.formModel;
+            console.log(loadedEntity);
 
-            // if(this.submitMode=="update") {
-            //     lodgement._id = this.loadedEntityId;
-            //     updateLodgement(this.loadedEntityId, lodgement).then(response => {
-            //         var saveActionStatus = response;
-            //         this.$emit('saved', saveActionStatus);
-            //     });
-            // } else if (this.submitMode == "create") {
-            //     lodgement.creationDate = Date.now();
-            //     lodgement.lastModifiedDate = lodgement.creationDate;
-            //     createLodgement(lodgement).then(response => {
-            //         var savedObject = response;
-            //         this.$emit('saved', savedObject);
-            //     });
-            // }
+            loadedEntity._id = this.loadedEntityId;
+            let newNonHamaliChargesPaid = loadedEntity.chargesPaid.kataCoolieCharges + loadedEntity.chargesPaid.platformCoolieCharges + 
+                loadedEntity.chargesPaid.mamulluCharges + loadedEntity.chargesPaid.transportCharges;
+            loadedEntity.chargesPaid.totalChargesPaid = newNonHamaliChargesPaid + loadedEntity.chargesPaid.hamaliCharges;
+            loadedEntity.chargesReceivable.nonHamaliChargesPaid = newNonHamaliChargesPaid;
+            if(this.entityName == 'Lodgement') {
+                loadedEntity.chargesReceivable.totalChargesReceivable = loadedEntity.chargesReceivable.hamaliCharges + loadedEntity.chargesReceivable.nonHamaliChargesPaid;
+            }                
+
+            if(this.entityName == 'Lodgement') {
+                updateLodgement(this.loadedEntityId, loadedEntity).then(response => {
+                    var saveActionStatus = response;
+                    this.$emit('saved', saveActionStatus);
+                });    
+            } else if(this.entityName == 'Delivery') {
+                updateDelivery(this.loadedEntityId, loadedEntity).then(response => {
+                    var saveActionStatus = response;
+                    this.$emit('saved', saveActionStatus);
+                });    
+            }
         },
         cancelForm() {
-            this.submitMode == 'update' ? this.$emit('cancelForm') : this.$router.push(this.entityListingUrl);
+            this.$emit('cancelForm');
         }
     }
 }

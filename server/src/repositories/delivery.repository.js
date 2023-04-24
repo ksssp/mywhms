@@ -26,6 +26,21 @@ class DeliveryRepository {
         return data;
     }
 
+    async getDeliveriesByLodgementId(lodgementId) {
+        let data = {};
+        try {
+            logger.info("delivery repository getDeliveriesByLodgementId: ", lodgementId);
+            data = await Delivery.find({
+                lodgementId: { $eq : lodgementId }
+            }).sort({
+                deliveryDate: 1
+            });
+        } catch(err) {
+            logger.error('Error::' + err);
+        }
+        return data;
+    }
+
     async getDeliveriesByFilter(filter) {
         const deliveries = await Delivery.find(filter).exec();
         return deliveries;

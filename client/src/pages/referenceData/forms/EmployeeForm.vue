@@ -60,8 +60,9 @@ export default {
                 lastModifiedDate: currentDate
             };
 
-            if(this.submitMode=="update") {
+            if(this.submitMode == "update") {
                 employee._id = this.loadedEntityId;
+                console.log(employee);
                 updateEmployee(this.loadedEntityId, employee).then(response => {
                     var saveActionStatus = response;
                     this.$emit('saved', saveActionStatus);

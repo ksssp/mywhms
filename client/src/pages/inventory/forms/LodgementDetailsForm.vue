@@ -19,9 +19,10 @@
 import LodgementDetailsFormSchema from './schemas/LodgementDetailsFormSchema';
 import { createLodgement, updateLodgement } from '@/services/lodgement.service';
 import { getProducts } from '@/services/product.service';
-import { getTrademarks } from '@/services/customer.service';
+import { getCustomers } from '@/services/customer.service';
 import { getLocations } from '@/services/location.service';
 import Multiselect from 'vue-multiselect';
+import { DateTime } from 'luxon';
 
 export default {
     name: 'LodgementDetailsForm',
@@ -43,10 +44,9 @@ export default {
             isSaving: false,
             formModel: {
                 lotNumber: "",
-                trademark: {
-                    trademarkId: "",
-                    trademarkName: "",
-                    customerName: ""
+                customer: {
+                    customerId: "",
+                    customerDisplayName: "",
                 },
                 product: {
                     productId: "",
@@ -54,44 +54,36 @@ export default {
                 },
                 numBagsLodged: 0,
                 numBagsKataCoolie: 0,
-                locationCodes: "",
-                lodgementNotes: "",
+                lodgementDate: '',
+                locationCodes: '',
+                lodgementNotes: '',
                 transport: {
-                    vehicleNumber: "",
-                    driverName: ""
-                },
-                indicativeCharges: {
-                    kataCoolieCharges: 0,
-                    hamaliCharges: 0,
-                    platformCoolieCharges: 0,
-                    mamulluCharges: 0,
-                    insuranceCharges: 0
+                    vehicleNumber: '',
+                    driverName: ''
                 },
             },
             productMap: new Map(),
             selectedProduct: null,
             productOptions: [],
-            trademarkMap: new Map(),
-            selectedTrademark: null,
-            trademarkOptions: [],
+            customerMap: new Map(),
+            selectedCustomer: null,
+            customerOptions: [],
             locationOptions: [],
             locationMap: new Map()
         }
     },
     created() {        
-        this.loadedEntityId = this.formData._id;
         let productField = this.formSchema.groups[0].fields.find(fields => fields.model==='product');
         productField.values = this.getProductOptions();
-        let trademarkField = this.formSchema.groups[0].fields.find(fields => fields.model==='trademark');
-        trademarkField.values = this.getTrademarkOptions();
+        let customerField = this.formSchema.groups[0].fields.find(fields => fields.model==='customer');
+        customerField.values = this.getCustomerOptions();
         let locationField = this.formSchema.groups[0].fields.find(fields => fields.model==='locationCodes');
         locationField.values = this.getLocationOptions();
 
+        this.formModel = JSON.parse(JSON.stringify(this.formData));
+        this.loadedEntityId = this.formData._id;
         if(this.submitMode == 'update') {
-            this.formModel = JSON.parse(JSON.stringify(this.formData));
-            this.formModel.locationCodes = this.formModel.locationCodes.split(', ');
-            this.formModel.trademark.trademarkName = this.formModel.trademark.trademarkName + ' ( ' +  
-                this.formModel.trademark.customerName + ' )';
+            this.formModel.locationCodes = this.formData.locationCodes.split(', ');
         }
     },
     methods: {
@@ -109,19 +101,19 @@ export default {
             });
             this.productMap.set(product._id, product);
         },
-        getTrademarkOptions() {
-            getTrademarks().then(response => {
-                let trademarks = response;
-                trademarks.forEach(this.addToTrademarkOptions);
+        getCustomerOptions() {
+            getCustomers().then(response => {
+                let customers = response;
+                customers.forEach(this.addToCustomerOptions);
             });
-            return this.trademarkOptions;
+            return this.customerOptions;
         },
-        addToTrademarkOptions(trademark) {
-            this.trademarkOptions.push({
-                "trademarkId": trademark._id,
-                "trademarkName": trademark.trademarkName + " ( " + trademark.customerName + ")"
+        addToCustomerOptions(customer) {
+            this.customerOptions.push({
+                "customerId": customer._id,
+                "customerDisplayName": customer.customerDisplayName
             });
-            this.trademarkMap.set(trademark._id, trademark);
+            this.customerMap.set(customer._id, customer);
         },
         getLocationOptions() {
             getLocations().then(response => {
@@ -136,43 +128,76 @@ export default {
         },
         submitForm() {
             // submit form data to the backend - entity - Lodgement
-            let lodgement = {
-                lotNumber: this.formModel.lotNumber,
-                trademark: {
-                    trademarkId: this.formModel.trademark.trademarkId,
-                    trademarkName: this.trademarkMap.get(this.formModel.trademark.trademarkId).trademarkName,
-                    customerName: this.trademarkMap.get(this.formModel.trademark.trademarkId).customerName
-                },
-                product: {
-                    productId: this.formModel.product.productId,
-                    productName: this.formModel.product.productName
-                },
-                numBagsLodged: this.formModel.numBagsLodged,
-                numBagsKataCoolie: this.formModel.numBagsKataCoolie,
-                locationCodes: this.formModel.locationCodes.join(', '),
-                lodgementNotes: this.formModel.lodgementNotes,
-                transport: {
-                    vehicleNumber: this.formModel.transport.vehicleNumber,
-                    driverName: this.formModel.transport.driverName
-                }
+            this.selectedCustomer = this.customerMap.get(this.formModel.customer.customerId);
+            this.selectedProduct = this.productMap.get(this.formModel.product.productId);
+            let currentDate = DateTime.now().toLocal();
+            let lodgement = this.formModel;
+            lodgement.locationCodes = this.formModel.locationCodes.join(', ');
+            lodgement.chargesPerBag = {
+                hamaliPerBag: this.selectedProduct.hamaliPerBag,
+                kataCooliePerBag: this.selectedProduct.kataCooliePerBag,
+                platformCooliePerBag: this.selectedProduct.platformCooliePerBag,
+                mamulluPerBag: this.selectedProduct.mamulluPerBag,
+                insurancePerBag: this.selectedProduct.insurancePerBag
             };
+            lodgement.chargesReceivable = {
+                hamaliCharges: Math.round(2 * this.selectedProduct.hamaliPerBag * lodgement.numBagsLodged),
+                insuranceCharges: Math.round(this.selectedProduct.insurancePerBag * lodgement.numBagsLodged),
+                nonHamaliChargesPaid: 0,
+                totalChargesReceivable: Math.round(2 * this.selectedProduct.hamaliPerBag * lodgement.numBagsLodged)
+                    + Math.round(this.selectedProduct.insurancePerBag * lodgement.numBagsLodged),
+            };
+            lodgement.lastModifiedDate = currentDate;
 
             if(this.submitMode=="update") {
                 lodgement._id = this.loadedEntityId;
-                lodgement.indicativeCharges = {
-                    hamaliCharges: this.selectedProduct.hamaliPerBag * numBagsLodged,
-                    kataCoolieCharges: this.selectedProduct.kataCooliePerBag * numBagsLodged,
-                    insuranceCharges: this.selectedProduct.insurancePerBag * numBagsLodged,
-                    platformCoolieCharges: this.selectedProduct.platformCoolieCharges * numBagsLodged,
-                    mamullucharges: this.selectedProduct.mamullucharges * numBagsLodged,
-                }
+                console.log(lodgement);
                 updateLodgement(this.loadedEntityId, lodgement).then(response => {
                     var saveActionStatus = response;
-                    this.$emit('saved', saveActionStatus);
+                    console.log('saveActionStatus : ', saveActionStatus);
+                    this.$emit('saved', saveActionStatus.status);
                 });
             } else if (this.submitMode == "create") {
-                lodgement.creationDate = Date.now();
-                lodgement.lastModifiedDate = lodgement.creationDate;
+
+                // setup defaults for most fields
+                lodgement.creationDate = currentDate
+                lodgement.lodgementDate = currentDate;
+                lodgement.isPlatformLot = false;
+                lodgement.chargesPaid = {
+                    hamaliCharges: 0,
+                    kataCoolieCharges: 0,
+                    platformCoolieCharges: 0,
+                    mamulluCharges: 0,
+                    transportCharges: 0,
+                    totalChargesPaid: 0,
+                };
+                lodgement.rentals = {
+                    rentalYear: lodgement.creationDate.year,
+                    rentalMode: lodgement.creationDate.month < 6 ? 'Yearly' : 'Monthly', 
+                    monthlyRentPerBag: this.selectedProduct.monthlyRentPerBag,
+                    yearlyRentPerBag: this.selectedProduct.yearlyRentPerBag,
+                    rentSettled: false
+                };
+                lodgement.numBagsBalance = lodgement.numBagsLodged;
+                lodgement.stockRelease = {
+                    numDeliveries: 0,
+                    numBagsDelivered: 0,
+                    lastDeliveryDate: '',
+                    totalChargesPaid: 0,
+                    totalChargesReceivable: 0,
+                    totalRentReceivable: 0,
+                    deliveries: []
+                };
+                lodgement.carryForward = {
+                    hasCarryForwardLot: false,
+                    carryForwardLodgementId: '',
+                    carryForwardLotNumber: '',
+                    numBagsCarryForward: 0,
+                    isCarryForwardLot: false,
+                    originalLodgementId: '',
+                    originalLotNumber: ''
+                };
+
                 createLodgement(lodgement).then(response => {
                     var savedObject = response;
                     this.$emit('saved', savedObject);

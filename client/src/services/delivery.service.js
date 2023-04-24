@@ -10,6 +10,11 @@ export async function getDeliveryById(deliveryId) {
     return await response.json();
 }
 
+export async function getDeliveriesByLodgementId(lodgementId) {
+    const response = await fetch('/api/inventory/deliveriesByLodgement/'+lodgementId);
+    return await response.json();
+}
+
 export async function getDeliveriesByFilter(filter) {
     const response = await fetch('/api/inventory/deliveriesbyFilter', {
         method: 'GET',
@@ -30,12 +35,12 @@ export async function createDelivery(data) {
 }
 
 export async function deleteDelivery(deliveryId) {
-    const response = await fetch(`/api/inventory/delivery/${deliveryId}`, {method: 'DELETE'})
+    const response = await fetch(`/api/inventory/deliveries/${deliveryId}`, {method: 'DELETE'})
     return await response.json();
 }
 
-export async function editDelivery(data) {
-    const response = await fetch(`/api/inventory/delivery`, {
+export async function updateDelivery(deliveryId, data) {
+    const response = await fetch(`/api/inventory/deliveries/${deliveryId}`, {
         method: 'PUT',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({delivery: data})

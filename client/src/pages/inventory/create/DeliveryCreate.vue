@@ -16,8 +16,8 @@
             <div class="card">
                 <div class="card-body">
                     <div class="mx-4">
-                        <DeliveryCreateForm :form-data="loadedEntity" :submit-mode="submitMode" 
-                            @saved="saved" @cancelForm="createCancelled"></DeliveryCreateForm>
+                        <DeliveryDetailsForm :form-data="loadedEntity" :submit-mode="submitMode" 
+                            @saved="saved" @cancelForm="createCancelled"></DeliveryDetailsForm>
                     </div>
                 </div>
             </div>
@@ -26,12 +26,12 @@
 </template>
 
 <script>
-import DeliveryCreateForm from "../forms/DeliveryCreateForm.vue";
+import DeliveryDetailsForm from "../forms/DeliveryDetailsForm.vue";
 
 export default {
     name: "DeliveryCreate",
     components: {
-        DeliveryCreateForm
+        DeliveryDetailsForm
     },
     data: function () {
         return {
@@ -40,7 +40,7 @@ export default {
             entityListingUrl: "/inventory/deliveries/",
             loadedEntity: {},
             loadedEntityId: null,
-            submitMode: "create"
+            submitMode: "createNew"
         };
     },
     methods: {

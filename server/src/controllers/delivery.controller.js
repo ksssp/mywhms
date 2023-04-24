@@ -13,6 +13,11 @@ class DeliveryController {
         return await deliveryService.getDeliveryById(deliveryId);
     }
 
+    async getDeliveriesByLodgementId(lodgementId) {
+        logger.info('Controller: getDeliveriesByLodgementId', lodgementId);
+        return await deliveryService.getDeliveriesByLodgementId(lodgementId);
+    }
+
     async getDeliveriesByFilter(filter) {
         logger.info('Controller: getDeliveriesByFilter - ', filter)
         return await deliveryService.getDeliveriesByFilter(filter);
@@ -23,9 +28,9 @@ class DeliveryController {
         return await deliveryService.createDelivery(delivery);
     }
 
-    async updateDelivery(delivery) {
-        logger.info('Controller: updateDelivery', delivery);
-        return await deliveryService.updateDelivery(delivery);
+    async updateDelivery(deliveryId, delivery) {
+        logger.info('Controller: updateDelivery', deliveryId);
+        return await deliveryService.updateDelivery(deliveryId, delivery);
     }
 
     async deleteDelivery(deliveryId) {

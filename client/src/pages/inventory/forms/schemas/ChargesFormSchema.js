@@ -10,7 +10,7 @@ export default {
                     inputType: 'number',
                     step: '0.01',
                     label: 'Kata Coolie Charges Paid',
-                    model: 'kataCoolieCharges',
+                    model: 'chargesPaid.kataCoolieCharges',
                     required: true,
                     default: 0,
                     validator: ['number', 'required']
@@ -19,7 +19,7 @@ export default {
                     type: 'input',
                     inputType: 'number',
                     label: 'Hamali Charges Paid',
-                    model: 'hamaliCharges',
+                    model: 'chargesPaid.hamaliCharges',
                     required: true,
                     default: 0,
                     validator: ['number', 'required']
@@ -28,7 +28,7 @@ export default {
                     type: 'input',
                     inputType: 'number',
                     label: 'Platform Coolie Charges Paid',
-                    model: 'platformCoolieCharges',
+                    model: 'chargesPaid.platformCoolieCharges',
                     required: true,
                     default: 0,
                     validator: ['number', 'required']
@@ -37,7 +37,7 @@ export default {
                     type: 'input',
                     inputType: 'number',
                     label: 'Mamullu Charges Paid',
-                    model: 'mamulluCharges',
+                    model: 'chargesPaid.mamulluCharges',
                     required: true,
                     default: 0,
                     validator: ['number', 'required']
@@ -46,7 +46,7 @@ export default {
                     type: 'input',
                     inputType: 'number',
                     label: 'Transport Charges Paid',
-                    model: 'transportCharges',
+                    model: 'chargesPaid.transportCharges',
                     required: true,
                     default: 0,
                     validator: ['number', 'required']

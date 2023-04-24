@@ -12,23 +12,41 @@ class LodgementRepository {
 
     async getLodgements() {
         const lodgements = await Lodgement.find({
-                numBagsBalance: { $gt : 0 }
             }).
             select({
                 _id: 1,
                 lodgementDate: 1,
                 lotNumber: 1,
-                trademark: 1,
+                customer: 1,
                 product: 1,
                 numBagsLodged: 1,
                 numBagsBalance: 1,
                 isPlatformLot: 1,
                 locationCodes: 1,
+                chargesPerBag: 1,
                 chargesReceivable: 1,
                 chargesPaid: 1,
-                rents: 1
+                rentals: 1,
+                stockRelease: 1,
+                lastModifiedDate: 1,
+                carryForward: 1
             }).
-            sort({ lodgementDate: -1 });
+            sort({ lotNumber: -1 });
+        return lodgements;
+    }
+
+    async getCarryForwardLodgements() {
+        const lodgements = await Lodgement.find({
+                'carryForward.isCarryForwardLot': { $eq : true }
+            }).
+            select({
+                _id: 1,
+                lotNumber: 1,
+                numBagsLodged: 1,
+                numBagsBalance: 1,
+                carryForward: 1
+            });
+            
         return lodgements;
     }
 
@@ -59,17 +77,21 @@ class LodgementRepository {
     async getLodgementsByCustomerId(customerId) {
         let data = {};
         try {
-            logger.info("lodgement repository findByTrademarkId: ", new mongoose.Types.ObjectId(trademarkId));
+            logger.info("lodgement repository findByCustomerId: ", new mongoose.Types.ObjectId(customerId));
             data = await Lodgement.find({
                 numBagsBalance: { $gt : 0 },
                 'customer.customerId': { $eq : customerId }
             }).select({
                 _id: 1,
                 lotNumber: 1,
+                lodgementDate: 1,
                 customer: 1,
                 product: 1,
+                chargesPerBag: 1,
+                locationCodes: 1,
                 numBagsLodged: 1,
-                numBagsBalance: 1
+                numBagsBalance: 1,
+                rentals: 1
             }).sort({ 
                 lotNumber: 1 
             });

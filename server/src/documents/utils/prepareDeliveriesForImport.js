@@ -1,185 +1,125 @@
 // this file is to prepare jsons for upload
 const deliveries = require('../sampleData/sampleDeliveries.json');
-const lodgementRepository = require('../../repositories/lodgement.repository');
-const deliveryRepository = require('../../repositories/delivery.repository');
-var moment = require('moment');
-const { DateTime } = require ( 'luxon' );
-
+const deliveryUtils = require('./delivery.utils');
+const lodgementUtils = require ('./lodgement.utils');
+const lodgementRepository = require ('../../repositories/lodgement.repository');
 var fs = require('fs');
+const deliveryRepository = require('../../repositories/delivery.repository');
 
-var formattedDeliveries = [];
-var lodgementToDeliveriesMap = new Map();
+let lotNumberMap = deliveryUtils.prepareDeliveriesForImport(deliveries);
 
-// prepare map out of deliveries
-deliveries.forEach(element => {
-    var formattedDelivery = {
-        "lotNumber": element.lotNumber,
-        "deliveryDate": DateTime.fromFormat(element.deliveryDate, 'M/d/yyyy').toLocal(),
-        "numBagsDelivered": element.numBagsDelivered,
-        "numBagsKataCoolie": element.numBagsKataCoolie,
-        "locationCodes": element.locationCodes,
-        "deliveryNotes": element.deliveryNotes,
-        "transport": {
-            "vehicleNumber": element.transport_vehicleNumber,
-            "driverName": element.transport_driverName,
-        },
-        "chargesPaid": {
-            "hamaliCharges": element.chargesPaid_hamaliCharges,
-            "kataCoolieCharges":element.chargesPaid_kataCoolieCharges,
-            "platformCoolieCharges": element.chargesPaid_platformCoolieCharges,
-            "mamulluCharges": element.chargesPaid_mamulluCharges,
-            "transportCharges": element.chargesPaid_transportCharges,
-            "totalChargesPaid": element.chargesPaid_totalChargesPaid,
-        },
-        "chargesReceivable": {
-            "nonHamaliChargesPaid": element.chargesReceivable_nonHamaliChargesPaid
-        }
-    };
-    formattedDeliveries.push(formattedDelivery);
-    var deliveriesList = [];
-    if(lodgementToDeliveriesMap.has(element.lotNumber)) {
-        deliveriesList = lodgementToDeliveriesMap.get(element.lotNumber);
-    }
-    deliveriesList.push(formattedDelivery);
-    lodgementToDeliveriesMap.set(element.lotNumber, deliveriesList);
+fs.writeFile('../sampleData/lotNumberToDeliveriesMap.json', JSON.stringify([...lotNumberMap]), 'utf8', function(err) {
+    if (err) throw err;
+    console.log('file write complete with object count: ', lotNumberMap.size);
 });
 
+lodgementRepository.getLodgements().then(response => {
+    let lotNumberToLodgementsMap = new Map();
+    let lodgements = JSON.parse(JSON.stringify(response));
 
-// enrich deliveries data with lodgements
-for (let [key, value] of  lodgementToDeliveriesMap.entries()) {
-	let lotNumber = key;
-    let deliveriesList = value;
-    console.log(lotNumber);
-    lodgementRepository.getLodgementByLotNumber(lotNumber).then(response => {
-        let lodgementsList = JSON.parse(JSON.stringify(response));
-        let originalLodgement = lodgementsList[0];
+    // create a lotNumberToLodgementMap for easy access
+    lodgements.forEach(lodgement => {
+        lotNumberToLodgementsMap.set(lodgement.lotNumber, lodgement);
+    });
 
-        // setup fields to be updated in lodgement
-        let totalNumDeliveries = 0;
-        let totalNumBagsBalance = originalLodgement.numBagsLodged;
-        let totalNumBagsDelivered = 0;
-        let lastDeliveryDate = null;
-        let totalChargesPaid = 0;
-        let totalChargesReceivable = 0;
-        let totalRentReceivable = 0;
-        let rentalRate = (originalLodgement.rentals.rentalMode == 'Monthly' ? originalLodgement.rentals.monthlyRentPerBag : originalLodgement.rentals.yearlyRentPerBag);
-        let originalLodgementDate = DateTime.fromISO(originalLodgement.lodgementDate).toLocal();
+    // 1. (only once) - create carryForwardLots based on processed deliveries
+    // let carryForwardLodgementsToBeCreated = [];
+    // for( [key, value] of lotNumberMap) {
+    //     let lotNumber = key;
+    //     let lotNumberData = value;
+    //     if(lotNumberData.isCarryForwardLot) {
+    //         let originalLot = lotNumberToLodgementsMap.get(lotNumberData.originalLotNumber);
+    //         let carryForwardLot = lodgementUtils.getCarryForwardLotForLodgement(originalLot, lotNumberData.lodgementDate, 
+    //             lotNumberData.numBagsLodged, lotNumber);
+
+    //         console.log('prepare carryForward with lotNumber: ', carryForwardLot.lotNumber, carryForwardLot);
+    //         carryForwardLodgementsToBeCreated.push(carryForwardLot);
+    //     }
+    // }
+    // fs.writeFile('../sampleData/sampleCarryForwardLotsReady.json', JSON.stringify(carryForwardLodgementsToBeCreated), 'utf8', function(err) {
+    //     if (err) throw err;
+    //     console.log('file write complete with object count: ', carryForwardLodgementsToBeCreated.length);
+    // });
 
 
-        let hasCarryForwardLot = false;
-        let carryForwardLodgementId = null;
-        let carryForwardLotNumer = null;
-        let isCarryForwardLot = false;
-        let originalLodgementId = null;
-        let originalLotNumber = lotNumber;
+    // 2. insert all deliveries with updated values in to deliveries collection
+    // let formattedDeliveries = [];
+    // for([key, value] of lotNumberMap) {
+    //     let lotNumber = key;
+    //     let lodgement = lotNumberToLodgementsMap.get(lotNumber);
+    //     // console.log(lotNumber, lodgement);
+    //     let deliveries = lotNumberMap.get(lotNumber).deliveries;
+        
+    //     deliveries.forEach(delivery => {
+    //         let newDelivery = deliveryUtils.getNewDeliveryForLodgement(delivery, lodgement);
+    //         formattedDeliveries.push(newDelivery);
+    //     });
+    // }
 
-        deliveriesList.forEach(delivery => {    
-            
-            // update summary values for deliveries including this new delivery
-            totalNumDeliveries = totalNumDeliveries + 1;
-            totalNumBagsBalance = totalNumBagsBalance - delivery.numBagsDelivered;
-            totalNumBagsDelivered = totalNumBagsDelivered + delivery.numBagsDelivered;
-            lastDeliveryDate = delivery.deliveryDate;
-            totalChargesPaid = totalChargesPaid + delivery.chargesPaid.totalChargesPaid;
-            totalChargesReceivable = totalChargesReceivable + delivery.chargesReceivable.nonHamaliChargesPaid;
+    // fs.writeFile('../sampleData/sampleDeliveriesReady.json', JSON.stringify(formattedDeliveries), 'utf8', function(err) {
+    //     if (err) throw err;
+    //     console.log('file write complete with object count: ', formattedDeliveries.length);
+    // });
 
-            let dateDiff = delivery.deliveryDate.endOf('month').diff(originalLodgementDate.startOf('month'), ['months', 'days']).toObject();
-            let monthsLodgedForDelivery = dateDiff.months+1;
-            console.log("easy logic", originalLodgementDate.toLocal().toFormat('yyyy-MM-dd'), delivery.deliveryDate.toLocal().toFormat('yyyy-MM-dd'), moment.months, dateDiff);
 
-            let rentReceivableForDelivery = delivery.numBagsDelivered * rentalRate * (originalLodgement.rentals.rentalMode == 'Monthly' ? monthsLodgedForDelivery : 1);
-            totalRentReceivable = totalRentReceivable + rentReceivableForDelivery;
-            
-            // 1. enrich delivery object with lodgement info
-            let newDelivery = {
-                lodgementId: originalLodgement._id,
-                lotNumber: originalLodgement.lotNumber,
-                customer: {
-                    customerId: originalLodgement.customer.customerId,
-                    customerDisplayName: originalLodgement.customer.customerDisplayName,
-                },
-                product: {
-                    productId: originalLodgement.product.productId,
-                    productName: originalLodgement.product.productName,
-                },
-                deliveryDate: delivery.deliveryDate,
-                numBagsDelivered: delivery.numBagsDelivered,
-                numBagsKataCoolie: delivery.numBagsKataCoolie,
-                numBagsLodged: originalLodgement.numBagsLodged,
-                numBagsBalance: totalNumBagsBalance,
-                locationCodes: delivery.locationCodes,
-                lodgementDate: originalLodgementDate,
-                deliveryNotes: delivery.deliveryNotes,
-                numMonthsLodged: monthsLodgedForDelivery,
-                transport: {
-                    vehicleNumber: delivery.transport.vehicleNumber,
-                    driverName: delivery.transport.driverName
-                },
-                chargesPerBag: {
-                    hamaliPerBag: originalLodgement.chargesPerBag.hamaliPerBag,
-                    kataCooliePerBag: originalLodgement.chargesPerBag.kataCooliePerBag,
-                    platformCooliePerBag: originalLodgement.chargesPerBag.platformCooliePerBag,
-                    mamulluPerBag: originalLodgement.chargesPerBag.mamulluPerBag,
-                    insurancePerBag: originalLodgement.chargesPerBag.insurancePerBag
-                },
-                chargesPaid: {
-                    hamaliCharges: delivery.chargesPaid.hamaliCharges,
-                    kataCoolieCharges: delivery.chargesPaid.kataCoolieCharges,
-                    platformCoolieCharges: delivery.chargesPaid.platformCoolieCharges,
-                    mamulluCharges: delivery.chargesPaid.mamulluCharges,
-                    transportCharges: delivery.chargesPaid.transportCharges,
-                    totalChargesPaid: delivery.chargesPaid.totalChargesPaid
-                },
-                chargesReceivable: {
-                    nonHamaliChargesPaid: delivery.chargesReceivable.nonHamaliChargesPaid
-                },
-                rentals: {
-                    rentalYear: originalLodgement.rentals.rentalYear,
-                    rentalMode: originalLodgement.rentals.rentalMode, 
-                    monthlyRentPerBag: originalLodgement.rentals.monthlyRentPerBag,
-                    yearlyRentPerBag: originalLodgement.rentals.yearlyRentPerBag,
-                    rentReceivableOnDeliveredBags: rentReceivableForDelivery
-                },
-                lastModifiedDate: delivery.deliveryDate,
-                creationDate: delivery.deliveryDate
-            };
+    // 3. update lodgement Objects with updated summaries & deliveries lists
+    deliveryRepository.getDeliveries().then(response => {
+        let deliveries = JSON.parse(JSON.stringify(response));
 
-            // 2. Save the delivery into deliveries collection
-            // deliveryRepository.createDelivery(newDelivery).then(response => {
-                let newDeliveryId = "newDelivery"; // response;
-                let deliveryObjectForLodgement = {
-                    deliveryId: newDeliveryId,
-                    deliveryDate: newDelivery.deliveryDate,
-                    numBagsDelivered: newDelivery.numBagsDelivered,
-                    numBagsBalance: newDelivery.numBagsBalance,
-                    numMonthsLodged: newDelivery.numMonthsLodged,
-                    rentReceivableOnDeliveredBags: newDelivery.rentals.rentReceivableOnDeliveredBags,
-                    nonHamaliChargesPaid: newDelivery.chargesReceivable.nonHamaliChargesPaid
-                }
-                originalLodgement.stockRelease.deliveries.push(deliveryObjectForLodgement);
-            // });
-            console.log(newDelivery);
+        var lodgementToDeliveriesMap = new Map();
+        deliveries.forEach(element => {
+            if(!lodgementToDeliveriesMap.has(element.lotNumber)) {
+                lodgementToDeliveriesMap.set(element.lotNumber, {
+                    numDeliveries: 0,
+                    totalChargesPaid: 0,
+                    totalRentReceivable: 0,
+                    totalChargesReceivable: 0,
+                    numBagsDelivered: 0,
+                    lastDeliveryDate: null,
+                    deliveries: []
+                });
+            }
+
+            var formattedDelivery = {
+                deliveryId: element.deliveryId,
+                deliveryDate: element.deliveryDate,
+                numBagsDelivered: element.numBagsDelivered,
+                numBagsBalance: element.numBagsBalance,
+                numMonthsLodged: element.numMonthsLodged,
+                rentalMode: element.rentals.rentalMode,
+                rentalYear: element.rentals.rentalYear,
+                monthlyRentPerBag: element.rentals.monthlyRentPerBag,
+                yearlyRentPerBag: element.rentals.yearlyRentPerBag,
+                rentReceivableOnDeliveredBags: element.rentals.rentReceivableOnDeliveredBags,
+                totalChargesPaid: element.chargesPaid.totalChargesPaid,
+                nonHamaliChargesPaid: element.chargesReceivable.nonHamaliChargesPaid
+            }
+
+            lodgementToDeliveriesMap.get(element.lotNumber).numDeliveries++;
+            lodgementToDeliveriesMap.get(element.lotNumber).numBagsDelivered += formattedDelivery.numBagsDelivered;
+            lodgementToDeliveriesMap.get(element.lotNumber).lastDeliveryDate = formattedDelivery.deliveryDate;
+            lodgementToDeliveriesMap.get(element.lotNumber).totalChargesPaid += formattedDelivery.totalChargesPaid;
+            lodgementToDeliveriesMap.get(element.lotNumber).totalChargesReceivable += formattedDelivery.nonHamaliChargesPaid;
+            lodgementToDeliveriesMap.get(element.lotNumber).totalRentReceivable += formattedDelivery.rentReceivableOnDeliveredBags;
+            lodgementToDeliveriesMap.get(element.lotNumber).deliveries.push(formattedDelivery);
         });
 
-        originalLodgement.numBagsBalance = totalNumBagsBalance;
-        originalLodgement.stockRelease.numDeliveries = totalNumDeliveries;
-        originalLodgement.stockRelease.numBagsDelivered = totalNumBagsDelivered;
-        originalLodgement.stockRelease.lastDeliveryDate = lastDeliveryDate;
-        originalLodgement.lastModifiedDate = lastDeliveryDate;
-        originalLodgement.stockRelease.totalChargesPaid = totalChargesPaid;
-        originalLodgement.stockRelease.totalChargesReceivable = totalChargesReceivable;
-        originalLodgement.stockRelease.totalRentReceivable = totalRentReceivable;
+        lodgementToDeliveriesMap.forEach(function(value, key) {
+            let lotNumber = key;
+            let stockRelease = value;
+            let lodgement = lotNumberToLodgementsMap.get(lotNumber);
+            lodgement.stockRelease = JSON.parse(JSON.stringify(stockRelease));
+            lodgement.numBagsBalance = lodgement.numBagsLodged - lodgement.stockRelease.numBagsDelivered;
+            
+            lodgementRepository.updateLodgement(lodgement._id, lodgement).then(response => {
+                console.log("lodgement update: for ", lodgement.lotNumber, response);
 
+                fs.appendFile('../sampleData/parsedDeliveriesForLodgements.json', JSON.stringify(lodgement) + ', ', 'utf8', function(err) {
+                    if (err) throw err;
+                });
+            });
+            return;
+        });
 
-        console.log("saving ", originalLodgement);
-        // 4. save lodgement object that has updated list of deliveries
-        // lodgementRepository.updateLodgement(lodgement.lodgementId, lodgement).then(response => {
-
-        //     // append the updated logement into the ready file for verification
-        //     fs.writeFile('../sampleData/sampleDeliveriesReady.json', JSON.stringify(lodgement), 'utf8', function(err) {
-        //         if (err) throw err;
-        //         console.log('file write complete with object lotNumber: ', lotNumber, ' #deliveries: ', deliveriesForLodgement.length);
-        //     });
-        // });
     });
-}
+});

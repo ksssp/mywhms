@@ -95,6 +95,7 @@ productRepository.getProducts().then(response => {
                     "hasCarryForwardLot": element.carryForward_hasCarryForwardLot == 'FALSE' ? false : true,
                     "carryForwardLodgementId": element.carryForward_carryForwardLodgementId,
                     "carryForwardLotNumer": element.carryForward_carryForwardLotNumber,
+                    "numBagsCarryForward": 0,
                     "isCarryForwardLot": element.carryForward_isCarryForwardLot == 'FALSE' ? false : true,
                     "originalLodgementId": element.carryForward_originalLodgementId,
                     "originalLotNumber": element.carryForward_originalLotNumber

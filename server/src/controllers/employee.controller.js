@@ -19,7 +19,7 @@ class EmployeeController {
     }
 
     async updateEmployee(employeeId, employee) {
-        logger.info('Controller: updateEmployee', employeeId, " employeeObj", employee);
+        logger.info('Controller: updateEmployee', employeeId);
         return await employeeService.updateEmployee(employeeId, employee);
     }
 

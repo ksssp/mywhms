@@ -18,9 +18,9 @@ class LodgementController {
         return await lodgementService.getLodgementById(lodgementId);
     }
 
-    async getLodgementsByTrademarkId(trademarkId) {
-        logger.info('Controller: getLodgementsByTrademarkId', trademarkId);
-        return await lodgementService.getLodgementsByTrademarkId(trademarkId);
+    async getLodgementsByCustomerId(customerId) {
+        logger.info('Controller: getLodgementsByCustomerId', customerId);
+        return await lodgementService.getLodgementsByCustomerId(customerId);
     }
 
     async createLodgement(lodgement) {
@@ -28,9 +28,9 @@ class LodgementController {
         return await lodgementService.createLodgement(lodgement);
     }
 
-    async updateLodgement(lodgement) {
-        logger.info('Controller: updateLodgement', lodgement);
-        return await lodgementService.updateLodgement(lodgement);
+    async updateLodgement(lodgementId, lodgement) {
+        logger.info('Controller: updateLodgement', lodgementId);
+        return await lodgementService.updateLodgement(lodgementId, lodgement);
     }
 
     async deleteLodgement(lodgementId) {

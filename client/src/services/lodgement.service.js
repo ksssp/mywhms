@@ -10,13 +10,13 @@ export async function getLodgementById(lodgementId) {
     return await response.json();
 }
 
-export async function getLodgementsByTrademarkId(trademarkId) {
-    const response = await fetch('/api/inventory/lodgementsByTrademark/'+trademarkId);
+export async function getLodgementsByCustomerId(customerId) {
+    const response = await fetch('/api/inventory/lodgementsByCustomer/'+customerId);
     return await response.json();
 }
 
 export async function createLodgement(data) {
-    const response = await fetch(`/api/inventory/lodgement`, {
+    const response = await fetch(`/api/inventory/lodgements`, {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({lodgement: data})
@@ -25,12 +25,12 @@ export async function createLodgement(data) {
 }
 
 export async function deleteLodgement(lodgementId) {
-    const response = await fetch(`/api/inventory/lodgement/${lodgementId}`, {method: 'DELETE'})
+    const response = await fetch(`/api/inventory/lodgements/${lodgementId}`, {method: 'DELETE'})
     return await response.json();
 }
 
-export async function editLodgement(data) {
-    const response = await fetch(`/api/inventory/lodgement`, {
+export async function updateLodgement(lodgementId, data) {
+    const response = await fetch(`/api/inventory/lodgements/${lodgementId}`, {
         method: 'PUT',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({lodgement: data})

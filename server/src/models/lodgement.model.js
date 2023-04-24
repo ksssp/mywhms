@@ -42,7 +42,7 @@ const lodgementSchema = new mongoose.Schema({
             nonHamaliChargesPaid: { type: Number, min: 0 },
             totalChargesReceivable: { type: Number, min: 0 }
         },
-        rents: {
+        rentals: {
             rentalYear: Number,
             rentalMode: String, 
             monthlyRentPerBag: { type: Number, min: 0 },
@@ -63,6 +63,10 @@ const lodgementSchema = new mongoose.Schema({
                 numBagsDelivered: { type: Number, min: 1 },
                 numBagsBalance: { type: Number, min: 0 },
                 numMonthsLodged: Number,
+                rentalMode: String,
+                rentalYear: Number,
+                monthlyRentPerBag: Number,
+                yearlyRentPerBag: Number,
                 rentReceivableOnDeliveredBags: { type: Number, min: 0 },
                 nonHamaliChargesPaid: { type: Number, min: 0 }
             } ]
@@ -71,7 +75,8 @@ const lodgementSchema = new mongoose.Schema({
         carryForward: {
             hasCarryForwardLot: Boolean,
             carryForwardLodgementId: String,
-            carryForwardLotNumer: String,
+            carryForwardLotNumber: String,
+            numBagsCarryForward: Number,
             isCarryForwardLot: Boolean,
             originalLodgementId: String,
             originalLotNumber: String

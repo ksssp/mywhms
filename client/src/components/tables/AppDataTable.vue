@@ -1,6 +1,6 @@
 <template>
     <div class="tables">
-        <table id="app-table-list" class="app-table table hover row-border stripe order-column" style="width:100%"></table>
+        <table class="app-table table hover row-border stripe order-column" style="width: 100%"></table>
     </div>
 </template>
 
@@ -64,10 +64,10 @@ export default {
     mounted() {
         this.exportFileName = this.downloadFileName;
         var table = $("table.app-table").DataTable({
-            paging: this.isMainTable,
-            searching:  this.isMainTable,
+            paging: true,
+            searching:  true,
             order: [],
-            ordering:  this.isMainTable,
+            ordering:  true,
             scrollX:  true,
             columns: this.fields,
             columnDefs: this.fieldDefs,
@@ -80,11 +80,7 @@ export default {
         if(this.isMainTable) {
             $('table.app-table tbody').on('click', 'tr', function () {
                 var data = table.row(this).data();
-                if(router.currentRoute.path == '/inventory/lots/') {
-                    router.push('/inventory/lodgements/' + data._id);
-                } else {
-                    router.push(data._id);
-                }
+                router.push(data._id);
             });
         }
         

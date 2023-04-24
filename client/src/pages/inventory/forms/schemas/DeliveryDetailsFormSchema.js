@@ -3,21 +3,14 @@ import { VueFormGenerator } from "vue-form-generator"
 export default {
     groups: [
         {
-            legend: "Lodgement Details",
+            legend: "Delivery Details",
             fields: [
-                {
-                    type: 'input',
-                    inputType: 'text',
-                    label: 'Lot Number',
-                    model: 'lotNumber',
-                    required: true,
-                    validator: ['string', 'required']
-                },
                 {
                     type: 'vueMultiSelect',
                     label: 'Customer',
                     model: 'customer',
                     required: true,
+                    disabled: true,
                     selectOptions: {
                         noneSelectedText: 'Select a Customer',
                         multiple: false,
@@ -33,9 +26,29 @@ export default {
                 },
                 {
                     type: 'vueMultiSelect',
+                    label: 'Lot Number',
+                    model: 'deliveryLot',
+                    required: true,
+                    disabled: true,
+                    selectOptions: {
+                        noneSelectedText: 'Select a Lot',
+                        multiple: false,
+                        searchable: true,
+                        clearOnSelect: true,
+                        hideSelected: true,
+                        showPointer: true,
+                        key: "lodgementId",
+                        label: "lodgementName",
+                    },
+                    values: [],
+                    validator: ['required']
+                },
+                {
+                    type: 'vueMultiSelect',
                     label: 'Product Name',
                     model: 'product',
                     required: true,
+                    disabled: true,
                     selectOptions: {
                         noneSelectedText: 'Select a Product',
                         multiple: false,
@@ -52,10 +65,15 @@ export default {
                 {
                     type: 'input',
                     inputType: 'number',
-                    label: 'Number of bags lodged',
-                    model: 'numBagsLodged',
+                    label: 'Number of bags Delivered',
+                    hint: function(model) { 'Maximum allowed bags is ' + model.numBagsBalance; },
+                    model: 'numBagsDelivered',
                     required: true,
-                    validator: ['number', 'required']
+                    max: function(model) { return model.numBagsBalance; },
+                    validator: ['number', 'required'],
+                    onChanged: function(model, newVal, oldVal, field) {
+                        console.log("numBagsDelivered changed to : ", newVal);
+                    },
                 },
                 {
                     type: 'input',
@@ -63,7 +81,7 @@ export default {
                     label: 'Number of bags Kata Coolie',
                     model: 'numBagsKataCoolie',
                     required: true,
-                    validator: ['number', 'required']
+                    validator: ['number', 'required'],
                 },
                 {
                     type: 'vueMultiSelect',
@@ -89,6 +107,57 @@ export default {
                 },
             ]
         },
+        // {
+        //     legend: "Charges Paid",
+        //     fields: [
+        //         {
+        //             type: 'input',
+        //             inputType: 'number',
+        //             step: '0.01',
+        //             label: 'Kata Coolie Charges Paid',
+        //             model: 'chargesPaid.kataCoolieCharges',
+        //             required: true,
+        //             default: 0,
+        //             validator: ['number', 'required']
+        //         },
+        //         {
+        //             type: 'input',
+        //             inputType: 'number',
+        //             label: 'Hamali Charges Paid',
+        //             model: 'chargesPaid.hamaliCharges',
+        //             required: true,
+        //             default: 0,
+        //             validator: ['number', 'required']
+        //         },
+        //         {
+        //             type: 'input',
+        //             inputType: 'number',
+        //             label: 'Platform Coolie Charges Paid',
+        //             model: 'chargesPaid.platformCoolieCharges',
+        //             required: true,
+        //             default: 0,
+        //             validator: ['number', 'required']
+        //         },
+        //         {
+        //             type: 'input',
+        //             inputType: 'number',
+        //             label: 'Mamullu Charges Paid',
+        //             model: 'chargesPaid.mamulluCharges',
+        //             required: true,
+        //             default: 0,
+        //             validator: ['number', 'required']
+        //         },
+        //         {
+        //             type: 'input',
+        //             inputType: 'number',
+        //             label: 'Transport Charges Paid',
+        //             model: 'chargesPaid.transportCharges',
+        //             required: true,
+        //             default: 0,
+        //             validator: ['number', 'required']
+        //         }
+        //     ]
+        // },
         {
             legend: "Other details",
             fields: [
@@ -97,7 +166,6 @@ export default {
                     inputType: 'text',
                     label: 'Vechile Number',
                     model: 'transport.vehicleNumber',
-                    hint: 'e.g. AP 37 DK 1234',
                     validator: ['string']
                 },
                 {
@@ -109,8 +177,8 @@ export default {
                 },
                 {
                     type: "textArea",
-                    label: "Lodgement Notes",
-                    model: "lodgementNotes",
+                    label: "Delivery Notes",
+                    model: "deliveryNotes",
                     hint: "Max 100 characters",
                     max: 100,
                     rows: 2,

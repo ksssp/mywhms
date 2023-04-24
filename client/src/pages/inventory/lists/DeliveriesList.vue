@@ -40,6 +40,7 @@
 
 <script>
 import { getDeliveries } from "@/services/delivery.service";
+import { DateTime } from 'luxon';
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 
@@ -56,26 +57,26 @@ export default {
             fields: [
                 { data: "_id", title: "deliveryId", visible: false },
                 { data: "lodgementId", title: "lodgementId", visible: false },
-                { data: "deliveryDate", title: "Delivery Date", render : function(deliveryDate) { return (new Date(deliveryDate)).toLocaleDateString();}  },
+                { data: "deliveryDate", title: "Delivery Date", render : function(deliveryDate) { return DateTime.fromISO(deliveryDate).toLocal().toFormat('dd-MM-yyyy'); }  },
                 { data: "lotNumber", title: "Lot Number" },
-                { data: "trademark.trademarkName", title: "Trademark Name" },
-                { data: "trademark.customerName", title: "Customer Name" },
+                { data: "customer.customerDisplayName", title: "Customer Name" },
                 { data: "product.productName", title: "Product Name" },
                 { data: "numBagsDelivered", title: "Delivered Bags", class: "text-center" },
                 { data: "numBagsLodged", title: "Lodged Bags", class: "text-center" },
                 { data: "numBagsBalance", title: "Balance Bags", class: "text-center" },
                 { data: "locationCodes", title: "Locations", visible: false },
-                { data: "lodgementDate", title: "Lodgement Date", render : function(lodgementDate) { return (new Date(lodgementDate)).toLocaleDateString();}  },
+                { data: "lodgementDate", title: "Lodgement Date", render : function(lodgementDate) { return DateTime.fromISO(lodgementDate).toLocal().toFormat('dd-MM-yyyy');}  },
                 { data: "numMonthsLodged", title: "Months Lodged", render: function(numMonthsLodged) { return ( numMonthsLodged + " Months"); } },
-                { data: "chargesPaid.hamaliCharges.$numberDecimal", title: "Hamali Paid", class: "text-right" },
-                { data: "chargesPaid.kataCoolieCharges.$numberDecimal", title: "Kata Coolie Paid", visible: false, class: "text-right" },
-                { data: "chargesPaid.platformCoolieCharges.$numberDecimal", title: "Platform Coolie Paid", visible: false, class: "text-right" },
-                { data: "chargesPaid.mamulluCharges.$numberDecimal", title: "Mamullu Paid", visible: false, class: "text-right" },
-                { data: "chargesPaid.transportCharges.$numberDecimal", title: "Transport Charges Paid", class: "text-right" },
-                { data: "chargesPaid.totalChargesPaid.$numberDecimal", title: "Total Charges Paid", class: "text-right"  },
-                { data: "rents.rentalYear", title: "Rental Year", class: "text-center"  },
-                { data: "rents.rentalMode", title: "Rental Mode", class: "text-center"  },
-                { data: "rents.rentReceivableOnDeliveredBags.$numberDecimal", title: "Rent Receivable on Delivered Bags", class: "text-right"  }
+                { data: "chargesPaid.hamaliCharges", title: "Hamali Paid", visible: false, class: "text-right" },
+                { data: "chargesPaid.kataCoolieCharges", title: "Kata Coolie Paid", visible: false, class: "text-right" },
+                { data: "chargesPaid.platformCoolieCharges", title: "Platform Coolie Paid", visible: false, class: "text-right" },
+                { data: "chargesPaid.mamulluCharges", title: "Mamullu Paid", visible: false, class: "text-right" },
+                { data: "chargesPaid.transportCharges", title: "Transport Charges Paid", visible: false, class: "text-right" },
+                { data: "chargesPaid.totalChargesPaid", title: "Total Charges Paid", class: "text-right"  },
+                { data: "chargesReceivable.nonHamaliChargesPaid", title: "Non Hamali Charges Paid", class: "text-right"  },
+                { data: "rentals.rentalYear", title: "Rental Year", class: "text-center"  },
+                { data: "rentals.rentalMode", title: "Rental Mode", class: "text-center"  },
+                { data: "rentals.rentReceivableOnDeliveredBags", title: "Rent Receivable on Delivered Bags", class: "text-right"  }
             ],
             fieldDefs: [],
             items: null,
@@ -85,7 +86,6 @@ export default {
     async created() {
         getDeliveries().then(response => {
             this.items = response;
-            console.log(this.items[0]);
             this.totalRows = this.items.length;
         }).catch(error => {
             console.log(error);

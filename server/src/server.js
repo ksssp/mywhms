@@ -164,13 +164,18 @@ app.get('/api/inventory/deliveries/:id', (req, res) => {
     deliveryController.getDeliveryById(req.params.id).then(data => res.json(data));
 });
 
+
+app.get('/api/inventory/deliveriesByLodgement/:id', (req, res) => {
+    deliveryController.getDeliveriesByLodgementId(req.params.id).then(data => res.json(data));
+});
+
 app.get('/api/inventory/deliveriesByFilter/', (req, res) => {
     logger.info("server.js - getDeliveriesBy Filter : " + JSON.stringify(req.body.filter));
     deliveryController.getDeliveriesByFilter(req.body.filter).then(data => res.json(data));
 });
 
 app.post('/api/inventory/deliveries/', (req, res) => {
-    deliveryController.creatDelivery(req.body.delivery).then(data => res.json(data));
+    deliveryController.createDelivery(req.body.delivery).then(data => res.json(data));
 });
 
 app.put('/api/inventory/deliveries/:id', (req, res) => {

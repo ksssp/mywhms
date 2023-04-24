@@ -39,6 +39,7 @@
 </template>
 
 <script>
+import { DateTime } from 'luxon';
 import { getCustomers } from "@/services/customer.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
@@ -60,10 +61,10 @@ export default {
                 { data: "customerName", title: "Customer Name" },
                 { data: "mobileNumber", title: "Mobile Number" },
                 { data: "town", title: "Town/Village" },
-                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return moment(creationDate).format('DD-MM-YYYY'); } },
-                { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return moment(activeFrom).format('DD-MM-YYYY'); } },
-                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return moment(activeUntil).format('DD-MM-YYYY'); } },
-                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return moment(lastModifiedDate).format('DD-MM-YYYY'); } }
+                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return DateTime.fromISO(creationDate).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return DateTime.fromISO(activeFrom).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return DateTime.fromISO(activeUntil).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return DateTime.fromISO(lastModifiedDate).toLocal().toFormat('dd-MM-yyyy'); } }
                 
             ],
             fieldDefs: [],

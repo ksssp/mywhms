@@ -40,6 +40,7 @@
 
 <script>
 
+import { DateTime } from 'luxon';
 import { getLodgements } from "@/services/lodgement.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
@@ -56,25 +57,30 @@ export default {
             downloadFileName: "lodgementsList",
             fields: [
                 { data: "_id", title: "Lodgement Id", visible: false },
-                { data: "lodgementDate", title: "Lodgement Date", render : function(lodgementDate) { return moment(lodgementDate).format('DD-MM-YYYY'); } },
+                { data: "lodgementDate", title: "Lodgement Date", render : function(lodgementDate) { return DateTime.fromISO(lodgementDate).toFormat('dd-MM-yyyy'); } },
                 { data: "lotNumber", title: "Lot Number" },
-                { data: "customer", title: "Customer Code", render: function(customer) { return customer.customerCode + '( ' + customer.customerName + ' )'; } },
+                { data: "customer.customerDisplayName", title: "Customer Name" },
                 { data: "product.productName", title: "Product Name" },
                 { data: "numBagsLodged", title: "Lodged Bags", class: "text-center" },
-                { data: "locationCodes", title: "Locations" },
-                { data: "chargesPaid.hamaliCharges.$numberDecimal", title: "Hamali Paid", class: "text-right" },
-                { data: "chargesPaid.kataCoolieCharges.$numberDecimal", title: "Kata Coolie Paid", visible: false, class: "text-right" },
-                { data: "chargesPaid.platformCoolieCharges.$numberDecimal", title: "Platform Coolie Paid", visible: false, class: "text-right" },
-                { data: "chargesPaid.mamulluCharges.$numberDecimal", title: "Mamullu Paid", visible: false, class: "text-right" },
-                { data: "chargesPaid.transportCharges.$numberDecimal", title: "Transport Charges Paid", class: "text-right" },
-                { data: "chargesPaid.totalChargesPaid.$numberDecimal", title: "Total Charges Paid", class: "text-right"  },
-                { data: "chargesReceivable.hamaliCharges.$numberDecimal", title: "Hamali Charges Receivable", class: "text-right" },
-                { data: "chargesReceivable.insuranceCharges.$numberDecimal", title: "Insurance Charges Receivable", class: "text-right" },
-                { data: "chargesReceivable.totalChargesReceivable.$numberDecimal", title: "Total Charges Receivable", class: "text-right" },
-                { data: "rents.rentalMode", title: "Rental Mode", class: "text-center"  },
-                { data: "rents.rentalYear", title: "Rental Year", class: "text-center" },
-                { data: "rents.indicativeRent.$numberDecimal", title: "Rental rate", class: "text-left" },
-                { data: "numBagsBalance", title: "Balance Bags", class: "text-center", visible: false }
+                { data: "numBagsBalance", title: "Balance Bags", class: "text-center" },
+                { data: "stockRelease.numBagsDelivered", title: "Delivered Bags", class: "text-center" },
+                { data: "stockRelease.numDeliveries", title: "Deliveries till date", class: "text-center" },
+                { data: "locationCodes", title: "Locations", visible: false },
+                { data: "chargesPaid.hamaliCharges", title: "Hamali Paid", class: "text-right", visible: false,  },
+                { data: "chargesPaid.kataCoolieCharges", title: "Kata Coolie Paid", visible: false, class: "text-right" },
+                { data: "chargesPaid.platformCoolieCharges", title: "Platform Coolie Paid", visible: false, class: "text-right" },
+                { data: "chargesPaid.mamulluCharges", title: "Mamullu Paid", visible: false, class: "text-right" },
+                { data: "chargesPaid.transportCharges", title: "Transport Charges Paid", visible: false,  class: "text-right" },
+                { data: "chargesPaid.totalChargesPaid", title: "Total Charges Paid", class: "text-right"  },
+                { data: "chargesReceivable.hamaliCharges", title: "Hamali Charges Receivable", visible: false, class: "text-right" },
+                { data: "chargesReceivable.insuranceCharges", title: "Insurance Charges Receivable", visible: false, class: "text-right" },
+                { data: "chargesReceivable.nonHamaliChargesPaid", title: "Non Hamali Charges Paid", visible: false, class: "text-right" },
+                { data: "chargesReceivable.totalChargesReceivable", title: "Total Charges Receivable", class: "text-right" },
+                { data: "rentals.rentalMode", title: "Rental Mode", class: "text-center"  },
+                { data: "rentals.rentalYear", title: "Rental Year", class: "text-center" },
+                { data: "stockRelease.totalRentReceivable", title: "Rent Receivable on delivered bags", class: "text-center" },
+                { data: "rentals", title: "Rental rate", class: "text-left", visible: false, render: function(rentals) { return rentals.rentalMode == 'Monthly' ? rentals.monthlyRentPerBag : rentals.yearlyRentPerBag; } }
+                
             ],
             fieldDefs: [],
             items: null,
@@ -84,7 +90,6 @@ export default {
     async created() {
         getLodgements().then(response => {
             this.items = response;
-            console.log(this.items);
             this.totalRows = this.items.length;
         }).catch(error => {
             console.log(error);
