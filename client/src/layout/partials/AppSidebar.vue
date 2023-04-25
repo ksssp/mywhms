@@ -42,13 +42,13 @@
           </b-collapse>
         </li>
         <li class="nav-item" v-on:click="collapseAll">
-          <router-link class="nav-link" to="/Customers/">
+          <router-link class="nav-link" to="/summary/customers/">
             <span class="menu-title">Customers</span>
             <i class="mdi mdi-account-multiple menu-icon"></i>
           </router-link>
         </li>
         <li class="nav-item" v-on:click="collapseAll">
-          <router-link class="nav-link" to="/products/">
+          <router-link class="nav-link" to="/summary/products/">
             <span class="menu-title">Products</span>
             <i class="mdi mdi-barley menu-icon"></i>
           </router-link>

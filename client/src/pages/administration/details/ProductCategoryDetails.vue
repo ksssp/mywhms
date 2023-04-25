@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import moment from "moment";
+import { DateTime } from 'luxon';
 
 import { getProductCategoryById, updateProductCategory } from "@/services/productCategory.service";
 import ProductCategoryForm from "../forms/ProductCategoryForm.vue";
@@ -113,7 +113,7 @@ export default {
                 this.loadedEntity = JSON.parse(JSON.stringify(response));
                 console.log(this.loadedEntity);
                 if(this.loadedEntity != null) {
-                    this.loadedEntityIsActive = !moment().isAfter(this.loadedEntity.activeUntil);
+                    this.loadedEntityIsActive = DateTime.fromISO(this.loadedEntity.activeUntil).toLocal() > DateTime.now();
                     this.entityTitle = this.loadedEntity.productCategoryPrefix;
                     this.entityDetailsTable.items[0].infoValue = this.loadedEntity.productCategory;
                     this.entityDetailsTable.items[1].infoValue = this.loadedEntity.productVariety;
@@ -122,9 +122,9 @@ export default {
                          "Rs. " + this.loadedEntity.yearlyRentPerQuintal + "/-";
                     this.entityDetailsTable.items[4].infoValue = this.loadedEntity.oneSideHamaliPerQuintal === "" || this.loadedEntity.oneSideHamaliPerQuintal === null ? "Not defined" :
                          "Rs. " + this.loadedEntity.oneSideHamaliPerQuintal + "/-";
-                    this.entityDetailsTable.items[5].infoValue = moment(this.loadedEntity.creationDate).format('DD-MM-YYYY');
-                    this.entityDetailsTable.items[6].infoValue = moment(this.loadedEntity.lastModifiedDate).format('DD-MM-YYYY');
-                    this.entityDetailsTable.items[7].infoValue = moment(this.loadedEntity.activeFrom).format('DD-MM-YYYY');
+                    this.entityDetailsTable.items[5].infoValue = DateTime.fromISO(this.loadedEntity.creationDate).toLocal().toFormat('dd-MM-yyyy');
+                    this.entityDetailsTable.items[6].infoValue = DateTime.fromISO(this.loadedEntity.lastModifiedDate).toLocal().toFormat('dd-MM-yyyy');
+                    this.entityDetailsTable.items[7].infoValue = DateTime.fromISO(this.loadedEntity.activeFrom).toLocal().toFormat('dd-MM-yyyy');
                     this.entityDetailsTable.items[8].infoValue = this.loadedEntityIsActive ? 'Active' : 'Inactive';
                 }
             });

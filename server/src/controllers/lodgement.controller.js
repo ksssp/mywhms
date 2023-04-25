@@ -37,5 +37,15 @@ class LodgementController {
         logger.info('Controller: deleteLodgement', lodgementId);
         return await lodgementService.deleteLodgement(lodgementId);
     }
+    
+    async getLodgementsSummaryByProductId(productId) {
+        logger.info('Controller: getLodgementsSummaryByProductId', productId);
+        return await lodgementService.getLodgementsSummaryByProductId(productId);
+    }
+
+    async getLodgementsSummaryByCustomerId(customerId) {
+        logger.info('Controller: getLodgementsSummaryByCustomerId', customerId);
+        return await lodgementService.getLodgementsSummaryByCustomerId(customerId);
+    }
 }
 module.exports = new LodgementController();

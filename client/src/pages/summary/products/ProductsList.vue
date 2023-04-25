@@ -6,7 +6,6 @@
             </h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">Reference Data</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Products</li>
                 </ol>
             </nav>
@@ -15,17 +14,8 @@
             <div class="card">
                 <div class="card-body">
                     <div class="row template-demo">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <h4 class="card-title">Products ( {{ totalRows }} )</h4>
-                        </div>
-                        <div class="col-md-6" align="right">
-                            <a :href="entityCreateUrl">
-                                <button type="button"
-                                    class="btn btn-gradient-primary btn-icon-text">
-                                    <i class="mdi mdi-account-plus btn-icon-prepend"></i>
-                                    Create
-                                </button>
-                            </a>
                         </div>
                     </div>
 
@@ -45,35 +35,41 @@ import { getProducts } from "@/services/product.service";
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 
 export default {
-    name: "ProductsList",
+    name: "ProductsSummaryList",
     components: {
         AppDataTable
     },
     data: function () {
         return {
             totalRows: 1,
-            entityCreateUrl: "/administration/products/create/",
             footerBgVariant: "light",
             downloadFileName: "productsList",
             fields: [
                 { data: "productName", title: "Product Name" },
                 { data: "productCategory.productCategoryPrefix", title: "Product Category Prefix" },
                 { data: "bagSize", title: "Bag size in kgs", render: function(bagSize) { return (bagSize + " kgs"); }, class: "text-center" },
-                { data: "unitName", title: "Storage unit", class: "text-center"  },
-                { data: "computedProductName", title: "Computed Product Name" },
-                { data: "hamaliPerBag", title: "Hamali per bag", class: "text-center" },
-                { data: "platformCooliePerBag", title: "Platform Coolie per bag", class: "text-center" },
-                { data: "kataCooliePerBag", title: "Kata Coolie per bag", class: "text-center" },
-                { data: "mamulluPerBag", title: "Mamullu per bag", class: "text-center" },
-                { data: "insurancePerBag", title: "Insurance per bag", class: "text-center" },
+                { data: "unitName", title: "Storage unit", class: "text-center" },
+                { data: "bagSize", title: "#Open Lots", class: "text-center", render: function (bagSize) { return 0; }  },
+                { data: "bagSize", title: "#Bags in store", class: "text-center", render: function (bagSize) { return '0 Bags'; }  },
+                { data: "bagSize", title: "#Customers", class: "text-center", render: function (bagSize) { return 0; }  },
+                { data: "bagSize", title: "Total Charges Paid", class: "text-center", render: function (bagSize) { return 0; } },
+                { data: "bagSize", title: "Total Charges Receivable", class: "text-center", render: function (bagSize) { return 0; }  },
+                { data: "bagSize", title: "Total Charges Received", class: "text-center", render: function (bagSize) { return 0; }  },
+                { data: "bagSize", title: "Total Rent Receivable", class: "text-center", render: function (bagSize) { return 0; }  },
+                { data: "bagSize", title: "Total Rent Received", class: "text-center", render: function (bagSize) { return 0; }  },
+                { data: "bagSize", title: "Average #Months in store", class: "text-center", render: function (bagSize) { return '0 Months'; }  },
+                { data: "computedProductName", title: "Computed Product Name", visible: false },
+                { data: "hamaliPerBag", title: "Hamali per bag", class: "text-center", visible: false },
+                { data: "platformCooliePerBag", title: "Platform Coolie per bag", class: "text-center", visible: false },
+                { data: "kataCooliePerBag", title: "Kata Coolie per bag", class: "text-center", visible: false },
+                { data: "mamulluPerBag", title: "Mamullu per bag", class: "text-center", visible: false },
+                { data: "insurancePerBag", title: "Insurance per bag", class: "text-center", visible: false },
                 { data: "monthlyRentPerBag", title: "Monthly rent per bag", class: "text-center" },
                 { data: "yearlyRentPerBag", title: "Yearly rent per bag", class: "text-center" },
                 { data: "yearlyRentPerKg", title: " Yearly rent per kg", class: "text-center", visible: false },
                 { data: "computedYearlyRentPerBag", title: "Computed Yearly rent per bag", class: "text-center", visible: false  },
-                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return DateTime.fromISO(creationDate).toLocal().toFormat('dd-MM-yyyy'); } },
                 { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return DateTime.fromISO(activeFrom).toLocal().toFormat('dd-MM-yyyy'); } },
-                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return DateTime.fromISO(activeUntil).toLocal().toFormat('dd-MM-yyyy'); } },
-                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return DateTime.fromISO(lastModifiedDate).toLocal().toFormat('dd-MM-yyyy'); } }
+                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return DateTime.fromISO(activeUntil).toLocal().toFormat('dd-MM-yyyy'); } }
             ],
             fieldDefs: [],
             items: null,

@@ -31,6 +31,13 @@ class LodgementService {
         return await lodgementRepository.deleteLodgement(lodgementId);
     }
 
+    async getLodgementsSummaryByProductId(productId) {
+        return await lodgementRepository.getLodgementsSummaryByProductId(productId);
+    }
+
+    async getLodgementsSummaryByCustomerId(customerId) {
+        return await lodgementRepository.getLodgementsSummaryByCustomerId(customerId);
+    }
 }
 
 module.exports = new LodgementService();

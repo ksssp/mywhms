@@ -68,34 +68,28 @@ const routes = [
     ]
   },
   {
-    path: '/customers',
+    path: '/summary/',
     component: AppLayout,
     children: [
       {
-        path: '',
+        path: 'customers',
         name: 'CustomersSummaryList',
-        component: () => import('@/pages/customers/CustomersList.vue')
+        component: () => import('@/pages/summary/customers/CustomersList.vue')
       },
       {
-        path: ':_id',
+        path: 'customers/:_id',
         name: 'CustomerSummaryDetails',
-        component: () => import('@/pages/customers/CustomerDetails.vue')
-      }
-    ]
-  },
-  {
-    path: '/products',
-    component: AppLayout,
-    children: [
-      {
-        path: '',
-        name: 'ProductsSummaryList',
-        component: () => import('@/pages/products/ProductsList.vue')
+        component: () => import('@/pages/summary/customers/CustomerDetails.vue')
       },
       {
-        path: ':_id',
+        path: 'products',
+        name: 'ProductsSummaryList',
+        component: () => import('@/pages/summary/products/ProductsList.vue')
+      },
+      {
+        path: 'products/:_id',
         name: 'ProductSummaryDetails',
-        component: () => import('@/pages/products/ProductDetails.vue')
+        component: () => import('@/pages/summary/products/ProductDetails.vue')
       }
     ]
   },

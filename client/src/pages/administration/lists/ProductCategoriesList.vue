@@ -43,7 +43,7 @@
 import { getProductCategories } from "@/services/productCategory.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
-import moment from "moment";
+import { DateTime } from 'luxon';
 
 export default {
     name: "ProductCategoriesList",
@@ -62,10 +62,10 @@ export default {
                 { data: "productCategoryPrefix", title: "Product Category Prefix" },
                 { data: "oneSideHamaliPerQuintal", title: "One Side Hamali per quintal", visible: false, class: 'text-center' },
                 { data: "yearlyRentPerQuintal", title: "Yearly rent per quintal", class: 'text-center' },
-                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return moment(creationDate).format('DD-MM-YYYY'); } },
-                { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return moment(activeFrom).format('DD-MM-YYYY'); } },
-                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return moment(activeUntil).format('DD-MM-YYYY'); } },
-                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return moment(lastModifiedDate).format('DD-MM-YYYY'); } }
+                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return DateTime.fromISO(creationDate).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return DateTime.fromISO(activeFrom).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return DateTime.fromISO(activeUntil).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return DateTime.fromISO(lastModifiedDate).toLocal().toFormat('dd-MM-yyyy'); } }
             ],
             fieldDefs: [],
             items: null,

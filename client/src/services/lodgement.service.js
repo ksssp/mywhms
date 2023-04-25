@@ -15,6 +15,17 @@ export async function getLodgementsByCustomerId(customerId) {
     return await response.json();
 }
 
+export async function getLodgementsSummaryByProductId(productId) {
+    const response = await fetch('/api/summary/products/lodgementsByProduct/'+productId);
+    return await response.json();
+}
+
+export async function getLodgementsSummaryByCustomerId(customerId) {
+    console.log('getting lodgement summaries for customer - ', customerId);
+    const response = await fetch('/api/summary/customers/lodgementsByCustomer/'+customerId);
+    return await response.json();
+}
+
 export async function createLodgement(data) {
     const response = await fetch(`/api/inventory/lodgements`, {
         method: 'POST',

@@ -132,6 +132,69 @@ class LodgementRepository {
         return { status: (data.deletedCount > 0) };
     }
 
+    async getLodgementsSummaryByProductId(productId) {
+        let data = {};
+        try {
+            logger.info("lodgement repository getLodgementsSummaryByProductId: ", productId);
+            data = await Lodgement.find({
+                // numBagsBalance: { $gt : 0 },
+                'product.productId': { $eq : productId }
+            }).select({
+                _id: 1,
+                lotNumber: 1,
+                lodgementDate: 1,
+                customer: 1,
+                product: 1,
+                numBagsLodged: 1,
+                numBagsKataCoolie: 1,
+                isPlatformLot: 1,
+                numBagsBalance: 1,
+                'chargesPaid.totalChargesPaid': 1,
+                'chargesReceivable.totalChargesReceivable': 1,
+                rentals: 1,
+                stockRelease: 1,
+                lastModifiedDate: 1
+            }).sort({ 
+                lotNumber: 1
+            });
+        } catch(err) {
+            logger.error('Error::' + err);
+        }
+        return data;
+    }
+
+    async getLodgementsSummaryByCustomerId(customerId) {
+        let data = {};
+        try {
+            logger.info("lodgement repository getLodgementsSummaryByCustomerId: ", customerId);
+            data = await Lodgement.find({
+                // numBagsBalance: { $gt : 0 },
+                'customer.customerId': { $eq : customerId }
+            }).select({
+                _id: 1,
+                lotNumber: 1,
+                lodgementDate: 1,
+                customer: 1,
+                product: 1,
+                numBagsLodged: 1,
+                numBagsKataCoolie: 1,
+                isPlatformLot: 1,
+                numBagsBalance: 1,
+                numBagsDelivered: 1,
+                'chargesPaid.totalChargesPaid': 1,
+                'chargesReceivable.totalChargesReceivable': 1,
+                rentals: 1,
+                stockRelease: 1,
+                lastModifiedDate: 1
+            }).sort({ 
+                lotNumber: 1
+            });
+        } catch(err) {
+            logger.error('Error::' + err);
+        }
+        return data;
+    }
+
 }
 
 module.exports = new LodgementRepository();

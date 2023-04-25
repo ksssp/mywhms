@@ -164,7 +164,6 @@ app.get('/api/inventory/deliveries/:id', (req, res) => {
     deliveryController.getDeliveryById(req.params.id).then(data => res.json(data));
 });
 
-
 app.get('/api/inventory/deliveriesByLodgement/:id', (req, res) => {
     deliveryController.getDeliveriesByLodgementId(req.params.id).then(data => res.json(data));
 });
@@ -185,6 +184,18 @@ app.put('/api/inventory/deliveries/:id', (req, res) => {
 app.delete('/api/inventory/deliveries/:id', (req, res) => {
     deliveryController.deleteDelivery(req.params.id).then(data => res.json(data));
 });
+
+
+
+// Routes for summary/products
+app.get('/api/summary/products/lodgementsByProduct/:id', (req, res) => {
+    lodgementController.getLodgementsSummaryByProductId(req.params.id).then(data => res.json(data));
+});
+
+app.get('/api/summary/customers/lodgementsByCustomer/:id', (req, res) => {
+    lodgementController.getLodgementsSummaryByCustomerId(req.params.id).then(data => res.json(data));
+});
+
 
 // Start the server
 app.listen(port, () => {
