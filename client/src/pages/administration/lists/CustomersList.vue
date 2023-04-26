@@ -6,7 +6,7 @@
             </h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">Reference Data</a></li>
+                    <li class="breadcrumb-item"><a href="javascript:void(0);">Administration</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Customers</li>
                 </ol>
             </nav>
@@ -43,7 +43,6 @@ import { DateTime } from 'luxon';
 import { getCustomers } from "@/services/customer.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
-import { labeledStatement } from "@babel/types";
 
 export default {
     name: "CustomersList",

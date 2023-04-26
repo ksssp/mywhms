@@ -94,6 +94,32 @@ const routes = [
     ]
   },
   {
+    path: '/accounting/',
+    component: AppLayout,
+    children: [
+      {
+        path: 'bankAccounts',
+        name: 'BankAccountTransactionsList',
+        component: () => import('@/pages/accounting/lists/BankAccountTransactionsList.vue')
+      },
+    //   {
+    //     path: 'bankAccounts/:_id',
+    //     name: 'BankAccountDetails',
+    //     component: () => import('@/pages/accounting/details/BankAccountDetails.vue')
+    //   },
+    //   {
+    //     path: 'employees',
+    //     name: 'ProductsSummaryList',
+    //     component: () => import('@/pages/summary/products/ProductsList.vue')
+    //   },
+    //   {
+    //     path: 'products/:_id',
+    //     name: 'ProductSummaryDetails',
+    //     component: () => import('@/pages/summary/products/ProductDetails.vue')
+    //   }
+    ]
+  },
+  {
     path: '/administration',
     component: AppLayout,
     children: [
@@ -156,7 +182,12 @@ const routes = [
         path: 'employees/:_id',
         name: 'EmployeeDetails',
         component: () => import('@/pages/administration/details/EmployeeDetails.vue')
-      }
+      },
+      {
+        path: 'bankAccounts',
+        name: 'BankAccountsList',
+        component: () => import('@/pages/administration/lists/BankAccountsList.vue')
+      },
     ]
   },
   // {

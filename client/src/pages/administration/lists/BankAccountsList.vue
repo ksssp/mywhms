@@ -2,12 +2,12 @@
     <div class="tables">
         <div class="page-header">
             <h3 class="page-title">
-                Products
+                Bank Accounts
             </h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="javascript:void(0);">Administration</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Products</li>
+                    <li class="breadcrumb-item active" aria-current="page">Bank Accounts</li>
                 </ol>
             </nav>
         </div>
@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <div class="row template-demo">
                         <div class="col-md-6">
-                            <h4 class="card-title">Products ( {{ totalRows }} )</h4>
+                            <h4 class="card-title">Bank Accounts ( {{ totalRows }} )</h4>
                         </div>
                         <div class="col-md-6" align="right">
                             <a :href="entityCreateUrl">
@@ -40,40 +40,31 @@
 
 <script>
 import { DateTime } from 'luxon';
+import { getBankAccounts } from "@/services/bankAccount.service";
 
-import { getProducts } from "@/services/product.service";
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 
 export default {
-    name: "ProductsList",
+    name: "BankAccountsList",
     components: {
         AppDataTable
     },
     data: function () {
         return {
-            totalRows: 1,
-            entityCreateUrl: "/administration/products/create/",
+            totalRows: 0,
+            entityCreateUrl: "/administration/bankAccounts/create/",
             footerBgVariant: "light",
-            downloadFileName: "productsList",
+            downloadFileName: "bankAccountsList",
             fields: [
-                { data: "productName", title: "Product Name" },
-                { data: "productCategory.productCategoryPrefix", title: "Product Category Prefix" },
-                { data: "bagSize", title: "Bag size in kgs", render: function(bagSize) { return (bagSize + " kgs"); }, class: "text-center" },
-                { data: "unitName", title: "Storage unit", class: "text-center"  },
-                { data: "computedProductName", title: "Computed Product Name" },
-                { data: "hamaliPerBag", title: "Hamali per bag", class: "text-center" },
-                { data: "platformCooliePerBag", title: "Platform Coolie per bag", class: "text-center" },
-                { data: "kataCooliePerBag", title: "Kata Coolie per bag", class: "text-center" },
-                { data: "mamulluPerBag", title: "Mamullu per bag", class: "text-center" },
-                { data: "insurancePerBag", title: "Insurance per bag", class: "text-center" },
-                { data: "monthlyRentPerBag", title: "Monthly rent per bag", class: "text-center" },
-                { data: "yearlyRentPerBag", title: "Yearly rent per bag", class: "text-center" },
-                { data: "yearlyRentPerKg", title: " Yearly rent per kg", class: "text-center", visible: false },
-                { data: "computedYearlyRentPerBag", title: "Computed Yearly rent per bag", class: "text-center", visible: false  },
+                { data: "bankAccountName", title: "Bank Account Name" },
+                { data: "bankName", title: "Bank Name" },
+                { data: "bankAccountNumber", title: "Account Number" },
+                { data: "bankBranch", title: "Branch" },
                 { data: "creationDate", title: "Creation Date", render : function(creationDate) { return DateTime.fromISO(creationDate).toLocal().toFormat('dd-MM-yyyy'); } },
                 { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return DateTime.fromISO(activeFrom).toLocal().toFormat('dd-MM-yyyy'); } },
                 { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return DateTime.fromISO(activeUntil).toLocal().toFormat('dd-MM-yyyy'); } },
                 { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return DateTime.fromISO(lastModifiedDate).toLocal().toFormat('dd-MM-yyyy'); } }
+                
             ],
             fieldDefs: [],
             items: null,
@@ -81,12 +72,12 @@ export default {
         };
     },
     async created() {
-        getProducts().then(response => {
+        getBankAccounts().then(response => {
             this.items = response;
             this.totalRows = this.items.length;
         }).catch(error => {
             console.log(error);
         });
-    },
+    }
 }
 </script>

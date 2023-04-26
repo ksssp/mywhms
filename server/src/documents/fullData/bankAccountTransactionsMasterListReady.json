@@ -1,0 +1,292 @@
+[
+    {
+        "transactionDate": "2021-01-03T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd3",
+            "bankAccountName": "Kotak Over Draft"
+        },
+        "amount": 200000,
+        "transactionMode": "debit",
+        "transactionDetails": "Kotak Bank TPG Cash"
+    },
+    {
+        "transactionDate": "2020-01-07T00:03:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 50000,
+        "transactionMode": "credit",
+        "transactionDetails": "Cash received"
+    },
+    {
+        "transactionDate": "2020-01-09T00:03:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 50000,
+        "transactionMode": "credit",
+        "transactionDetails": "Cash received"
+    },
+    {
+        "transactionDate": "2020-01-11T00:05:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 60000,
+        "transactionMode": "credit",
+        "transactionDetails": "Cash received"
+    },
+    {
+        "transactionDate": "2020-01-06T00:01:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 180000,
+        "transactionMode": "debit",
+        "transactionDetails": "Cash remittance"
+    },
+    {
+        "transactionDate": "2020-01-13T00:01:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 350000,
+        "transactionMode": "debit",
+        "transactionDetails": "Cash paid into TMB a/c"
+    },
+    {
+        "transactionDate": "2020-01-23T00:01:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 100000,
+        "transactionMode": "debit",
+        "transactionDetails": "Cash remitted"
+    },
+    {
+        "transactionDate": "2020-01-27T00:01:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 150000,
+        "transactionMode": "debit",
+        "transactionDetails": "Cash remitted"
+    },
+    {
+        "transactionDate": "2020-01-03T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 150000,
+        "transactionMode": "debit",
+        "transactionDetails": "Cash remitted"
+    },
+    {
+        "transactionDate": "2020-01-06T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 100000,
+        "transactionMode": "debit",
+        "transactionDetails": "Cash remitted"
+    },
+    {
+        "transactionDate": "2020-01-10T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 78000,
+        "transactionMode": "debit",
+        "transactionDetails": "TMB cheque presented"
+    },
+    {
+        "transactionDate": "2020-01-19T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 10000,
+        "transactionMode": "debit",
+        "transactionDetails": "LNT/DVVS chq presented"
+    },
+    {
+        "transactionDate": "2020-01-26T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 6000,
+        "transactionMode": "debit",
+        "transactionDetails": "HKT Rents cheque"
+    },
+    {
+        "transactionDate": "2020-01-29T00:03:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 80000,
+        "transactionMode": "debit",
+        "transactionDetails": "DK Rents Bank cheque"
+    },
+    {
+        "transactionDate": "2020-01-08T00:04:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 20000,
+        "transactionMode": "debit",
+        "transactionDetails": "LNT Subbarao Bank Cheque"
+    },
+    {
+        "transactionDate": "2020-01-12T00:04:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 5000,
+        "transactionMode": "debit",
+        "transactionDetails": "MR /AMP phone pay tr"
+    },
+    {
+        "transactionDate": "2020-01-22T00:04:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 65512,
+        "transactionMode": "debit",
+        "transactionDetails": "Divakar Enterprises"
+    },
+    {
+        "transactionDate": "2020-01-24T00:04:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 20000,
+        "transactionMode": "debit",
+        "transactionDetails": "P Prasad"
+    },
+    {
+        "transactionDate": "2020-01-22T00:06:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 100000,
+        "transactionMode": "debit",
+        "transactionDetails": "TMB bank Jama"
+    },
+    {
+        "transactionDate": "2020-01-09T00:11:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 80000,
+        "transactionMode": "debit",
+        "transactionDetails": "TMB Bank Cash"
+    },
+    {
+        "transactionDate": "2020-01-14T00:12:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 150000,
+        "transactionMode": "debit",
+        "transactionDetails": "Cash Remitted"
+    },
+    {
+        "transactionDate": "2021-01-06T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 150000,
+        "transactionMode": "debit",
+        "transactionDetails": "TMB Bank cash"
+    },
+    {
+        "transactionDate": "2021-01-08T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 200000,
+        "transactionMode": "debit",
+        "transactionDetails": "TMB Bank Cash Jama"
+    },
+    {
+        "transactionDate": "2021-01-10T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 100000,
+        "transactionMode": "debit",
+        "transactionDetails": "TMB Bank Cash Jama"
+    },
+    {
+        "transactionDate": "2021-01-22T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 150000,
+        "transactionMode": "debit",
+        "transactionDetails": "In TMB Bank  cash jama"
+    },
+    {
+        "transactionDate": "2021-01-26T00:02:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 100000,
+        "transactionMode": "debit",
+        "transactionDetails": "Cash In TMB Bank"
+    },
+    {
+        "transactionDate": "2021-01-28T00:03:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd2",
+            "bankAccountName": "TMB Current A/C"
+        },
+        "amount": 100000,
+        "transactionMode": "debit",
+        "transactionDetails": "DK Cheque bank jama"
+    },
+    {
+        "transactionDate": "2021-01-13T00:09:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd3",
+            "bankAccountName": "Kotak Over Draft"
+        },
+        "amount": 89700,
+        "transactionMode": "debit",
+        "transactionDetails": "Cash paid in to the Bank A/C"
+    },
+    {
+        "transactionDate": "2022-01-06T00:06:00.000+05:30",
+        "bankAccount": {
+            "bankAccountId": "6447f35b8e0fec46f0b50bd3",
+            "bankAccountName": "Kotak Over Draft"
+        },
+        "amount": 0,
+        "transactionMode": "debit",
+        "transactionDetails": "Amount transfered from Bank A/C"
+    }
+]

@@ -43,29 +43,33 @@
         </li>
         <li class="nav-item" v-on:click="collapseAll">
           <router-link class="nav-link" to="/summary/customers/">
-            <span class="menu-title">Customers</span>
-            <i class="mdi mdi-account-multiple menu-icon"></i>
+            <span class="menu-title">Customers</span><i class="mdi mdi-account-multiple menu-icon"></i>
           </router-link>
         </li>
         <li class="nav-item" v-on:click="collapseAll">
           <router-link class="nav-link" to="/summary/products/">
-            <span class="menu-title">Products</span>
-            <i class="mdi mdi-barley menu-icon"></i>
+            <span class="menu-title">Products</span><i class="mdi mdi-barley menu-icon"></i>
           </router-link>
         </li>
         <li class="nav-item">
           <span class="nav-link" v-b-toggle="'accounting'">
-            <span class="menu-title">Accounting</span>
+            <span class="menu-title">Payments & Receipts</span>
             <i class="menu-arrow"></i>
             <i class="mdi mdi-cash-multiple menu-icon"></i>
           </span>
           <b-collapse accordion="sidebar-accordion" id="accounting">
             <ul class="nav flex-column sub-menu">
               <li class="nav-item">
-                <router-link class="nav-link" to="/accounting/external/">External Tranactions</router-link>
+                <router-link class="nav-link" to="/accounting/customers/">Customer Transactions</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/inventory/internal/">Internal Transactions</router-link>
+                <router-link class="nav-link" to="/accounting/employees/">Employee Transactions</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/accounting/bankAccounts/">Bank Account Transactions</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/accounting/others/">Other Transactions</router-link>
               </li>
             </ul>
           </b-collapse>
@@ -94,7 +98,10 @@
                 <router-link class="nav-link" to="/administration/products/">Products</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/administration/employees/">Employees <i class="mdi mdi-worker menu-icon"></i></router-link>
+                <router-link class="nav-link" to="/administration/employees/">Employees<i class="mdi mdi-worker menu-icon"></i></router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/administration/bankAccounts/">Bank Accounts<i class="mdi mdi-worker menu-icon"></i></router-link>
               </li>
             </ul>
           </b-collapse>

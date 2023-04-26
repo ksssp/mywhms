@@ -13,6 +13,8 @@ const customerController = require ( "./controllers/customer.controller" );
 const productCategoryController = require ( "./controllers/productCategory.controller" );
 const productController = require ( "./controllers/product.controller" );
 const employeeController = require ( "./controllers/employee.controller" );
+const bankAccountController = require ( "./controllers/bankAccount.controller" );
+const bankAccountTransactionController = require ( "./controllers/bankAccountTransaction.controller" );
 const lodgementController = require ( './controllers/lodgement.controller' );
 const deliveryController = require ( './controllers/delivery.controller' );
 
@@ -123,6 +125,29 @@ app.delete('/api/administration/employees/:id', (req, res) => {
     employeeController.deleteEmployee(req.params.id).then(data => res.json(data));
 });
 
+
+// Routes for administration/bankAccounts
+app.get('/api/administration/bankAccounts', (req, res) => {
+    bankAccountController.getBankAccounts().then(data => res.json(data));
+});
+
+app.get('/api/administration/bankAccounts/:id', (req, res) => {
+    bankAccountController.getBankAccountById(req.params.id).then(data => res.json(data));
+});
+
+app.post('/api/administration/bankAccounts', (req, res) => {
+    bankAccountController.createBankAccount(req.body.bankAccount).then(data => res.json(data));
+});
+
+app.put('/api/administration/bankAccounts/:id', (req, res) => {
+    bankAccountController.updateBankAccount(req.params.id, req.body.bankAccount).then(data => res.json(data));
+});
+
+app.delete('/api/administration/bankAccounts/:id', (req, res) => {
+    bankAccountController.deleteBankAccount(req.params.id).then(data => res.json(data));
+});
+
+
 // Add routes for other models as well
 // Routes for inventory/lots
 app.get('/api/inventory/lots', (req, res) => {
@@ -185,6 +210,10 @@ app.delete('/api/inventory/deliveries/:id', (req, res) => {
     deliveryController.deleteDelivery(req.params.id).then(data => res.json(data));
 });
 
+// Routes for accounting/bankAccountTransactions
+app.get('/api/accounting/bankAccountTransactions/', (req, res) => {
+    bankAccountTransactionController.getBankAccountTransactions().then(data => res.json(data));
+});
 
 
 // Routes for summary/products

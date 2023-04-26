@@ -1,0 +1,82 @@
+[
+  {
+    "bankAccountName": "TMB Current A/C",
+    "bankName": "Tamilnad Mercantile Bank",
+    "bankAccountNumber": "",
+    "bankBranch": "",
+    "creationDate": "1/1/2020",
+    "lastModifiedDate": "1/1/2020",
+    "activeFrom": "1/1/2020",
+    "activeUntil": "1/1/2100"
+  },
+  {
+    "bankAccountName": "Kotak Over Draft",
+    "bankName": "Kotak Mahindra Bank",
+    "bankAccountNumber": "",
+    "bankBranch": "",
+    "creationDate": "1/1/2020",
+    "lastModifiedDate": "1/1/2020",
+    "activeFrom": "1/1/2020",
+    "activeUntil": "1/1/2100"
+  },
+  {
+    "bankAccountName": "Kotak Term Loan67",
+    "bankName": "Kotak Mahindra Bank",
+    "bankAccountNumber": "",
+    "bankBranch": "",
+    "creationDate": "1/1/2020",
+    "lastModifiedDate": "1/1/2020",
+    "activeFrom": "1/1/2020",
+    "activeUntil": "1/1/2100"
+  },
+  {
+    "bankAccountName": "Kotak LAP70",
+    "bankName": "Kotak Mahindra Bank",
+    "bankAccountNumber": "",
+    "bankBranch": "",
+    "creationDate": "1/1/2020",
+    "lastModifiedDate": "1/1/2020",
+    "activeFrom": "1/1/2020",
+    "activeUntil": "1/1/2100"
+  },
+  {
+    "bankAccountName": "Kotak LAP46-Prasad",
+    "bankName": "Kotak Mahindra Bank",
+    "bankAccountNumber": "",
+    "bankBranch": "",
+    "creationDate": "1/1/2020",
+    "lastModifiedDate": "1/1/2020",
+    "activeFrom": "1/1/2020",
+    "activeUntil": "1/1/2100"
+  },
+  {
+    "bankAccountName": "SGB Current A/C",
+    "bankName": "Sapthagiri Grameena Bank",
+    "bankAccountNumber": "",
+    "bankBranch": "",
+    "creationDate": "1/1/2020",
+    "lastModifiedDate": "1/1/2020",
+    "activeFrom": "1/1/2020",
+    "activeUntil": "1/1/2100"
+  },
+  {
+    "bankAccountName": "Kotak Covid LAP13.24",
+    "bankName": "Kotak Mahindra Bank",
+    "bankAccountNumber": "",
+    "bankBranch": "",
+    "creationDate": "1/1/2020",
+    "lastModifiedDate": "1/1/2020",
+    "activeFrom": "1/1/2020",
+    "activeUntil": "1/1/2100"
+  },
+  {
+    "bankAccountName": "Kotak Covid LAP8.93",
+    "bankName": "Kotak Mahindra Bank",
+    "bankAccountNumber": "",
+    "bankBranch": "",
+    "creationDate": "1/1/2020",
+    "lastModifiedDate": "1/1/2020",
+    "activeFrom": "1/1/2020",
+    "activeUntil": "1/1/2100"
+  }
+]

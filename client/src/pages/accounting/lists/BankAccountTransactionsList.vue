@@ -2,12 +2,12 @@
     <div class="tables">
         <div class="page-header">
             <h3 class="page-title">
-                Employees
+                Bank Account Transactions
             </h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">Administration</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Employees</li>
+                    <li class="breadcrumb-item"><a href="javascript:void(0);">Payments & Receipts</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Bank Account Transactions</li>
                 </ol>
             </nav>
         </div>
@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <div class="row template-demo">
                         <div class="col-md-6">
-                            <h4 class="card-title">Employees ( {{ totalRows }} )</h4>
+                            <h4 class="card-title">Bank Account Transactions ( {{ totalRows }} )</h4>
                         </div>
                         <div class="col-md-6" align="right">
                             <a :href="entityCreateUrl">
@@ -39,28 +39,33 @@
 </template>
 
 <script>
+import { DateTime } from 'luxon';
+import { getBankAccountTransactions } from "@/services/bankAccountTransaction.service";
+
 import AppDataTable from "@/components/tables/AppDataTable.vue";
-import { getEmployees } from "@/services/employee.service";
-import { DateTime } from "luxon";
 
 export default {
-    name: "EmployeesList",
+    name: "BankAccountsList",
     components: {
         AppDataTable
     },
     data: function () {
         return {
             totalRows: 0,
-            entityCreateUrl: "/administration/employees/create/",
+            entityCreateUrl: "/accounting/bankAccountTransactions/create/",
             footerBgVariant: "light",
-            downloadFileName: "employeesList",
+            downloadFileName: "bankAccountTransactionsList",
             fields: [
-                { data: "employeeCode", title: "Employee Code" },
-                { data: "employeeFullName", title: "Employee Name" },
-                { data: "designation", title: "Designation" },
-                { data: "monthlySalary", title: "Monthly Salary", class: 'text-center' },
-                { data: "creationDate", title: "Creation Date", class: 'text-center' , render : function(creationDate) { return DateTime.fromISO(creationDate).toLocal().toFormat('dd-MM-yyyy'); } },
-                { data: "lastModifiedDate", title: "Last Modified Date", class: 'text-center' , render : function(lastModifiedDate) { return DateTime.fromISO(lastModifiedDate).toLocal().toFormat('dd-MM-yyyy'); } }
+                { data: "transactionDate", title: "Transaction Date", render : function(transactionDate) { return DateTime.fromISO(transactionDate).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "bankAccount.bankAccountName", title: "Bank Account Name" },
+                { data: "amount", title: "Amount" },
+                { data: "transactionMode", title: "Credit/Debit", 
+                    render : function(transactionMode) { 
+                        return transactionMode == 'debit' ? `<label class="badge badge-info">Debit</label>` :
+                                `<label class="badge badge-success">Credit</label>`; 
+                    }  
+                },
+                { data: "transactionDetails", title: "Transaction Details" }
             ],
             fieldDefs: [],
             items: null,
@@ -68,17 +73,12 @@ export default {
         };
     },
     async created() {
-        getEmployees().then(response => {
+        getBankAccountTransactions().then(response => {
             this.items = response;
             this.totalRows = this.items.length;
         }).catch(error => {
             console.log(error);
         });
-    },
+    }
 }
-
-// importModalProps : {
-//     importModalTitle: "Import Employees",
-//     importDataUrl: "javascript:void(0);",
-// },
 </script>
