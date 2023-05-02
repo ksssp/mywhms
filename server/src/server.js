@@ -13,8 +13,14 @@ const customerController = require ( "./controllers/customer.controller" );
 const productCategoryController = require ( "./controllers/productCategory.controller" );
 const productController = require ( "./controllers/product.controller" );
 const employeeController = require ( "./controllers/employee.controller" );
+const incomeTypeController = require ( "./controllers/incomeType.controller" );
+const expenseTypeController = require ( "./controllers/expenseType.controller" );
+const employeeTransactionTypeController = require ( "./controllers/employeeTransactionType.controller" );
+const expenseController = require ( "./controllers/expense.controller" );
 const bankAccountController = require ( "./controllers/bankAccount.controller" );
 const bankAccountTransactionController = require ( "./controllers/bankAccountTransaction.controller" );
+const customerTransactionController = require ( "./controllers/customerTransaction.controller" );
+const employeeTransactionController = require ( "./controllers/employeeTransaction.controller" );
 const lodgementController = require ( './controllers/lodgement.controller' );
 const deliveryController = require ( './controllers/delivery.controller' );
 
@@ -126,6 +132,72 @@ app.delete('/api/administration/employees/:id', (req, res) => {
 });
 
 
+// Routes for administration/incomeTypes
+app.get('/api/administration/incomeTypes', (req, res) => {
+    incomeTypeController.getIncomeTypes().then(data => res.json(data));
+});
+
+app.get('/api/administration/incomeTypes/:id', (req, res) => {
+    incomeTypeController.getIncomeTypeById(req.params.id).then(data => res.json(data));
+});
+
+app.post('/api/administration/incomeTypes', (req, res) => {
+    incomeTypeController.createIncomeType(req.body.incomeType).then(data => res.json(data));
+});
+
+app.put('/api/administration/incomeTypes/:id', (req, res) => {
+    incomeTypeController.updateIncomeType(req.params.id, req.body.incomeType).then(data => res.json(data));
+});
+
+app.delete('/api/administration/incomeTypes/:id', (req, res) => {
+    incomeTypeController.deleteIncomeType(req.params.id).then(data => res.json(data));
+});
+
+
+// Routes for administration/expenseTypes
+app.get('/api/administration/expenseTypes', (req, res) => {
+    expenseTypeController.getExpenseTypes().then(data => res.json(data));
+});
+
+app.get('/api/administration/expenseTypes/:id', (req, res) => {
+    expenseTypeController.getExpenseTypeById(req.params.id).then(data => res.json(data));
+});
+
+app.post('/api/administration/expenseTypes', (req, res) => {
+    expenseTypeController.createExpenseType(req.body.expenseType).then(data => res.json(data));
+});
+
+app.put('/api/administration/expenseTypes/:id', (req, res) => {
+    expenseTypeController.updateExpenseType(req.params.id, req.body.expenseType).then(data => res.json(data));
+});
+
+app.delete('/api/administration/expenseTypes/:id', (req, res) => {
+    expenseTypeController.deleteExpenseType(req.params.id).then(data => res.json(data));
+});
+
+
+// Routes for administration/employeeTransactionTypes
+app.get('/api/administration/employeeTransactionTypes', (req, res) => {
+    employeeTransactionTypeController.getEmployeeTransactionTypes().then(data => res.json(data));
+});
+
+app.get('/api/administration/employeeTransactionTypes/:id', (req, res) => {
+    employeeTransactionTypeController.getEmployeeTransactionTypeById(req.params.id).then(data => res.json(data));
+});
+
+app.post('/api/administration/employeeTransactionTypes', (req, res) => {
+    employeeTransactionTypeController.createEmployeeTransactionType(req.body.employeeTransactionType).then(data => res.json(data));
+});
+
+app.put('/api/administration/employeeTransactionTypes/:id', (req, res) => {
+    employeeTransactionTypeController.updateEmployeeTransactionType(req.params.id, req.body.employeeTransactionType).then(data => res.json(data));
+});
+
+app.delete('/api/administration/employeeTransactionTypes/:id', (req, res) => {
+    employeeTransactionTypeController.deleteEmployeeTransactionType(req.params.id).then(data => res.json(data));
+});
+
+
 // Routes for administration/bankAccounts
 app.get('/api/administration/bankAccounts', (req, res) => {
     bankAccountController.getBankAccounts().then(data => res.json(data));
@@ -210,11 +282,92 @@ app.delete('/api/inventory/deliveries/:id', (req, res) => {
     deliveryController.deleteDelivery(req.params.id).then(data => res.json(data));
 });
 
+
 // Routes for accounting/bankAccountTransactions
 app.get('/api/accounting/bankAccountTransactions/', (req, res) => {
     bankAccountTransactionController.getBankAccountTransactions().then(data => res.json(data));
 });
 
+app.get('/api/accounting/bankAccountTransactions/:id', (req, res) => {
+    bankAccountTransactionController.getBankAccountTransactionById(req.params.id).then(data => res.json(data));
+});
+
+app.get('/api/accounting/bankAccountTransactionsByBankAccount/:id', (req, res) => {
+    bankAccountTransactionController.getBankAccountTransactionsByBankAccountId(req.params.id).then(data => res.json(data));
+});
+
+app.post('/api/accounting/bankAccountTransactions/', (req, res) => {
+    bankAccountTransactionController.createBankAccountTransaction(req.body.bankAccountTransaction).then(data => res.json(data));
+});
+
+app.put('/api/accounting/bankAccountTransactions/:id', (req, res) => {
+    bankAccountTransactionController.updateBankAccountTransaction(req.params.id, req.body.bankAccountTransaction).then(data => res.json(data));
+});
+
+
+// Routes for accounting/customerTransactions
+app.get('/api/accounting/customerTransactions/', (req, res) => {
+    customerTransactionController.getCustomerTransactions().then(data => res.json(data));
+});
+
+app.get('/api/accounting/customerTransactions/:id', (req, res) => {
+    customerTransactionController.getCustomerTransactionById(req.params.id).then(data => res.json(data));
+});
+
+app.get('/api/accounting/customerTransactionsByCustomer/:id', (req, res) => {
+    customerTransactionController.getCustomerTransactionsByCustomerId(req.params.id).then(data => res.json(data));
+});
+
+app.post('/api/accounting/customerTransactions/', (req, res) => {
+    customerTransactionController.createCustomerTransaction(req.body.customerTransaction).then(data => res.json(data));
+});
+
+app.put('/api/accounting/customerTransactions/:id', (req, res) => {
+    customerTransactionController.updateCustomerTransaction(req.params.id, req.body.customerTransaction).then(data => res.json(data));
+});
+
+
+// Routes for accounting/employeeTransactions
+app.get('/api/accounting/employeeTransactions/', (req, res) => {
+    employeeTransactionController.getEmployeeTransactions().then(data => res.json(data));
+});
+
+app.get('/api/accounting/employeeTransactions/:id', (req, res) => {
+    employeeTransactionController.getEmployeeTransactionById(req.params.id).then(data => res.json(data));
+});
+
+app.get('/api/accounting/employeeTransactionsByEmployee/:id', (req, res) => {
+    employeeTransactionController.getEmployeeTransactionsByEmployeeId(req.params.id).then(data => res.json(data));
+});
+
+app.post('/api/accounting/employeeTransactions/', (req, res) => {
+    employeeTransactionController.createEmployeeTransaction(req.body.employeeTransaction).then(data => res.json(data));
+});
+
+app.put('/api/accounting/employeeTransactions/:id', (req, res) => {
+    employeeTransactionController.updateEmployeeTransaction(req.params.id, req.body.employeeTransaction).then(data => res.json(data));
+});
+
+// Routes for accounting/expenses
+app.get('/api/accounting/expenses/', (req, res) => {
+    expenseController.getExpenses().then(data => res.json(data));
+});
+
+app.get('/api/accounting/expenses/:id', (req, res) => {
+    expenseController.getExpenseById(req.params.id).then(data => res.json(data));
+});
+
+app.get('/api/accounting/expensesByEmployee/:id', (req, res) => {
+    expenseController.getExpensesByEmployeeId(req.params.id).then(data => res.json(data));
+});
+
+app.post('/api/accounting/expenses/', (req, res) => {
+    expenseController.createExpense(req.body.expense).then(data => res.json(data));
+});
+
+app.put('/api/accounting/expenses/:id', (req, res) => {
+    expenseController.updateExpense(req.params.id, req.body.expense).then(data => res.json(data));
+});
 
 // Routes for summary/products
 app.get('/api/summary/products/lodgementsByProduct/:id', (req, res) => {

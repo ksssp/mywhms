@@ -98,25 +98,65 @@ const routes = [
     component: AppLayout,
     children: [
       {
-        path: 'bankAccounts',
+        path: 'bankAccountTransactions',
         name: 'BankAccountTransactionsList',
         component: () => import('@/pages/accounting/lists/BankAccountTransactionsList.vue')
       },
-    //   {
-    //     path: 'bankAccounts/:_id',
-    //     name: 'BankAccountDetails',
-    //     component: () => import('@/pages/accounting/details/BankAccountDetails.vue')
-    //   },
-    //   {
-    //     path: 'employees',
-    //     name: 'ProductsSummaryList',
-    //     component: () => import('@/pages/summary/products/ProductsList.vue')
-    //   },
-    //   {
-    //     path: 'products/:_id',
-    //     name: 'ProductSummaryDetails',
-    //     component: () => import('@/pages/summary/products/ProductDetails.vue')
-    //   }
+      {
+        path: 'bankAccountTransactions/create',
+        name: 'BankAccountTransactionCreate',
+        component: () => import('@/pages/accounting/create/BankAccountTransactionCreate.vue')
+      },      
+      {
+        path: 'bankAccountTransactions/:_id',
+        name: 'BankAccountTransactionDetails',
+        component: () => import('@/pages/accounting/details/BankAccountTransactionDetails.vue')
+      }, 
+      {
+        path: 'expenses',
+        name: 'ExpensesList',
+        component: () => import('@/pages/accounting/lists/ExpensesList.vue')
+      },
+      {
+        path: 'expenses/create',
+        name: 'ExpenseCreate',
+        component: () => import('@/pages/accounting/create/ExpenseCreate.vue')
+      },      
+      {
+        path: 'expenses/:_id',
+        name: 'ExpenseDetails',
+        component: () => import('@/pages/accounting/details/ExpenseDetails.vue')
+      },  
+      {
+        path: 'customerTransactions',
+        name: 'CustomerTransactionsList',
+        component: () => import('@/pages/accounting/lists/CustomerTransactionsList.vue')
+      },
+      {
+        path: 'customerTransactions/create',
+        name: 'CustomerTransactionCreate',
+        component: () => import('@/pages/accounting/create/CustomerTransactionCreate.vue')
+      },      
+      {
+        path: 'customerTransactions/:_id',
+        name: 'CustomerTransactionDetails',
+        component: () => import('@/pages/accounting/details/CustomerTransactionDetails.vue')
+      },         
+      {
+        path: 'employeeTransactions',
+        name: 'EmployeeTransactionsList',
+        component: () => import('@/pages/accounting/lists/EmployeeTransactionsList.vue')
+      },
+      {
+        path: 'employeeTransactions/create',
+        name: 'EmployeeTransactionCreate',
+        component: () => import('@/pages/accounting/create/EmployeeTransactionCreate.vue')
+      },      
+      {
+        path: 'employeeTransactions/:_id',
+        name: 'EmployeeTransactionDetails',
+        component: () => import('@/pages/accounting/details/EmployeeTransactionDetails.vue')
+      },
     ]
   },
   {
@@ -187,6 +227,51 @@ const routes = [
         path: 'bankAccounts',
         name: 'BankAccountsList',
         component: () => import('@/pages/administration/lists/BankAccountsList.vue')
+      },
+      {
+        path: 'incomeTypes',
+        name: 'IncomeTypesList',
+        component: () => import('@/pages/administration/lists/IncomeTypesList.vue')
+      },
+      {
+        path: 'incomeTypes/create',
+        name: 'IncomeTypeCreate',
+        component: () => import('@/pages/administration/create/IncomeTypeCreate.vue')
+      },
+      {
+        path: 'incomeTypes/:_id',
+        name: 'IncomeTypeDetails',
+        component: () => import('@/pages/administration/details/IncomeTypeDetails.vue')
+      },
+      {
+        path: 'expenseTypes',
+        name: 'ExpenseTypesList',
+        component: () => import('@/pages/administration/lists/ExpenseTypesList.vue')
+      },
+      {
+        path: 'expenseTypes/create',
+        name: 'ExpenseTypeCreate',
+        component: () => import('@/pages/administration/create/ExpenseTypeCreate.vue')
+      },
+      {
+        path: 'expenseTypes/:_id',
+        name: 'ExpenseTypeDetails',
+        component: () => import('@/pages/administration/details/ExpenseTypeDetails.vue')
+      },
+      {
+        path: 'employeeTransactionTypes',
+        name: 'EmployeeTransactionTypesList',
+        component: () => import('@/pages/administration/lists/EmployeeTransactionTypesList.vue')
+      },
+      {
+        path: 'employeeTransactionTypes/create',
+        name: 'EmployeeTransactionTypeCreate',
+        component: () => import('@/pages/administration/create/EmployeeTransactionTypeCreate.vue')
+      },
+      {
+        path: 'employeeTransactionTypes/:_id',
+        name: 'EmployeeTransactionTypeDetails',
+        component: () => import('@/pages/administration/details/EmployeeTransactionTypeDetails.vue')
       },
     ]
   },

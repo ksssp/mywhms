@@ -2,12 +2,12 @@
     <div class="tables">
         <div class="page-header">
             <h3 class="page-title">
-                Bank Account Transactions
+                {{ pageTitle }}
             </h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">Payments & Receipts</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Bank Account Transactions</li>
+                    <li class="breadcrumb-item"><a href="javascript:void(0);">{{ moduleTitle }}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ pageTitle }} </li>
                 </ol>
             </nav>
         </div>
@@ -16,22 +16,22 @@
                 <div class="card-body">
                     <div class="row template-demo">
                         <div class="col-md-6">
-                            <h4 class="card-title">Bank Account Transactions ( {{ totalRows }} )</h4>
+                            <h4 class="card-title">{{ pageTitle }} ( {{ totalRows }} )</h4>
                         </div>
                         <div class="col-md-6" align="right">
                             <a :href="entityCreateUrl">
-                                <button type="button"
-                                    class="btn btn-gradient-primary btn-icon-text">
+                                <button type="button" class="btn btn-gradient-primary btn-icon-text">
                                     <i class="mdi mdi-account-plus btn-icon-prepend"></i>
-                                    Create
+                                    Add a Transaction
                                 </button>
                             </a>
                         </div>
                     </div>
 
                     <br />
-                    <AppDataTable v-if="items" :download-file-name="downloadFileName" :fields="fields" 
-                        :fieldDefs="fieldDefs" :table-data="items" :is-main-table="isMainTable"></AppDataTable>
+                    <AppDataTable v-if="items" :download-file-name="downloadFileName" :fields="fields"
+                        :fieldDefs="fieldDefs" :table-data="items" :is-main-table="isMainTable"
+                        :has-click-through="hasClickThrough"></AppDataTable>
                 </div>
             </div>
         </div>
@@ -39,13 +39,13 @@
 </template>
 
 <script>
-import { DateTime } from 'luxon';
+import { formatDate, formatNumber } from '@/services/commons.service';
 import { getBankAccountTransactions } from "@/services/bankAccountTransaction.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 
 export default {
-    name: "BankAccountsList",
+    name: "BankAccountTransactionsList",
     components: {
         AppDataTable
     },
@@ -55,21 +55,25 @@ export default {
             entityCreateUrl: "/accounting/bankAccountTransactions/create/",
             footerBgVariant: "light",
             downloadFileName: "bankAccountTransactionsList",
+            moduleTitle: 'Payments & Receipts',
+            pageTitle: 'Bank Account Transactions',
             fields: [
-                { data: "transactionDate", title: "Transaction Date", render : function(transactionDate) { return DateTime.fromISO(transactionDate).toLocal().toFormat('dd-MM-yyyy'); } },
+                { data: "transactionDate", title: "Transaction Date", render: function(transactionDate) { return formatDate(transactionDate); } },
                 { data: "bankAccount.bankAccountName", title: "Bank Account Name" },
-                { data: "amount", title: "Amount" },
-                { data: "transactionMode", title: "Credit/Debit", 
-                    render : function(transactionMode) { 
-                        return transactionMode == 'debit' ? `<label class="badge badge-info">Debit</label>` :
-                                `<label class="badge badge-success">Credit</label>`; 
-                    }  
+                { data: "amount", title: "Amount", class: "text-right", render: function(amount) { return formatNumber(amount); } },
+                {
+                    data: "transactionMode", title: "Credit/Debit", class: "text-center",
+                    render: function (transactionMode) {
+                        return transactionMode == 'debit' ? `<label class="badge badge-info">Withdrawal</label>` :
+                            `<label class="badge badge-success">Deposit</label>`;
+                    }
                 },
                 { data: "transactionDetails", title: "Transaction Details" }
             ],
             fieldDefs: [],
             items: null,
-            isMainTable: true
+            isMainTable: true,
+            hasClickThrough: true
         };
     },
     async created() {

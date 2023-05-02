@@ -1,0 +1,29 @@
+[
+  {
+    "employeeTransactionType": "MD & Son transactions",
+    "debitAllowed": "TRUE",
+    "creditAllowed": "TRUE",
+    "creationDate": "2023-05-01",
+    "lastModifiedDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeTransactionType": "Staff Salary Advance",
+    "debitAllowed": "TRUE",
+    "creditAllowed": "TRUE",
+    "creationDate": "2023-05-01",
+    "lastModifiedDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "employeeTransactionType": "Employee Loans",
+    "debitAllowed": "TRUE",
+    "creditAllowed": "TRUE",
+    "creationDate": "2023-05-01",
+    "lastModifiedDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  }
+]

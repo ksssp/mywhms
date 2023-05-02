@@ -6,7 +6,7 @@
             </h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">Reference Data</a></li>
+                    <li class="breadcrumb-item"><a href="javascript:void(0);">{{ moduleTitle }}</a></li>
                     <li class="breadcrumb-item"><a :href="entityListingUrl">{{ entityNamePlural }}</a></li>
                     <li class="breadcrumb-item active" aria-current="page">{{ pageTitle }}</li>
                 </ol>
@@ -35,6 +35,7 @@ export default {
     },
     data: function () {
         return {
+            moduleTitle: 'Administration',
             pageTitle: "Create new Customer",
             entityNamePlural: "Customers",
             entityListingUrl: "/administration/customers/",

@@ -4,7 +4,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd3",
     "bankAccount_bankAccountName": "Kotak Over Draft",
     "amount": 200000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Kotak Bank TPG Cash"
   },
   {
@@ -12,7 +12,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 50000,
-    "transactionMode": "credit",
+    "transactionMode": "Deposit",
     "transactionDetails": "Cash received"
   },
   {
@@ -20,7 +20,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 50000,
-    "transactionMode": "credit",
+    "transactionMode": "Deposit",
     "transactionDetails": "Cash received"
   },
   {
@@ -28,7 +28,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 60000,
-    "transactionMode": "credit",
+    "transactionMode": "Deposit",
     "transactionDetails": "Cash received"
   },
   {
@@ -36,7 +36,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 180000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Cash remittance"
   },
   {
@@ -44,7 +44,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 350000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Cash paid into TMB a/c"
   },
   {
@@ -52,7 +52,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 100000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Cash remitted"
   },
   {
@@ -60,7 +60,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 150000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Cash remitted"
   },
   {
@@ -68,7 +68,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 150000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Cash remitted"
   },
   {
@@ -76,7 +76,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 100000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Cash remitted"
   },
   {
@@ -84,7 +84,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 78000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "TMB cheque presented"
   },
   {
@@ -92,7 +92,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 10000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "LNT/DVVS chq presented"
   },
   {
@@ -100,7 +100,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 6000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "HKT Rents cheque"
   },
   {
@@ -108,7 +108,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 80000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "DK Rents Bank cheque"
   },
   {
@@ -116,7 +116,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 20000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "LNT Subbarao Bank Cheque"
   },
   {
@@ -124,7 +124,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 5000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "MR /AMP phone pay tr"
   },
   {
@@ -132,7 +132,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 65512,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Divakar Enterprises"
   },
   {
@@ -140,7 +140,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 20000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "P Prasad"
   },
   {
@@ -148,7 +148,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 100000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "TMB bank Jama"
   },
   {
@@ -156,7 +156,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 80000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "TMB Bank Cash"
   },
   {
@@ -164,7 +164,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 150000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Cash Remitted"
   },
   {
@@ -172,7 +172,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 150000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "TMB Bank cash"
   },
   {
@@ -180,7 +180,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 200000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "TMB Bank Cash Jama"
   },
   {
@@ -188,7 +188,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 100000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "TMB Bank Cash Jama"
   },
   {
@@ -196,7 +196,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 150000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "In TMB Bank  cash jama"
   },
   {
@@ -204,7 +204,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 100000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Cash In TMB Bank"
   },
   {
@@ -212,7 +212,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd2",
     "bankAccount_bankAccountName": "TMB Current A/C",
     "amount": 100000,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "DK Cheque bank jama"
   },
   {
@@ -220,7 +220,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd3",
     "bankAccount_bankAccountName": "Kotak Over Draft",
     "amount": 89700,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Cash paid in to the Bank A/C"
   },
   {
@@ -228,7 +228,7 @@
     "bankAccount_bankAccountId": "6447f35b8e0fec46f0b50bd3",
     "bankAccount_bankAccountName": "Kotak Over Draft",
     "amount": 0,
-    "transactionMode": "debit",
+    "transactionMode": "Withdrawal",
     "transactionDetails": "Amount transfered from Bank A/C"
   }
 ]

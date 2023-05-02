@@ -1,30 +1,30 @@
 transactionDate,bankAccount_bankAccountId,bankAccount_bankAccountName,amount,transactionMode,transactionDetails
-2/3/2021,6447f35b8e0fec46f0b50bd3,Kotak Over Draft,200000,debit,Kotak Bank TPG Cash
-3/7/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,50000,credit,Cash received
-3/9/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,50000,credit,Cash received
-5/11/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,60000,credit,Cash received
-1/6/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,180000,debit,Cash remittance
-1/13/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,350000,debit,Cash paid into TMB a/c
-1/23/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,debit,Cash remitted
-1/27/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,debit,Cash remitted
-2/3/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,debit,Cash remitted
-2/6/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,debit,Cash remitted
-2/10/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,78000,debit,TMB cheque presented
-2/19/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,10000,debit,LNT/DVVS chq presented
-2/26/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,6000,debit,HKT Rents cheque
-3/29/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,80000,debit,DK Rents Bank cheque
-4/8/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,20000,debit,LNT Subbarao Bank Cheque
-4/12/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,5000,debit,MR /AMP phone pay tr
-4/22/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,65512,debit,Divakar Enterprises
-4/24/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,20000,debit,P Prasad
-6/22/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,debit,TMB bank Jama
-11/9/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,80000,debit,TMB Bank Cash
-12/14/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,debit,Cash Remitted
-2/6/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,debit,TMB Bank cash
-2/8/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,200000,debit,TMB Bank Cash Jama
-2/10/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,debit,TMB Bank Cash Jama
-2/22/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,debit,In TMB Bank  cash jama
-2/26/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,debit,Cash In TMB Bank
-3/28/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,debit,DK Cheque bank jama
-9/13/2021,6447f35b8e0fec46f0b50bd3,Kotak Over Draft,89700,debit,Cash paid in to the Bank A/C
-6/6/2022,6447f35b8e0fec46f0b50bd3,Kotak Over Draft,0,debit,Amount transfered from Bank A/C
+2/3/2021,6447f35b8e0fec46f0b50bd3,Kotak Over Draft,200000,Withdrawal,Kotak Bank TPG Cash
+3/7/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,50000,Deposit,Cash received
+3/9/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,50000,Deposit,Cash received
+5/11/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,60000,Deposit,Cash received
+1/6/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,180000,Withdrawal,Cash remittance
+1/13/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,350000,Withdrawal,Cash paid into TMB a/c
+1/23/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,Withdrawal,Cash remitted
+1/27/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,Withdrawal,Cash remitted
+2/3/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,Withdrawal,Cash remitted
+2/6/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,Withdrawal,Cash remitted
+2/10/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,78000,Withdrawal,TMB cheque presented
+2/19/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,10000,Withdrawal,LNT/DVVS chq presented
+2/26/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,6000,Withdrawal,HKT Rents cheque
+3/29/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,80000,Withdrawal,DK Rents Bank cheque
+4/8/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,20000,Withdrawal,LNT Subbarao Bank Cheque
+4/12/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,5000,Withdrawal,MR /AMP phone pay tr
+4/22/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,65512,Withdrawal,Divakar Enterprises
+4/24/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,20000,Withdrawal,P Prasad
+6/22/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,Withdrawal,TMB bank Jama
+11/9/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,80000,Withdrawal,TMB Bank Cash
+12/14/2020,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,Withdrawal,Cash Remitted
+2/6/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,Withdrawal,TMB Bank cash
+2/8/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,200000,Withdrawal,TMB Bank Cash Jama
+2/10/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,Withdrawal,TMB Bank Cash Jama
+2/22/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,150000,Withdrawal,In TMB Bank  cash jama
+2/26/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,Withdrawal,Cash In TMB Bank
+3/28/2021,6447f35b8e0fec46f0b50bd2,TMB Current A/C,100000,Withdrawal,DK Cheque bank jama
+9/13/2021,6447f35b8e0fec46f0b50bd3,Kotak Over Draft,89700,Withdrawal,Cash paid in to the Bank A/C
+6/6/2022,6447f35b8e0fec46f0b50bd3,Kotak Over Draft,0,Withdrawal,Amount transfered from Bank A/C

@@ -1,0 +1,697 @@
+transactionDate,employee_employeeCode,employee_employeeName,employeeTransactionType_employeeTransactionType,transactionNotes,transactionMode,amount
+12/30/2019,SSCS02,R.G.Prasad,Staff Salary Advance,Salary advance paid,Payment,9500
+12/30/2019,SSCS06,Subrahmanyam,Staff Salary Advance,To salary advance,Payment,6500
+1/9/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,100
+1/12/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,23200
+3/27/2021,SSCS20,Jattu Hamali,Staff Salary Advance,Jattu hamali Advance,Receipt,10000
+1/13/2020,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Payment,500
+1/13/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2500
+1/19/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,1000
+1/20/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+1/24/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,2000
+12/19/2020,SSCS14,Kittayya,Staff Salary Advance,Kittayya,Receipt,1000
+1/25/2020,SSCS10,MD & SON,MD & Son transactions,Damaged notes,Payment,2330
+12/19/2020,SSCS13,Mohan,Staff Salary Advance,Mohan,Receipt,1000
+1/27/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+1/29/2020,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Payment,2500
+2/1/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+2/7/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,3000
+2/7/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+2/9/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,50000
+2/9/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,3500
+12/19/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Receipt,5600
+2/12/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+2/16/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,5000
+12/19/2020,SSCS18,Paddayya,Staff Salary Advance,Paddayya,Receipt,3000
+11/4/2020,SSCS23,Peddodu,Staff Salary Advance,Peddodu,Receipt,500
+2/16/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,25000
+2/16/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,250000
+2/17/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1500
+2/20/2020,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Payment,10000
+2/22/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,5000
+2/23/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,100000
+2/24/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+2/26/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,2000
+2/27/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,1000
+3/1/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,1000
+3/1/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,10000
+3/1/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,200
+3/2/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1500
+3/4/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,2000
+3/16/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,500
+3/17/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,4000
+3/18/2020,SSCS10,MD & SON,MD & Son transactions,MD Garu DK amount,Payment,10000
+3/18/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+3/24/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2000
+3/29/2020,SSCS01,M.Nageswara Rao,Staff Salary Advance,M.Nageswara Rao,Payment,10000
+4/2/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,2000
+4/13/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,2000
+4/14/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,1000
+4/14/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2000
+4/21/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,2000
+2/3/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,2000
+3/7/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,5000
+4/4/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,4000
+5/11/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,5000
+6/7/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,5000
+7/6/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,4000
+9/6/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,4000
+10/4/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,4000
+1/3/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,2000
+11/2/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,4000
+12/6/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,3000
+2/6/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,1000
+3/3/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,3000
+4/7/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,3000
+6/6/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,5500
+5/9/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,2000
+8/1/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Receipt,1500
+4/23/2020,SSCS09,SweeperLakshmi,Staff Salary Advance,Sweeper Lakshmi,Payment,1000
+4/25/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+4/28/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,1000
+5/4/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+5/9/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+4/4/2020,SSCS01,M.Nageswara Rao,Staff Salary Advance,M.Nageswara Rao,Receipt,10000
+10/4/2020,SSCS01,M.Nageswara Rao,Staff Salary Advance,M.Nageswara Rao,Receipt,4000
+5/18/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2000
+5/20/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,4000
+5/24/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,3000
+5/30/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+5/31/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,200
+5/31/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,6000
+9/21/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Receipt,24000
+9/21/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Receipt,5200
+6/2/2020,SSCS10,MD & SON,MD & Son transactions,Damage Notes,Payment,3050
+6/2/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,75000
+6/3/2020,SSCS02,R.G.Prasad,Employee Loans,R.G.Prasad,Payment,25000
+6/5/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,1000
+6/6/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2500
+6/11/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,400
+6/13/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,3000
+6/13/2020,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Payment,5000
+6/14/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,55000
+6/14/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,3000
+6/15/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,9000
+6/18/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,4000
+6/22/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2000
+6/26/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+6/27/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+7/11/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,500
+7/14/2020,SSCS20,Jattu Hamali,Staff Salary Advance,Jattu Hamali Advance,Payment,2600
+7/19/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,15000
+7/20/2020,SSCS10,MD & SON,MD & Son transactions,Damaged notes,Payment,250
+7/23/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,1000
+7/27/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,1500
+7/27/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,10000
+7/29/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+7/31/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,5000
+8/8/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+8/23/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+8/25/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,500
+8/26/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,4000
+8/26/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,1000
+8/30/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,10000
+8/31/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+9/5/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+9/9/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,400
+9/13/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,60000
+9/15/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,5400
+9/16/2020,SSCS01,M.Nageswara Rao,Staff Salary Advance,M.Nageswara Rao,Payment,2000
+9/20/2020,SSCS14,Kittayya,Staff Salary Advance,Kittayya,Payment,500
+9/21/2020,SSCS01,M.Nageswara Rao,Staff Salary Advance,M.Nageswara Rao,Payment,1000
+9/24/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+9/28/2020,SSCS01,M.Nageswara Rao,Staff Salary Advance,M.Nageswara Rao,Payment,4000
+9/30/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+10/1/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,4000
+8/1/2020,SSCS02,R.G.Prasad,Employee Loans,R.G.Prasad,Receipt,2000
+1/11/2021,SSCS02,R.G.Prasad,Employee Loans,R.G.Prasad,Receipt,4000
+2/6/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,2000
+4/7/2021,SSCS02,R.G.Prasad,Employee Loans,R.G.Prasad,Receipt,2000
+10/1/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,2000
+10/4/2020,SSCS18,Paddayya,Staff Salary Advance,Paddayya,Payment,2000
+10/11/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2000
+10/17/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+10/21/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+10/24/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,4000
+10/24/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+11/1/2020,SSCS18,Paddayya,Staff Salary Advance,Paddayya,Payment,1000
+11/1/2020,SSCS23,Peddodu,Staff Salary Advance,Peddodu,Payment,500
+11/1/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,2000
+11/7/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,200
+11/8/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,1000
+11/9/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2000
+11/11/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,50000
+11/15/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+11/16/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,4000
+11/17/2020,SSCS14,Kittayya,Staff Salary Advance,Kittayya,Payment,500
+11/17/2020,SSCS22,Subbanna,Staff Salary Advance,Subbanna,Payment,1100
+11/22/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+11/25/2020,SSCS10,MD & SON,MD & Son transactions,GVVCS Bank Cheque MD Raru,Payment,10023
+11/25/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,500
+11/25/2020,SSCS05,Satyanarayana,Staff Salary Advance,Satyanarayana,Payment,1000
+11/25/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+11/28/2020,SSCS11,Balaji,Staff Salary Advance,Balaji PAYMENT,Payment,2000
+11/2/2020,SSCS02,R.G.Prasad,Employee Loans,R.G.Prasad,Receipt,2000
+11/2/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,2000
+12/6/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,4000
+12/13/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,500
+1/4/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,3500
+1/4/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1000
+2/3/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1000
+2/3/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1100
+3/7/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1000
+3/7/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,3000
+4/4/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,2500
+4/4/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1000
+5/11/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1000
+7/6/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1000
+7/6/2020,SSCS02,R.G.Prasad,Employee Loans,R.G.Prasad,Receipt,2000
+8/1/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1000
+9/6/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1000
+9/6/2020,SSCS02,R.G.Prasad,Employee Loans,R.G.Prasad,Receipt,2000
+10/4/2020,SSCS02,R.G.Prasad,Employee Loans,R.G.Prasad,Receipt,2000
+10/4/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,2000
+1/3/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,2000
+2/6/2021,SSCS02,R.G.Prasad,Employee Loans,R.G.Prasad,Receipt,2000
+3/3/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,3000
+5/9/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,2000
+6/6/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,2500
+4/7/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Receipt,1500
+6/6/2021,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Receipt,1000
+8/1/2020,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Receipt,1000
+11/2/2020,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Receipt,1000
+12/6/2020,SSCS05,Satyanarayana,Staff Salary Advance,Satyanarayana,Receipt,1000
+4/9/2021,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Receipt,1000
+11/29/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,200
+11/29/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,3000
+6/7/2020,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Receipt,1000
+7/6/2020,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Receipt,1000
+9/6/2020,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Receipt,1000
+10/4/2020,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Receipt,1000
+12/6/2020,SSCS05,Satyanarayana,Employee Loans,Satyanarayana,Receipt,1000
+11/29/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,150000
+12/19/2020,SSCS22,Subbanna,Staff Salary Advance,Subbanna,Receipt,1100
+5/9/2021,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Receipt,500
+8/1/2020,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Receipt,1000
+11/29/2020,SSCS10,MD & SON,MD & Son transactions,Damage Notes,Payment,2500
+11/29/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+11/30/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,1000
+11/30/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+12/3/2020,SSCS12,SweeperVenkayamma,Staff Salary Advance,Sweeper Venkayamma,Payment,1000
+12/9/2020,SSCS06,Subrahmanyam,Staff Salary Advance,Subrahmanyam,Receipt,500
+1/12/2020,SSCS06,Subrahmanyam,Staff Salary Advance,Subrahmanyam,Receipt,6000
+2/3/2020,SSCS06,Subrahmanyam,Staff Salary Advance,Subrahmanyam,Receipt,500
+3/7/2020,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Receipt,500
+4/4/2020,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Receipt,500
+7/6/2020,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Receipt,500
+11/2/2020,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Receipt,1000
+1/3/2021,SSCS06,Subrahmanyam,Staff Salary Advance,Subrahmanyam,Receipt,300
+12/5/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+5/13/2020,SSCS09,SweeperLakshmi,Staff Salary Advance,Sweeper Lakshmi,Receipt,1000
+6/7/2020,SSCS06,Subrahmanyam,Employee Loans,Subrahmanyam,Receipt,500
+12/6/2020,SSCS06,Subrahmanyam,Staff Salary Advance,Subrahmanyam,Payment,500
+12/14/2020,SSCS13,Mohan,Staff Salary Advance,Mohan,Payment,1000
+12/14/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,200
+1/3/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,Sweeper Venkayamma,Receipt,1000
+4/7/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,Sweeper Venkayamma,Receipt,1000
+12/14/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2500
+12/15/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,10000
+12/17/2020,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,500
+12/18/2020,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,2000
+12/18/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+12/19/2020,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,10000
+12/21/2020,SSCS06,Subrahmanyam,Staff Salary Advance,Subrahmanyam,Payment,300
+12/21/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,2000
+12/27/2020,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,150000
+12/30/2020,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,2000
+12/30/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1500
+1/3/2021,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,100000
+1/3/2021,SSCS10,MD & SON,MD & Son transactions,Madhav Garu  Phone pe,Payment,50000
+1/7/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+1/8/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+1/10/2021,SSCS10,MD & SON,MD & Son transactions,MTC/TPG Rent Phone Pe Madhav Garu,Payment,50000
+1/11/2021,SSCS10,MD & SON,MD & Son transactions,MNR Phone Pe(MADHAV GARU),Payment,20000
+1/17/2021,SSCS20,Jattu Hamali,Staff Salary Advance,Jattu Hamali Advance,Payment,10000
+1/17/2021,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,50000
+1/21/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,1000
+1/21/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,Sweeper Venkayamma,Payment,1000
+1/25/2021,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,130000
+1/27/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,2000
+1/28/2021,SSCS10,MD & SON,MD & Son transactions,Madhav garu,Payment,5000
+1/28/2021,SSCS10,MD & SON,MD & Son transactions,Madhav Garu phone pay,Payment,25000
+1/31/2021,SSCS10,MD & SON,MD & Son transactions,Madhav Garu Phone pe,Payment,25000
+2/2/2021,SSCS10,MD & SON,MD & Son transactions,Kotak Bank TPG Cash,Payment,200000
+2/2/2021,SSCS10,MD & SON,MD & Son transactions,Madhav Garu Cash,Payment,160000
+2/2/2021,SSCS10,MD & SON,MD & Son transactions,Madhav Garu Cheque,Payment,200000
+2/7/2021,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,140000
+2/10/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,500
+2/11/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,3500
+2/12/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+2/17/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,1000
+2/18/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,1000
+2/18/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,500
+2/21/2021,SSCS10,MD & SON,MD & Son transactions,Madhav Garu (mtc)Phone Pe,Payment,50000
+2/25/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,3000
+2/25/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,500
+2/28/2021,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,5000
+3/7/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,5000
+3/9/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,1000
+3/10/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,2000
+3/15/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Payment,1000
+3/16/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,500
+3/18/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,1000
+3/18/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,Sweeper Venkayamma,Payment,1000
+4/10/2021,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,1000
+4/15/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,1000
+4/18/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,1000
+4/19/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,1000
+5/2/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,1000
+5/11/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,5000
+5/20/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,500
+5/27/2021,SSCS02,R.G.Prasad,Staff Salary Advance,R.G.Prasad,Payment,2000
+5/28/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,K.Chakradhara Rao,Payment,500
+11/2/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,5000
+12/6/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,7000
+1/4/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,5500
+2/3/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,4000
+3/7/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,8200
+4/4/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,2500
+5/11/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,4500
+6/7/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,8500
+7/6/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,5500
+8/1/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,6000
+9/6/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,3500
+10/4/2020,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,6400
+1/3/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,6500
+2/6/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,2000
+2/6/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,1370
+3/1/2021,SSCS03,V.S.V.Prasad,Staff Salary Advance,V.S.V.Praasd,Receipt,5000
+2/6/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,Venkayamma,Receipt,1000
+6/6/2021,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,6000
+6/13/2021,SSCS10,MD & SON,MD & Son transactions,MD & SON,Payment,130000
+6/17/2021,SSCS02,R.G.Prasad,Staff Salary Advance,Advance,Payment,2000
+6/17/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,personal,Payment,2000
+6/17/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,personal,Payment,500
+6/24/2021,SSCS02,R.G.Prasad,Staff Salary Advance,personal,Payment,1500
+6/27/2021,SSCS10,MD & Son,MD & Son transactions,Madhav Garu,Payment,28420
+7/5/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,Jama,Receipt,4000
+7/5/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,Jama,Receipt,500
+7/1/2021,SSCS20,Jattu Hamali,Staff Salary Advance,Jattu Hamali Advance,Payment,1100
+7/3/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,personal,Payment,2000
+7/7/2021,SSCS10,MD & Son,MD & Son transactions,M.D.Garu,Payment,104580
+7/5/2021,SSCS05,Satyanarayana,Employee Loans,personal,Receipt,1000
+7/17/2021,SSCS02,R.G.Prasad,Employee Loans,BF Loan,Receipt,7000
+7/9/2021,SSCS10,MD & Son,MD & Son transactions,MADHAV GARU P.PAY,Payment,40000
+7/5/2021,SSCS06,Subrahmanyam,Employee Loans,Recovery Of employee loan Installment,Receipt,500
+7/17/2021,SSCS02,R.G.Prasad,Employee Loans,Persnal,Payment,20000
+7/5/2021,SSCS02,R.G.Prasad,Staff Salary Advance,Salary advance received,Receipt,3500
+7/19/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,k.chakradhara rao,Payment,2000
+7/25/2021,SSCS10,MD & Son,MD & Son transactions,Amount given to M.D.GARU,Payment,100000
+7/31/2021,SSCS22,Subbanna,Staff Salary Advance,Subbanna,Payment,300
+7/31/2021,SSCS23,Peddodu,Staff Salary Advance,Peddodu,Payment,5600
+7/31/2021,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,2750
+7/31/2021,SSCS13,Mohan,Staff Salary Advance,Mohan,Payment,1200
+7/31/2021,SSCS15,Jayababu,Staff Salary Advance,Jayababu,Payment,400
+7/31/2021,SSCS19,Gopi,Staff Salary Advance,Gopi,Payment,1000
+8/5/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,Salary Advance Received,Receipt,2000
+8/5/2021,SSCS06,Subrahmanyam,Employee Loans,Recovery Of employee loan Installment,Receipt,500
+8/5/2021,SSCS02,R.G.Prasad,Employee Loans,Recovery Of employee loan Installment,Receipt,1000
+7/31/2021,SSCS14,Kittayya,Staff Salary Advance,Kittayya,Payment,3400
+8/10/2021,SSCS10,MD & Son,MD & Son transactions,M. D. GARU,Payment,50000
+8/13/2021,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,1000
+8/15/2021,SSCS10,MD & Son,MD & Son transactions,for pipes,Payment,8500
+8/19/2021,SSCS10,MD & Son,MD & Son transactions,Kotak Bank Jama,Payment,305938
+8/20/2021,SSCS21,Sitaramayya,Staff Salary Advance,Sitaramayya,Payment,1400
+8/20/2021,SSCS16,Kasi,Staff Salary Advance,Kasi,Payment,500
+8/29/2021,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,500
+9/3/2021,SSCS18,Paddayya,Staff Salary Advance,Paddayya,Payment,500
+9/4/2021,SSCS02,R.G.Prasad,Staff Salary Advance,Recovery of salary advance,Receipt,1500
+9/4/2021,SSCS02,R.G.Prasad,Employee Loans,Recovery Of employee loan Installment,Receipt,1000
+9/4/2021,SSCS06,Subrahmanyam,Employee Loans,Recovery Of employee loan Installment,Receipt,500
+9/6/2021,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,300
+9/12/2021,SSCS15,Jayababu,Staff Salary Advance,Jayababu,Payment,200
+9/20/2021,SSCS06,Subrahmanyam,Staff Salary Advance,Salary Advance,Payment,2000
+9/30/2021,SSCS10,MD & Son,MD & Son transactions,Madhav Garu,Payment,10000
+10/1/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,salary advance,Payment,2000
+10/4/2021,SSCS02,R.G.Prasad,Employee Loans,Recovery Of employee loan Installment,Receipt,1000
+10/4/2021,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance received,Receipt,2000
+10/4/2021,SSCS06,Subrahmanyam,Employee Loans,Recovery Of employee loan Installment,Receipt,500
+10/4/2021,SSCS15,Jayababu,Staff Salary Advance,Jayababu,Payment,1000
+10/7/2021,SSCS14,Kittayya,Staff Salary Advance,Kittayya,Receipt,1000
+10/7/2021,SSCS23,Peddodu,Staff Salary Advance,Peddodu,Receipt,2500
+10/8/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,Salary advance received,Receipt,2000
+10/10/2021,SSCS10,MD & Son,MD & Son transactions,M. D. Garu,Payment,60000
+10/17/2021,SSCS10,MD & Son,MD & Son transactions,MADHAV GARU,Payment,10000
+10/18/2021,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,1000
+10/18/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,salary advance,Payment,1000
+10/18/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,salary advance,Payment,1500
+10/23/2021,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,1000
+10/25/2021,SSCS10,MD & Son,MD & Son transactions,Madhav Garu,Payment,100000
+10/28/2021,SSCS10,MD & Son,MD & Son transactions,kotak bank,Payment,25000
+10/29/2021,SSCS10,MD & Son,MD & Son transactions,kotak bank,Payment,50000
+11/3/2021,SSCS17,NagaRaju,Staff Salary Advance,NagaRaju,Payment,200
+11/3/2021,SSCS02,R.G.Prasad,Staff Salary Advance,Recovery of salary advance,Receipt,2000
+11/3/2021,SSCS02,R.G.Prasad,Employee Loans,Recovery Of employee loan Installment,Receipt,1000
+11/3/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,Salary Advance Received,Receipt,1500
+11/3/2021,SSCS06,Subrahmanyam,Employee Loans,Recovery Of employee loan Installment,Receipt,500
+11/3/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,salary advance received,Receipt,1000
+11/11/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,salary advance,Payment,1000
+11/12/2021,SSCS14,Kittayya,Staff Salary Advance,Kittayya,Payment,200
+11/12/2021,SSCS23,Peddodu,Staff Salary Advance,Peddodu,Payment,200
+11/14/2021,SSCS10,MD & Son,MD & Son transactions,M.D.Garu,Payment,150000
+11/14/2021,SSCS23,Peddodu,Staff Salary Advance,Peddodu,Payment,700
+11/15/2021,SSCS10,MD & Son,MD & Son transactions,M.D.GARU[ BY PHONE PE],Payment,80000
+11/21/2021,SSCS06,Subrahmanyam,Staff Salary Advance,Salary Advance,Payment,500
+11/22/2021,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+11/24/2021,SSCS10,MD & Son,MD & Son transactions,M. D. GARU,Payment,150000
+11/26/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,Salary Advance,Payment,2000
+11/28/2021,SSCS10,MD & Son,MD & Son transactions,M.D.GARU,Payment,15000
+11/28/2021,SSCS10,MD & Son,MD & Son transactions,phone pay by M.D.GARU,Payment,22000
+11/28/2021,SSCS10,MD & Son,MD & Son transactions,Phone pay by M.D.GARU,Payment,10000
+11/28/2021,SSCS10,MD & Son,MD & Son transactions,M.D.GARU CASH,Payment,18000
+11/28/2021,SSCS10,MD & Son,MD & Son transactions,Damage Notes given to M.D.GARU,Payment,2540
+11/28/2021,SSCS14,Kittayya,Staff Salary Advance,Kittayya,Payment,500
+11/29/2021,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Phone pay,Payment,20000
+12/5/2021,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Employee Loan,Payment,20000
+12/5/2021,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance Received,Receipt,1000
+12/5/2021,SSCS02,R.G.Prasad,Employee Loans,Recovery Of employee loan Installment,Receipt,1000
+12/5/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,Recovery of Salary Advance,Receipt,2000
+12/5/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,Recovery Of Salary Advance,Receipt,1000
+12/5/2021,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery Of Salary Advance,Receipt,500
+12/5/2021,SSCS06,Subrahmanyam,Employee Loans,Recovery Of Employee Loan,Receipt,500
+12/11/2021,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Phone pe,Payment,15000
+12/16/2021,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,2000
+12/22/2021,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+12/22/2021,SSCS10,MD & Son,MD & Son transactions,m. d. garu,Payment,125000
+12/23/2021,SSCS12,SweeperVenkayamma,Staff Salary Advance,SALARY ADVANCE,Payment,1000
+12/25/2021,SSCS07,K.Chakradhara Rao,Staff Salary Advance,SALARY ADVANCE,Payment,2000
+12/26/2021,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Phone pe,Payment,13320
+1/2/2022,SSCS10,MD & Son,MD & Son transactions,M.D.GARU CASH,Payment,300000
+1/3/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Recovery of salary advance,Receipt,3000
+1/3/2022,SSCS02,R.G.Prasad,Employee Loans,Recovery Of employee loan Installment,Receipt,1000
+1/3/2022,SSCS06,Subrahmanyam,Employee Loans,Recovery Of employee loan Installment,Receipt,500
+1/3/2022,SSCS12,SweeperVenkayamma,Staff Salary Advance,recovery of salary advance,Receipt,1000
+1/3/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Recovery Of employee loan Installment,Receipt,1000
+1/3/2022,SSCS07,K.Chakradhara Rao,Staff Salary Advance,salary advace received,Receipt,2000
+1/5/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu phone pe,Payment,10000
+1/5/2022,SSCS10,MD & Son,MD & Son transactions,In Kotak Bank,Payment,64680
+1/8/2022,SSCS06,Subrahmanyam,Staff Salary Advance,SALARY ADVANCE,Payment,1000
+1/9/2022,SSCS23,Peddodu,Staff Salary Advance,Recovery of hamali advance,Receipt,2770
+1/9/2022,SSCS17,NagaRaju,Staff Salary Advance,Recovery of Hamali Advance,Receipt,2700
+1/9/2022,SSCS13,Mohan,Staff Salary Advance,Recovery of hamali advance,Receipt,1200
+1/9/2022,SSCS15,Jayababu,Staff Salary Advance,Recovery Of Hamali Advance,Receipt,1600
+1/9/2022,SSCS19,Gopi,Staff Salary Advance,Recovery Of Hamali Advance,Receipt,1000
+1/9/2022,SSCS14,Kittayya,Staff Salary Advance,Recovery Of Hamali Advance,Receipt,2770
+1/9/2022,SSCS21,Sitaramayya,Staff Salary Advance,Recovery Of Hamali Advance,Receipt,1400
+1/9/2022,SSCS16,Kasi,Staff Salary Advance,Recovery of Hamali Advance,Receipt,500
+1/9/2022,SSCS18,Paddayya,Staff Salary Advance,Recovery Of Hamali Advance,Receipt,500
+1/9/2022,SSCS20,Jattu Hamali,Staff Salary Advance,Recovery Of Hamali Advance,Receipt,1100
+1/11/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu cash,Payment,175000
+1/13/2022,SSCS10,MD & Son,MD & Son transactions,Madhav Garu Cash,Payment,20000
+1/16/2022,SSCS17,NagaRaju,Staff Salary Advance,Jattu Nagaraju,Payment,200
+1/21/2022,SSCS10,MD & Son,MD & Son transactions,M. D. Garu  Phonepe,Payment,13125
+1/23/2022,SSCS10,MD & Son,MD & Son transactions,M.D.GARU Phone pe,Payment,10000
+1/23/2022,SSCS10,MD & Son,MD & Son transactions,M.D.GARU CASH,Payment,125000
+1/23/2022,SSCS10,MD & Son,MD & Son transactions,In Bank,Payment,39400
+1/29/2022,SSCS10,MD & Son,MD & Son transactions,Madhav garu cash,Payment,10000
+2/1/2022,SSCS10,MD & Son,MD & Son transactions,MADHAV GARU CASH,Payment,60000
+2/3/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery of salary advance,Receipt,1000
+2/3/2022,SSCS02,R.G.Prasad,Employee Loans,Recovery Of employee loan Installment,Receipt,1000
+2/3/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Recovery Of Employee Loan Installment,Receipt,1000
+2/7/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,2000
+2/15/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+2/16/2022,SSCS10,MD & Son,MD & Son transactions,PAINT BILLS 9950+4975+4600,Payment,19525
+2/17/2022,SSCS10,MD & Son,MD & Son transactions,PAINT BILLS,Payment,2500
+2/18/2022,SSCS14,Kittayya,Staff Salary Advance,Hamali Advance,Payment,800
+2/20/2022,SSCS07,K.Chakradhara Rao,Staff Salary Advance,Salary Advance,Payment,2500
+2/21/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Phonepe,Payment,30000
+2/21/2022,SSCS06,Subrahmanyam,Staff Salary Advance,SALARY Advance,Payment,300
+2/23/2022,SSCS10,MD & Son,MD & Son transactions,In Kotak Bank Jama,Payment,90000
+2/24/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+3/3/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Recovery of salary advance,Receipt,4000
+3/3/2022,SSCS02,R.G.Prasad,Employee Loans,Recovery of Employee Loan Instalment,Receipt,1000
+3/3/2022,SSCS07,K.Chakradhara Rao,Staff Salary Advance,Recovery Of Salary Advance,Receipt,2500
+2/27/2022,SSCS10,MD & Son,MD & Son transactions,M.D. Garu Cash,Payment,130000
+3/3/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery of salary advance,Receipt,300
+3/3/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Recovery of employee loan Instalment,Receipt,1000
+3/7/2022,SSCS06,Subrahmanyam,Staff Salary Advance,SALARY ADVANCE,Payment,200
+3/10/2022,SSCS15,Jayababu,Staff Salary Advance,Jattu Jayababu,Payment,200
+3/10/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+3/14/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+3/15/2022,SSCS14,Kittayya,Staff Salary Advance,hamali advance,Payment,500
+3/19/2022,SSCS10,MD & Son,MD & Son transactions,In Kotak Bank,Payment,100000
+3/20/2022,SSCS10,MD & Son,MD & Son transactions,M. D. Garu Phone Pe,Payment,5000
+3/21/2022,SSCS10,MD & Son,MD & Son transactions,In Kotak Bank,Payment,163176
+3/31/2022,SSCS13,Mohan,Staff Salary Advance,Jattu Mohan Hamali Advance,Payment,500
+4/3/2022,SSCS10,MD & Son,MD & Son transactions,M. D. Garu Phone Pe,Payment,7400
+4/3/2022,SSCS10,MD & Son,MD & Son transactions,M. D. Garu Phone Pe,Payment,10000
+4/3/2022,SSCS10,MD & Son,MD & Son transactions,M.D .Garu phone pe,Payment,25000
+4/3/2022,SSCS10,MD & Son,MD & Son transactions,Madhav Garu cash,Payment,20000
+4/4/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary advance,Payment,2000
+4/4/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Recovery of salary advance,Receipt,2000
+4/4/2022,SSCS02,R.G.Prasad,Employee Loans,Recovery Of employee loan Installment,Receipt,1000
+4/4/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery of salary advance,Receipt,200
+4/4/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Recovery of employee loan Installment,Receipt,1000
+4/4/2022,SSCS10,MD & Son,MD & Son transactions,Madhav Garu cash,Payment,100000
+4/4/2022,SSCS10,MD & Son,MD & Son transactions,IN KOTAK BANK,Payment,100000
+4/11/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+4/13/2022,SSCS12,SweeperVenkayamma,Staff Salary Advance,Salary Advance,Payment,1000
+4/13/2022,SSCS15,Jayababu,Staff Salary Advance,jayababu hamali advance received,Receipt,200
+4/15/2022,SSCS10,MD & Son,MD & Son transactions,Received From MD GARU on 11-04-2022,Receipt,10000
+4/15/2022,SSCS02,R.G.Prasad,Employee Loans,MD GARU GOOGLE PAY ON 11-04-2022,Payment,10000
+4/15/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advaance,Payment,2000
+4/27/2022,SSCS06,Subrahmanyam,Employee Loans,Employee Loan,Payment,5000
+5/5/2022,SSCS02,R.G.Prasad,Employee Loans,Recovery of Employee loan,Receipt,1000
+5/5/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Recovery Of Salary Advance,Receipt,1000
+5/5/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Recovery of Salary Advance,Receipt,4000
+5/5/2022,SSCS12,SweeperVenkayamma,Staff Salary Advance,Recovery Of Salary Advance,Receipt,1000
+5/6/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Rwcovery of Employee loan,Receipt,1000
+5/9/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,2000
+5/9/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,1000
+5/13/2022,SSCS23,Peddodu,Staff Salary Advance,Hamali advance,Payment,400
+5/14/2022,SSCS10,MD & Son,MD & Son transactions,M. D. Garu Phone pe,Payment,50000
+5/16/2022,SSCS14,Kittayya,Staff Salary Advance,hamali advance,Payment,400
+5/16/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salry advance,Payment,1000
+5/16/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,500
+5/18/2022,SSCS10,MD & Son,MD & Son transactions,M. D. Garu,Receipt,46000
+5/19/2022,SSCS10,MD & Son,MD & Son transactions,from M. D. GARU,Receipt,2000
+5/19/2022,SSCS10,MD & Son,MD & Son transactions,Received from M. D. Garu,Receipt,1000
+5/20/2022,SSCS23,Peddodu,Staff Salary Advance,hamali advance,Payment,1000
+5/23/2022,SSCS10,MD & Son,MD & Son transactions,Oxyzen Gas Advance Return Received,Receipt,8000
+5/23/2022,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,2000
+5/23/2022,SSCS20,Jattu Hamali,Staff Salary Advance,joint advance,Payment,2200
+5/25/2022,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,1000
+5/28/2022,SSCS17,NagaRaju,Staff Salary Advance,Jattu Nagaraju,Payment,300
+5/30/2022,SSCS17,NagaRaju,Staff Salary Advance,Jattu  Nagaraju,Payment,200
+6/2/2022,SSCS23,Peddodu,Staff Salary Advance,Hamali Advance,Payment,600
+6/2/2022,SSCS14,Kittayya,Staff Salary Advance,Hamali Advance,Payment,1000
+6/2/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Recovery of Hamali Advance,Receipt,1500
+6/4/2022,SSCS13,Mohan,Staff Salary Advance,Mohan Advance,Payment,1500
+6/6/2022,SSCS13,Mohan,Staff Salary Advance,Recovery of Hamali adv,Receipt,1000
+6/6/2022,SSCS10,MD & Son,MD & Son transactions,madhav garu,Payment,5000
+6/6/2022,SSCS17,NagaRaju,Staff Salary Advance,Jattu Nagaraju,Payment,200
+6/6/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Recovery of salary advance,Receipt,6000
+6/6/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Recovery of Employee loan,Receipt,1000
+6/6/2022,SSCS06,Subrahmanyam,Employee Loans,recovery of employee loan,Receipt,500
+6/9/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Salary Advance,Payment,2000
+6/9/2022,SSCS10,MD & Son,MD & Son transactions,M. D. GARU CASH BY HAND,Payment,100000
+6/10/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,SALARY ADVANCE,Payment,2000
+6/11/2022,SSCS10,MD & Son,MD & Son transactions,m.d.garu phone pe,Payment,25000
+6/11/2022,SSCS14,Kittayya,Staff Salary Advance,hamali advance,Payment,500
+6/12/2022,SSCS10,MD & Son,MD & Son transactions,m. d. garu phone pe,Payment,25000
+6/12/2022,SSCS10,MD & Son,MD & Son transactions,m. d. garu phone pe,Payment,10000
+6/12/2022,SSCS10,MD & Son,MD & Son transactions,madhav garu phone pe,Payment,13835
+6/13/2022,SSCS10,MD & Son,MD & Son transactions,m.d.garu phone pe,Payment,25000
+6/15/2022,SSCS17,NagaRaju,Staff Salary Advance,hamali advance,Payment,150
+6/15/2022,SSCS24,K.Eswar,Staff Salary Advance,salary advance,Payment,500
+6/17/2022,SSCS10,MD & Son,MD & Son transactions,m. d. garu phone pe,Payment,28000
+6/17/2022,SSCS10,MD & Son,MD & Son transactions,m. d. garu phone pe,Payment,20000
+6/18/2022,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,1000
+6/19/2022,SSCS10,MD & Son,MD & Son transactions,M. D. Garu phone pe,Payment,17340
+6/19/2022,SSCS10,MD & Son,MD & Son transactions,Madhav Garu by hand cash,Payment,210000
+6/19/2022,SSCS10,MD & Son,MD & Son transactions,Damaged notes igven by madhav garu,Payment,3210
+6/19/2022,SSCS14,Kittayya,Staff Salary Advance,Hamali Advance,Payment,500
+6/22/2022,SSCS26,Bujji,Staff Salary Advance,jattu bujji hamali advance,Payment,1500
+6/25/2022,SSCS17,NagaRaju,Staff Salary Advance,hamali advance,Payment,300
+6/25/2022,SSCS18,Paddayya,Staff Salary Advance,hamali advance,Payment,500
+6/25/2022,SSCS14,Kittayya,Staff Salary Advance,hamali ADVANCE,Payment,500
+6/25/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,500
+6/26/2022,SSCS16,Kasi,Staff Salary Advance,HAMALI ADVANCE,Payment,400
+6/26/2022,SSCS15,Jayababu,Staff Salary Advance,HAMALI ADVANCE,Payment,500
+6/26/2022,SSCS02,R.G.Prasad,Staff Salary Advance,SALARY ADVANCE,Payment,500
+6/30/2022,SSCS02,R.G.Prasad,Staff Salary Advance,SALARY ADVANCE,Payment,2000
+7/2/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,500
+7/4/2022,SSCS15,Jayababu,Staff Salary Advance,Hamali Advance,Payment,500
+7/4/2022,SSCS14,Kittayya,Staff Salary Advance,hamali Advance,Payment,200
+7/6/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Recovery of Salary Advance,Receipt,3500
+7/6/2022,SSCS02,R.G.Prasad,Employee Loans,Recovery of Employee Loan,Receipt,1000
+7/6/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery of Salary Advance,Receipt,2000
+7/6/2022,SSCS06,Subrahmanyam,Employee Loans,Recovery Of Employee Loan,Receipt,500
+7/6/2022,SSCS24,K.Eswar,Staff Salary Advance,Recovery OF Salary Advance,Receipt,500
+7/6/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Recovery Of Employee loan,Receipt,1000
+7/6/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Recovery Of Salary Advance,Receipt,3000
+7/6/2022,SSCS17,NagaRaju,Staff Salary Advance,hamali Advance,Payment,400
+7/7/2022,SSCS16,Kasi,Staff Salary Advance,hamali advance,Payment,500
+7/10/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,2000
+7/11/2022,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance,Payment,500
+7/15/2022,SSCS10,MD & Son,MD & Son transactions,M. D. Garu Phone pe,Payment,25740
+7/17/2022,SSCS10,MD & Son,MD & Son transactions,damage notes given by M. D. Garu,Payment,1000
+7/20/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,200
+7/23/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,800
+7/25/2022,SSCS19,Gopi,Staff Salary Advance,hamali advane,Payment,2000
+7/29/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,500
+7/30/2022,SSCS10,MD & Son,MD & Son transactions,M. D. GARU Phone pe,Payment,19000
+7/31/2022,SSCS16,Kasi,Staff Salary Advance,hamali advance,Payment,300
+7/31/2022,SSCS17,NagaRaju,Staff Salary Advance,hamali advance,Payment,300
+8/1/2022,SSCS15,Jayababu,Staff Salary Advance,Hamali Advance,Payment,200
+8/3/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery of Salary Advance,Receipt,500
+8/3/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Recovery of Salary Advance,Receipt,3500
+8/3/2022,SSCS02,R.G.Prasad,Employee Loans,Recovery of Loan Installment,Receipt,1000
+8/3/2022,SSCS06,Subrahmanyam,Employee Loans,Recovery of loan Installment,Receipt,500
+8/5/2022,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance,Payment,2000
+8/7/2022,SSCS17,NagaRaju,Staff Salary Advance,hamali advance,Payment,300
+8/7/2022,SSCS14,Kittayya,Staff Salary Advance,hamali advance,Payment,500
+8/7/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,500
+8/8/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+8/16/2022,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,1000
+8/17/2022,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,600
+8/17/2022,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance,Payment,1000
+8/19/2022,SSCS14,Kittayya,Staff Salary Advance,hamali advance,Payment,1000
+8/21/2022,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,1000
+8/21/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,500
+8/22/2022,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance,Payment,500
+8/22/2022,SSCS12,SweeperVenkayamma,Staff Salary Advance,salary advance,Payment,1000
+8/24/2022,SSCS14,Kittayya,Staff Salary Advance,hamali advance,Payment,1000
+8/25/2022,SSCS02,R.G.Prasad,Staff Salary Advance,SALARY ADVANCE,Payment,2000
+8/26/2022,SSCS10,MD & Son,MD & Son transactions,IN KOTAK BANK- VIJ- CASH JAMA,Payment,35500
+8/27/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Phone pe,Payment,20000
+8/28/2022,SSCS20,Jattu Hamali,Staff Salary Advance,joint hamali advance,Payment,800
+8/28/2022,SSCS15,Jayababu,Staff Salary Advance,hamali advance,Payment,100
+8/29/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,1000
+8/29/2022,SSCS25,Konda,Staff Salary Advance,hamali advance,Payment,2000
+8/29/2022,SSCS15,Jayababu,Staff Salary Advance,hamali advance,Payment,1000
+9/1/2022,SSCS26,Bujji,Staff Salary Advance,hamali advance,Payment,5000
+9/5/2022,SSCS02,R.G.Prasad,Staff Salary Advance,recovery of salary advance,Receipt,5600
+9/5/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Recovery Of Salary Advance,Receipt,2000
+9/5/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery of salary advance,Receipt,3500
+9/5/2022,SSCS06,Subrahmanyam,Employee Loans,Recovery of employee loan,Receipt,500
+9/5/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,recovery of employee loan,Receipt,1000
+9/5/2022,SSCS12,SweeperVenkayamma,Staff Salary Advance,recovery of salary advance,Receipt,1000
+9/8/2022,SSCS17,NagaRaju,Staff Salary Advance,Hamali Advance,Payment,300
+9/8/2022,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance,Payment,3000
+9/8/2022,SSCS23,Peddodu,Staff Salary Advance,hamali advance,Payment,4000
+9/10/2022,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,1000
+9/11/2022,SSCS14,Kittayya,Staff Salary Advance,Hamali Advance,Payment,5000
+9/11/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,500
+9/12/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary advance,Payment,1000
+9/14/2022,SSCS24,K.Eswar,Staff Salary Advance,salary advance,Payment,4400
+9/14/2022,SSCS10,MD & Son,MD & Son transactions,M. D. GARU CASH,Payment,50000
+9/18/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,500
+9/18/2022,SSCS24,K.Eswar,Staff Salary Advance,Salary advance,Payment,200
+9/18/2022,SSCS26,Bujji,Staff Salary Advance,Hamali Advance,Payment,2000
+9/19/2022,SSCS17,NagaRaju,Staff Salary Advance,Hamali Advance,Payment,500
+9/19/2022,SSCS20,Jattu Hamali,Staff Salary Advance,Hamali joint advance,Payment,3000
+9/19/2022,SSCS12,SweeperVenkayamma,Staff Salary Advance,Salary advance,Payment,1000
+9/22/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary  Advance,Payment,1000
+9/22/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,500
+9/22/2022,SSCS24,K.Eswar,Staff Salary Advance,Salary Advance,Payment,500
+9/23/2022,SSCS10,MD & Son,MD & Son transactions,M.D.GARU Phone pe,Payment,47415
+9/23/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Salary Advance,Payment,500
+9/25/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+9/26/2022,SSCS24,K.Eswar,Staff Salary Advance,Salary Advance,Payment,400
+9/29/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+10/1/2022,SSCS18,Paddayya,Staff Salary Advance,Hamali Advance,Payment,1000
+10/5/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,2000
+10/7/2022,SSCS24,K.Eswar,Staff Salary Advance,Recovery of Salary Advance,Receipt,5500
+10/7/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery Of Salary Advance,Receipt,3500
+10/7/2022,SSCS06,Subrahmanyam,Employee Loans,Recovery Of Loan Installment,Receipt,500
+10/7/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Recovery Of Employee Loan Installment,Receipt,2000
+10/7/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Recovery Of Salary Advance,Receipt,1500
+10/7/2022,SSCS12,SweeperVenkayamma,Staff Salary Advance,Recovery Of Salary Advance,Receipt,1000
+10/7/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Recovery of Salary Advance,Receipt,7000
+10/9/2022,SSCS23,Peddodu,Staff Salary Advance,Hamali Advance,Payment,3200
+10/10/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Salary Advance,Payment,3000
+10/10/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu cash,Payment,15000
+10/10/2022,SSCS10,MD & Son,MD & Son transactions,from M.D.Garu for electricity bill,Receipt,156220
+10/10/2022,SSCS10,MD & Son,MD & Son transactions,M.D. Garu Phone Pe,Payment,20000
+10/10/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Phone Pe,Payment,24000
+10/14/2022,SSCS08,T.Sarveswara Rao,Employee Loans,Employee loan,Payment,15000
+10/16/2022,SSCS14,Kittayya,Staff Salary Advance,hamali advance,Payment,300
+10/17/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,500
+10/17/2022,SSCS24,K.Eswar,Staff Salary Advance,SALARY ADVANCE,Payment,200
+10/17/2022,SSCS01,M.Nageswara Rao,Staff Salary Advance,Salary advance,Payment,12570
+10/19/2022,SSCS24,K.Eswar,Staff Salary Advance,salary advance,Payment,3500
+10/26/2022,SSCS10,MD & Son,MD & Son transactions,Amount Received from M. D. Garu,Receipt,137000
+10/30/2022,SSCS19,Gopi,Staff Salary Advance,Recovery of hamali Advance,Receipt,2000
+10/30/2022,SSCS15,Jayababu,Staff Salary Advance,Recovery of hamali Advance,Receipt,2300
+10/30/2022,SSCS16,Kasi,Staff Salary Advance,Recovery of hamali Advance,Receipt,1200
+10/30/2022,SSCS14,Kittayya,Staff Salary Advance,recovery of hamali Advance,Receipt,10000
+10/30/2022,SSCS13,Mohan,Staff Salary Advance,recovery of hamali charges,Receipt,1000
+10/30/2022,SSCS23,Peddodu,Staff Salary Advance,recovery of hamali Advance,Receipt,10000
+10/30/2022,SSCS26,Bujji,Staff Salary Advance,recovery of hamali Advance,Receipt,8500
+10/30/2022,SSCS25,Konda,Staff Salary Advance,Recovery of Hamali Advance,Receipt,2000
+10/30/2022,SSCS18,Paddayya,Staff Salary Advance,Recovery Of Hamali Advance,Receipt,1500
+10/28/2022,SSCS19,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,500
+11/3/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,500
+11/5/2022,SSCS24,K.Eswar,Staff Salary Advance,Recovery of salary advance,Receipt,3700
+11/5/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery of salary advance,Receipt,3000
+11/5/2022,SSCS06,Subrahmanyam,Employee Loans,Recovery of Employee loan installment,Receipt,500
+11/5/2022,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance,Payment,3500
+11/5/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Recovery of salary adv,Receipt,1500
+11/5/2022,SSCS08,T.Sarveswara Rao,Employee Loans,Recovery of employee loan,Receipt,2000
+11/5/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Recovery of employee loan,Receipt,2000
+11/5/2022,SSCS10,MD & Son,MD & Son transactions,Received from M.D.Garu,Receipt,17500
+11/9/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,SALARY ADVANCE,Payment,500
+11/10/2022,SSCS14,Kittayya,Staff Salary Advance,HAMALI ADV,Payment,1000
+11/10/2022,SSCS23,Peddodu,Staff Salary Advance,HAMALI ADVANCE,Payment,1000
+11/12/2022,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance,Payment,300
+11/12/2022,SSCS24,K.Eswar,Staff Salary Advance,salary advance,Payment,500
+11/13/2022,SSCS10,MD & Son,MD & Son transactions,M.D.GARU PHONE PE,Payment,20000
+11/16/2022,SSCS24,K.Eswar,Staff Salary Advance,salary advance,Payment,500
+11/17/2022,SSCS02,R.G.Prasad,Staff Salary Advance,salary advance,Payment,2000
+11/18/2022,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance,Payment,100
+11/19/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,salary advance,Payment,500
+11/23/2022,SSCS17,NagaRaju,Staff Salary Advance,HAMALI ADVANCE,Payment,200
+11/23/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,2000
+11/23/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu phone pe,Payment,35000
+11/24/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Phone pe,Payment,10000
+11/25/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,1000
+11/26/2022,SSCS24,K.Eswar,Staff Salary Advance,Salary Advance,Payment,1500
+12/2/2022,SSCS06,Subrahmanyam,Staff Salary Advance,salary advance,Payment,2000
+12/3/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Recover of salary advance,Receipt,4000
+12/3/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Recovery of salary Advance,Receipt,5900
+12/3/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Recovery of Salary Advance,Receipt,2000
+12/3/2022,SSCS24,K.Eswar,Staff Salary Advance,Recovery of Salary Advance,Receipt,2500
+12/3/2022,SSCS08,T.Sarveswara Rao,Employee Loans,Recovery of Loan Instalment,Receipt,2000
+12/3/2022,SSCS04,Ch.V.N.Dhana Lakshmi,Employee Loans,Recovery of Loan Installment,Receipt,2000
+12/4/2022,SSCS06,Subrahmanyam,Employee Loans,Recovery Of Loan Installment,Receipt,2000
+12/5/2022,SSCS02,R.G.Prasad,Staff Salary Advance,SALARY ADVANCE,Payment,1000
+11/27/2022,SSCS10,MD & Son,MD & Son transactions,By Manikanta loan interest,Receipt,50000
+11/23/2022,SSCS10,MD & Son,MD & Son transactions,By Manikanta Loan interest,Receipt,35000
+11/24/2022,SSCS10,MD & Son,MD & Son transactions,By Manikanta Loan interest,Receipt,10000
+12/5/2022,SSCS10,MD & Son,MD & Son transactions,M. D. Garu Phone pe,Payment,32000
+10/30/2020,SSCS01,M.Nageswara Rao,Staff Salary Advance, for adjustment purpose,Receipt,3000
+12/7/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,2000
+12/8/2022,SSCS06,Subrahmanyam,Employee Loans,Employee Loan,Payment,10000
+12/8/2022,SSCS17,NagaRaju,Staff Salary Advance,Hamali advance,Payment,500
+12/11/2022,SSCS24,K.Eswar,Staff Salary Advance,Salary Advance,Payment,1000
+12/12/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,500
+12/13/2022,SSCS10,MD & Son,MD & Son transactions,Cash In Kotak Bank,Payment,150000
+12/15/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,2000
+12/15/2022,SSCS06,Subrahmanyam,Staff Salary Advance,Salary Advance,Payment,4000
+12/15/2022,SSCS08,T.Sarveswara Rao,Staff Salary Advance,Salary Advance,Payment,500
+12/18/2022,SSCS24,K.Eswar,Staff Salary Advance,Salary Advance,Payment,1000
+12/18/2022,SSCS10,MD & Son,MD & Son transactions,MADHAV GARU CASH,Payment,8000
+12/18/2022,SSCS10,MD & Son,MD & Son transactions,m. d. garu phone pe,Payment,19750
+12/18/2022,SSCS29,B. Prasad,Staff Salary Advance,Salary Advance,Payment,500
+12/19/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Phone pe,Payment,35000
+12/19/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Cash,Payment,5000
+12/19/2022,SSCS12,SweeperVenkayamma,Staff Salary Advance,Salary Advance,Payment,1000
+12/22/2022,SSCS10,MD & Son,MD & Son transactions,Madhav Garu,Payment,5000
+12/22/2022,SSCS10,MD & Son,MD & Son transactions,Madhav Garu Cash,Payment,250000
+12/23/2022,SSCS24,K.Eswar,Staff Salary Advance,Salary Advance,Payment,500
+12/24/2022,SSCS10,MD & Son,MD & Son transactions,M.D GARU Phone pe,Payment,15000
+12/25/2022,SSCS02,R.G.Prasad,Staff Salary Advance,Salary Advance,Payment,1000
+12/25/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Cash,Payment,30000
+12/26/2022,SSCS29,B. Prasad,Staff Salary Advance,Recovery Of Salary Advance,Receipt,500
+12/29/2022,SSCS10,MD & Son,MD & Son transactions,M.D.Garu Phone PE,Payment,30000

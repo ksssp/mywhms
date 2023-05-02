@@ -60,16 +60,16 @@
           <b-collapse accordion="sidebar-accordion" id="accounting">
             <ul class="nav flex-column sub-menu">
               <li class="nav-item">
-                <router-link class="nav-link" to="/accounting/customers/">Customer Transactions</router-link>
+                <router-link class="nav-link" to="/accounting/expenses/">Expenses</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/accounting/employees/">Employee Transactions</router-link>
+                <router-link class="nav-link" to="/accounting/customerTransactions/">Customer Transactions</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/accounting/bankAccounts/">Bank Account Transactions</router-link>
+                <router-link class="nav-link" to="/accounting/employeeTransactions/">Employee Transactions</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/accounting/others/">Other Transactions</router-link>
+                <router-link class="nav-link" to="/accounting/bankAccountTransactions/">Bank Account Transactions</router-link>
               </li>
             </ul>
           </b-collapse>
@@ -102,6 +102,15 @@
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/administration/bankAccounts/">Bank Accounts<i class="mdi mdi-worker menu-icon"></i></router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/administration/incomeTypes/">Income Types<i class="mdi mdi-worker menu-icon"></i></router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/administration/expenseTypes/">Expense Types<i class="mdi mdi-worker menu-icon"></i></router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/administration/employeeTransactionTypes/">Employee Transaction Types<i class="mdi mdi-worker menu-icon"></i></router-link>
               </li>
             </ul>
           </b-collapse>

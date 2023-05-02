@@ -21,7 +21,8 @@
 
                     <br />
                     <AppDataTable v-if="items" :download-file-name="downloadFileName" :fields="fields" 
-                        :fieldDefs="fieldDefs" :table-data="items" :is-main-table="isMainTable"></AppDataTable>
+                        :fieldDefs="fieldDefs" :table-data="items" :is-main-table="isMainTable"
+                        :has-click-through="hasClickThrough"></AppDataTable>
                 </div>
             </div>
         </div>
@@ -65,7 +66,8 @@ export default {
             ],
             fieldDefs: [],
             items: null,
-            isMainTable: true
+            isMainTable: true,
+            hasClickThrough: true
         };
     },
     async created() {

@@ -31,7 +31,8 @@
 
                     <br />
                     <AppDataTable v-if="items" :download-file-name="downloadFileName" :fields="fields" 
-                        :fieldDefs="fieldDefs" :table-data="items" :is-main-table="isMainTable"></AppDataTable>
+                        :fieldDefs="fieldDefs" :table-data="items" :is-main-table="isMainTable"
+                        :has-click-through="hasClickThrough"></AppDataTable>
                 </div>
             </div>
         </div>
@@ -39,7 +40,7 @@
 </template>
 
 <script>
-import { DateTime } from 'luxon';
+import { formatDate } from "@/services/commons.service";
 import { getCustomers } from "@/services/customer.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
@@ -58,17 +59,18 @@ export default {
             fields: [
                 { data: "customerCode", title: "Customer Code" },
                 { data: "customerName", title: "Customer Name" },
+                { data: "customerDisplayName", title: "Customer Display Name", visible: false },
                 { data: "mobileNumber", title: "Mobile Number" },
                 { data: "town", title: "Town/Village" },
-                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return DateTime.fromISO(creationDate).toLocal().toFormat('dd-MM-yyyy'); } },
-                { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return DateTime.fromISO(activeFrom).toLocal().toFormat('dd-MM-yyyy'); } },
-                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return DateTime.fromISO(activeUntil).toLocal().toFormat('dd-MM-yyyy'); } },
-                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return DateTime.fromISO(lastModifiedDate).toLocal().toFormat('dd-MM-yyyy'); } }
-                
+                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return formatDate(creationDate); } },
+                { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return formatDate(activeFrom); } },
+                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return formatDate(activeUntil); } },
+                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return formatDate(lastModifiedDate); } }
             ],
             fieldDefs: [],
             items: null,
-            isMainTable: true
+            isMainTable: true,
+            hasClickThrough: true
         };
     },
     async created() {

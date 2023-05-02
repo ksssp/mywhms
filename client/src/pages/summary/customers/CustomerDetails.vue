@@ -6,7 +6,7 @@
             </h3>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">Reference Data</a></li>
+                    <li class="breadcrumb-item"><a href="javascript:void(0);">{{ moduleTitle }}</a></li>
                     <li class="breadcrumb-item"><a :href="entityListingUrl">{{ entityNamePlural }}</a></li>
                     <li class="breadcrumb-item active" aria-current="page">{{ pageTitle }}</li>
                 </ol>
@@ -29,7 +29,7 @@
                     </div>
                     <br />
                     <b-tabs class="tickets-tab-switch">
-                        <b-tab title="Details" active>
+                        <b-tab title="Overview" active>
                             <div class="row mx-4">
                                 <b-table-lite responsive borderless :fields="entityDetailsTable.fields"
                                     :items="entityDetailsTable.items">
@@ -41,59 +41,34 @@
                         </b-tab>
                         <b-tab :title="getLotsCountForCustomer">
                             <div class="row mx-4">
-                                <b-table responsive hover id="table-lodgements-list" :fields="lodgementsTable.fields"
+                                <b-table responsive hover show-empty id="table-lodgements-list" :fields="lodgementsTable.fields"
                                 :items="lodgementsTable.items" :per-page="lodgementsTable.perPage" :current-page="lodgementsTable.currentPage"
                                 :sort-by.sync="lodgementsTable.sortBy" :sort-desc.sync="lodgementsTable.sortDesc">
-                                <template #cell(lodgementDate)="data">{{ formatDate(data.value) }}</template>
+                                <template #cell(lodgementDate)="data">{{ prettyPrintDate(data.value) }}</template>
                                 <template #cell(lotNumber)="data">
                                     {{ data.value }}
                                     <b-link :href="getLodgementUrl(data.item)" target="_blank">
                                         <span class="ml-1 mdi mdi-open-in-new btn-icon-prepend"/>
                                     </b-link>
                                 </template>
-                                <template #cell(stockRelease.lastDeliveryDate)="data">{{ formatDate(data.value) }}</template>
+                                <template #cell(stockRelease.lastDeliveryDate)="data">{{ prettyPrintDate(data.value) }}</template>
                                 <template #cell(isPlatformLot)="data">
                                     <span v-html="getPlatformLotBadge(data.value)"></span>
                                 </template>
                             </b-table>
                             </div>
                         </b-tab>
-                        <b-tab :title="getProductsCountForCustomer">
+                        <b-tab title="Charges & Rents">
                             <div class="row mx-4">
-                                <b-table responsive hover id="table-lodgements-list" :fields="lodgementsTable.fields"
-                                :items="lodgementsTable.items" :per-page="lodgementsTable.perPage" :current-page="lodgementsTable.currentPage"
-                                :sort-by.sync="lodgementsTable.sortBy" :sort-desc.sync="lodgementsTable.sortDesc">
-                                <template #cell(lodgementDate)="data">{{ formatDate(data.value) }}</template>
-                                <template #cell(lotNumber)="data">
-                                    {{ data.value }}
-                                    <b-link :href="getLodgementUrl(data.item)" target="_blank">
-                                        <span class="ml-1 mdi mdi-open-in-new btn-icon-prepend"/>
-                                    </b-link>
-                                </template>
-                                <template #cell(stockRelease.lastDeliveryDate)="data">{{ formatDate(data.value) }}</template>
-                                <template #cell(isPlatformLot)="data">
-                                    <span v-html="getPlatformLotBadge(data.value)"></span>
-                                </template>
-                            </b-table>
                             </div>
                         </b-tab>
-                        <b-tab title="Payments & Receipts">
+                        <b-tab :title="getTransactionsCountForCustomer">
                             <div class="row mx-4">
-                                <b-table responsive hover id="table-lodgements-list" :fields="lodgementsTable.fields"
-                                :items="lodgementsTable.items" :per-page="lodgementsTable.perPage" :current-page="lodgementsTable.currentPage"
-                                :sort-by.sync="lodgementsTable.sortBy" :sort-desc.sync="lodgementsTable.sortDesc">
-                                <template #cell(lodgementDate)="data">{{ formatDate(data.value) }}</template>
-                                <template #cell(lotNumber)="data">
-                                    {{ data.value }}
-                                    <b-link :href="getLodgementUrl(data.item)" target="_blank">
-                                        <span class="ml-1 mdi mdi-open-in-new btn-icon-prepend"/>
-                                    </b-link>
-                                </template>
-                                <template #cell(stockRelease.lastDeliveryDate)="data">{{ formatDate(data.value) }}</template>
-                                <template #cell(isPlatformLot)="data">
-                                    <span v-html="getPlatformLotBadge(data.value)"></span>
-                                </template>
-                            </b-table>
+                                <b-table responsive hover show-empty id="table-transactions-list" :fields="customerTransactionsTable.fields"
+                                    :items="customerTransactionsTable.items" :per-page="customerTransactionsTable.perPage" :current-page="customerTransactionsTable.currentPage"
+                                    :sort-by.sync="customerTransactionsTable.sortBy" :sort-desc.sync="customerTransactionsTable.sortDesc">
+                                    <template #cell(transactionDate)="data">{{ prettyPrintDate(data.value) }}</template>
+                                </b-table>
                             </div>
                         </b-tab>
                     </b-tabs>
@@ -105,7 +80,9 @@
 
 <script>
 import { DateTime } from 'luxon';
+import { formatDate, formatNumber } from '@/services/commons.service';
 import { getCustomerById } from "@/services/customer.service";
+import { getCustomerTransactionsByCustomerId } from '@/services/customerTransaction.service';
 import { getLodgementsSummaryByCustomerId } from '@/services/lodgement.service';
 
 export default {
@@ -114,6 +91,7 @@ export default {
         return {
             entityName: "Customer",
             entityNamePlural: "Customers",
+            moduleTitle: "Summary",
             pageTitle: "Customer Details",
             entityListingUrl: "/summary/customers/",
             entityTitle: "",
@@ -159,10 +137,10 @@ export default {
                     { key: "isPlatformLot", label: "Platform Lot", sortable: true }
                 ],
                 items: [],
-                sortBy: 'name',
+                sortBy: 'lodgementDate',
                 perPage: 10,
                 currentPage: 1, 
-                sortDesc: false,
+                sortDesc: true,
                 pageOptions: [ 5, 10, 25, 50],
                 sortByFormatted: true,
                 filter: '',
@@ -191,6 +169,28 @@ export default {
                     { key: "isPlatformLot", label: "Platform Lot", sortable: true }
                 ],
                 items: []
+            },
+            customerTransactionsTable: {
+                fields: [
+                    { key: "transactionDate", label: "Transaction Date", sortable: true },
+                    { key: "totalAmountReceived", label: "Total Amount Received", sortable: true }, 
+                    { key: "chargesReceived", label: "Charges Received", sortable: true },
+                    { key: "rentReceived", label: "Rent Received", sortable: true },
+                    { key: "rentDiscount", label: "Rent Discount", sortable: true },
+                    { key: "rentalMode", label: "Rental Mode", sortable: true },
+                    { key: "rentalYear", label: "Rental Year" },
+                    { key: "transactionDetails", label: "TransactionDetails", sortable: true }
+                ],
+                items: [],
+                sortBy: 'transactionDate',
+                perPage: 10,
+                currentPage: 1, 
+                sortDesc: false,
+                pageOptions: [ 5, 10, 25, 50],
+                sortByFormatted: true,
+                filter: '',
+                filterByFormatted: true,
+                sortable: true,
             }
         };
     },
@@ -198,6 +198,7 @@ export default {
         this.loadedEntityId = this.$route.params._id;
         this.loadEntityData(this.loadedEntityId);
         this.loadLodgementsData(this.loadedEntityId);
+        this.loadCustomerTransactions(this.loadedEntityId);
     },
     methods: {
         loadEntityData(entityId) {
@@ -211,9 +212,9 @@ export default {
                     this.entityDetailsTable.items[1].infoValue = this.loadedEntity.customerName;
                     this.entityDetailsTable.items[2].infoValue = this.loadedEntity.mobileNumber;
                     this.entityDetailsTable.items[3].infoValue = this.loadedEntity.town;
-                    this.entityDetailsTable.items[4].infoValue = DateTime.fromISO(this.loadedEntity.creationDate).toLocal().toFormat('dd-MM-yyyy');
-                    this.entityDetailsTable.items[5].infoValue = DateTime.fromISO(this.loadedEntity.lastModifiedDate).toLocal().toFormat('dd-MM-yyyy');
-                    this.entityDetailsTable.items[6].infoValue = DateTime.fromISO(this.loadedEntity.activeFrom).toLocal().toFormat('dd-MM-yyyy');
+                    this.entityDetailsTable.items[4].infoValue = formatDate(this.loadedEntity.creationDate);
+                    this.entityDetailsTable.items[5].infoValue =formatDate(this.loadedEntity.lastModifiedDate);
+                    this.entityDetailsTable.items[6].infoValue = formatDate(this.loadedEntity.activeFrom);
                     this.entityDetailsTable.items[7].infoValue = this.loadedEntityIsActive ? 'Active' : 'Inactive';
                 }
             });
@@ -225,6 +226,12 @@ export default {
                 console.log(this.lodgementsTable.items);
             });
         },
+        loadCustomerTransactions(customerId) {
+            getCustomerTransactionsByCustomerId(customerId).then(response => {
+                let customerTransactions = JSON.parse(JSON.stringify(response));
+                this.customerTransactionsTable.items = customerTransactions;
+            });
+        },
         getLodgementUrl(entity) {
             return '/inventory/lodgements/' + entity._id;
         },
@@ -232,8 +239,8 @@ export default {
             return isPlatformLot ? `<label class="badge badge-info">Platform Lot</label>` :
                 `<label class="badge badge-success">Regular Lot</label>`;
         },
-        formatDate(anyDate) {
-            return DateTime.fromISO(anyDate).toLocal().toFormat('dd-MM-yyyy');
+        prettyPrintDate(anyDate) {
+            return formatDate(anyDate);
         }
     },
     computed: {
@@ -242,6 +249,9 @@ export default {
         },
         getProductsCountForCustomer() {
             return 'Products ( ' + 0 + ' )';
+        },
+        getTransactionsCountForCustomer() {
+            return 'Payments & Receipts ( ' + this.customerTransactionsTable.items.length + ' )';
         }
     }
 }

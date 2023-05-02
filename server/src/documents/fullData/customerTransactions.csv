@@ -1,0 +1,1218 @@
+transactionDate,customer_customerCode,customer_customerName,totalChargesReceived,totalAmountReceived,rentalYear,rentalMode,rentReceived,rentDiscount,transactionDetails
+6/6/2022,A.Balaji/TPG,Akula Balaji,1055,1550,2021,Monthly,495,0,Charges received
+10/15/2022,A.Balaji/TPG,Akula Balaji,0,0,2021,Monthly,0,290,Charges received
+8/23/2020,A.SAI/RJY,Sai,0,1800,2020,Yearly,1800,0,ChargesReceived
+9/17/2020,A.SAI/RJY,Sai,0,6250,2020,Yearly,6250,0,ChargesReceived
+10/26/2020,A.SAI/RJY,Sai,0,4550,2020,Yearly,4550,0,ChargesReceived
+12/15/2021,A.SAI/RJY,Sai,0,8150,2021,Yearly,8150,0,Charges received
+10/15/2022,A.SAI/RJY,Sai,0,0,2021,Yearly,0,465,Charges received
+12/28/2020,AA,Allu Appi Reddy,0,4200,2020,Yearly,4200,0,ChargesReceived
+2/9/2020,Abhiruchi/BVRM,Abhiruchi Foods,0,78000,2020,Yearly,78000,0,ChargesReceived
+2/24/2021,Abhiruchi/BVRM,Abhiruchi Foods,0,19000,2020,Yearly,19000,0,ChargesReceived
+2/8/2022,Abhiruchi/BVRM,Abhiruchi Foods,0,52000,2021,Yearly,52000,0,Charges received
+9/23/2022,Abhiruchi/BVRM,Abhiruchi Super Market,0,5165,2021,Yearly,5165,0,Charges received
+9/23/2022,Abhiruchi/BVRM,Abhiruchi Super Market,0,33850,2022,Yearly,33850,0,Charges received
+9/23/2022,Abhiruchi/BVRM,Abhiruchi Super Market,8400,8400,2022,Yearly,0,0,Charges received
+10/15/2022,ABR/Kavitam,ABR,0,0,2021,Monthly,0,325,Charges received
+10/27/2022,AJS/Thallapudi,Sri Anjaneya Swamy General Store/ kasi,220,220,2022,Monthly,0,0,Charges received
+3/15/2020,AM,A.Madhu,0,15000,2020,Yearly,15000,0,ChargesReceived
+6/7/2020,AM,A.Madhu,0,2000,2020,Yearly,2000,0,ChargesReceived
+1/2/2021,AM,A.Madhu,0,20000,2020,Yearly,20000,0,ChargesReceived
+2/14/2021,AM,A.Madhu,0,5500,2020,Yearly,5500,0,ChargesReceived
+11/14/2021,AM,A.Madhu,0,25000,2021,Yearly,25000,0,Charges received
+12/15/2021,AM,A.Madhu,0,1300,2021,Yearly,1300,0,Charges received
+10/15/2022,AM,A.Madhu,0,0,2021,Yearly,0,-1095,Charges received
+11/9/2022,AM,A.Madhu,0,16080,2022,Yearly,16080,0,Charges received
+11/9/2022,AM,A.Madhu,3920,3920,2022,Yearly,0,0,Charges received
+1/19/2022,ANR/Duvva,Adda Nageswara Rao,0,4440,2021,Yearly,4440,0,Charges received
+10/21/2022,ANR/Duvva,Adda Nageswara Rao,0,1000,2022,Yearly,1000,0,Charges received
+12/25/2022,ANR/Duvva,Adda Nageswara Rao,0,2230,2022,Yearly,2230,0,Charges received
+1/25/2020,ANR/RVP,Akula Pallayya,0,5000,2020,Yearly,5000,0,ChargesReceived
+6/15/2020,ANR/RVP,Akula Pallayya,0,9000,2020,Yearly,9000,0,ChargesReceived
+1/28/2021,ANR/RVP,Akula Pallayya,0,30000,2020,Yearly,30000,0,ChargesReceived
+11/26/2021,ANR/RVP,Akula Pallayya,0,10000,2021,Yearly,10000,0,Charges received
+6/17/2022,ANR/RVP,Akula Pallayya,0,24225,2021,Yearly,24225,0,Charges received
+6/19/2022,ANR/RVP,Akula Pallayya,4590,17340,2022,Yearly,12750,0,Charges received
+6/17/2022,ANR/RVP,Akula Pallayya,0,3775,2021,Monthly,3775,0,Charges received
+10/15/2022,ANR/RVP,Akula Pallayya,0,0,2021,Monthly,0,613,Charges received
+1/26/2020,ANR/SCC/RamBabu,RamBabu,0,10000,2020,Yearly,10000,0,ChargesReceived
+6/14/2020,ANR/SCC/RamBabu,RamBabu,0,6000,2020,Yearly,6000,0,ChargesReceived
+11/8/2020,ANR/SCC/RamBabu,RamBabu,10000,10000,2020,Yearly,0,0,ChargesReceived
+1/10/2021,ANR/SCC/RamBabu,RamBabu,0,5000,2020,Yearly,5000,0,ChargesReceived
+3/7/2021,ANR/SCC/RamBabu,RamBabu,0,5000,2020,Yearly,5000,0,ChargesReceived
+10/8/2021,ANR/SCC/RamBabu,RamBabu,0,4000,2020,Yearly,4000,0,Charges received
+10/24/2021,ANR/SCC/RamBabu,RamBabu,5000,5000,2021,Yearly,0,0,Charges received
+12/5/2021,ANR/SCC/RamBabu,RamBabu,0,5000,2021,Yearly,5000,0,Charges received
+12/12/2021,ANR/SCC/RamBabu,RamBabu,0,5000,2021,Yearly,5000,0,Charges received
+12/26/2021,ANR/SCC/RamBabu,RamBabu,0,10000,2021,Yearly,10000,0,Charges received
+1/2/2022,ANR/SCC/RamBabu,RamBabu,0,5000,2021,Yearly,5000,0,Charges received
+1/24/2022,ANR/SCC/RamBabu,RamBabu,0,2600,2021,Yearly,2600,0,Charges received
+11/4/2022,ANR/SCC/RamBabu,RamBabu,0,6635,2021,Yearly,6635,355,Charges received
+11/4/2022,ANR/SCC/RamBabu,RamBabu,0,1365,2021,Monthly,1365,0,Charges received
+6/14/2020,AR/RVP,Sri Srinivasa General Merchants,0,20500,2020,Yearly,20500,0,ChargesReceived
+10/10/2021,AR/RVP,Sri Srinivasa General Merchants,30115,50000,2021,Yearly,19885,0,Charges received
+1/9/2022,AR/RVP,Sri Srinivasa General Merchants,0,50000,2021,Yearly,50000,0,Charges received
+8/21/2022,AR/RVP,Sri Srinivasa General Merchants,0,21000,2021,Yearly,21000,0,Charges received
+11/14/2021,ARK,Rama Krishna,0,4070,2021,Yearly,4070,0,Charges received
+12/15/2021,ARK,Rama Krishna,0,1000,2020,Yearly,1000,0,Charges received
+11/14/2021,ARK,Rama Krishna,0,715,2021,Monthly,715,0,Charges received
+11/14/2021,ARK,Rama Krishna,0,930,2020,Yearly,930,0,Charges received
+11/14/2021,ARK,Rama Krishna,0,285,2020,Monthly,285,0,Charges received
+12/7/2022,ARK,Rama Krishna,0,4120,2022,Yearly,4120,0,Charges received
+12/7/2022,ARK,Rama Krishna,880,880,2022,Yearly,0,0,Charges received
+9/5/2021,ASB/Mukkamala,Ambati Subrahmanyam,0,4900,2020,Yearly,4900,0,Charges received
+2/20/2022,ASB/Mukkamala,Ambati Subrahmanyam,0,20000,2021,Yearly,20000,0,Charges received
+3/20/2022,ASB/Mukkamala,Ambati Subrahmanyam,0,4440,2021,Yearly,4440,0,Charges received
+4/22/2021,ASG/Sattupalli,Kasi,0,4000,2020,Yearly,4000,0,ChargesReceived
+1/25/2020,ASM,Appana Subrahmanyam,0,1503,2020,Yearly,1503,0,ChargesReceived
+1/23/2021,ASM,Appana Subrahmanyam,0,8200,2020,Yearly,8200,0,ChargesReceived
+1/23/2021,ASM,Appana Subrahmanyam,0,1800,2020,Yearly,1800,0,ChargesReceived
+5/4/2022,ASM,Appana Subrahmanyam,0,5000,2021,Yearly,5000,0,Charges received
+10/15/2022,ASM,Appana Subrahmanyam,0,0,2021,Yearly,0,1290,Charges received
+2/19/2021,ASP/Challapalli,Prasad,0,9100,2020,Yearly,9100,0,ChargesReceived
+1/10/2020,ASR,A.Srinivasa Rao,0,39000,2020,Yearly,39000,0,ChargesReceived
+7/8/2022,ATL/Attili,Akula Thrimurthulu,0,10000,2021,Yearly,10000,0,Charges received
+1/12/2020,AVR/AMP,Venkateswara Rao,0,100000,2020,Yearly,100000,0,ChargesReceived
+1/12/2020,AVR/AMP,Venkateswara Rao,67200,67200,2020,Yearly,0,0,ChargesReceived
+4/20/2020,AVR/AMP,Venkateswara Rao,55000,55000,2020,Yearly,0,0,ChargesReceived
+4/24/2020,AVR/AMP,Venkateswara Rao,6000,6000,2020,Yearly,0,0,ChargesReceived
+4/24/2020,AVR/AMP,Venkateswara Rao,6730,6730,2020,Yearly,0,0,ChargesReceived
+4/24/2020,AVR/AMP,Venkateswara Rao,5270,5270,2020,Yearly,0,0,ChargesReceived
+4/26/2020,AVR/AMP,Venkateswara Rao,2480,2480,2020,Yearly,0,0,ChargesReceived
+4/26/2020,AVR/AMP,Venkateswara Rao,5450,5450,2020,Yearly,0,0,ChargesReceived
+5/17/2020,AVR/AMP,Venkateswara Rao,0,50000,2020,Yearly,50000,0,ChargesReceived
+5/17/2020,AVR/AMP,Venkateswara Rao,25875,25875,2020,Yearly,0,0,ChargesReceived
+9/3/2020,AVR/AMP,Venkateswara Rao,9450,9450,2020,Yearly,0,0,ChargesReceived
+9/20/2020,AVR/AMP,Venkateswara Rao,20200,20200,2020,Yearly,0,0,ChargesReceived
+12/6/2020,AVR/AMP,Venkateswara Rao,9600,9600,2020,Yearly,0,0,ChargesReceived
+1/31/2021,AVR/AMP,Venkateswara Rao,37250,37250,2020,Yearly,0,0,ChargesReceived
+1/31/2021,AVR/AMP,Venkateswara Rao,0,300000,2020,Yearly,300000,0,ChargesReceived
+2/3/2021,AVR/AMP,Venkateswara Rao,0,200000,2020,Yearly,200000,0,ChargesReceived
+4/26/2020,AVR/AMP,Venkateswara Rao,21260,21260,2020,Yearly,0,0,ChargesReceived
+3/7/2021,AVR/AMP,Venkateswara Rao,3400,3400,2020,Yearly,0,0,ChargesReceived
+3/7/2021,AVR/AMP,Venkateswara Rao,6600,6600,2020,Yearly,0,0,ChargesReceived
+3/28/2021,AVR/AMP,Venkateswara Rao,6900,6900,2020,Yearly,0,0,ChargesReceived
+4/25/2021,AVR/AMP,Venkateswara Rao,14580,14580,2020,Yearly,0,0,ChargesReceived
+6/6/2021,AVR/AMP,Venkateswara Rao,14000,14000,2020,Yearly,0,0,ChargesReceived
+6/6/2021,AVR/AMP,Venkateswara Rao,17295,17295,2020,Yearly,0,0,ChargesReceived
+7/18/2021,AVR/AMP,Venkateswara Rao,20600,20600,2021,Yearly,0,0,Charges received
+9/15/2021,AVR/AMP,Venkateswara Rao,15100,15100,2021,Yearly,0,0,Charges received
+5/17/2020,AVR/AMP,Venkateswara Rao,4600,4600,2020,Yearly,0,0,ChargesReceived
+9/3/2020,AVR/AMP,Venkateswara Rao,700,700,2020,Yearly,0,0,ChargesReceived
+10/24/2021,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,11660,11660,2021,Yearly,0,0,Charges received
+10/24/2021,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,11440,11440,2021,Yearly,0,0,Charges received
+11/21/2021,AVR/AMP,Venkateswara Rao,144470,144470,2021,Yearly,0,0,Charges received
+12/26/2021,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,13520,13520,2021,Yearly,0,0,Charges received
+12/26/2021,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,11900,11900,2021,Yearly,0,0,Charges received
+12/26/2021,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,0,50000,2021,Yearly,50000,0,Charges received
+1/30/2022,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,9750,9750,2022,Yearly,0,0,Charges received
+2/20/2022,AVR/AMP,Venkateswara Rao,0,200000,2021,Yearly,200000,0,Charges received
+2/27/2022,AVR/AMP,Venkateswara Rao,0,100000,2021,Yearly,100000,0,Charges received
+3/13/2022,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,8600,8600,2022,Yearly,0,0,Charges received
+3/27/2022,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,10700,10700,2022,Yearly,0,0,Charges received
+6/5/2022,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,31590,31590,2022,Yearly,0,0,Charges received
+2/20/2022,AVR/AMP,Venkateswara Rao,11470,11470,2022,Yearly,0,0,Charges received
+8/21/2022,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,21140,21140,2022,Yearly,0,0,Charges received
+11/20/2022,AVR/AMP,Sri Venkata Durga Traders,350,350,2022,Monthly,0,0,Charges received
+11/20/2022,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,21560,21560,2022,Monthly,0,0,Charges received
+12/25/2022,AVR/AMP,Sri Venkateswara Jaggery & General Marchants,8400,8400,2022,Monthly,0,0,Charges received
+2/21/2021,AVR/TPG,Akula Venkateswara Rao,0,25000,2020,Yearly,25000,0,ChargesReceived
+6/13/2022,AVR/TPG,Akula Venkateswara Rao,0,4000,2021,Yearly,4000,0,Charges received
+11/5/2022,AVR/TPG,Akula Venkateswara Rao,0,0,2021,Yearly,0,-485,Charges received
+1/31/2021,Balusulu/TPG,Balusulu,0,8920,2020,Yearly,8920,0,ChargesReceived
+8/16/2021,Balusulu/TPG,Balusulu,0,7000,2021,Yearly,7000,0,Charges received
+11/7/2021,Balusulu/TPG,Balusulu,0,10000,2021,Yearly,10000,0,Charges received
+12/22/2021,Balusulu/TPG,Balusulu,0,9425,2021,Yearly,9425,0,Charges received
+3/26/2022,Balusulu/TPG,Balusulu,220,220,2022,Yearly,0,0,Charges received
+10/14/2022,Balusulu/TPG,Balusulu,0,25000,2021,Yearly,25000,0,Charges received
+10/23/2022,Balusulu/TPG,Balusulu,70,70,2022,Yearly,0,0,Charges received
+10/15/2022,Balusulu/TPG,Balusulu,0,0,2021,Yearly,0,-10302,Charges received
+6/19/2022,BAV/Pendyala,Battina Annavaram,2200,7000,2022,Yearly,4800,0,Charges received
+1/31/2021,BGK/BVRM,Gopala Krishna,0,3470,2020,Yearly,3470,0,ChargesReceived
+12/15/2021,BM/NDD,B.Mahesh,0,13000,2021,Yearly,13000,0,Charges received
+2/4/2022,BM/NDD,B.Mahesh,0,3800,2021,Yearly,3800,0,Charges received
+11/19/2022,BM/NDD,B.Mahesh,0,6700,2022,Yearly,6700,50,Charges received
+11/19/2022,BM/NDD,B.Mahesh,1800,1800,2022,Yearly,0,0,Charges received
+11/16/2020,Bose/VJA,Bose,0,60000,2020,Yearly,60000,0,ChargesReceived
+3/6/2021,Bose/VJA,Bose,0,73000,2020,Yearly,73000,0,ChargesReceived
+12/3/2021,Bose/VJA,Bose,0,7200,2020,Yearly,7200,0,Charges received
+4/7/2021,Bose/VJA,Bose,0,40000,2020,Yearly,40000,0,ChargesReceived
+1/19/2020,BSN,Satya Narayana,0,920,2020,Yearly,920,0,ChargesReceived
+1/19/2020,BSN,Satya Narayana,320,320,2020,Yearly,0,0,ChargesReceived
+2/16/2020,BSN,Satya Narayana,0,50000,2020,Yearly,50000,0,ChargesReceived
+7/6/2022,BSR/AMP,Badri Srinu,0,12000,2021,Yearly,12000,0,Charges received
+10/15/2022,BSR/AMP,Badri Srinu,0,0,2021,Yearly,0,1320,Charges received
+11/15/2020,BV/TPG,Bandela Prasad,0,9000,2020,Yearly,9000,0,ChargesReceived
+1/31/2021,CB/YPR,Chitti Babu,0,9100,2020,Yearly,9100,0,ChargesReceived
+6/26/2020,Ch.Lakshmi,Lakshmi,0,380,2020,Yearly,380,0,ChargesReceived
+1/19/2020,CHA/TPG,Gayatri Enterprises,0,25000,2020,Yearly,25000,0,ChargesReceived
+1/27/2020,CHA/TPG,Gayatri Enterprises,0,25000,2020,Yearly,25000,0,ChargesReceived
+2/4/2020,CHA/TPG,Gayatri Enterprises,0,15000,2020,Yearly,15000,0,ChargesReceived
+2/10/2020,CHA/TPG,Gayatri Enterprises,0,5000,2020,Yearly,5000,0,ChargesReceived
+4/8/2020,CHA/TPG,Gayatri Enterprises,0,15000,2020,Yearly,15000,0,ChargesReceived
+6/8/2020,CHA/TPG,Gayatri Enterprises,0,5000,2020,Yearly,5000,0,ChargesReceived
+7/18/2020,CHA/TPG,Gayatri Enterprises,0,5000,2020,Yearly,5000,0,ChargesReceived
+12/19/2020,CHA/TPG,Gayatri Enterprises,0,25000,2020,Yearly,25000,0,ChargesReceived
+2/8/2021,CHA/TPG,Gayatri Enterprises,0,35000,2020,Yearly,35000,0,ChargesReceived
+5/6/2021,CHA/TPG,Gayatri Enterprises,10000,10000,2021,Yearly,0,0,ChargesReceived
+6/13/2021,CHA/TPG,Gayatri Enterprises,10000,10000,2021,Yearly,0,0,ChargesReceived
+10/17/2021,CHA/TPG,Gayatri Enterprises,10000,10000,2021,Yearly,0,0,Charges received
+11/1/2021,CHA/TPG,Gayatri Enterprises,10000,10000,2021,Yearly,0,0,Charges received
+11/14/2021,CHA/TPG,Rama Krishna,8850,8850,2021,Yearly,0,0,Charges received
+1/2/2022,CHA/TPG,Gayatri Enterprises,0,30000,2021,Yearly,30000,0,Charges received
+1/9/2022,CHA/TPG,Gayatri Enterprises,0,20000,2021,Yearly,20000,0,Charges received
+1/24/2022,CHA/TPG,Gayatri Enterprises,0,20000,2021,Yearly,20000,0,Charges received
+1/30/2022,CHA/TPG,Gayatri Enterprises,0,30000,2021,Yearly,30000,0,Charges received
+2/27/2022,CHA/TPG,Rama Krishna,0,30000,2021,Yearly,30000,0,Charges received
+3/14/2022,CHA/TPG,Rama Krishna,0,20000,2021,Yearly,20000,0,Charges received
+5/11/2022,CHA/TPG,Rama Krishna,0,10000,2021,Yearly,10000,0,Charges received
+8/15/2022,CHA/TPG,Rama Krishna,25000,25000,2022,Yearly,0,0,Charges received
+9/24/2022,CHA/TPG,Rama Krishna,25000,25000,2022,Yearly,0,0,Charges received
+10/10/2022,CHA/TPG,Rama Krishna,25000,25000,2022,Yearly,0,0,Charges received
+10/27/2022,CHA/TPG,Rama Krishna,25000,25000,2022,Yearly,0,0,Charges received
+11/27/2022,CHA/TPG,Rama Krishna,0,20000,2022,Yearly,20000,0,Charges received
+2/28/2021,Chenni,RamBabu,0,3300,2020,Yearly,3300,0,ChargesReceived
+2/28/2021,Chenni,RamBabu,0,1000,2020,Yearly,1000,0,ChargesReceived
+10/15/2022,Chenni,RamBabu,0,0,2021,Yearly,0,740,Charges received
+10/15/2022,Chinni/RJY,Chinni,0,0,2021,Monthly,0,780,Charges received
+4/9/2020,CHN/JRGudem,Nageswara Rao,0,5600,2020,Yearly,5600,0,ChargesReceived
+4/3/2022,CHNB/Pragadavaram,CH.Naga Bhushanam,0,7400,2021,Yearly,7400,0,Charges received
+4/9/2020,CHR,Chegondi Raju,0,975,2020,Yearly,975,0,ChargesReceived
+4/9/2020,CHR,Chegondi Raju,0,255,2020,Yearly,255,0,ChargesReceived
+2/19/2021,CHR,Chegondi Raju,0,3300,2020,Yearly,3300,0,ChargesReceived
+5/14/2021,CHR,Chegondi Raju,0,7000,2021,Yearly,7000,0,ChargesReceived
+10/15/2022,CHR,Chegondi Raju,0,0,2021,Yearly,0,1695,Charges received
+11/27/2022,CHR,Chegondi Raju,6200,6200,2022,Yearly,0,0,Charges received
+11/27/2022,CHR,Chegondi Raju,0,8800,2022,Yearly,8800,0,Charges received
+3/20/2022,CHSRM,CH.Sri Rama Murthy,0,1350,2021,Monthly,1350,0,Charges received
+10/15/2022,CHSRM,CH.Sri Rama Murthy,0,0,2021,Monthly,0,-1090,Charges received
+3/20/2022,CKV,Chilukuru Venkanna,0,8800,2020,Yearly,8800,0,Charges received
+9/27/2020,CMR/ELR,Lakshmi Super Bazar,0,13000,2020,Yearly,13000,0,ChargesReceived
+1/2/2022,CNR/JRGudem,Chenni NageswaRao,0,4615,2021,Yearly,4615,0,Charges received
+4/8/2022,CNR/JRGudem,Chenni NageswaRao,0,10000,2021,Yearly,10000,0,Charges received
+1/2/2022,CNR/JRGudem,Chenni NageswaRao,0,385,2021,Monthly,385,0,Charges received
+10/15/2022,CNR/JRGudem,Chenni NageswaRao,0,0,2021,Monthly,0,135,Charges received
+8/9/2021,CVR/RVS,R.V.S.Ramu,0,2000,2021,Yearly,2000,0,Charges received
+8/23/2021,CVR/RVS,R.V.S.Ramu,0,4660,2021,Yearly,4660,0,Charges received
+8/23/2021,CVR/RVS,R.V.S.Ramu,0,340,2021,Monthly,340,0,Charges received
+10/15/2022,CVR/RVS,R.V.S.Ramu,0,0,2021,Monthly,0,-15,Charges received
+1/5/2020,CVS/AMP,Chikkala Venkanna,0,40000,2020,Yearly,40000,0,ChargesReceived
+1/10/2021,Devika,Devika Kiraana,0,3280,2020,Yearly,3280,0,ChargesReceived
+1/5/2020,DK,D.K.Prasad,0,50000,2020,Yearly,50000,0,ChargesReceived
+1/12/2020,DK,D.K.Prasad,0,50000,2020,Yearly,50000,0,ChargesReceived
+1/19/2020,DK,D.K.Prasad,0,50000,2020,Yearly,50000,0,ChargesReceived
+3/29/2020,DK,D.K.Prasad,0,80000,2020,Yearly,80000,0,ChargesReceived
+4/27/2020,DK,D.K.Prasad,0,50000,2020,Yearly,50000,0,ChargesReceived
+7/27/2020,DK,D.K.Prasad,0,30000,2020,Yearly,30000,0,ChargesReceived
+9/13/2020,DK,D.K.Prasad,30000,30000,2020,Yearly,0,0,ChargesReceived
+9/28/2020,DK,D.K.Prasad,0,50000,2020,Yearly,50000,0,ChargesReceived
+12/13/2020,DK,D.K.Prasad,0,50000,2020,Yearly,50000,0,ChargesReceived
+12/26/2020,DK,D.K.Prasad,0,50000,2020,Yearly,50000,0,ChargesReceived
+1/10/2021,DK,D.K.Prasad,0,50000,2020,Yearly,50000,0,ChargesReceived
+2/7/2021,DK,D.K.Prasad,40000,70000,2020,Yearly,30000,0,ChargesReceived
+2/14/2021,DK,D.K.Prasad,20000,50000,2020,Yearly,30000,0,ChargesReceived
+3/1/2021,DK,D.K.Prasad,0,50000,2020,Yearly,50000,0,ChargesReceived
+3/28/2021,DK,D.K.Prasad,0,100000,2020,Yearly,100000,0,ChargesReceived
+4/17/2021,DK,D.K.Prasad,0,30000,2020,Yearly,30000,0,ChargesReceived
+5/3/2021,DK,D.K.Prasad,0,20000,2020,Yearly,20000,0,ChargesReceived
+5/9/2021,DK,D.K.Prasad,20000,20000,2020,Yearly,0,0,ChargesReceived
+7/11/2021,DK,D.K.Prasad,20000,20000,2021,Yearly,0,0,Charges received
+9/12/2021,DK,D.K.Prasad,25000,25000,2021,Yearly,0,0,Charges received
+10/3/2021,DK,D.K.Prasad,25000,25000,2021,Yearly,0,0,Charges received
+10/24/2021,DK,D.K.Prasad,0,50000,2021,Yearly,50000,0,Charges received
+11/7/2021,DK,D.K.Prasad,0,30000,2021,Yearly,30000,0,Charges received
+11/14/2021,DK,D.K.Prasad,0,20000,2021,Yearly,20000,0,Charges received
+11/28/2021,DK,D.K.Prasad,0,25000,2021,Yearly,25000,0,Charges received
+12/12/2021,DK,D.K.Prasad,0,25000,2021,Yearly,25000,0,Charges received
+12/26/2021,DK,D.K.Prasad,0,25000,2021,Yearly,25000,0,Charges received
+1/9/2022,DK,D.K.Prasad,0,30000,2021,Yearly,30000,0,Charges received
+2/7/2022,DK,D.K.Prasad,0,50000,2021,Yearly,50000,0,Charges received
+3/13/2022,DK,D.K.Prasad,0,40000,2021,Yearly,40000,0,Charges received
+3/20/2022,DK,D.K.Prasad,0,40000,2021,Yearly,40000,0,Charges received
+4/3/2022,DK,D.K.Prasad,0,25000,2021,Yearly,25000,0,Charges received
+4/24/2022,DK,D.K.Prasad,0,35000,2021,Yearly,35000,0,Charges received
+5/8/2022,DK,D.K.Prasad,36929,40000,2021,Yearly,3071,0,Charges received
+7/10/2022,DK,D.K.Prasad,0,40000,2022,Yearly,40000,0,Charges received
+8/14/2022,DK,D.K.Prasad,0,60000,2022,Yearly,60000,0,Charges received
+9/4/2022,DK,D.K.Prasad,0,35000,2022,Yearly,35000,0,Charges received
+9/25/2022,DK,D.K.Prasad,0,30000,2022,Yearly,30000,0,Charges received
+10/30/2022,DK,D.K.Prasad,0,35000,2022,Yearly,35000,0,Charges received
+12/11/2022,DK,D.K.Prasad,0,45000,2022,Yearly,45000,0,Charges received
+2/9/2022,DKL/Bandar,Dindikurthi Atchutha Ramayya,0,18370,2021,Yearly,18370,1055,Charges received
+11/7/2020,DMR/VK,K.Nageswara Rao,0,10000,2020,Yearly,10000,0,ChargesReceived
+12/13/2020,DMR/VK,K.Nageswara Rao,0,10000,2020,Yearly,10000,0,ChargesReceived
+1/4/2021,DMR/VK,K.Nageswara Rao,320,320,2020,Yearly,0,0,ChargesReceived
+1/8/2021,DMR/VK,K.Nageswara Rao,150,150,2020,Yearly,0,0,ChargesReceived
+1/10/2021,DMR/VK,K.Nageswara Rao,0,5000,2020,Yearly,5000,0,ChargesReceived
+2/7/2021,DMR/VK,K.Nageswara Rao,0,4000,2020,Yearly,4000,0,ChargesReceived
+4/7/2021,DMR/VK,K.Nageswara Rao,0,5500,2020,Yearly,5500,0,ChargesReceived
+10/24/2021,DMR/VK,Maheswara Rao,5000,5000,2021,Yearly,0,0,Charges received
+11/28/2021,DMR/VK,Maheswara Rao,0,5000,2021,Yearly,5000,0,Charges received
+3/20/2022,DMR/VK,Maheswara Rao,0,5000,2021,Yearly,5000,0,Charges received
+12/26/2022,DMR/VK,K.Nageswara Rao,0,10000,2021,Yearly,10000,0,Charges received
+4/26/2021,DP/TPG,Pattiyya,0,10500,2020,Yearly,10500,0,ChargesReceived
+6/30/2021,DR/Malkipuram,Kesari Avish Sri Sai,0,4500,2021,Yearly,4500,0,Charges received
+10/15/2022,DR/Malkipuram,Kesari Avish Sri Sai,0,0,2021,Yearly,0,865,Charges received
+9/2/2021,DSN/TPG,D.SatyaNarayana,0,3000,2021,Yearly,3000,0,Charges received
+10/15/2022,DSN/TPG,D.SatyaNarayana,0,0,2021,Yearly,0,367,Charges received
+7/3/2020,Durga,Rama Sai Traders,11500,11500,2020,Yearly,0,0,ChargesReceived
+10/4/2020,Durga,Rama Sai Traders,0,15500,2020,Yearly,15500,0,ChargesReceived
+4/26/2021,Durga,Rama Sai Traders,16500,16500,2021,Yearly,0,0,ChargesReceived
+5/6/2021,Durga,Rama Sai Traders,10000,10000,2021,Yearly,0,0,ChargesReceived
+12/5/2021,Durga,Rama Sai Traders,0,25000,2021,Yearly,25000,0,Charges received
+12/9/2021,Durga,Rama Sai Traders,0,15000,2021,Yearly,15000,0,Charges received
+4/7/2022,Durga,Rama Sai Traders,21050,21050,2022,Yearly,0,0,Charges received
+9/4/2022,Durga,Rama Sai Traders,16210,16210,2022,Yearly,0,0,Charges received
+9/4/2022,Durga,Rama Sai Traders,0,28770,2022,Yearly,28770,0,Charges received
+10/15/2022,Durga,Rama Sai Traders,0,0,2021,Yearly,0,8794,Charges received
+8/19/2022,DurgaBhavani/BVRM,Pilli Satya Narayana,0,11360,2021,Yearly,11360,0,Charges received
+8/19/2022,DurgaBhavani/BVRM,Pilli Satya Narayana,1790,1790,2021,Yearly,0,0,Charges received
+8/19/2022,DurgaBhavani/BVRM,Pilli Satya Narayana,850,850,2020,Yearly,0,0,Charges received
+10/15/2022,DurgaBhavani/BVRM,Pilli Satya Narayana,0,0,2021,Yearly,0,-940,Charges received
+2/23/2020,DVS/Relangi,Mallipudi Satyanarayana,0,11000,2020,Yearly,11000,0,ChargesReceived
+5/11/2022,EKY/PRR,Eethakota Kittayya,350,2000,2022,Yearly,1650,0,Charges received
+4/20/2020,ESR/Sivayya,Eswara Rao,0,6700,2020,Yearly,6700,0,ChargesReceived
+1/10/2021,GAGA,Mylavarapu Srinivasu,0,10000,2020,Yearly,10000,0,ChargesReceived
+2/28/2021,GAGA,Mylavarapu Srinivasu,0,10000,2020,Yearly,10000,0,ChargesReceived
+12/16/2021,GAGA,Mylavarapu Srinivasu,0,20000,2021,Yearly,20000,0,Charges received
+12/1/2022,GAGA,Mylavarapu Ganga Raju,0,15000,2021,Yearly,15000,0,Charges received
+12/1/2022,GAGA,Mylavarapu Ganga Raju,0,10000,2022,Yearly,10000,0,Charges received
+10/15/2022,GCC/Rampachodavaram,Rajesh,0,0,2021,Yearly,0,60865,Charges received
+10/15/2022,GCC/Rampachodavaram,Rajesh,0,0,2021,Monthly,0,6240,Charges received
+7/6/2022,GK/BVRM,GK Traders,0,1890,2021,Yearly,1890,0,Charges received
+10/15/2022,GK/BVRM,GK Traders,0,0,2021,Yearly,0,2815,Charges received
+4/17/2022,GKR/PRG,Gadi Kesava Reddy,0,2400,2021,Monthly,2400,0,Charges received
+10/15/2022,GKR/PRG,Gadi Kesava Reddy,0,0,2021,Monthly,0,-2010,Charges received
+10/11/2020,GM/BVRM,Mavullu,0,12200,2020,Yearly,12200,0,ChargesReceived
+6/27/2021,GM/BVRM,Mavullu,8900,8900,2021,Yearly,0,0,Charges received
+10/24/2021,GM/BVRM,Mavullu,0,30000,2021,Yearly,30000,0,Charges received
+3/27/2022,GM/BVRM,Mavullu,0,8100,2021,Yearly,8100,0,Charges received
+10/23/2022,GM/BVRM,Mavullu,3120,3120,2022,Yearly,0,0,Charges received
+10/23/2022,GM/BVRM,Mavullu,0,10880,2022,Yearly,10880,0,Charges received
+10/15/2022,GM/BVRM,Mavullu,0,0,2021,Yearly,0,-10,Charges received
+3/7/2022,GMK/Thethali,G.Murali Krishna,0,3000,2022,Yearly,3000,0,Charges received
+11/27/2022,GMR/Peravali,Gudivada Mukteswara Rao,0,1050,2022,Yearly,1050,0,Charges received
+11/27/2022,GMR/Peravali,Gudivada Mukteswara Rao,280,280,2022,Yearly,0,0,Charges received
+2/21/2021,GMR/TPG,Manikyala Rao,0,5500,2020,Yearly,5500,0,ChargesReceived
+1/20/2022,GMVS,Venkata Subba Rao,0,50000,2020,Yearly,50000,0,Charges received
+3/2/2022,GMVS,Venkata Subba Rao,0,10000,2020,Yearly,10000,0,Charges received
+1/23/2022,GN/TPG,Gandrothu Naveen,350,2840,2021,Monthly,2490,0,Charges received
+10/15/2022,GN/TPG,Gandrothu Naveen,0,0,2021,Monthly,0,9275,Charges received
+11/24/2022,GNB/KKD,Sri Shyam Traders,1880,1880,2022,Yearly,0,0,Charges received
+11/24/2022,GNB/KKD,Sri Shyam Traders,0,7020,2022,Yearly,7020,0,Charges received
+5/7/2020,GNR,Ramesh,0,10000,2020,Yearly,10000,0,ChargesReceived
+12/13/2020,GNR,Ramesh,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/3/2021,GNR,Ramesh,0,10000,2020,Yearly,10000,0,ChargesReceived
+6/21/2020,GNR,Ramesh,0,17000,2020,Yearly,17000,0,ChargesReceived
+6/17/2021,GNR,Ramesh,0,10000,2020,Yearly,10000,0,Charges received
+9/26/2021,GNR,Ramesh,0,30000,2020,Yearly,30000,0,Charges received
+5/29/2022,GNR,Ramesh,0,16280,2021,Yearly,16280,0,Charges received
+9/4/2022,GNR,Ramesh,0,14800,2021,Yearly,14800,0,Charges received
+5/29/2022,GNR,Ramesh,0,3720,2020,Yearly,3720,0,Charges received
+1/10/2020,GP,Pullayya,0,2500,2020,Yearly,2500,0,ChargesReceived
+3/29/2020,GS/Bhadra,Bhadra,0,10000,2020,Yearly,10000,0,ChargesReceived
+6/14/2020,GS/Bhadra,Bhadra,0,8000,2020,Yearly,8000,0,ChargesReceived
+2/23/2020,GS/RJY,Gouri Sankar,0,2340,2020,Yearly,2340,0,ChargesReceived
+12/18/2022,GSP/BVRM,Ganapathi Sai Pavan General Merchants,4550,4550,2021,Yearly,0,0,Charges received
+12/18/2022,GSP/BVRM,Ganapathi Sai Pavan General Merchants,0,15200,2021,Yearly,15200,0,Charges received
+1/31/2021,GSR/Yerraguntapadu,Gade Satya Narayana Reddy,0,5500,2020,Yearly,5500,0,ChargesReceived
+11/24/2022,GVKR/Someswaram,Surya Prakash Reddy,400,400,2022,Monthly,0,0,Charges received
+11/24/2022,GVKR/Someswaram,Surya Prakash Reddy,0,300,2022,Monthly,300,0,Charges received
+11/8/2020,GVR/TPG,Magapu Lona Raju,30000,30000,2020,Yearly,0,0,ChargesReceived
+12/13/2020,GVR/TPG,Magapu Lona Raju,0,30000,2020,Yearly,30000,0,ChargesReceived
+1/10/2021,GVR/TPG,Magapu Lona Raju,0,20000,2020,Yearly,20000,0,ChargesReceived
+3/25/2021,GVR/TPG,Magapu Lona Raju,0,3100,2020,Yearly,3100,0,ChargesReceived
+6/6/2021,GVR/TPG,Magapu Lona Raju,0,30000,2020,Yearly,30000,0,ChargesReceived
+7/12/2021,GVR/TPG,Krishna,0,30000,2020,Yearly,30000,0,Charges received
+9/26/2021,GVR/TPG,Krishna,0,20000,2020,Yearly,20000,0,Charges received
+10/10/2021,GVR/TPG,Krishna,0,20000,2020,Yearly,20000,0,Charges received
+12/5/2021,GVR/TPG,Krishna,0,30000,2020,Yearly,30000,0,Charges received
+1/9/2022,GVR/TPG,Krishna,0,20000,2021,Yearly,20000,0,Charges received
+2/4/2022,GVR/TPG,Krishna,0,20000,2021,Yearly,20000,0,Charges received
+3/12/2022,GVR/TPG,Krishna,0,20000,2021,Yearly,20000,0,Charges received
+4/3/2022,GVR/TPG,Krishna,0,3652,2021,Yearly,3652,0,Charges received
+6/5/2022,GVR/TPG,Krishna,10000,10000,2022,Yearly,0,0,Charges received
+6/12/2022,GVR/TPG,Krishna,0,30000,2021,Yearly,30000,0,Charges received
+7/16/2022,GVR/TPG,Krishna,0,20000,2021,Yearly,20000,0,Charges received
+7/30/2022,GVR/TPG,Krishna,0,17150,2021,Yearly,17150,0,Charges received
+7/30/2022,GVR/TPG,Krishna,0,1800,2020,Monthly,1800,0,Charges received
+9/4/2022,GVR/TPG,Chalavadi Pavani,0,20000,2021,Yearly,20000,0,Charges received
+4/3/2022,GVR/TPG,Krishna,0,21348,2020,Yearly,21348,0,Charges received
+7/30/2022,GVR/TPG,Krishna,0,1050,2021,Monthly,1050,0,Charges received
+10/10/2022,GVR/TPG,Krishna,20000,20000,2022,Yearly,0,0,Charges received
+10/16/2022,GVR/TPG,Krishna,30000,30000,2022,Yearly,0,0,Charges received
+11/4/2022,GVR/TPG,Krishna,15000,15000,2022,Yearly,0,0,Charges received
+12/4/2022,GVR/TPG,Krishna,10000,10000,2022,Yearly,0,0,Charges received
+11/25/2020,GVVCS,Godavari Vidya Vikas Chaithanya Society,0,10023,2020,Yearly,10023,0,ChargesReceived
+2/4/2022,HARI/ELR,N.Ramesh,0,10000,2021,Yearly,10000,0,Charges received
+7/1/2022,HARI/ELR,N.Ramesh,0,13706,2021,Yearly,13706,0,Charges received
+5/9/2021,HARI/ELR,N.Ramesh,0,10000,2021,Yearly,10000,0,ChargesReceived
+7/1/2022,HARI/ELR,N.Ramesh,0,1235,2021,Monthly,1235,0,Charges received
+7/1/2022,HARI/ELR,N.Ramesh,0,5059,2020,Yearly,5059,0,Charges received
+10/21/2022,HARI/ELR,N.Ramesh,800,800,2022,Monthly,0,0,Charges received
+10/21/2022,HARI/ELR,N.Ramesh,0,600,2022,Monthly,600,0,Charges received
+11/27/2022,HARI/ELR,N.Ramesh,0,2040,2022,Yearly,2040,0,Charges received
+11/27/2022,HARI/ELR,N.Ramesh,12960,12960,2022,Yearly,0,0,Charges received
+2/26/2020,HKT,Frakuruddhin,0,6000,2020,Yearly,6000,0,ChargesReceived
+3/11/2020,HKT,Hari Krishna Traders,0,530,2020,Yearly,530,0,ChargesReceived
+3/29/2020,HKT,Hari Krishna Traders,0,15000,2020,Yearly,15000,0,ChargesReceived
+6/7/2020,HKT,Hari Krishna Traders,0,10000,2020,Yearly,10000,0,ChargesReceived
+7/18/2020,HKT,Hari Krishna Traders,0,4000,2020,Yearly,4000,0,ChargesReceived
+11/29/2020,HKT,Hari Krishna Traders,10000,10000,2020,Yearly,0,0,ChargesReceived
+12/6/2020,HKT,Hari Krishna Traders,0,10000,2020,Yearly,10000,0,ChargesReceived
+12/19/2020,HKT,Hari Krishna Traders,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/3/2021,HKT,Hari Krishna Traders,0,10000,2020,Yearly,10000,0,ChargesReceived
+1/31/2021,HKT,Hari Krishna Traders,0,10000,2020,Yearly,10000,0,ChargesReceived
+2/11/2021,HKT,Hari Krishna Traders,13000,13000,2020,Yearly,0,0,ChargesReceived
+2/28/2021,HKT,Hari Krishna Traders,0,20000,2020,Yearly,20000,0,ChargesReceived
+4/26/2021,HKT,Hari Krishna Traders,0,10000,2020,Yearly,10000,0,ChargesReceived
+5/7/2021,HKT,Hari Krishna Traders,0,5000,2020,Yearly,5000,0,ChargesReceived
+7/4/2021,HKT,Hari Krishna Traders,10000,10000,2021,Yearly,0,0,Charges received
+7/25/2021,HKT,Hari Krishna Traders,21000,21000,2021,Yearly,0,0,Charges received
+10/6/2022,HKT,Hari Krishna Traders,0,10683,2022,Yearly,10683,0,Charges received
+10/6/2022,HKT,Hari Krishna Traders,14317,14317,2022,Yearly,0,0,Charges received
+10/12/2022,HKT,Hari Krishna Traders,0,10000,2022,Yearly,10000,0,Charges received
+1/1/2020,HSN,Hanumanthu Satya Narayana,0,4800,2020,Yearly,4800,0,ChargesReceived
+1/1/2020,HSN,Hanumanthu Satya Narayana,0,4500,2020,Yearly,4500,0,ChargesReceived
+11/9/2020,HSN,Hanumanthu Satya Narayana,0,5000,2020,Yearly,5000,0,ChargesReceived
+1/10/2021,HSN,Hanumanthu Satya Narayana,0,1600,2020,Yearly,1600,0,ChargesReceived
+1/19/2022,HSN,Hanumanthu Satya Narayana,0,4600,2021,Yearly,4600,0,Charges received
+10/15/2022,HSN,Hanumanthu Satya Narayana,0,0,2021,Yearly,0,25,Charges received
+12/12/2022,HSN,Hanumanthu Satya Narayana,240,240,2022,Yearly,0,0,Charges received
+12/12/2022,HSN,Hanumanthu Satya Narayana,0,900,2022,Yearly,900,0,Charges received
+10/15/2022,JD/Chintalapudi,Jaya Durga,0,0,2021,Monthly,0,195,Charges received
+3/26/2021,JS/Chanti,Chanti,17000,17000,2020,Yearly,0,0,ChargesReceived
+4/17/2020,JS/Nani,Nani,0,50000,2020,Yearly,50000,0,ChargesReceived
+3/26/2021,JS/Nani,Nani,0,13000,2020,Yearly,13000,0,ChargesReceived
+1/23/2022,JS/Nani,Nani,300,1530,2021,Monthly,1230,0,Charges received
+10/15/2022,JS/Nani,Nani,0,0,2021,Monthly,0,4988,Charges received
+11/28/2022,JS/Nani,Nani,16750,16750,2022,Yearly,0,0,Charges received
+11/28/2022,JS/Nani,Nani,0,8250,2022,Yearly,8250,0,Charges received
+1/28/2021,K.Koti/NDD,Konathala Koteswara Rao,0,25000,2020,Yearly,25000,0,ChargesReceived
+4/11/2021,K.Koti/NDD,Konathala Koteswara Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+2/25/2022,K.Koti/NDD,Konathala Koteswara Rao,0,25000,2021,Yearly,25000,0,Charges received
+2/16/2020,K.Ravi/Kothapet,K. Ravi,5000,33000,2020,Yearly,28000,0,ChargesReceived
+3/23/2021,K.Ravi/Kothapet,K. Ravi,0,35000,2020,Yearly,35000,0,ChargesReceived
+3/28/2021,K.Ravi/Kothapet,K. Ravi,0,5000,2020,Yearly,5000,0,ChargesReceived
+11/26/2021,K.Ravi/Kothapet,Ravi,0,10000,2021,Yearly,10000,0,Charges received
+1/23/2022,K.Ravi/Kothapet,Ravi,0,12000,2021,Yearly,12000,0,Charges received
+10/15/2022,K.Ravi/Kothapet,K. Ravi,0,0,2021,Yearly,0,385,Charges received
+2/8/2020,KA/Attili,Anjaneyulu,0,1000,2020,Yearly,1000,0,ChargesReceived
+2/9/2020,KA/Attili,Anjaneyulu,0,1000,2020,Yearly,1000,0,ChargesReceived
+11/10/2022,KA/TPG,Kollati Adhinarayana,850,850,2022,Yearly,0,0,Charges received
+11/10/2022,KA/TPG,Kollati Adhinarayana,0,3300,2022,Yearly,3300,0,Charges received
+1/12/2020,KAR/BVRM,Kondeti Appa Rao,0,10000,2020,Yearly,10000,0,ChargesReceived
+6/14/2020,KAR/BVRM,Kondeti Appa Rao,0,11000,2020,Yearly,11000,0,ChargesReceived
+12/24/2020,KAR/BVRM,Kondeti Appa Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/9/2021,KAR/BVRM,Kondeti Appa Rao,0,10000,2020,Yearly,10000,0,ChargesReceived
+7/8/2021,KAR/BVRM,Kranthi Kumar,0,8000,2020,Yearly,8000,0,Charges received
+9/12/2021,KAR/BVRM,Kondeti Appa Rao,0,10000,2021,Yearly,10000,0,Charges received
+1/30/2022,KAR/BVRM,Kondeti Appa Rao,0,31000,2021,Yearly,31000,0,Charges received
+10/15/2022,KAR/BVRM,Kondeti Appa Rao,0,0,2021,Yearly,0,2660,Charges received
+11/28/2020,KB/TPG,KB,0,550,2020,Yearly,550,0,ChargesReceived
+4/20/2020,KCT/RJY,V.Sridhar,0,3800,2020,Yearly,3800,0,ChargesReceived
+1/1/2020,KH,Kesireddi Hari Babu,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/12/2020,KH,Kesireddi Hari Babu,0,5000,2020,Yearly,5000,0,ChargesReceived
+1/20/2021,KH,Kesireddi Hari Babu,0,8200,2020,Yearly,8200,0,ChargesReceived
+2/6/2022,KH,Kesireddi Hari Babu,0,10000,2021,Yearly,10000,0,Charges received
+3/13/2022,KH,Kesireddi Hari Babu,0,5355,2021,Yearly,5355,0,Charges received
+3/13/2022,KH,Kesireddi Hari Babu,0,1495,2021,Monthly,1495,0,Charges received
+3/13/2022,KH,Kesireddi Hari Babu,0,3150,2020,Monthly,3150,0,Charges received
+7/21/2022,KKR/TPG,Karthikeya Reddy Traders,20000,20000,2022,Yearly,0,0,Charges received
+10/30/2022,KKR/TPG,Karthikeya Reddy Traders,0,20000,2022,Yearly,20000,0,Charges received
+1/3/2020,KMR,Mahesa Rao,0,1000,2020,Yearly,1000,0,ChargesReceived
+3/14/2020,KN,Ganesh,1130,1130,2020,Yearly,0,0,ChargesReceived
+6/13/2021,KN,Ganesh,79000,79000,2020,Yearly,0,0,ChargesReceived
+8/19/2021,KN,Ganesh,0,305938,2020,Yearly,305938,0,Charges received
+3/21/2022,KN,Ganesh,0,147816,2021,Yearly,147816,0,Charges received
+3/21/2022,KN,Ganesh,0,15360,2021,Monthly,15360,0,Charges received
+8/21/2020,KN Foods,KN Foods,0,30000,2020,Yearly,30000,0,ChargesReceived
+8/25/2020,KN Foods,KN Foods,10600,10600,2020,Yearly,0,0,ChargesReceived
+7/7/2021,KN Foods,KN Foods,11000,11000,2020,Yearly,0,0,Charges received
+9/24/2020,KNB,Manikanta,20000,20000,2020,Yearly,0,0,ChargesReceived
+10/18/2020,KNB,Manikanta,15000,15000,2020,Yearly,0,0,ChargesReceived
+10/25/2020,KNB,Manikanta,20000,20000,2020,Yearly,0,0,ChargesReceived
+11/7/2020,KNB,Manikanta,0,20000,2020,Yearly,20000,0,ChargesReceived
+11/21/2020,KNB,Manikanta,0,20000,2020,Yearly,20000,0,ChargesReceived
+12/6/2020,KNB,Manikanta,0,20000,2020,Yearly,20000,0,ChargesReceived
+12/28/2020,KNB,Manikanta,0,10000,2020,Yearly,10000,0,ChargesReceived
+2/7/2021,KNB,Manikanta,20000,20000,2020,Yearly,0,0,ChargesReceived
+2/21/2021,KNB,Manikanta,20000,20000,2020,Yearly,0,0,ChargesReceived
+3/10/2021,KNB,Manikanta,20000,20000,2020,Yearly,0,0,ChargesReceived
+4/17/2021,KNB,Manikanta,17000,17000,2020,Yearly,0,0,ChargesReceived
+5/9/2021,KNB,Manikanta,14600,14600,2020,Yearly,0,0,ChargesReceived
+7/25/2021,KNB,Maniikanta,0,15000,2020,Yearly,15000,0,Charges received
+8/7/2021,KNB,Maniikanta,0,15000,2020,Yearly,15000,0,Charges received
+8/19/2021,KNB,Maniikanta,0,15000,2020,Yearly,15000,0,Charges received
+9/5/2021,KNB,KN Chilles,0,15000,2020,Yearly,15000,0,Charges received
+9/13/2021,KNB,KN Chilles,0,89700,2020,Yearly,89700,0,Charges received
+9/26/2021,KNB,KN Chilles,0,15000,2020,Yearly,15000,0,Charges received
+11/1/2021,KNB,KN Chilles,0,15000,2020,Yearly,15000,0,Charges received
+11/21/2021,KNB,KN Chilles,0,15000,2020,Yearly,15000,0,Charges received
+11/28/2021,KNB,KN Chilles,0,10000,2020,Yearly,10000,0,Charges received
+1/30/2022,KNB,KN Chilles,10000,10000,2021,Yearly,0,0,Charges received
+3/6/2022,KNB,KN Chilles,10000,10000,2021,Yearly,0,0,Charges received
+4/22/2022,KNB,KN Chilles,0,10000,2021,Yearly,10000,0,Charges received
+5/11/2022,KNB,KN Chilles,0,39700,2021,Yearly,39700,0,Charges received
+5/23/2022,KNB,KN Chilles,10000,10000,2021,Yearly,0,0,Charges received
+7/8/2022,KNB,KN Chilles,10000,10000,2021,Yearly,0,0,Charges received
+9/18/2022,KNB,KN Chilles,7000,7000,2022,Yearly,0,0,Charges received
+9/18/2022,KNB,KN Chilles,3000,3000,2021,Yearly,0,0,Charges received
+11/29/2020,KNR/TPG,Kandula Nageswara Rao,0,1600,2020,Yearly,1600,0,ChargesReceived
+2/7/2020,KP/PKL,Kesireddy Prasadu,6680,20500,2020,Yearly,13820,0,ChargesReceived
+11/6/2020,KP/PKL,Kesireddy Prasadu,20000,20000,2020,Yearly,0,0,ChargesReceived
+12/31/2020,KP/PKL,Kesireddy Prasadu,0,20000,2020,Yearly,20000,0,ChargesReceived
+2/11/2021,KP/PKL,Kesireddy Prasadu,0,50000,2020,Yearly,50000,0,ChargesReceived
+4/3/2021,KP/PKL,Kesireddy Prasadu,0,39000,2020,Yearly,39000,0,ChargesReceived
+11/14/2021,KP/PKL,Kesireddy Srinivasu,0,20000,2020,Yearly,20000,0,Charges received
+1/24/2022,KP/PKL,Kesireddy Srinivasu,0,27750,2021,Yearly,27750,0,Charges received
+3/13/2022,KP/PKL,Kesireddy Srinivasu,0,30000,2021,Yearly,30000,0,Charges received
+3/27/2022,KP/PKL,Kesireddy Prasadu,0,10000,2021,Yearly,10000,0,Charges received
+9/18/2022,KP/PKL,Kesireddy Prasadu,20000,20000,2022,Yearly,0,0,Charges received
+10/15/2022,KP/PKL,Kesireddy Prasadu,0,0,2021,Yearly,0,3622,Charges received
+10/15/2022,KP/PKL,Kesireddy Prasadu,0,0,2021,Monthly,0,17798,Charges received
+11/13/2022,KP/PKL,Kesireddy Prasadu,20000,20000,2022,Yearly,0,0,Charges received
+5/20/2022,KPM/Murali,Konala Prasad/ Mallipudi,150,600,2022,Yearly,450,0,Charges received
+11/17/2022,KPM/Murali,Konala Prasad/ Mallipudi,0,3200,2022,Yearly,3200,0,Charges received
+11/18/2022,KPM/Murali,Konala Prasad/ Mallipudi,0,1500,2022,Yearly,1500,0,Charges received
+6/18/2022,KR/BVRM,Kotikalapudi Ravi Kumar,2000,2000,2022,Yearly,0,0,Charges received
+7/25/2022,KR/BVRM,Kotikalapudi Ravi Kumar,0,2000,2022,Yearly,2000,0,Charges received
+11/11/2022,KR/BVRM,Kotikalapudi Ravi Kumar,160,160,2022,Yearly,0,0,Charges received
+11/11/2022,KR/BVRM,Kotikalapudi Ravi Kumar,0,6070,2022,Yearly,6070,30,Charges received
+11/11/2022,KR/BVRM,Kotikalapudi Ravi Kumar,0,90,2022,Monthly,90,0,Charges received
+11/11/2022,KR/BVRM,Kotikalapudi Ravi Kumar,120,120,2022,Monthly,0,0,Charges received
+4/3/2020,KRC/TPG,Kalyana Rama Chandra Rao,10000,10000,2020,Yearly,0,0,ChargesReceived
+9/20/2020,KRC/TPG,Kalyana Rama Chandra Rao,0,5000,2020,Yearly,5000,0,ChargesReceived
+10/8/2020,KRC/TPG,Kalyana Rama Chandra Rao,0,1200,2020,Yearly,1200,0,ChargesReceived
+10/16/2020,KRC/TPG,Kalyana Rama Chandra Rao,0,3000,2020,Yearly,3000,0,ChargesReceived
+9/29/2021,KRC/TPG,Kalyana Rama Chandra Rao,0,2560,2021,Yearly,2560,0,Charges received
+1/10/2022,KRC/TPG,Kalyana Rama Chandra Rao,840,3240,2021,Yearly,2400,0,Charges received
+10/15/2022,KRC/TPG,Kalyana Rama Chandra Rao,0,0,2021,Yearly,0,2155,Charges received
+11/5/2021,KRK/NDD,Kora Rama Krishna,0,10000,2020,Yearly,10000,0,Charges received
+12/26/2021,KRK/NDD,Kora Rama Krishna,0,10000,2021,Yearly,10000,0,Charges received
+12/26/2021,KRK/NDD,Kora Rama Krishna,0,2200,2020,Yearly,2200,0,Charges received
+2/20/2022,KRK/NDD,Kora Rama Krishna,0,10000,2021,Yearly,10000,0,Charges received
+5/20/2022,KRK/NDD,Kora Rama Krishna,0,10000,2021,Yearly,10000,0,Charges received
+10/30/2022,KRK/NDD,Kora Rama Krishna,8320,8320,2022,Yearly,0,0,Charges received
+10/30/2022,KRK/NDD,Kora Babi,4140,4140,2022,Monthly,0,0,Charges received
+12/23/2022,KRK/NDD,Kora Babi,0,17700,2021,Yearly,17700,0,Charges received
+12/3/2020,KS/Attili,Kakulapati Srinu,0,4200,2020,Yearly,4200,0,ChargesReceived
+7/18/2020,KS/RJY,Karumuuri Sridhar,0,7200,2020,Yearly,7200,0,ChargesReceived
+2/14/2021,KS/RJY,Karumuuri Sridhar,0,10000,2020,Yearly,10000,0,ChargesReceived
+3/7/2021,KS/RJY,Karumuuri Sridhar,0,10000,2020,Yearly,10000,0,ChargesReceived
+8/30/2021,KS/RJY,Karumuuri Sridhar,0,15000,2020,Yearly,15000,0,Charges received
+1/25/2020,KSK/Relangi,Kothapalli Siva Kumar,0,1084,2020,Yearly,1084,0,ChargesReceived
+1/25/2020,KSK/Relangi,Kothapalli Siva Kumar,50,50,2020,Yearly,0,0,ChargesReceived
+1/25/2020,KSK/Relangi,Kothapalli Siva Kumar,0,5740,2020,Yearly,5740,0,ChargesReceived
+1/25/2020,KSK/Relangi,Kothapalli Siva Kumar,1107,1107,2020,Yearly,0,0,ChargesReceived
+1/25/2020,KSK/Relangi,Kothapalli Siva Kumar,0,1136,2020,Yearly,1136,0,ChargesReceived
+2/6/2021,KSK/Relangi,Kothapalli Siva Kumar,0,11000,2020,Yearly,11000,0,ChargesReceived
+1/30/2022,KSK/Relangi,Kothapalli Siva Kumar,0,2300,2021,Yearly,2300,0,Charges received
+10/15/2022,KSK/Relangi,Kothapalli Siva Kumar,0,0,2021,Yearly,0,105,Charges received
+3/4/2021,KSM,Kurapati Subrahmanyam,0,3450,2020,Yearly,3450,0,ChargesReceived
+3/4/2021,KSM,Kurapati Subrahmanyam,0,4350,2020,Yearly,4350,0,ChargesReceived
+12/30/2022,KSR/Relangi,Kasani Srinivasa Rao,2610,2610,2022,Yearly,0,0,Charges received
+12/30/2022,KSR/Relangi,Kasani Srinivasa Rao,0,4990,2022,Yearly,4990,0,Charges received
+11/29/2020,KSR/Sattupalli,Kancharla Samba Siva Rao,400,15400,2020,Yearly,15000,0,ChargesReceived
+1/24/2020,KSR/TPG,C. Sanyasi Naidu,0,18000,2020,Yearly,18000,0,ChargesReceived
+1/26/2020,KSR/TPG,C. Sanyasi Naidu,0,30000,2020,Yearly,30000,0,ChargesReceived
+2/16/2020,KSR/TPG,C. Sanyasi Naidu,0,9000,2020,Yearly,9000,0,ChargesReceived
+2/23/2020,KSR/TPG,C. Sanyasi Naidu,0,10000,2020,Yearly,10000,0,ChargesReceived
+3/15/2020,KSR/TPG,C. Sanyasi Naidu,0,7400,2020,Yearly,7400,0,ChargesReceived
+4/19/2020,KSR/TPG,Veerayya,4280,4280,2020,Yearly,0,0,ChargesReceived
+10/4/2020,KSR/TPG,C. Sanyasi Naidu,0,10400,2020,Yearly,10400,0,ChargesReceived
+12/13/2020,KSR/TPG,C. Sanyasi Naidu,20000,20000,2020,Yearly,0,0,ChargesReceived
+2/7/2021,KSR/TPG,C. Sanyasi Naidu,0,15000,2020,Yearly,15000,0,ChargesReceived
+3/13/2021,KSR/TPG,C. Sanyasi Naidu,0,33000,2020,Yearly,33000,0,ChargesReceived
+7/25/2021,KSR/TPG,Ramisetti Pothu Raju,0,5110,2021,Yearly,5110,0,Charges received
+10/10/2021,KSR/TPG,Sri Lakshmi Traders,10000,10000,2021,Yearly,0,0,Charges received
+12/5/2021,KSR/TPG,Sri Lakshmi Traders,0,15000,2021,Yearly,15000,0,Charges received
+12/12/2021,KSR/TPG,Sri Lakshmi Traders,0,15000,2021,Yearly,15000,0,Charges received
+12/26/2021,KSR/TPG,Sri Lakshmi Traders,0,1197,2021,Yearly,1197,0,Charges received
+1/2/2022,KSR/TPG,Sri Lakshmi Traders,0,10000,2021,Monthly,10000,0,Charges received
+5/29/2022,KSR/TPG,Sri Lakshmi Traders,0,10000,2021,Monthly,10000,0,Charges received
+8/28/2022,KSR/TPG,Sri Lakshmi Traders,8700,8700,2021,Yearly,0,0,Charges received
+12/26/2021,KSR/TPG,Sri Lakshmi Traders,0,8803,2021,Monthly,8803,0,Charges received
+10/15/2022,KSR/TPG,Veerayya,0,0,2021,Yearly,0,625,Charges received
+10/15/2022,KSR/TPG,Veerayya,0,0,2021,Monthly,0,4644,Charges received
+12/11/2022,KSR/TPG,Veerayya,20000,20000,2022,Yearly,0,0,Charges received
+1/5/2020,KSRCM/K.Kota,Kantakala Sri Chandra Murthy,1130,7010,2020,Yearly,5880,0,ChargesReceived
+7/1/2021,KSRCM/K.Kota,Kantakala Sri Chandra Murthy,0,9000,2021,Yearly,9000,0,Charges received
+10/15/2022,KSRCM/K.Kota,Kantakala Sri Chandra Murthy,0,0,2021,Yearly,0,-5270,Charges received
+1/23/2022,KVR/BVRM,Karumuri Prakasa Rao,0,42000,2021,Yearly,42000,0,Charges received
+10/15/2022,KVR/BVRM,Karumuri Prakasa Rao,0,0,2021,Yearly,0,2280,Charges received
+6/21/2020,KVR/Penugonda,Kambala Abbulu,2500,2500,2020,Yearly,0,0,ChargesReceived
+12/27/2020,KVR/Penugonda,Kambala Abbulu,0,15000,2020,Yearly,15000,0,ChargesReceived
+12/12/2021,KVR/Penugonda,Kambala Abbulu,0,20000,2021,Yearly,20000,0,Charges received
+3/31/2022,KVR/Penugonda,Kambala Venkateswara Rao,0,23000,2021,Yearly,23000,0,Charges received
+10/15/2022,KVR/Penugonda,Kambala Venkateswara Rao,0,0,2021,Yearly,0,105,Charges received
+10/15/2022,KVR/Penugonda,Kambala Venkateswara Rao,0,0,2021,Monthly,0,195,Charges received
+1/12/2020,LNT,Lakshmi Narayana Traders,0,4000,2020,Yearly,4000,0,ChargesReceived
+2/17/2020,LNT,Lakshmi Narayana Traders,0,10000,2020,Yearly,10000,0,ChargesReceived
+2/19/2020,LNT,Lakshmi Narayana Traders,0,10000,2020,Yearly,10000,0,ChargesReceived
+4/6/2020,LNT,Lakshmi Narayana Traders,0,20000,2020,Yearly,20000,0,ChargesReceived
+7/19/2020,LNT,Lakshmi Narayana Traders,0,15000,2020,Yearly,15000,0,ChargesReceived
+3/20/2022,LNT,Lakshmi Narayana Traders,0,5000,2021,Yearly,5000,0,Charges received
+10/15/2022,LNT,Lakshmi Narayana Traders,0,0,2021,Yearly,0,3058,Charges received
+10/15/2022,LNT,Lakshmi Narayana Traders,0,0,2021,Monthly,0,1292,Charges received
+12/18/2022,LS/TPG,Lakshmi Sai,920,920,2022,Yearly,0,0,Charges received
+12/18/2022,LS/TPG,Lakshmi Sai,1520,1520,2022,Monthly,0,0,Charges received
+12/18/2022,LS/TPG,Lakshmi Sai,0,1440,2022,Monthly,1440,0,Charges received
+12/18/2022,LS/TPG,Lakshmi Sai,0,4120,2022,Yearly,4120,0,Charges received
+1/12/2022,M.SU/RJY,Mandavalli Suryanarayana,0,15000,2021,Yearly,15000,0,Charges received
+3/4/2022,M.SU/RJY,Mandavalli Suryanarayana,0,2800,2021,Yearly,2800,0,Charges received
+8/7/2022,M.SU/RJY,Mandavalli Suryanarayana,0,11265,2022,Yearly,11265,0,Charges received
+8/7/2022,M.SU/RJY,Mandavalli Suryanarayana,3735,3735,2022,Yearly,0,0,Charges received
+10/15/2022,M.SU/RJY,Mandavalli Krishnaveni,0,0,2021,Yearly,0,-40,Charges received
+12/4/2022,M.SU/RJY,Mandavalli Suryanarayana,0,15000,2022,Yearly,15000,0,Charges received
+8/18/2021,MBR/RJY,Maripi Bhaskar Rao,0,5800,2021,Yearly,5800,0,Charges received
+1/7/2022,MBR/RJY,Maripi Bhaskar Rao,0,1000,2020,Yearly,1000,0,Charges received
+10/15/2022,MBR/RJY,Maripi Bhaskar Rao,0,0,2021,Yearly,0,305,Charges received
+7/6/2022,MCK/Yanam,Magapu Chandra Sekhar,0,11680,2021,Yearly,11680,0,Charges received
+4/19/2020,MLTC,Maha Lakshmi Tamarind Company,0,30000,2020,Yearly,30000,0,ChargesReceived
+11/22/2020,MLTC,Maha Lakshmi Tamarind Company,50000,50000,2020,Yearly,0,0,ChargesReceived
+12/13/2020,MLTC,Maha Lakshmi Tamarind Company,0,50000,2020,Yearly,50000,0,ChargesReceived
+12/21/2020,MLTC,Maha Lakshmi Tamarind Company,0,100000,2020,Yearly,100000,0,ChargesReceived
+2/2/2021,MLTC,Maha Lakshmi Tamarind Company,0,200000,2020,Yearly,200000,0,ChargesReceived
+4/7/2021,MLTC,Maha Lakshmi Tamarind Company,0,100000,2020,Yearly,100000,0,ChargesReceived
+8/4/2021,MLTC,Maha Lakshmi Tamarind Company,0,48000,2020,Yearly,48000,0,Charges received
+1/9/2022,MLTC,Maha Lakshmi Tamarind Company,50000,50000,2021,Yearly,0,0,Charges received
+4/11/2022,MLTC,Maha Lakshmi Tamarind Company,0,50000,2021,Yearly,50000,0,Charges received
+6/6/2022,MLTC,Maha Lakshmi Tamarind Company,4800,36400,2021,Yearly,31600,0,Charges received
+6/6/2022,MLTC,Maha Lakshmi Tamarind Company,0,8400,2021,Monthly,8400,0,Charges received
+10/15/2022,MLTC,Maha Lakshmi Tamarind Company,0,0,2021,Yearly,0,6836,Charges received
+10/15/2022,MLTC,Maha Lakshmi Tamarind Company,0,0,2021,Monthly,0,12444,Charges received
+10/15/2022,MLTC,Maha Lakshmi Tamarind Company,0,0,2021,Yearly,0,-4027,Charges received
+9/23/2022,MMR/BVRM,Medidi Manga Raju,972,972,2022,Yearly,0,0,Charges received
+9/23/2022,MMR/BVRM,Medidi Manga Raju,0,2178,2022,Yearly,2178,0,Charges received
+9/14/2022,MNR/TNK,M.Nageswara Rao,1102,1102,2022,Yearly,0,0,Charges received
+9/14/2022,MNR/TNK,M.Nageswara Rao,0,2398,2022,Yearly,2398,0,Charges received
+3/13/2020,MR/AMP,Medida Rama Rao,6000,6000,2020,Yearly,0,0,ChargesReceived
+4/12/2020,MR/AMP,Medida Rama Rao,0,50000,2020,Yearly,50000,0,ChargesReceived
+5/17/2020,MR/AMP,Medida Rama Rao,0,16500,2020,Yearly,16500,0,ChargesReceived
+11/29/2020,MR/AMP,Medida Rama Rao,0,80000,2020,Yearly,80000,0,ChargesReceived
+12/10/2020,MR/AMP,Medida Rama Rao,4725,4725,2020,Yearly,0,0,ChargesReceived
+2/26/2021,MR/AMP,Medida Rama Rao,4620,4620,2021,Yearly,0,0,ChargesReceived
+3/14/2021,MR/AMP,Medida Rama Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+3/26/2021,MR/AMP,Medida Rama Rao,17300,17300,2021,Yearly,0,0,ChargesReceived
+7/7/2021,MR/AMP,Veera Babu,14580,14580,2021,Yearly,0,0,Charges received
+7/7/2021,MR/AMP,Veera Babu,0,90000,2020,Yearly,90000,0,Charges received
+11/14/2021,MR/AMP,Sri Ganesh Traders,0,12000,2019,Yearly,12000,0,Charges received
+11/14/2021,MR/AMP,Veera Babu,250,250,2021,Yearly,0,0,Charges received
+12/15/2021,MR/AMP,Veera Babu,50000,50000,2021,Yearly,0,0,Charges received
+3/27/2022,MR/AMP,Veera Babu,0,100000,2021,Yearly,100000,0,Charges received
+3/27/2022,MR/AMP,Veera Babu,420,420,2022,Yearly,0,0,Charges received
+4/3/2022,MR/AMP,Veera Babu,20000,20000,2021,Yearly,0,0,Charges received
+4/24/2022,MR/AMP,Veera Babu,0,100000,2021,Yearly,100000,0,Charges received
+3/27/2022,MR/AMP,Veera Babu,4310,4310,2022,Yearly,0,0,Charges received
+11/14/2021,MR/AMP,Veera Babu,5140,5140,2021,Monthly,0,0,Charges received
+3/14/2021,MR/AMP,Veera Babu,7800,7800,2021,Yearly,0,0,ChargesReceived
+9/28/2022,MR/AMP,Sri Kanaka Durga Chillies & General Merchants,5560,5560,2022,Monthly,0,0,Charges received
+6/28/2022,MR/AMP,Sri Kanaka Durga Chillies & General Merchants,8000,8000,2022,Monthly,0,0,Charges received
+11/18/2021,MR/Ramesh,M.Ramesh,0,1850,2021,Yearly,1850,0,Charges received
+10/15/2022,MR/Ramesh,M.Ramesh,0,0,2021,Yearly,0,222,Charges received
+12/10/2020,MR/TPG,Naga Raju,20000,20000,2020,Yearly,0,0,ChargesReceived
+4/3/2022,MR/TPG,Naga Raju,0,45000,2021,Yearly,45000,0,Charges received
+6/29/2022,MR/TPG,Naga Raju,0,46000,2020,Yearly,46000,0,Charges received
+10/15/2022,MR/TPG,Naga Raju,0,0,2021,Yearly,0,2075,Charges received
+1/6/2020,MS,M.Srinu,0,29000,2020,Yearly,29000,0,ChargesReceived
+9/12/2021,MSN/Thatipaka,Maddala Satya Narayana,0,25000,2020,Yearly,25000,0,Charges received
+1/9/2022,MSN/Thatipaka,Maddala Satya Narayana,0,25000,2021,Yearly,25000,0,Charges received
+6/12/2022,MSN/Thatipaka,Maddala Satya Narayana,0,11815,2021,Yearly,11815,0,Charges received
+6/12/2022,MSN/Thatipaka,Maddala Satya Narayana,0,1760,2020,Yearly,1760,0,Charges received
+6/12/2022,MSN/Thatipaka,Maddala Satya Narayana,0,260,2021,Monthly,260,0,Charges received
+11/28/2022,MSN/Thatipaka,Maddala Satya Prabhas,0,13480,2022,Yearly,13480,0,Charges received
+11/28/2022,MSN/Thatipaka,Maddala Satya Prabhas,11520,11520,2022,Yearly,0,0,Charges received
+3/15/2020,MSR/Relangi,Palagani Adinarayana,0,20000,2020,Yearly,20000,0,ChargesReceived
+4/12/2020,MSR/Relangi,Palagani Adinarayana,0,15000,2020,Yearly,15000,0,ChargesReceived
+1/23/2021,MSR/Relangi,Palagani Adinarayana,7000,7000,2020,Yearly,0,0,ChargesReceived
+3/28/2021,MSR/Relangi,Palagani Adinarayana,0,10000,2020,Yearly,10000,0,ChargesReceived
+4/11/2021,MSR/Relangi,Palagani Adinarayana,0,10000,2020,Yearly,10000,0,ChargesReceived
+5/9/2021,MSR/Relangi,Palagani Adinarayana,0,10000,2020,Yearly,10000,0,ChargesReceived
+10/17/2021,MSR/Relangi,Palagani Adinarayana,25000,25000,2021,Yearly,0,0,Charges received
+10/29/2021,MSR/Relangi,Palagani Adinarayana,0,50000,2021,Yearly,50000,0,Charges received
+5/14/2022,MSR/Relangi,Maddala Srinu,0,50000,2021,Yearly,50000,0,Charges received
+4/8/2020,MSY/Relangi,Marisetti Sivayya,0,15000,2020,Yearly,15000,0,ChargesReceived
+11/8/2020,MSY/Relangi,Marisetti Sivayya,0,5000,2020,Yearly,5000,0,ChargesReceived
+1/3/2021,MSY/Relangi,Marisetti Sivayya,0,5000,2020,Yearly,5000,0,ChargesReceived
+2/5/2021,MSY/Relangi,Marisetti Sivayya,0,2000,2020,Yearly,2000,0,ChargesReceived
+4/5/2021,MSY/Relangi,Marisetti Sivayya,0,2500,2020,Yearly,2500,0,ChargesReceived
+12/26/2021,MSY/Relangi,Marisetti Sivayya,0,2500,2021,Yearly,2500,0,Charges received
+1/23/2022,MSY/Relangi,Marisetti Sivayya,0,3000,2021,Yearly,3000,0,Charges received
+10/20/2022,MSY/Relangi,Marisetti Sivayya,0,4000,2021,Yearly,4000,0,Charges received
+7/18/2020,MT,Manchala Thrimurthulu,0,4000,2020,Yearly,4000,0,ChargesReceived
+11/16/2020,MT,Manchala Thrimurthulu,0,2000,2020,Yearly,2000,0,ChargesReceived
+12/21/2020,MT,Manchala Thrimurthulu,0,4400,2020,Yearly,4400,0,ChargesReceived
+12/15/2022,MT,Manchala Thrimurthulu,1360,1360,2022,Yearly,0,0,Charges received
+12/15/2022,MT,Manchala Thrimurthulu,0,3640,2022,Yearly,3640,0,Charges received
+1/11/2020,MTC/Sreenu,Manikanta Trading Company,0,15000,2020,Yearly,15000,0,ChargesReceived
+2/2/2020,MTC/Sreenu,Manikanta Trading Company,0,10000,2020,Yearly,10000,0,ChargesReceived
+2/9/2020,MTC/Sreenu,Manikanta Trading Company,0,10000,2020,Yearly,10000,0,ChargesReceived
+2/10/2020,MTC/Sreenu,Manikanta Trading Company,0,40000,2020,Yearly,40000,0,ChargesReceived
+3/14/2020,MTC/Sreenu,Manikanta Trading Company,0,50000,2020,Yearly,50000,0,ChargesReceived
+3/29/2020,MTC/Sreenu,Manikanta Trading Company,0,30000,2020,Yearly,30000,0,ChargesReceived
+4/19/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+4/27/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+5/4/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+5/16/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+6/7/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+6/8/2020,MTC/Sreenu,Manikanta Trading Company,0,4800,2020,Yearly,4800,0,ChargesReceived
+6/19/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+7/3/2020,MTC/Sreenu,Manikanta Trading Company,0,27000,2020,Yearly,27000,0,ChargesReceived
+7/5/2020,MTC/Sreenu,Manikanta Trading Company,0,25500,2020,Yearly,25500,0,ChargesReceived
+7/29/2020,MTC/Sreenu,Manikanta Trading Company,0,4800,2020,Yearly,4800,0,ChargesReceived
+8/17/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+9/10/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+9/21/2020,MTC/Sreenu,Manikanta Trading Company,0,30000,2020,Yearly,30000,0,ChargesReceived
+10/5/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+10/16/2020,MTC/Sreenu,Manikanta Trading Company,0,20000,2020,Yearly,20000,0,ChargesReceived
+11/1/2020,MTC/Sreenu,Manikanta Trading Company,0,25000,2020,Yearly,25000,0,ChargesReceived
+11/8/2020,MTC/Sreenu,Manikanta Trading Company,0,20000,2020,Yearly,20000,0,ChargesReceived
+12/6/2020,MTC/Sreenu,Manikanta Trading Company,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/3/2021,MTC/Sreenu,Manikanta Trading Company,50000,50000,2020,Yearly,0,0,ChargesReceived
+1/10/2021,MTC/Sreenu,Manikanta Trading Company,50000,50000,2020,Yearly,0,0,ChargesReceived
+1/17/2021,MTC/Sreenu,Manikanta Trading Company,50000,50000,2020,Yearly,0,0,ChargesReceived
+1/31/2021,MTC/Sreenu,Manikanta Trading Company,25000,25000,2020,Yearly,0,0,ChargesReceived
+2/21/2021,MTC/Sreenu,Manikanta Trading Company,0,50000,2020,Yearly,50000,0,ChargesReceived
+5/7/2021,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,ChargesReceived
+5/9/2021,MTC/Sreenu,Manikanta Trading Company,0,50000,2021,Yearly,50000,0,ChargesReceived
+6/7/2021,MTC/Sreenu,Manikanta Trading Company,0,40000,2020,Yearly,40000,0,ChargesReceived
+7/4/2021,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,Charges received
+7/9/2021,MTC/Sreenu,Manikanta Trading Company,0,40000,2020,Yearly,40000,0,Charges received
+8/7/2021,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,Charges received
+8/8/2021,MTC/Sreenu,Manikanta Trading Company,1800,1800,2021,Yearly,0,0,Charges received
+8/27/2021,MTC/Sreenu,Manikanta Trading Company,0,20000,2020,Monthly,20000,0,Charges received
+9/5/2021,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,Charges received
+10/3/2021,MTC/Sreenu,Manikanta Trading Company,0,30000,2020,Yearly,30000,0,Charges received
+10/24/2021,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,Charges received
+10/31/2021,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,Charges received
+11/7/2021,MTC/Sreenu,Manikanta Trading Company,0,10000,2020,Monthly,10000,0,Charges received
+12/11/2021,MTC/Sreenu,Manikanta Trading Company,15000,15000,2021,Yearly,0,0,Charges received
+12/26/2021,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,Charges received
+1/8/2022,MTC/Sreenu,Manikanta Trading Company,0,20000,2020,Monthly,20000,0,Charges received
+1/23/2022,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,Charges received
+3/13/2022,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,Charges received
+3/20/2022,MTC/Sreenu,Manikanta Trading Company,0,10000,2021,Yearly,10000,0,Charges received
+4/3/2022,MTC/Sreenu,Manikanta Trading Company,10000,10000,2021,Yearly,0,0,Charges received
+5/14/2022,MTC/Sreenu,Manikanta Trading Company,0,40000,2021,Yearly,40000,0,Charges received
+5/22/2022,MTC/Sreenu,Manikanta Trading Company,0,20000,2021,Yearly,20000,0,Charges received
+6/5/2022,MTC/Sreenu,Manikanta Trading Company,0,20000,2021,Yearly,20000,0,Charges received
+6/17/2022,MTC/Sreenu,Manikanta Trading Company,0,20000,2021,Yearly,20000,0,Charges received
+7/3/2022,MTC/Sreenu,Manikanta Trading Company,0,20000,2021,Yearly,20000,0,Charges received
+7/13/2022,MTC/Sreenu,Manikanta Trading Company,0,50000,2021,Yearly,50000,0,Charges received
+7/17/2022,MTC/Sreenu,Manikanta Trading Company,0,20000,2021,Yearly,20000,0,Charges received
+7/27/2022,MTC/Sreenu,Manikanta Trading Company,0,60000,2021,Yearly,60000,0,Charges received
+8/10/2022,MTC/Sreenu,Manikanta Trading Company,0,35000,2021,Yearly,35000,0,Charges received
+8/19/2022,MTC/Sreenu,Manikanta Trading Company,0,15000,2021,Yearly,15000,0,Charges received
+8/27/2022,MTC/Sreenu,Manikanta Trading Company,0,20000,2021,Yearly,20000,0,Charges received
+8/28/2022,MTC/Sreenu,Manikanta Trading Company,0,20000,2021,Yearly,20000,0,Charges received
+9/4/2022,MTC/Sreenu,Manikanta Trading Company,0,20000,2021,Yearly,20000,0,Charges received
+10/9/2022,MTC/Sreenu,Inti Sreenu,0,9600,2021,Yearly,9600,0,Charges received
+10/16/2022,MTC/Sreenu,Inti Sreenu,0,50000,2021,Yearly,50000,0,Charges received
+11/6/2022,MTC/Sreenu,Inti Sreenu,0,10000,2021,Yearly,10000,0,Charges received
+12/19/2022,MTC/Sreenu,Manikanta Trading Company,0,35000,2021,Yearly,35000,0,Charges received
+12/24/2022,MTC/Sreenu,Manikanta Trading Company,0,15000,2021,Yearly,15000,0,Charges received
+12/29/2022,MTC/Sreenu,Manikanta Trading Company,0,30000,2021,Yearly,30000,0,Charges received
+1/12/2020,MVR/PKL,Maddala Ramu,0,940,2020,Yearly,940,0,ChargesReceived
+2/2/2020,MVR/RJY,Mavuri Veera Raju,0,10000,2020,Yearly,10000,0,ChargesReceived
+12/15/2022,MVR/RJY,Mavuri Veera Raju,200,950,2022,Yearly,750,0,Charges received
+3/4/2021,Mypala,Mypala Siva Rama Krishna,0,1600,2020,Yearly,1600,0,ChargesReceived
+9/17/2021,Mypala,Mypala Siva Rama Krishna,0,20000,2021,Yearly,20000,0,Charges received
+1/13/2022,Mypala,Mypala Siva Rama Krishna,0,30000,2021,Yearly,30000,0,Charges received
+2/10/2022,Mypala,Mypala Siva Rama Krishna,0,48660,2021,Yearly,48660,0,Charges received
+7/27/2022,Mypala,Mypala Naga Traders,20000,20000,2022,Yearly,0,0,Charges received
+10/15/2022,Mypala,Mypala Siva Rama Krishna,0,0,2021,Yearly,0,5729,Charges received
+10/15/2022,Mypala,Mypala Siva Rama Krishna,0,0,2021,Monthly,0,627,Charges received
+10/27/2022,Mypala,Mypala Naga Traders,20000,20000,2022,Yearly,0,0,Charges received
+12/10/2020,NA/Duvva,Neelam adi Narayana,0,5000,2020,Yearly,5000,0,ChargesReceived
+7/7/2021,NA/Duvva,Neelam adi Narayana,4000,4000,2021,Yearly,0,0,Charges received
+12/29/2021,NA/Duvva,Neelam adi Narayana,0,1770,2021,Yearly,1770,0,Charges received
+1/10/2022,NA/Duvva,Neelam adi Narayana,0,2000,2021,Yearly,2000,0,Charges received
+1/9/2022,NA/Duvva,Neelam adi Narayana,0,11500,2021,Yearly,11500,0,Charges received
+2/7/2022,NA/Duvva,Neelam adi Narayana,0,2050,2021,Yearly,2050,0,Charges received
+2/7/2022,NA/Duvva,Neelam adi Narayana,0,2000,2021,Yearly,2000,0,Charges received
+2/23/2022,NA/Duvva,Neelam adi Narayana,0,2000,2021,Yearly,2000,0,Charges received
+10/15/2022,NA/Duvva,Neelam adi Narayana,0,0,2021,Yearly,0,2345,Charges received
+12/16/2022,NA/Duvva,Neelam adi Narayana,0,6000,2022,Yearly,6000,0,Charges received
+7/2/2021,NHT/Bhadra,Naga Hanuma Traders,0,6000,2020,Yearly,6000,0,Charges received
+2/20/2022,NHT/Bhadra,Naga Hanuma Traders,0,19000,2021,Yearly,19000,0,Charges received
+10/9/2022,NHT/Bhadra,Bhadra,20000,20000,2022,Yearly,0,0,Charges received
+10/15/2022,NHT/Bhadra,Bhadra,0,0,2021,Yearly,0,2009,Charges received
+10/15/2022,NHT/Bhadra,Bhadra,0,0,2021,Monthly,0,910,Charges received
+11/6/2022,NHT/Bhadra,Naga Hanuma Traders,10000,10000,2022,Yearly,0,0,Charges received
+12/11/2022,NHT/Bhadra,Bhadra,18740,18740,2022,Yearly,0,0,Charges received
+12/11/2022,NHT/Bhadra,Bhadra,0,31260,2022,Yearly,31260,0,Charges received
+12/22/2022,NHT/Bhadra,Bhadra,0,59000,2022,Yearly,59000,0,Charges received
+5/23/2021,NP/RVP,Nallam Pallayya,0,11000,2020,Yearly,11000,0,ChargesReceived
+1/30/2022,NP/RVP,Nallam Pallayya,0,10000,2021,Yearly,10000,0,Charges received
+7/10/2022,NP/RVP,Nallam Pallayya,0,10000,2021,Yearly,10000,0,Charges received
+9/18/2022,NPR/PRR,Nalluri Pulla Rao,360,360,2022,Yearly,0,0,Charges received
+9/18/2022,NPR/PRR,Nalluri Pulla Rao,0,1440,2022,Yearly,1440,0,Charges received
+2/2/2020,NR/TPG,Kunkatla Satya Naga Raju,10000,10000,2020,Yearly,0,0,ChargesReceived
+2/16/2020,NR/TPG,Kunkatla Satya Naga Raju,0,10000,2020,Yearly,10000,0,ChargesReceived
+3/8/2020,NR/TPG,Kunkatla Satya Naga Raju,0,4000,2020,Yearly,4000,0,ChargesReceived
+11/7/2020,NR/TPG,Kunkatla Satya Naga Raju,0,7500,2020,Yearly,7500,0,ChargesReceived
+12/19/2020,NR/TPG,Kunkatla Satya Naga Raju,5000,5000,2020,Yearly,0,0,ChargesReceived
+2/14/2021,NR/TPG,Kunkatla Satya Naga Raju,0,10000,2020,Yearly,10000,0,ChargesReceived
+3/7/2021,NR/TPG,Kunkatla Satya Naga Raju,0,10000,2020,Yearly,10000,0,ChargesReceived
+3/28/2021,NR/TPG,Kunkatla Satya Naga Raju,0,10000,2020,Yearly,10000,0,ChargesReceived
+5/3/2021,NR/TPG,Kunkatla Satya Naga Raju,0,10000,2020,Yearly,10000,0,ChargesReceived
+7/25/2021,NR/TPG,Kunkatla Satya Naga Raju,0,8000,2020,Yearly,8000,0,Charges received
+8/8/2021,NR/TPG,Kunkatla Satya Naga Raju,0,8000,2021,Yearly,8000,0,Charges received
+8/20/2021,NR/TPG,Kunkatla Satya Naga Raju,0,8000,2021,Yearly,8000,0,Charges received
+9/5/2021,NR/TPG,Kunkatla Satya Naga Raju,0,3510,2021,Yearly,3510,0,Charges received
+4/3/2022,NR/TPG,Kunkatla Satya Naga Raju,0,40000,2021,Yearly,40000,0,Charges received
+9/5/2021,NR/TPG,Kunkatla Satya Naga Raju,0,1490,2020,Yearly,1490,0,Charges received
+10/15/2022,NR/TPG,Kunkatla Satya Naga Raju,0,0,2021,Yearly,0,5425,Charges received
+6/19/2022,NRB/JRG,Nakka Rambabu,0,20000,2021,Monthly,20000,0,Charges received
+12/18/2020,NRK/Duvva,Neelam Rama Krishna,0,2980,2020,Yearly,2980,0,ChargesReceived
+1/9/2022,NRK/Duvva,Neelam Rama Krishna,0,2030,2021,Yearly,2030,0,Charges received
+2/17/2022,NRK/Duvva,Neelam Rama Krishna,0,3000,2021,Yearly,3000,0,Charges received
+3/27/2022,NRK/Duvva,Neelam Rama Krishna,0,2500,2021,Yearly,2500,0,Charges received
+10/15/2022,NRK/Duvva,Neelam Rama Krishna,0,0,2021,Yearly,0,-500,Charges received
+12/26/2021,NSK/K.Kota,Nalluri Sunil Kumar,330,1150,2021,Yearly,820,0,Charges received
+10/15/2022,NSK/K.Kota,Nalluri Sunil Kumar,0,0,2021,Yearly,0,-33,Charges received
+2/23/2022,NSN/Velpur,Nunna Satya Narayana,0,1450,2021,Monthly,1450,0,Charges received
+5/8/2022,NSN/Velpur,Nunna Satya Narayana,0,300,2021,Monthly,300,0,Charges received
+10/15/2022,NSN/Velpur,Nunna Satya Narayana,0,0,2021,Monthly,0,-1165,Charges received
+6/22/2020,NSS/PKL,Pasupuleti Chanti Babu,0,46000,2020,Yearly,46000,0,ChargesReceived
+4/11/2021,NSS/PKL,Pasupuleti Chanti Babu,0,20000,2020,Yearly,20000,0,ChargesReceived
+8/27/2021,NSS/PKL,Pasupuleti Chanti Babu,0,12600,2020,Yearly,12600,0,Charges received
+2/6/2022,NSS/PKL,Pasupuleti Chanti Babu,0,20000,2021,Yearly,20000,0,Charges received
+4/17/2022,NSS/PKL,Pasupuleti Chanti Babu,0,5000,2021,Yearly,5000,0,Charges received
+5/8/2022,NSS/PKL,Pasupuleti Chanti Babu,0,5000,2021,Yearly,5000,0,Charges received
+5/19/2022,NSS/PKL,Pasupuleti Chanti Babu,0,7070,2021,Yearly,7070,0,Charges received
+10/15/2022,NSS/PKL,Pasupuleti Chanti Babu,0,0,2021,Yearly,0,-3400,Charges received
+7/4/2021,NSS/RJY,Manepalli Chiranjeevi,0,19140,2021,Yearly,19140,0,Charges received
+10/15/2022,NSS/RJY,Manepalli Chiranjeevi,0,0,2021,Yearly,0,2900,Charges received
+11/3/2022,NSS/RJY,Manepalli Chiranjeevi,0,18450,2022,Yearly,18450,0,Charges received
+11/3/2022,NSS/RJY,Manepalli Chiranjeevi,4920,4920,2022,Yearly,0,0,Charges received
+3/20/2022,NV/K.Gudem,Nakka Venkateswara Rao,360,360,2022,Yearly,0,0,Charges received
+8/29/2022,NV/K.Gudem,Nakka Venkateswara Rao,10160,10160,2022,Yearly,0,0,Charges received
+12/5/2022,NV/K.Gudem,Nakka Venkateswara Rao,920,42470,2022,Yearly,41550,0,Charges received
+12/5/2022,NV/K.Gudem,Nakka Venkateswara Rao,17180,17180,2020,Yearly,0,0,Charges received
+12/5/2022,NV/K.Gudem,Nakka Venkateswara Rao,0,14820,2020,Yearly,14820,0,Charges received
+2/7/2021,NVR/Attili,Narukula Veera Raghavulu,0,9620,2020,Yearly,9620,0,ChargesReceived
+2/6/2022,NVR/Attili,Narukula Veera Raghavulu,0,10150,2021,Yearly,10150,0,Charges received
+10/15/2022,NVR/Attili,Narukula Veera Raghavulu,0,0,2021,Yearly,0,580,Charges received
+2/1/2020,OME/YPR,Yadlapalli Pothu Raju,6900,121900,2020,Yearly,115000,0,ChargesReceived
+2/1/2020,OME/YPR,Yadlapalli Pothu Raju,0,7700,2020,Yearly,7700,0,ChargesReceived
+5/31/2020,OME/YPR,Yadlapalli Pothu Raju,0,147550,2020,Yearly,147550,0,ChargesReceived
+1/28/2021,OME/YPR,Yadlapalli Pothu Raju,0,157000,2020,Yearly,157000,0,ChargesReceived
+6/27/2021,OME/YPR,Yadlapalli Pothu Raju,0,21840,2021,Yearly,21840,0,Charges received
+6/27/2021,OME/YPR,Chitti Babu,0,6580,2021,Yearly,6580,0,Charges received
+3/19/2022,OME/YPR,Yadlapalli Pothu Raju,0,100000,2021,Yearly,100000,0,Charges received
+4/4/2022,OME/YPR,Yadlapalli Pothu Raju,0,100000,2021,Yearly,100000,0,Charges received
+12/22/2022,OME/YPR,Yadlapalli Pothu Raju,62880,62880,2022,Yearly,0,0,Charges received
+12/22/2022,OME/YPR,Yadlapalli Pothu Raju,2760,2760,2022,Monthly,0,0,Charges received
+12/22/2022,OME/YPR,Yadlapalli Pothu Raju,0,134360,2022,Yearly,134360,0,Charges received
+2/21/2022,OMY,Osuri Mariyya,0,30000,2021,Yearly,30000,0,Charges received
+10/15/2022,OMY,Osuri Mariyya,0,0,2021,Yearly,0,6007,Charges received
+7/23/2020,P.Nani/PKL,Pothineedi Nani,0,11500,2020,Yearly,11500,0,ChargesReceived
+12/19/2021,P.Nani/PKL,Pothineedi Nani,0,15000,2021,Yearly,15000,0,Charges received
+2/2/2022,P.Nani/PKL,Pothineedi Nani,0,10000,2021,Yearly,10000,0,Charges received
+4/24/2020,P.Prasad,Puppala Prasad,0,20000,2020,Yearly,20000,0,ChargesReceived
+6/25/2021,P.Prasad,Puppala Prasad,0,11000,2020,Yearly,11000,0,Charges received
+12/16/2022,P.Prasad,Puppala Prasad,0,3500,2021,Yearly,3500,0,Charges received
+12/16/2022,P.Prasad,Puppala Prasad,0,4350,2022,Yearly,4350,0,Charges received
+12/16/2022,P.Prasad,Puppala Prasad,1150,1150,2022,Yearly,0,0,Charges received
+4/3/2020,P.Vasu,Puppala Vasu,0,33000,2020,Yearly,33000,0,ChargesReceived
+7/9/2021,P.Vasu,Puppala Vasu,0,5000,2020,Yearly,5000,0,Charges received
+10/15/2022,P.Vasu,Puppala Vasu,0,0,2021,Monthly,0,920,Charges received
+2/7/2021,PAR/TPG,Padala Appi Reddy,25470,76410,2020,Yearly,50940,0,ChargesReceived
+1/8/2022,PAR/TPG,Padala Appi Reddy,10200,30600,2021,Yearly,20400,0,Charges received
+10/15/2022,PAR/TPG,Padala Appi Reddy,0,0,2021,Yearly,0,2424,Charges received
+5/11/2022,PCR/RJY,P.Chinna Rao,0,9650,2021,Yearly,9650,0,Charges received
+10/15/2022,PCR/RJY,P.Chinna Rao,0,0,2021,Yearly,0,-1510,Charges received
+6/29/2022,PG/Duvva,Pindi Govind,0,400,2022,Yearly,400,0,Charges received
+11/13/2021,PGN/Duvva,Pendyala Gangadhara Narasimha,0,10000,2021,Yearly,10000,0,Charges received
+4/13/2022,PGN/Duvva,Pendyala Gangadhara Narasimha,0,12000,2021,Yearly,12000,0,Charges received
+10/15/2022,PGN/Duvva,Pendyala Gangadhara Narasimha,0,0,2021,Yearly,0,-352,Charges received
+5/29/2020,Phani/KKD,Phani General Stores,0,4500,2020,Yearly,4500,0,ChargesReceived
+4/23/2021,Phani/KKD,Phani General Stores,0,4000,2020,Yearly,4000,0,ChargesReceived
+4/6/2022,Phani/KKD,Phani General Stores,0,5500,2021,Yearly,5500,0,Charges received
+10/15/2022,Phani/KKD,Phani General Stores,0,0,2021,Yearly,0,-505,Charges received
+12/28/2022,Phani/KKD,Phani General Stores,1200,1200,2022,Yearly,0,0,Charges received
+12/28/2022,Phani/KKD,Phani General Stores,0,4300,2022,Yearly,4300,0,Charges received
+12/22/2022,PHS/TPG,Pogireddy Hemanth Sai,14020,14020,2022,Yearly,0,0,Charges received
+12/22/2022,PHS/TPG,Pogireddy Hemanth Sai,0,25480,2022,Yearly,25480,0,Charges received
+11/13/2022,PKS/TPG,Pasupuleti Narasimha Rao,10800,10800,2022,Yearly,0,0,Charges received
+11/13/2022,PKS/TPG,Pasupuleti Narasimha Rao,0,20000,2022,Yearly,20000,0,Charges received
+12/25/2022,PKS/TPG,Pasupuleti Narasimha Rao,0,10000,2022,Yearly,10000,0,Charges received
+1/12/2020,PRR,Pabolu Venkateswara Rao,0,1180,2020,Yearly,1180,0,ChargesReceived
+1/12/2020,PRR,Pabolu Venkateswara Rao,0,8000,2020,Yearly,8000,0,ChargesReceived
+1/12/2020,PRR,Pabolu Venkateswara Rao,0,2400,2020,Yearly,2400,0,ChargesReceived
+1/12/2020,PRR,Pabolu Venkateswara Rao,0,650,2020,Yearly,650,0,ChargesReceived
+1/12/2020,PRR,Pabolu Venkateswara Rao,0,1370,2020,Yearly,1370,0,ChargesReceived
+1/12/2020,PRR,Pabolu Venkateswara Rao,0,2440,2020,Yearly,2440,0,ChargesReceived
+9/13/2020,PRR,Pabolu Venkateswara Rao,50000,50000,2020,Yearly,0,0,ChargesReceived
+11/2/2020,PRR,Pabolu Venkateswara Rao,50000,50000,2020,Yearly,0,0,ChargesReceived
+11/2/2020,PRR,Pabolu Venkateswara Rao,50000,50000,2020,Yearly,0,0,ChargesReceived
+12/31/2020,PRR,Pabolu Venkateswara Rao,0,100000,2020,Yearly,100000,0,ChargesReceived
+2/25/2021,PRR,Pabolu Venkateswara Rao,0,100000,2020,Yearly,100000,0,ChargesReceived
+3/14/2021,PRR,Pabolu Venkateswara Rao,0,100000,2020,Yearly,100000,0,ChargesReceived
+3/28/2021,PRR,Pabolu Venkateswara Rao,0,50000,2020,Yearly,50000,0,ChargesReceived
+5/10/2021,PRR,Pabolu Venkateswara Rao,0,100000,2020,Yearly,100000,0,ChargesReceived
+10/8/2021,PRR,Pabolu Venkateswara Rao,30000,30000,2021,Yearly,0,0,Charges received
+10/15/2022,PRR,Pabolu Venkateswara Rao,0,0,2021,Yearly,0,80075,Charges received
+1/19/2020,PS/Duvva,Pindi Subba Rao,0,5000,2020,Yearly,5000,0,ChargesReceived
+3/21/2020,PS/Duvva,Pindi Subba Rao,0,5500,2020,Yearly,5500,0,ChargesReceived
+9/3/2020,PS/Duvva,Pindi Subba Rao,0,5000,2020,Yearly,5000,0,ChargesReceived
+10/3/2020,PS/Duvva,Pindi Subba Rao,0,5000,2020,Yearly,5000,0,ChargesReceived
+10/11/2020,PS/Duvva,Pindi Subba Rao,0,16000,2020,Yearly,16000,0,ChargesReceived
+11/8/2020,PS/Duvva,Pindi Subba Rao,0,5000,2020,Yearly,5000,0,ChargesReceived
+11/15/2020,PS/Duvva,Pindi Subba Rao,0,5000,2020,Yearly,5000,0,ChargesReceived
+12/5/2020,PS/Duvva,Pindi Subba Rao,0,5000,2020,Yearly,5000,0,ChargesReceived
+12/27/2020,PS/Duvva,Pindi Subba Rao,0,5000,2020,Yearly,5000,0,ChargesReceived
+11/7/2021,PS/Duvva,Pindi Subba Rao,0,20000,2021,Yearly,20000,0,Charges received
+1/9/2022,PS/Duvva,Pindi Subba Rao,0,14600,2021,Yearly,14600,0,Charges received
+4/4/2022,PS/Duvva,Pindi Subba Rao,0,3000,2021,Yearly,3000,0,Charges received
+4/6/2022,PS/Duvva,Pindi Subba Rao,0,12000,2021,Yearly,12000,0,Charges received
+9/15/2022,PS/Duvva,Pindi Subba Rao,0,5880,2021,Yearly,5880,0,Charges received
+9/15/2022,PS/Duvva,Pindi Subba Rao,6324,6324,2022,Yearly,0,0,Charges received
+9/15/2022,PS/Duvva,Pindi Subba Rao,0,3620,2021,Monthly,3620,0,Charges received
+9/15/2022,PS/Duvva,Pindi Subba Rao,0,4176,2022,Yearly,4176,0,Charges received
+10/15/2022,PS/Duvva,Pindi Subba Rao,0,0,2021,Yearly,0,-3310,Charges received
+2/1/2020,PSD/Relangi,Pasupuleti Sahadevudu,0,600,2020,Yearly,600,0,ChargesReceived
+3/31/2022,PSD/Relangi,Pasupuleti Sahadevudu,0,4000,2021,Yearly,4000,0,Charges received
+10/21/2022,PSD/Relangi,Pasupuleti Sahadevudu,0,1180,2021,Yearly,1180,0,Charges received
+10/21/2022,PSD/Relangi,Pasupuleti Sahadevudu,0,190,2021,Monthly,190,0,Charges received
+10/21/2022,PSD/Relangi,Pasupuleti Sahadevudu,0,2630,2022,Yearly,2630,0,Charges received
+10/15/2022,PSD/Relangi,Pasupuleti Sahadevudu,0,0,2021,Monthly,0,5,Charges received
+6/14/2020,PSS/Babi,Babi,0,1300,2020,Yearly,1300,0,ChargesReceived
+11/8/2020,PSS/Babi,Babi,30000,30000,2020,Yearly,0,0,ChargesReceived
+12/13/2020,PSS/Babi,Babi,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/10/2021,PSS/Babi,Babi,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/5/2020,PSS/TPG,Mani Sai Traders,0,50000,2020,Yearly,50000,0,ChargesReceived
+1/27/2020,PSS/TPG,Mani Sai Traders,0,20000,2020,Yearly,20000,0,ChargesReceived
+2/2/2020,PSS/TPG,Mani Sai Traders,32000,112000,2020,Yearly,80000,0,ChargesReceived
+2/16/2020,PSS/TPG,Mani Sai Traders,0,50000,2020,Yearly,50000,0,ChargesReceived
+9/13/2020,PSS/TPG,Mani Sai Traders,20000,20000,2020,Yearly,0,0,ChargesReceived
+12/28/2020,PSS/TPG,Mani Sai Traders,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/3/2021,PSS/TPG,Mani Sai Traders,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/24/2021,PSS/TPG,Mani Sai Traders,69250,69250,2020,Yearly,0,0,ChargesReceived
+1/30/2021,PSS/TPG,Mani Sai Traders,0,35000,2020,Yearly,35000,0,ChargesReceived
+4/8/2021,PSS/TPG,Mani Sai Traders,1750,1750,2020,Yearly,0,0,ChargesReceived
+5/6/2021,PSS/TPG,Mani Sai Traders,10000,10000,2020,Yearly,0,0,ChargesReceived
+6/6/2021,PSS/TPG,Mani Sai Traders,10000,10000,2020,Yearly,0,0,ChargesReceived
+8/2/2021,PSS/TPG,Satti Babu,110,110,2021,Yearly,0,0,Charges received
+10/10/2021,PSS/TPG,Satti Babu,20000,20000,2021,Yearly,0,0,Charges received
+12/12/2021,PSS/TPG,Satti Babu,20000,20000,2021,Yearly,0,0,Charges received
+1/2/2022,PSS/TPG,Satti Babu,0,100000,2021,Yearly,100000,0,Charges received
+4/22/2022,PSS/TPG,Satti Babu,0,50000,2021,Yearly,50000,0,Charges received
+6/6/2022,PSS/TPG,Satti Babu,0,70000,2021,Yearly,70000,0,Charges received
+8/19/2022,PSS/TPG,Mani Sai Traders,20000,20000,2022,Yearly,0,0,Charges received
+10/9/2022,PSS/TPG,Mani Sai Traders,20000,20000,2022,Yearly,0,0,Charges received
+10/15/2022,PSS/TPG,Mani Sai Traders,0,0,2021,Yearly,0,50931,Charges received
+10/15/2022,PSS/TPG,Mani Sai Traders,0,0,2021,Monthly,0,9295,Charges received
+10/26/2020,PSY/Relangi,Ramu,0,15000,2020,Yearly,15000,0,ChargesReceived
+12/13/2020,PSY/Relangi,Ramu,0,10000,2020,Yearly,10000,0,ChargesReceived
+9/5/2021,PSY/Relangi,Ramu,0,10000,2020,Yearly,10000,0,Charges received
+1/12/2020,PT/AMP,Tummalapati Pullayya,0,11810,2020,Yearly,11810,0,ChargesReceived
+1/12/2020,PT/AMP,Tummalapati Pullayya,3330,3330,2020,Yearly,0,0,ChargesReceived
+4/25/2021,PT/AMP,Tummalapati Pullayya,0,12000,2020,Yearly,12000,0,ChargesReceived
+11/27/2022,PVR/PRR,P. V.Raju,920,920,2022,Yearly,0,0,Charges received
+11/27/2022,PVR/PRR,P. V.Raju,0,3430,2022,Yearly,3430,0,Charges received
+12/11/2022,PVR/PRR,P. V.Raju,0,600,2022,Yearly,600,0,Charges received
+12/11/2022,PVR/PRR,P. V.Raju,160,160,2022,Yearly,0,0,Charges received
+10/24/2021,PY/Attili,Pindi Yedukondalu,2400,11500,2021,Yearly,9100,0,Charges received
+7/18/2021,Raghava Traders,P.Satya Narayana,0,10000,2020,Yearly,10000,0,Charges received
+1/5/2022,Raghava Traders,P.Satya Narayana,0,64680,2021,Yearly,64680,0,Charges received
+1/5/2022,Ravi/KKD,Ravi General Stores,0,10000,2021,Yearly,10000,0,Charges received
+2/2/2020,RH,Ramayanam Hanumantha Rao,0,30000,2020,Yearly,30000,0,ChargesReceived
+8/30/2021,RH,Ramayanam Hanumantha Rao,0,5940,2020,Yearly,5940,0,Charges received
+8/30/2021,RH,Ramayanam Hanumantha Rao,0,14060,2021,Yearly,14060,0,Charges received
+12/29/2022,RH,Ramayanam Hanumantha Rao,4560,4560,2022,Yearly,0,0,Charges received
+12/29/2022,RH,Ramayanam Hanumantha Rao,0,10440,2022,Yearly,10440,0,Charges received
+1/26/2020,RH,Ramayanam Hanumantha Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+2/16/2020,RH,Ramayanam Hanumantha Rao,0,15000,2020,Yearly,15000,0,ChargesReceived
+3/15/2020,RH,Ramayanam Hanumantha Rao,0,1000,2020,Yearly,1000,0,ChargesReceived
+3/29/2020,RH,Ramayanam Hanumantha Rao,0,25000,2020,Yearly,25000,0,ChargesReceived
+9/17/2020,RH,Ramayanam Hanumantha Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+10/18/2020,RH,Ramayanam Hanumantha Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+11/8/2020,RH,Ramayanam Hanumantha Rao,0,30000,2020,Yearly,30000,0,ChargesReceived
+11/29/2020,RH,Ramayanam Hanumantha Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+2/7/2021,RH,Ramayanam Hanumantha Rao,22740,58400,2020,Yearly,35660,0,ChargesReceived
+4/4/2022,RR/PRR,Vasam Ananda Rao,0,100000,2021,Yearly,100000,0,Charges received
+12/11/2022,RR/PRR,Vasam Ananda Rao,50000,50000,2022,Yearly,0,0,Charges received
+7/27/2020,RR/TPGM,Jaya Ram,0,100000,2020,Yearly,100000,0,ChargesReceived
+1/5/2020,RS/MVM,Ramayanam Subba Rao,0,7218,2020,Yearly,7218,0,ChargesReceived
+1/5/2020,RS/MVM,Ramayanam Subba Rao,0,2099,2020,Yearly,2099,0,ChargesReceived
+12/13/2020,RVR/Attili,Rachapothu Venkata Ramana,0,700,2020,Yearly,700,0,ChargesReceived
+11/2/2020,RVS/Ramu,Ramu,0,9000,2020,Yearly,9000,0,ChargesReceived
+10/25/2020,ST/TPG,Sahasra Traders,0,18000,2020,Yearly,18000,0,ChargesReceived
+6/16/2021,SB/AMP,Arigela Jagapathi,0,10700,2021,Yearly,10700,0,Charges received
+6/3/2022,SB/AMP,Arigela Jagapathi,560,3120,2022,Yearly,2560,0,Charges received
+10/15/2022,SB/AMP,Arigela Jagapathi,0,0,2021,Yearly,0,955,Charges received
+1/23/2022,SBR/H.Junction,Sammetla Bhaskara Rao,0,6000,2021,Yearly,6000,0,Charges received
+10/15/2022,SBR/H.Junction,Sammetla Bhaskara Rao,0,0,2021,Yearly,0,660,Charges received
+3/2/2022,SBT/PKL,Sri Balaji Traders,0,37000,2021,Yearly,37000,0,Charges received
+10/15/2022,SBT/PKL,Sri Balaji Traders,0,0,2021,Yearly,0,-1545,Charges received
+1/19/2020,SCC/RJY,Swarajya Chillies,0,2970,2020,Yearly,2970,0,ChargesReceived
+1/19/2020,SCC/RJY,Swarajya Chillies,590,590,2020,Yearly,0,0,ChargesReceived
+2/16/2020,SCC/Santhi,Kode Venkateswara Rao,0,50000,2020,Yearly,50000,0,ChargesReceived
+2/16/2020,SCC/Santhi,Kode Venkateswara Rao,0,25000,2020,Yearly,25000,0,ChargesReceived
+6/3/2020,SCC/Santhi,Kode Venkateswara Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+7/18/2020,SCC/Santhi,Kode Venkateswara Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+3/5/2022,SCC/Santhi,Kode Venkateswara Rao,0,10000,2020,Yearly,10000,0,Charges received
+4/9/2022,SCC/Santhi,Kode Venkateswara Rao,0,15000,2020,Yearly,15000,0,Charges received
+7/18/2020,SDEP/TPG,Sri Durga Enterprises,0,10000,2020,Yearly,10000,0,ChargesReceived
+11/8/2020,SDEP/TPG,Sri Durga Enterprises,0,6000,2020,Yearly,6000,0,ChargesReceived
+12/6/2020,SDEP/TPG,Sri Durga Enterprises,0,4900,2020,Yearly,4900,0,ChargesReceived
+6/13/2021,SDEP/TPG,Sri Durga Enterprises,0,10000,2020,Yearly,10000,0,ChargesReceived
+7/11/2021,SDEP/TPG,Sri Durga Enterprises,0,10000,2020,Yearly,10000,0,Charges received
+8/4/2021,SDEP/TPG,Sri Durga Enterprises,0,10000,2020,Yearly,10000,0,Charges received
+8/29/2021,SDEP/TPG,Sri Durga Enterprises,0,10000,2020,Yearly,10000,0,Charges received
+10/3/2021,SDEP/TPG,Sri Durga Enterprises,0,10000,2020,Yearly,10000,0,Charges received
+10/31/2021,SDEP/TPG,Sri Durga Enterprises,0,10000,2020,Yearly,10000,0,Charges received
+12/12/2021,SDEP/TPG,Sri Durga Enterprises,10000,10000,2021,Yearly,0,0,Charges received
+12/29/2021,SDEP/TPG,Sri Durga Enterprises,0,10000,2021,Yearly,10000,0,Charges received
+1/9/2022,SDEP/TPG,Sri Durga Enterprises,0,10000,2021,Yearly,10000,0,Charges received
+1/30/2022,SDEP/TPG,Sri Durga Enterprises,0,10000,2021,Yearly,10000,0,Charges received
+6/13/2022,SDEP/TPG,Sri Durga Enterprises,0,10000,2021,Yearly,10000,0,Charges received
+7/21/2022,SDEP/TPG,Sri Durga Enterprises,0,10000,2020,Yearly,10000,0,Charges received
+10/15/2022,SDEP/TPG,Sri Durga Enterprises,0,0,2021,Yearly,0,-8923,Charges received
+11/28/2021,SGT/Kanuru,Nageswara Rao,4500,22000,2020,Yearly,17500,0,Charges received
+11/6/2021,SKC/Chinna,Sasanala Chinna,0,6500,2021,Yearly,6500,0,Charges received
+10/15/2022,SKC/Chinna,Sasanala Chinna,0,0,2021,Yearly,0,655,Charges received
+1/5/2020,SKK/PKL,Srinivasa Khayada Kottu,6940,6940,2020,Yearly,0,0,ChargesReceived
+1/5/2020,SKK/PKL,Srinivasa Khayada Kottu,7260,7260,2020,Yearly,0,0,ChargesReceived
+1/12/2020,SKK/PKL,Srinivasa Khayada Kottu,0,50000,2020,Yearly,50000,0,ChargesReceived
+2/9/2020,SKK/PKL,Srinivasa Khayada Kottu,0,50000,2020,Yearly,50000,0,ChargesReceived
+4/19/2020,SKK/PKL,Srinivasa Khayada Kottu,0,20000,2020,Yearly,20000,0,ChargesReceived
+5/3/2020,SKK/PKL,Srinivasa Khayada Kottu,0,30000,2020,Yearly,30000,0,ChargesReceived
+5/17/2020,SKK/PKL,Srinivasa Khayada Kottu,20000,20000,2020,Yearly,0,0,ChargesReceived
+6/14/2020,SKK/PKL,Srinivasa Khayada Kottu,0,50000,2020,Yearly,50000,0,ChargesReceived
+8/10/2020,SKK/PKL,Srinivasa Khayada Kottu,7500,7500,2020,Yearly,0,0,ChargesReceived
+8/10/2020,SKK/PKL,Srinivasa Khayada Kottu,4500,4500,2020,Yearly,0,0,ChargesReceived
+8/30/2020,SKK/PKL,Srinivasa Khayada Kottu,6000,6000,2020,Yearly,0,0,ChargesReceived
+9/20/2020,SKK/PKL,Srinivasa Khayada Kottu,1800,1800,2020,Yearly,0,0,ChargesReceived
+9/20/2020,SKK/PKL,Srinivasa Khayada Kottu,6000,6000,2020,Yearly,0,0,ChargesReceived
+9/20/2020,SKK/PKL,Srinivasa Khayada Kottu,4500,4500,2020,Yearly,0,0,ChargesReceived
+9/27/2020,SKK/PKL,Srinivasa Khayada Kottu,500,500,2020,Yearly,0,0,ChargesReceived
+11/11/2020,SKK/PKL,Srinivasa Khayada Kottu,50000,50000,2020,Yearly,0,0,ChargesReceived
+11/19/2020,SKK/PKL,Srinivasa Khayada Kottu,4915,4915,2020,Yearly,0,0,ChargesReceived
+11/19/2020,SKK/PKL,Srinivasa Khayada Kottu,6300,6300,2020,Yearly,0,0,ChargesReceived
+11/19/2020,SKK/PKL,Srinivasa Khayada Kottu,4725,4725,2020,Yearly,0,0,ChargesReceived
+1/17/2021,SKK/PKL,Srinivasa Khayada Kottu,0,100000,2020,Yearly,100000,0,ChargesReceived
+2/7/2021,SKK/PKL,Srinivasa Khayada Kottu,12600,112600,2020,Yearly,100000,0,ChargesReceived
+3/13/2021,SKK/PKL,Srinivasa Khayada Kottu,40000,40000,2020,Yearly,0,0,ChargesReceived
+3/18/2021,SKK/PKL,Srinivasa Khayada Kottu,10800,10800,2020,Yearly,0,0,ChargesReceived
+5/8/2021,SKK/PKL,Srinivasa Khayada Kottu,25000,25000,2020,Yearly,0,0,ChargesReceived
+6/6/2021,SKK/PKL,Srinivasa Khayada Kottu,40800,40800,2020,Yearly,0,0,ChargesReceived
+6/27/2021,SKK/PKL,Krishna,0,50000,2020,Yearly,50000,0,Charges received
+8/8/2021,SKK/PKL,Krishna,12010,12010,2021,Monthly,0,0,Charges received
+8/8/2021,SKK/PKL,Krishna,7000,7000,2021,Monthly,0,0,Charges received
+9/5/2021,SKK/PKL,Srinivasa Khayada Kottu,7980,7980,2021,Monthly,0,0,Charges received
+10/3/2021,SKK/PKL,Krishna,44650,50000,2021,Yearly,5350,0,Charges received
+10/17/2021,SKK/PKL,Srinivasa Khayada Kottu,9010,9010,2021,Monthly,0,0,Charges received
+11/14/2021,SKK/PKL,Krishna,14000,70000,2021,Yearly,56000,0,Charges received
+12/26/2021,SKK/PKL,Krishna,19550,20000,2021,Yearly,450,0,Charges received
+1/2/2022,SKK/PKL,Krishna,0,30000,2021,Yearly,30000,0,Charges received
+1/23/2022,SKK/PKL,Srinivasa Khayada Kottu,8920,8920,2021,Monthly,0,0,Charges received
+2/6/2022,SKK/PKL,Srinivasa Khayada Kottu,6300,6300,2022,Yearly,0,0,Charges received
+2/14/2022,SKK/PKL,Sula Vishnu Murthy,11500,11500,2022,Yearly,0,0,Charges received
+2/23/2022,SKK/PKL,Krishna,38385,90000,2021,Yearly,51615,0,Charges received
+5/8/2022,SKK/PKL,Srinivasa Khayada Kottu,50000,50000,2022,Yearly,0,0,Charges received
+5/29/2022,SKK/PKL,Srinivasa Khayada Kottu,30000,30000,2022,Yearly,0,0,Charges received
+6/10/2022,SKK/PKL,Srinivasa Khayada Kottu,10000,10000,2022,Yearly,0,0,Charges received
+6/13/2022,SKK/PKL,Krishna,0,25000,2021,Yearly,25000,0,Charges received
+6/11/2022,SKK/PKL,Krishna,0,25000,2021,Yearly,25000,0,Charges received
+7/15/2022,SKK/PKL,Srinivasa Khayada Kottu,9900,9900,2022,Yearly,0,0,Charges received
+7/24/2022,SKK/PKL,Krishna,0,20000,2021,Yearly,20000,0,Charges received
+7/23/2022,SKK/PKL,Krishna,0,30000,2021,Yearly,30000,0,Charges received
+1/23/2022,SKK/PKL,Srinivasa Khayada Kottu,7560,7560,2022,Yearly,0,0,Charges received
+8/14/2022,SKK/PKL,Srinivasa Khayada Kottu,0,40000,2021,Yearly,40000,0,Charges received
+9/7/2022,SKK/PKL,Srinivasa Khayada Kottu,12580,12580,2022,Monthly,0,0,Charges received
+9/7/2022,SKK/PKL,Srinivasa Khayada Kottu,27420,27420,2021,Yearly,0,0,Charges received
+10/17/2022,SKK/PKL,Srinivasa Khayada Kottu,12570,12570,2022,Monthly,0,0,Charges received
+12/18/2022,SKK/PKL,Krishna,25000,25000,2021,Yearly,0,0,Charges received
+7/15/2022,SKK/PKL,Srinivasa Khayada Kottu,9440,9440,2022,Monthly,0,0,Charges received
+7/15/2022,SKK/PKL,Srinivasa Khayada Kottu,6400,6400,2022,Monthly,0,0,Charges received
+12/25/2022,SKK/PKL,Bugga Sekhar,25000,25000,2021,Yearly,0,0,Charges received
+9/19/2020,SKT/TPG,Sai Krishna Traders,20000,20000,2020,Yearly,0,0,ChargesReceived
+1/24/2021,SKT/TPG,Sai Krishna Traders,0,1200,2020,Yearly,1200,0,ChargesReceived
+10/15/2022,SKT/TPG,Sai Krishna Traders,0,0,2021,Monthly,0,459,Charges received
+10/16/2022,SLG/Malleswaram,Sanku Jaganmohana Rao,2800,2800,2022,Monthly,0,0,Charges received
+10/16/2022,SLG/Malleswaram,Sanku Jaganmohana Rao,0,2200,2022,Monthly,2200,0,Charges received
+11/8/2020,SLG/TPG,Y.Subba Rao,0,4500,2020,Yearly,4500,0,ChargesReceived
+11/15/2020,SLG/TPG,Y.Subba Rao,0,3000,2020,Yearly,3000,0,ChargesReceived
+11/27/2021,SLG/TPG,Y.Subba Rao,0,20500,2021,Yearly,20500,0,Charges received
+10/15/2022,SLG/TPG,Ananthala Ramesh,0,0,2021,Yearly,0,1330,Charges received
+10/15/2022,SLT/Duvva,Sri Lakshmi Traders,0,0,2021,Monthly,0,93,Charges received
+6/14/2020,SM,Maruthiram Traders,0,1880,2020,Yearly,1880,0,ChargesReceived
+1/21/2022,SMGS/JRG,Satya Maruthi General Stores,0,13125,2021,Yearly,13125,0,Charges received
+3/18/2022,SMGS/JRG,Satya Maruthi General Stores,0,5820,2022,Yearly,5820,0,Charges received
+10/15/2022,SMGS/JRG,Satya Maruthi General Stores,0,0,2021,Yearly,0,-432,Charges received
+10/31/2021,SMKG/KKD,Sri Maheswari Kirana & General Stores,0,1000,2021,Yearly,1000,0,Charges received
+10/15/2022,SMKG/KKD,Sri Maheswari Kirana & General Stores,0,0,2021,Yearly,0,110,Charges received
+1/10/2021,SNK/TPG,Satya Nnarayana Kirana,0,1720,2020,Yearly,1720,0,ChargesReceived
+11/2/2022,SNK/TPG,Satya Nnarayana Kirana,0,1020,2021,Yearly,1020,0,Charges received
+11/2/2022,SNK/TPG,Satya Nnarayana Kirana,0,1350,2022,Yearly,1350,0,Charges received
+11/2/2022,SNK/TPG,Satya Nnarayana Kirana,430,430,2021,Yearly,0,0,Charges received
+11/2/2022,SNK/TPG,Satya Nnarayana Kirana,600,600,2022,Yearly,0,0,Charges received
+10/15/2022,SNK/TPG,Satya Nnarayana Kirana,0,0,2021,Yearly,0,6,Charges received
+2/17/2020,SNT/PKL,Vilasarapu Koteswara Rao,0,30000,2020,Yearly,30000,0,ChargesReceived
+3/5/2020,SNT/PKL,Vilasarapu Koteswara Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+5/12/2020,SNT/PKL,Vilasarapu Koteswara Rao,5000,5000,2020,Yearly,0,0,ChargesReceived
+9/4/2020,SNT/PKL,Vilasarapu Koteswara Rao,0,50000,2020,Yearly,50000,0,ChargesReceived
+1/29/2021,SNT/PKL,Vilasarapu Koteswara Rao,0,50000,2020,Yearly,50000,0,ChargesReceived
+2/7/2021,SNT/PKL,Vilasarapu Koteswara Rao,0,50000,2020,Yearly,50000,0,ChargesReceived
+2/22/2021,SNT/PKL,Vilasarapu Koteswara Rao,0,41400,2020,Yearly,41400,0,ChargesReceived
+11/20/2021,SNT/PKL,Vilasarapu Koteswara Rao,0,50000,2021,Yearly,50000,0,Charges received
+12/26/2021,SNT/PKL,Vilasarapu Koteswara Rao,0,50000,2021,Yearly,50000,0,Charges received
+3/6/2022,SNT/PKL,Sri Naga Jyothi Chillies Traders,8470,8470,2022,Yearly,0,0,Charges received
+4/15/2022,SNT/PKL,Vilasarapu Koteswara Rao,19900,19900,2022,Yearly,0,0,Charges received
+5/6/2022,SNT/PKL,Vilasarapu Koteswara Rao,0,50000,2021,Yearly,50000,0,Charges received
+7/24/2022,SNT/PKL,Bujji,0,20000,2021,Yearly,20000,0,Charges received
+10/15/2022,SNT/PKL,Sri Naga Jyothi Chillies Traders,0,0,2021,Yearly,0,-3283,Charges received
+11/24/2022,SNT/PKL,Yekkali Srinivasa Rao,0,25000,2022,Yearly,25000,0,Charges received
+4/23/2022,SRI/TPG,Mangina Prasad,0,6270,2022,Yearly,6270,0,Charges received
+1/5/2020,SRK/GVR,Krishna,0,50000,2020,Yearly,50000,0,ChargesReceived
+1/12/2020,SRK/GVR,Krishna,0,20000,2020,Yearly,20000,0,ChargesReceived
+1/26/2020,SRK/GVR,Krishna,0,50000,2020,Yearly,50000,0,ChargesReceived
+2/9/2020,SRK/GVR,Krishna,0,50000,2020,Yearly,50000,0,ChargesReceived
+3/1/2020,SRK/GVR,Krishna,0,20000,2020,Yearly,20000,0,ChargesReceived
+3/29/2020,SRK/GVR,Krishna,0,20000,2020,Yearly,20000,0,ChargesReceived
+6/12/2020,SRK/GVR,Krishna,0,21000,2020,Yearly,21000,0,ChargesReceived
+3/1/2020,SRT/RajaRao,Karibandi Satyanarayana,0,50000,2020,Yearly,50000,0,ChargesReceived
+3/21/2020,SRT/RajaRao,Karibandi Satyanarayana,0,50000,2020,Yearly,50000,0,ChargesReceived
+6/22/2020,SRT/RajaRao,Karibandi Satyanarayana,0,20000,2020,Yearly,20000,0,ChargesReceived
+9/2/2020,SRT/RajaRao,Karibandi Satyanarayana,0,24000,2020,Yearly,24000,0,ChargesReceived
+1/21/2021,SRT/RajaRao,Karibandi Satyanarayana,0,50000,2020,Yearly,50000,0,ChargesReceived
+2/21/2021,SRT/RajaRao,Karibandi Satyanarayana,0,50000,2020,Yearly,50000,0,ChargesReceived
+4/19/2021,SRT/RajaRao,Karibandi Satyanarayana,0,12000,2020,Yearly,12000,0,ChargesReceived
+3/23/2022,SRT/RajaRao,Karibandi Satyanarayana,0,26715,2021,Yearly,26715,0,Charges received
+3/23/2022,SRT/RajaRao,Karibandi Satyanarayana,0,2285,2021,Monthly,2285,0,Charges received
+10/15/2022,SRT/RajaRao,Bolle Satyanarayana,0,0,2021,Yearly,0,110,Charges received
+10/15/2022,SRT/RajaRao,Bolle Satyanarayana,0,0,2021,Monthly,0,-935,Charges received
+4/20/2020,SSB,Pasupuleti Sivayya,0,7200,2020,Yearly,7200,0,ChargesReceived
+5/10/2020,SSB,Pasupuleti Sivayya,0,5900,2020,Yearly,5900,0,ChargesReceived
+1/17/2021,SSB,Pasupuleti Sivayya,0,2000,2020,Yearly,2000,0,ChargesReceived
+8/7/2021,SSC/RJY,Maddala Srinivasa Rao,0,4800,2020,Yearly,4800,0,Charges received
+1/22/2022,SSC/RJY,Maddala Srinivasa Rao,0,10000,2021,Yearly,10000,0,Charges received
+8/7/2021,SSC/RJY,Maddala Srinivasa Rao,0,4615,2021,Yearly,4615,0,Charges received
+8/7/2021,SSC/RJY,Maddala Srinivasa Rao,0,585,2021,Monthly,585,0,Charges received
+7/19/2021,SST/BVRM,Sri Saravana Stores,0,50000,2020,Yearly,50000,0,Charges received
+8/11/2022,ST/Hindupuram,Shabana Traders,0,10000,2022,Yearly,10000,0,Charges received
+9/4/2022,ST/Hindupuram,Shabana Traders,0,10000,2022,Yearly,10000,0,Charges received
+10/9/2022,ST/Hindupuram,Shabana Traders,10000,10000,2022,Yearly,0,0,Charges received
+1/26/2020,ST/TPG,Sahasra Traders,0,23000,2020,Yearly,23000,0,ChargesReceived
+6/12/2022,ST/TPG,Sahasra Traders,0,10000,2021,Yearly,10000,0,Charges received
+7/23/2022,ST/TPG,Sahasra Traders,0,7575,2021,Yearly,7575,0,Charges received
+7/23/2022,ST/TPG,Sahasra Traders,0,2425,2021,Monthly,2425,0,Charges received
+4/9/2020,Surya Products,Surya,0,4600,2020,Yearly,4600,0,ChargesReceived
+1/29/2020,SVR/TPG,Yadlapalli Ramana,0,4000,2020,Yearly,4000,0,ChargesReceived
+2/14/2021,SVR/TPG,Yadlapalli Ramana,0,11000,2020,Yearly,11000,0,ChargesReceived
+12/11/2022,SVR/TPG,Yadlapalli Ramana,0,34000,2021,Yearly,34000,0,Charges received
+12/19/2022,SVR/TPG,Yadlapalli Ramana,1280,5000,2022,Yearly,3720,0,Charges received
+7/6/2022,SVS/Nagayya,S.Nagayya,0,5300,2021,Yearly,5300,0,Charges received
+4/13/2020,SVT/AMP,Arigala Bhushanam,0,15000,2020,Yearly,15000,0,ChargesReceived
+11/1/2020,SVT/AMP,Arigala Bhushanam,0,9500,2020,Yearly,9500,0,ChargesReceived
+12/31/2020,SVT/AMP,Arigala Bhushanam,0,14000,2020,Yearly,14000,0,ChargesReceived
+4/11/2021,SVT/AMP,Arigala Bhushanam,0,21000,2020,Yearly,21000,0,ChargesReceived
+8/25/2021,SVT/AMP,Arigala Bhushanam,0,15000,2021,Yearly,15000,0,Charges received
+12/19/2021,SVT/AMP,Arigala Bhushanam,0,10000,2021,Yearly,10000,0,Charges received
+2/6/2022,SVT/AMP,Arigala Bhushanam,0,10000,2021,Yearly,10000,0,Charges received
+3/30/2022,SVT/AMP,Arigala Bhushanam,0,5000,2021,Yearly,5000,0,Charges received
+10/15/2022,SVT/AMP,Arigala Bhushanam,0,0,2021,Monthly,0,325,Charges received
+10/23/2022,SVT/AMP,Arigala Bhushanam,0,20000,2022,Yearly,20000,0,Charges received
+10/15/2022,SVT/AMP,Arigala Bhushanam,0,0,2021,Yearly,0,-20,Charges received
+6/23/2021,SVT/BVRM,S.Chinna,0,11000,2020,Yearly,11000,0,Charges received
+12/26/2021,SVT/Samba,Samba Murthy,20000,20000,2021,Monthly,0,0,Charges received
+6/19/2022,SVT/Samba,Samba Murthy,0,100000,2021,Monthly,100000,0,Charges received
+12/23/2022,SVT/TPG,Sri Venkateswara Traders,0,1220,2022,Monthly,1220,0,Charges received
+12/23/2022,SVT/TPG,Sri Venkateswara Traders,1680,1680,2022,Monthly,0,0,Charges received
+12/6/2020,TA/KKD,Anil Kumar,0,20000,2020,Yearly,20000,0,ChargesReceived
+2/7/2021,TA/KKD,Anil Kumar,0,21000,2020,Yearly,21000,0,ChargesReceived
+10/15/2022,TGK/PRR,T.Gopala Krishna,0,0,2021,Monthly,0,780,Charges received
+11/4/2020,TLN/Peravali,Lakshmi Narayana,0,10000,2020,Yearly,10000,0,ChargesReceived
+9/29/2021,TLN/Peravali,Lakshmi Narayana,0,9000,2021,Yearly,9000,0,Charges received
+9/29/2021,TLN/Peravali,Lakshmi Narayana,0,12000,2020,Yearly,12000,0,Charges received
+1/29/2022,TLN/Peravali,Lakshmi Narayana,0,10000,2021,Yearly,10000,0,Charges received
+9/18/2022,TLN/Peravali,Lakshmi Narayana,0,8000,2021,Yearly,8000,0,Charges received
+10/15/2022,TLN/Peravali,Lakshmi Narayana,0,0,2021,Yearly,0,-3690,Charges received
+12/4/2022,TLN/Peravali,Lakshmi Narayana,0,760,2022,Yearly,760,0,Charges received
+12/4/2022,TLN/Peravali,Lakshmi Narayana,0,1400,2022,Monthly,1400,0,Charges received
+12/4/2022,TLN/Peravali,Lakshmi Narayana,200,200,2022,Yearly,0,0,Charges received
+12/4/2022,TLN/Peravali,Lakshmi Narayana,440,440,2022,Monthly,0,0,Charges received
+12/26/2021,TP/AMP,Tummalapati Pullayya,2520,13320,2021,Yearly,10800,0,Charges received
+2/3/2022,TU/ATL,Talari Ugandhar,0,6800,2021,Yearly,6800,0,Charges received
+10/15/2022,TU/ATL,Talari Ugandhar,0,0,2021,Yearly,0,45,Charges received
+1/31/2021,TU/PRR,Talari Ugandhar,0,4100,2020,Yearly,4100,0,ChargesReceived
+1/31/2021,TU/PRR,Talari Ugandhar,0,2430,2020,Yearly,2430,0,ChargesReceived
+1/24/2021,TVR/RJY,Thota Venkateswara Rao,0,50000,2020,Yearly,50000,0,ChargesReceived
+10/28/2021,TVR/RJY,Thota Venkateswara Rao,0,25000,2020,Yearly,25000,0,Charges received
+6/12/2022,TVR/RJY,Thota Venkateswara Rao,0,18588,2021,Yearly,18588,0,Charges received
+6/12/2022,TVR/RJY,Thota Venkateswara Rao,0,5000,2022,Yearly,5000,0,Charges received
+6/12/2022,TVR/RJY,Thota Venkateswara Rao,0,1412,2021,Monthly,1412,0,Charges received
+10/15/2022,TVR/RJY,Thota Venkateswara Rao,0,0,2021,Monthly,0,343,Charges received
+4/12/2020,UR/PRR,Uppala Rambabu,0,10000,2020,Yearly,10000,0,ChargesReceived
+3/22/2022,Usha/TPG,Usha General Stores,0,3080,2021,Yearly,3080,0,Charges received
+10/12/2022,Usha/TPG,Usha General Stores,905,905,2022,Yearly,0,0,Charges received
+10/12/2022,Usha/TPG,Usha General Stores,0,2025,2022,Yearly,2025,0,Charges received
+10/15/2022,Usha/TPG,Usha General Stores,0,0,2021,Yearly,0,101,Charges received
+12/24/2022,Vasavi/TNK,Sri Vasavi Super Market,930,3500,2021,Yearly,2570,0,Charges received
+1/30/2021,VBR/AMP,Arigala Veerabhadra Rao,0,10000,2020,Yearly,10000,0,ChargesReceived
+2/19/2021,VBR/AMP,Arigala Veerabhadra Rao,0,7650,2020,Yearly,7650,0,ChargesReceived
+6/19/2022,VCC/RVS,Venkateswara Chillies Company,0,8880,2021,Yearly,8880,0,Charges received
+6/19/2022,VCC/RVS,Venkateswara Chillies Company,0,6120,2021,Monthly,6120,0,Charges received
+6/17/2022,VDT/PKL,Vijaya Durga Traders,0,44000,2021,Yearly,44000,0,Charges received
+10/15/2022,VDT/PKL,Vijaya Durga Traders,0,0,2021,Yearly,0,-5246,Charges received
+1/3/2020,VI,Valavai Indrayya,0,12000,2020,Yearly,12000,0,ChargesReceived
+12/25/2020,VI,Valavai Indrayya,2340,11720,2020,Yearly,9380,0,ChargesReceived
+12/24/2021,VI,Valavai Indrayya,0,10150,2021,Yearly,10150,0,Charges received
+10/15/2022,VI,Valavai Indrayya,0,0,2021,Yearly,0,580,Charges received
+11/9/2022,VI,Valavai Indrayya,0,10000,2022,Yearly,10000,0,Charges received
+6/16/2022,VK/VJA,N.Venkata Krishna,0,30500,2021,Yearly,30500,0,Charges received
+11/17/2022,VK/VJA,N.Venkata Krishna,0,35000,2021,Yearly,35000,0,Charges received
+2/22/2020,VM,Vosuri Mariyya,0,10000,2020,Yearly,10000,0,ChargesReceived
+1/2/2021,VM,Vosuri Mariyya,0,14100,2020,Yearly,14100,0,ChargesReceived
+10/10/2021,VNR/Babi,V.V.V.Satyanarayana,0,10000,2021,Yearly,10000,0,Charges received
+1/23/2022,VNR/Babi,V.V.V.Satyanarayana,0,9000,2021,Yearly,9000,0,Charges received
+9/18/2022,VNR/Babi,V.V.V.Satyanarayana,10000,10000,2022,Yearly,0,0,Charges received
+10/9/2022,VNR/Babi,V.V.V.Satyanarayana,0,10000,2022,Yearly,10000,0,Charges received
+10/15/2022,VNR/Babi,V.V.V.Satyanarayana,0,0,2021,Yearly,0,1310,Charges received
+1/4/2020,VNT/GDV,K.Subba Rao,0,20000,2020,Yearly,20000,0,ChargesReceived
+7/12/2020,VNT/GDV,K.Subba Rao,0,15000,2020,Yearly,15000,0,ChargesReceived
+12/25/2020,VPR/Bantumilli,Veeramalla Pandu Ranga Rao,0,3200,2020,Yearly,3200,0,ChargesReceived
+8/19/2022,VPR/Bantumilli,Veeramalla Pandu Ranga Rao,1640,1640,2022,Yearly,0,0,Charges received
+8/19/2022,VPR/Bantumilli,Veeramalla Pandu Ranga Rao,0,6060,2022,Yearly,6060,0,Charges received
+2/7/2021,VR/TPG,Sri Vaibhav Ram General Marchants,0,5600,2020,Yearly,5600,0,ChargesReceived
+11/1/2021,VR/TPG,Sri Vaibhav Ram General Marchants,44000,44000,2021,Yearly,0,0,Charges received
+11/28/2021,VR/TPG,Sri Vaibhav Ram General Marchants,0,15000,2021,Yearly,15000,0,Charges received
+1/23/2022,VR/TPG,Sri Vaibhav Ram General Marchants,0,17328,2021,Yearly,17328,0,Charges received
+1/23/2022,VR/TPG,Sri Vaibhav Ram General Marchants,2280,2280,2021,Yearly,0,0,Charges received
+1/23/2022,VR/TPG,Sri Vaibhav Ram General Marchants,0,22072,2021,Monthly,22072,0,Charges received
+10/15/2022,VR/TPG,Sri Vaibhav Ram General Marchants,0,0,2021,Monthly,0,11497,Charges received
+8/4/2021,VSR/GNT,Vakkalagadda Subba Rao,0,11000,2020,Yearly,11000,0,Charges received
+11/27/2022,VSN/KKD,V.S.N.Murthy,0,6160,2022,Yearly,6160,0,Charges received
+11/27/2022,VSN/KKD,V.S.N.Murthy,3840,3840,2022,Yearly,0,0,Charges received
+1/24/2020,VSN/Thatipaka,Vardhineedi Satya Narayana,0,16400,2020,Yearly,16400,0,ChargesReceived
+8/6/2021,VSN/Thatipaka,Vardhineedi Satya Narayana,0,40000,2020,Yearly,40000,0,Charges received
+11/7/2021,VSN/Thatipaka,Vardhineedi Satya Narayana,0,20000,2020,Yearly,20000,0,Charges received
+6/26/2022,VSN/Thatipaka,Vardhineedi Satya Narayana,0,30000,2021,Yearly,30000,0,Charges received
+7/3/2022,VSN/Thatipaka,Vardhineedi Satya Narayana,0,15000,2021,Yearly,15000,0,Charges received
+10/15/2022,VSN/Thatipaka,Vardhineedi Satya Narayana,0,0,2021,Yearly,0,-19655,Charges received
+11/6/2022,VSN/Thatipaka,Vardhineedi Satya Narayana,18088,18088,2022,Yearly,0,0,Charges received
+11/6/2022,VSN/Thatipaka,Vardhineedi Satya Narayana,3302,3302,2022,Monthly,0,0,Charges received
+11/6/2022,VSN/Thatipaka,Vardhineedi Satya Narayana,0,3610,2022,Yearly,3610,0,Charges received
+2/23/2020,VT/BVRM,Vinayaka Traders,0,60000,2020,Yearly,60000,0,ChargesReceived
+10/17/2021,VVS/Bandar,Veeramallu Veera Swamy,2250,15750,2021,Yearly,13500,0,Charges received
+10/15/2022,VVS/Bandar,Veeramallu Veera Swamy,0,0,2021,Yearly,0,900,Charges received
+6/25/2020,YB/TPG,Sri Venkateswara Trading Company,0,13000,2020,Yearly,13000,0,ChargesReceived
+4/17/2021,YB/TPG,Sri Venkateswara Trading Company,0,2500,2020,Yearly,2500,0,ChargesReceived
+10/15/2022,YB/TPG,Sri Venkateswara Trading Company,0,0,2021,Yearly,0,3415,Charges received
+11/19/2022,YBK/NSP,Yallamki Bala Krishna,0,1350,2022,Yearly,1350,0,Charges received
+11/19/2022,YBK/NSP,Yallamki Bala Krishna,360,360,2022,Yearly,0,0,Charges received
+12/10/2020,YGT/Veera Babu,Veera Babu,0,5000,2020,Yearly,5000,0,ChargesReceived
+12/11/2022,YS/AKVD,Y.Suresh,440,2090,2022,Yearly,1650,0,Charges received
+3/29/2020,YS/Attili,Yadlapalli Swamy,0,4250,2020,Yearly,4250,0,ChargesReceived
+2/3/2021,YSN/NSN,N.Satya Narayana,0,3600,2020,Yearly,3600,0,ChargesReceived
+6/23/2021,YSN/NSN,N.Satya Narayana,10000,10000,2021,Yearly,0,0,Charges received
+11/29/2021,YSN/NSN,N.Satya Narayana,0,20000,2021,Yearly,20000,0,Charges received
+3/10/2022,YSN/NSN,N.Satya Narayana,0,18000,2021,Yearly,18000,0,Charges received
+4/16/2022,YSN/NSN,N.Satya Narayana,0,20000,2021,Yearly,20000,0,Charges received
+6/17/2022,YSN/NSN,N.Satya Narayana,0,20000,2021,Yearly,20000,0,Charges received
+10/15/2022,YSN/NSN,N.Satya Narayana,0,0,2021,Yearly,0,3830,Charges received
+10/15/2022,YSN/NSN,N.Satya Narayana,0,0,2021,Monthly,0,1235,Charges received

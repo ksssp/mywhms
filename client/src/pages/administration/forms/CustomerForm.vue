@@ -54,6 +54,7 @@ export default {
             let customer = {
                 customerCode: this.formModel.customerCode,
                 customerName: this.formModel.customerName,
+                customerDisplayName: this.formModel.customerCode + ' ( ' + this.formModel.customerName + ' )',
                 mobileNumber: this.formModel.mobileNumber,
                 town: this.formModel.town,
                 isActive: this.formModel.isActive,

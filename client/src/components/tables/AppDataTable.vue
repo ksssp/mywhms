@@ -22,7 +22,8 @@ export default {
         "fields",
         "fieldDefs",
         "tableData",
-        "isMainTable"
+        "isMainTable",
+        "hasClickThrough"
     ],
     components: {
     },
@@ -77,7 +78,7 @@ export default {
             buttons: this.buttonsList
         });
 
-        if(this.isMainTable) {
+        if(this.hasClickThrough) {
             $('table.app-table tbody').on('click', 'tr', function () {
                 var data = table.row(this).data();
                 router.push(data._id);

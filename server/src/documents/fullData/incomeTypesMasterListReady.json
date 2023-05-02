@@ -1,0 +1,65 @@
+[
+    {
+        "incomeType": "Hamali Charges",
+        "incomeCategory": "Charges",
+        "incomeSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "incomeType": "Kata Coolie Charges",
+        "incomeCategory": "Charges",
+        "incomeSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "incomeType": "Mamullu Charges",
+        "incomeCategory": "Charges",
+        "incomeSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "incomeType": "Platform Coolie Charges",
+        "incomeCategory": "Charges",
+        "incomeSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "incomeType": "Transport Charges",
+        "incomeCategory": "Charges",
+        "incomeSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "incomeType": "Rents",
+        "incomeCategory": "Rents",
+        "incomeSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "incomeType": "Sale of Scrap",
+        "incomeCategory": "Others",
+        "incomeSource": "Other Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    }
+]

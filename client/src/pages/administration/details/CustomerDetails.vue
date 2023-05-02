@@ -35,7 +35,7 @@
                     </div>
                     <br />
                     <b-tabs class="tickets-tab-switch">
-                        <b-tab title="Details" active>
+                        <b-tab title="Overview" active>
                             <div v-if="!editMode" class="mx-2 d-md-flex justify-content-end">
                                 <b-button v-on:click="editLoadedEntity" class="btn btn-gradient-primary btn-icon-text">
                                     <i class="mdi mdi-pencil btn-icon-prepend"></i>
@@ -46,7 +46,7 @@
                                 <CustomerForm v-if="editMode" :form-data="loadedEntity" :submit-mode="submitMode" 
                                     @saved="saved" @cancelForm="editCancelled"></CustomerForm>
                                 <div class="row" v-else>
-                                    <b-table-lite responsive borderless :fields="entityDetailsTable.fields"
+                                    <b-table-lite responsive borderless show-empty :fields="entityDetailsTable.fields"
                                         :items="entityDetailsTable.items"> <!-- thead-class="hidden_header" -->
                                     </b-table-lite>
                                 </div>
@@ -110,8 +110,8 @@ export default {
             getCustomerById(entityId).then(response => {
                 this.loadedEntity = JSON.parse(JSON.stringify(response));
                 if(this.loadedEntity != null) {
-                    this.entityTitle = this.loadedEntity.customerName;
-                    this.loadedEntityIsActive = DateTime.fromISO(this.loadedEntity.activeUntil).toLocal() > DateTime.now() ? 'Active' : 'Inactive';
+                    this.entityTitle = this.loadedEntity.customerCode + ' (' + this.loadedEntity.customerName + ')';
+                    this.loadedEntityIsActive = DateTime.fromISO(this.loadedEntity.activeUntil).toLocal() > DateTime.now();
                     this.entityDetailsTable.items[0].infoValue = this.loadedEntity.customerCode;
                     this.entityDetailsTable.items[1].infoValue = this.loadedEntity.customerName;
                     this.entityDetailsTable.items[2].infoValue = this.loadedEntity.mobileNumber;
@@ -151,7 +151,7 @@ export default {
             }).then(value => {
                 if(value==true) {
                     // mark entity data at the backend as inactive: entity - Customer
-                    this.loadedEntity.activeUntil = Date.now();
+                    this.loadedEntity.activeUntil = DateTime.now();
                     updateCustomer(this.loadedEntityId, this.loadedEntity).then(response => {
                         if(response.status==true) {
                             this.$router.replace(this.entityListingUrl);

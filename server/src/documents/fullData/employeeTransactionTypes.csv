@@ -1,0 +1,4 @@
+employeeTransactionType,debitAllowed,creditAllowed,creationDate,lastModifiedDate,activeFrom,activeUntil
+MD & Son transactions,TRUE,TRUE,2023-05-01,2023-05-01,2020-01-01,2100-01-01
+Staff Salary Advance,TRUE,TRUE,2023-05-01,2023-05-01,2020-01-01,2100-01-01
+Employee Loans,TRUE,TRUE,2023-05-01,2023-05-01,2020-01-01,2100-01-01
