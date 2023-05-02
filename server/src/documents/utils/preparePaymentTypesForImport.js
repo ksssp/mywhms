@@ -1,16 +1,15 @@
 // this file is to prepare jsons for upload
-const employeeTransactionTypes = require('../fullData/employeeTransactionTypes.json');
+const paymentTypes = require('../fullData/paymentTypes.json');
 var fs = require('fs');
 var { DateTime } = require ('luxon');
 
 var outputJson = {};
 var formattedPaymentTypes = [];
 
-employeeTransactionTypes.forEach(element => {
+paymentTypes.forEach(element => {
     var formattedPaymentType = {
-        "employeeTransactionType": element.employeeTransactionType,
-        "debitAllowed": element.debitAllowed == 'TRUE',
-        "creditAllowed": element.creditAllowed == 'TRUE',
+        "paymentType": element.paymentType,
+        "paymentCategory": element.paymentCategory,
         "creationDate": DateTime.fromFormat(element.creationDate, 'yyyy-mm-dd'),
         "lastModifiedDate": DateTime.fromFormat(element.creationDate, 'yyyy-mm-dd'),
         "activeFrom": DateTime.fromFormat(element.activeFrom, 'yyyy-mm-dd'),
@@ -19,7 +18,7 @@ employeeTransactionTypes.forEach(element => {
     formattedPaymentTypes.push(formattedPaymentType);
 });
 
-fs.writeFile('../fullData/employeeTransactionTypesMasterListReady.json', JSON.stringify(formattedPaymentTypes), 'utf8', function(err) {
+fs.writeFile('../fullData/paymentTypesMasterListReady.json', JSON.stringify(formattedPaymentTypes), 'utf8', function(err) {
     if (err) throw err;
     console.log('file write complete with object count: ', formattedPaymentTypes.length);
 });

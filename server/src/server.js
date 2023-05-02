@@ -13,13 +13,13 @@ const customerController = require ( "./controllers/customer.controller" );
 const productCategoryController = require ( "./controllers/productCategory.controller" );
 const productController = require ( "./controllers/product.controller" );
 const employeeController = require ( "./controllers/employee.controller" );
-const incomeTypeController = require ( "./controllers/incomeType.controller" );
-const expenseTypeController = require ( "./controllers/expenseType.controller" );
+const receiptTypeController = require ( "./controllers/receiptType.controller" );
+const paymentTypeController = require ( "./controllers/paymentType.controller" );
 const employeeTransactionTypeController = require ( "./controllers/employeeTransactionType.controller" );
-const expenseController = require ( "./controllers/expense.controller" );
+const paymentController = require ( "./controllers/payment.controller" );
 const bankAccountController = require ( "./controllers/bankAccount.controller" );
 const bankAccountTransactionController = require ( "./controllers/bankAccountTransaction.controller" );
-const customerTransactionController = require ( "./controllers/customerTransaction.controller" );
+const receiptController = require ( "./controllers/receipt.controller" );
 const employeeTransactionController = require ( "./controllers/employeeTransaction.controller" );
 const lodgementController = require ( './controllers/lodgement.controller' );
 const deliveryController = require ( './controllers/delivery.controller' );
@@ -132,47 +132,47 @@ app.delete('/api/administration/employees/:id', (req, res) => {
 });
 
 
-// Routes for administration/incomeTypes
-app.get('/api/administration/incomeTypes', (req, res) => {
-    incomeTypeController.getIncomeTypes().then(data => res.json(data));
+// Routes for administration/receiptTypes
+app.get('/api/administration/receiptTypes', (req, res) => {
+    receiptTypeController.getReceiptTypes().then(data => res.json(data));
 });
 
-app.get('/api/administration/incomeTypes/:id', (req, res) => {
-    incomeTypeController.getIncomeTypeById(req.params.id).then(data => res.json(data));
+app.get('/api/administration/receiptTypes/:id', (req, res) => {
+    receiptTypeController.getReceiptTypeById(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/administration/incomeTypes', (req, res) => {
-    incomeTypeController.createIncomeType(req.body.incomeType).then(data => res.json(data));
+app.post('/api/administration/receiptTypes', (req, res) => {
+    receiptTypeController.createReceiptType(req.body.receiptType).then(data => res.json(data));
 });
 
-app.put('/api/administration/incomeTypes/:id', (req, res) => {
-    incomeTypeController.updateIncomeType(req.params.id, req.body.incomeType).then(data => res.json(data));
+app.put('/api/administration/receiptTypes/:id', (req, res) => {
+    receiptTypeController.updateReceiptType(req.params.id, req.body.receiptType).then(data => res.json(data));
 });
 
-app.delete('/api/administration/incomeTypes/:id', (req, res) => {
-    incomeTypeController.deleteIncomeType(req.params.id).then(data => res.json(data));
+app.delete('/api/administration/receiptTypes/:id', (req, res) => {
+    receiptTypeController.deleteReceiptType(req.params.id).then(data => res.json(data));
 });
 
 
-// Routes for administration/expenseTypes
-app.get('/api/administration/expenseTypes', (req, res) => {
-    expenseTypeController.getExpenseTypes().then(data => res.json(data));
+// Routes for administration/paymentTypes
+app.get('/api/administration/paymentTypes', (req, res) => {
+    paymentTypeController.getPaymentTypes().then(data => res.json(data));
 });
 
-app.get('/api/administration/expenseTypes/:id', (req, res) => {
-    expenseTypeController.getExpenseTypeById(req.params.id).then(data => res.json(data));
+app.get('/api/administration/paymentTypes/:id', (req, res) => {
+    paymentTypeController.getPaymentTypeById(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/administration/expenseTypes', (req, res) => {
-    expenseTypeController.createExpenseType(req.body.expenseType).then(data => res.json(data));
+app.post('/api/administration/paymentTypes', (req, res) => {
+    paymentTypeController.createPaymentType(req.body.paymentType).then(data => res.json(data));
 });
 
-app.put('/api/administration/expenseTypes/:id', (req, res) => {
-    expenseTypeController.updateExpenseType(req.params.id, req.body.expenseType).then(data => res.json(data));
+app.put('/api/administration/paymentTypes/:id', (req, res) => {
+    paymentTypeController.updatePaymentType(req.params.id, req.body.paymentType).then(data => res.json(data));
 });
 
-app.delete('/api/administration/expenseTypes/:id', (req, res) => {
-    expenseTypeController.deleteExpenseType(req.params.id).then(data => res.json(data));
+app.delete('/api/administration/paymentTypes/:id', (req, res) => {
+    paymentTypeController.deletePaymentType(req.params.id).then(data => res.json(data));
 });
 
 
@@ -305,25 +305,25 @@ app.put('/api/accounting/bankAccountTransactions/:id', (req, res) => {
 });
 
 
-// Routes for accounting/customerTransactions
-app.get('/api/accounting/customerTransactions/', (req, res) => {
-    customerTransactionController.getCustomerTransactions().then(data => res.json(data));
+// Routes for accounting/receipts
+app.get('/api/accounting/receipts/', (req, res) => {
+    receiptController.getReceipts().then(data => res.json(data));
 });
 
-app.get('/api/accounting/customerTransactions/:id', (req, res) => {
-    customerTransactionController.getCustomerTransactionById(req.params.id).then(data => res.json(data));
+app.get('/api/accounting/receipts/:id', (req, res) => {
+    receiptController.getReceiptById(req.params.id).then(data => res.json(data));
 });
 
-app.get('/api/accounting/customerTransactionsByCustomer/:id', (req, res) => {
-    customerTransactionController.getCustomerTransactionsByCustomerId(req.params.id).then(data => res.json(data));
+app.get('/api/accounting/receiptsByCustomer/:id', (req, res) => {
+    receiptController.getReceiptsByCustomerId(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/accounting/customerTransactions/', (req, res) => {
-    customerTransactionController.createCustomerTransaction(req.body.customerTransaction).then(data => res.json(data));
+app.post('/api/accounting/receipts/', (req, res) => {
+    receiptController.createReceipt(req.body.receipt).then(data => res.json(data));
 });
 
-app.put('/api/accounting/customerTransactions/:id', (req, res) => {
-    customerTransactionController.updateCustomerTransaction(req.params.id, req.body.customerTransaction).then(data => res.json(data));
+app.put('/api/accounting/receipts/:id', (req, res) => {
+    receiptController.updateReceipt(req.params.id, req.body.receipt).then(data => res.json(data));
 });
 
 
@@ -348,25 +348,25 @@ app.put('/api/accounting/employeeTransactions/:id', (req, res) => {
     employeeTransactionController.updateEmployeeTransaction(req.params.id, req.body.employeeTransaction).then(data => res.json(data));
 });
 
-// Routes for accounting/expenses
-app.get('/api/accounting/expenses/', (req, res) => {
-    expenseController.getExpenses().then(data => res.json(data));
+// Routes for accounting/payments
+app.get('/api/accounting/payments/', (req, res) => {
+    paymentController.getPayments().then(data => res.json(data));
 });
 
-app.get('/api/accounting/expenses/:id', (req, res) => {
-    expenseController.getExpenseById(req.params.id).then(data => res.json(data));
+app.get('/api/accounting/payments/:id', (req, res) => {
+    paymentController.getPaymentById(req.params.id).then(data => res.json(data));
 });
 
-app.get('/api/accounting/expensesByEmployee/:id', (req, res) => {
-    expenseController.getExpensesByEmployeeId(req.params.id).then(data => res.json(data));
+app.get('/api/accounting/paymentsByEmployee/:id', (req, res) => {
+    paymentController.getPaymentsByEmployeeId(req.params.id).then(data => res.json(data));
 });
 
-app.post('/api/accounting/expenses/', (req, res) => {
-    expenseController.createExpense(req.body.expense).then(data => res.json(data));
+app.post('/api/accounting/payments/', (req, res) => {
+    paymentController.createPayment(req.body.payment).then(data => res.json(data));
 });
 
-app.put('/api/accounting/expenses/:id', (req, res) => {
-    expenseController.updateExpense(req.params.id, req.body.expense).then(data => res.json(data));
+app.put('/api/accounting/payments/:id', (req, res) => {
+    paymentController.updatePayment(req.params.id, req.body.payment).then(data => res.json(data));
 });
 
 // Routes for summary/products

@@ -22,7 +22,7 @@
                             <a :href="entityCreateUrl">
                                 <button type="button" class="btn btn-gradient-primary btn-icon-text">
                                     <i class="mdi mdi-cash-plus btn-icon-prepend"></i>
-                                    Add a Transaction
+                                    Add a Payment
                                 </button>
                             </a>
                         </div>
@@ -40,34 +40,29 @@
 
 <script>
 import { formatDate, formatNumber } from '@/services/commons.service';
-import { getBankAccountTransactions } from "@/services/bankAccountTransaction.service";
+import { getPayments } from "@/services/payment.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 
 export default {
-    name: "BankAccountTransactionsList",
+    name: "PaymentsList",
     components: {
         AppDataTable
     },
     data: function () {
         return {
             totalRows: 0,
-            entityCreateUrl: "/accounting/bankAccountTransactions/create/",
+            entityCreateUrl: "/accounting/payments/create/",
             footerBgVariant: "light",
-            downloadFileName: "bankAccountTransactionsList",
+            downloadFileName: "paymentsList",
             moduleTitle: 'Payments & Receipts',
-            pageTitle: 'Bank Account Transactions',
+            pageTitle: 'Payments',
             fields: [
                 { data: "transactionDate", title: "Transaction Date", render: function(transactionDate) { return formatDate(transactionDate); } },
-                { data: "bankAccount.bankAccountName", title: "Bank Account Name" },
-                { data: "amount", title: "Amount", class: "text-right", render: function(amount) { return formatNumber(amount); } },
-                {
-                    data: "transactionMode", title: "Deposit/Withdrawal", class: "text-center",
-                    render: function (transactionMode) {
-                        return transactionMode == 'Withdrawal' ? `<label class="badge badge-info">Withdrawal</label>` :
-                            `<label class="badge badge-success">Deposit</label>`;
-                    }
-                },
+                { data: "employee", title: "Employee Name", render: function(employee) { return employee == null ? 'None' : employee.employeeFullName; } },
+                { data: "paymentType.paymentType", title: "Transaction Type" },
+                { data: "transactionMode", title: "Transaction Mode", class: "text-center", visible: false },
+                { data: "amount", title: "Amount", class: "text-right", render: function(amount) { return formatNumber(amount);} },
                 { data: "transactionDetails", title: "Transaction Details" }
             ],
             fieldDefs: [],
@@ -77,7 +72,7 @@ export default {
         };
     },
     async created() {
-        getBankAccountTransactions().then(response => {
+        getPayments().then(response => {
             this.items = response;
             this.totalRows = this.items.length;
         }).catch(error => {

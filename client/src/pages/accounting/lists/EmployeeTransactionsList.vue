@@ -21,7 +21,7 @@
                         <div class="col-md-6" align="right">
                             <a :href="entityCreateUrl">
                                 <button type="button" class="btn btn-gradient-primary btn-icon-text">
-                                    <i class="mdi mdi-account-plus btn-icon-prepend"></i>
+                                    <i class="mdi mdi-cash-plus btn-icon-prepend"></i>
                                     Add a Transaction
                                 </button>
                             </a>
@@ -61,7 +61,11 @@ export default {
                 { data: "transactionDate", title: "Transaction Date", render: function(transactionDate) { return formatDate(transactionDate); } },
                 { data: "employee.employeeFullName", title: "Employee Name" },
                 { data: "employeeTransactionType.employeeTransactionType", title: "Transaction Type" },
-                { data: "transactionMode", title: "Transaction Mode", class: "text-center",  },
+                { data: "transactionMode", title: "Transaction Mode", class: "text-center", 
+                    render: function (transactionMode) {
+                        return transactionMode == 'Payment' ? `<label class="badge badge-info">Payment</label>` :
+                            `<label class="badge badge-success">Receipt</label>`;
+                    } },
                 { data: "amount", title: "Amount", class: "text-right", render: function(amount) { return formatNumber(amount);} },
                 { data: "transactionDetails", title: "Transaction Details" }
             ],

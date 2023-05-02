@@ -64,9 +64,9 @@
                         </b-tab>
                         <b-tab :title="getTransactionsCountForCustomer">
                             <div class="row mx-4">
-                                <b-table responsive hover show-empty id="table-transactions-list" :fields="customerTransactionsTable.fields"
-                                    :items="customerTransactionsTable.items" :per-page="customerTransactionsTable.perPage" :current-page="customerTransactionsTable.currentPage"
-                                    :sort-by.sync="customerTransactionsTable.sortBy" :sort-desc.sync="customerTransactionsTable.sortDesc">
+                                <b-table responsive hover show-empty id="table-transactions-list" :fields="receiptsTable.fields"
+                                    :items="receiptsTable.items" :per-page="receiptsTable.perPage" :current-page="receiptsTable.currentPage"
+                                    :sort-by.sync="receiptsTable.sortBy" :sort-desc.sync="receiptsTable.sortDesc">
                                     <template #cell(transactionDate)="data">{{ prettyPrintDate(data.value) }}</template>
                                 </b-table>
                             </div>
@@ -82,7 +82,7 @@
 import { DateTime } from 'luxon';
 import { formatDate, formatNumber } from '@/services/commons.service';
 import { getCustomerById } from "@/services/customer.service";
-import { getCustomerTransactionsByCustomerId } from '@/services/customerTransaction.service';
+import { getReceiptsByCustomerId } from '@/services/receipt.service';
 import { getLodgementsSummaryByCustomerId } from '@/services/lodgement.service';
 
 export default {
@@ -170,7 +170,7 @@ export default {
                 ],
                 items: []
             },
-            customerTransactionsTable: {
+            receiptsTable: {
                 fields: [
                     { key: "transactionDate", label: "Transaction Date", sortable: true },
                     { key: "totalAmountReceived", label: "Total Amount Received", sortable: true }, 
@@ -198,7 +198,7 @@ export default {
         this.loadedEntityId = this.$route.params._id;
         this.loadEntityData(this.loadedEntityId);
         this.loadLodgementsData(this.loadedEntityId);
-        this.loadCustomerTransactions(this.loadedEntityId);
+        this.loadReceipts(this.loadedEntityId);
     },
     methods: {
         loadEntityData(entityId) {
@@ -226,10 +226,10 @@ export default {
                 console.log(this.lodgementsTable.items);
             });
         },
-        loadCustomerTransactions(customerId) {
-            getCustomerTransactionsByCustomerId(customerId).then(response => {
-                let customerTransactions = JSON.parse(JSON.stringify(response));
-                this.customerTransactionsTable.items = customerTransactions;
+        loadReceipts(customerId) {
+            getReceiptsByCustomerId(customerId).then(response => {
+                let receipts = JSON.parse(JSON.stringify(response));
+                this.receiptsTable.items = receipts;
             });
         },
         getLodgementUrl(entity) {
@@ -251,7 +251,7 @@ export default {
             return 'Products ( ' + 0 + ' )';
         },
         getTransactionsCountForCustomer() {
-            return 'Payments & Receipts ( ' + this.customerTransactionsTable.items.length + ' )';
+            return 'Payments & Receipts ( ' + this.receiptsTable.items.length + ' )';
         }
     }
 }

@@ -7,7 +7,7 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="javascript:void(0);">{{ moduleTitle }}</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">{{ pageTitle }} </li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ pageTitle }}</li>
                 </ol>
             </nav>
         </div>
@@ -20,16 +20,17 @@
                         </div>
                         <div class="col-md-6" align="right">
                             <a :href="entityCreateUrl">
-                                <button type="button" class="btn btn-gradient-primary btn-icon-text">
-                                    <i class="mdi mdi-cash-plus btn-icon-prepend"></i>
-                                    Add a Transaction
+                                <button type="button"
+                                    class="btn btn-gradient-primary btn-icon-text">
+                                    <i class="mdi mdi-account-plus btn-icon-prepend"></i>
+                                    Create
                                 </button>
                             </a>
                         </div>
                     </div>
 
                     <br />
-                    <AppDataTable v-if="items" :download-file-name="downloadFileName" :fields="fields"
+                    <AppDataTable v-if="items" :download-file-name="downloadFileName" :fields="fields" 
                         :fieldDefs="fieldDefs" :table-data="items" :is-main-table="isMainTable"
                         :has-click-through="hasClickThrough"></AppDataTable>
                 </div>
@@ -39,36 +40,31 @@
 </template>
 
 <script>
-import { formatDate, formatNumber } from '@/services/commons.service';
-import { getBankAccountTransactions } from "@/services/bankAccountTransaction.service";
+import { formatDate } from '@/services/commons.service';
+import { getPaymentTypes } from "@/services/paymentType.service";
 
 import AppDataTable from "@/components/tables/AppDataTable.vue";
 
 export default {
-    name: "BankAccountTransactionsList",
+    name: "PaymentTypesList",
     components: {
         AppDataTable
     },
     data: function () {
         return {
+            moduleTitle: 'Administration',
+            pageTitle: 'Payment Types',
             totalRows: 0,
-            entityCreateUrl: "/accounting/bankAccountTransactions/create/",
+            entityCreateUrl: "/administration/paymentTypes/create/",
             footerBgVariant: "light",
-            downloadFileName: "bankAccountTransactionsList",
-            moduleTitle: 'Payments & Receipts',
-            pageTitle: 'Bank Account Transactions',
+            downloadFileName: "paymentTypesList",
             fields: [
-                { data: "transactionDate", title: "Transaction Date", render: function(transactionDate) { return formatDate(transactionDate); } },
-                { data: "bankAccount.bankAccountName", title: "Bank Account Name" },
-                { data: "amount", title: "Amount", class: "text-right", render: function(amount) { return formatNumber(amount); } },
-                {
-                    data: "transactionMode", title: "Deposit/Withdrawal", class: "text-center",
-                    render: function (transactionMode) {
-                        return transactionMode == 'Withdrawal' ? `<label class="badge badge-info">Withdrawal</label>` :
-                            `<label class="badge badge-success">Deposit</label>`;
-                    }
-                },
-                { data: "transactionDetails", title: "Transaction Details" }
+                { data: "paymentType", title: "Payment Type" },
+                { data: "paymentCategory", title: "Payment Category" },
+                { data: "creationDate", title: "Creation Date", render : function(creationDate) { return formatDate(creationDate); } },
+                { data: "activeFrom", title: "Effective Date", render : function(activeFrom) { return formatDate(activeFrom); } },
+                { data: "activeUntil", title: "Effective Until", visible: false, render : function(activeUntil) { return formatDate(activeUntil); } },
+                { data: "lastModifiedDate", title: "Last Modified Date", visible: false, render : function(lastModifiedDate) { return formatDate(lastModifiedDate); } }              
             ],
             fieldDefs: [],
             items: null,
@@ -77,7 +73,7 @@ export default {
         };
     },
     async created() {
-        getBankAccountTransactions().then(response => {
+        getPaymentTypes().then(response => {
             this.items = response;
             this.totalRows = this.items.length;
         }).catch(error => {

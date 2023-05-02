@@ -1,0 +1,65 @@
+[
+    {
+        "receiptType": "Hamali Charges",
+        "receiptCategory": "Charges",
+        "receiptSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "receiptType": "Kata Coolie Charges",
+        "receiptCategory": "Charges",
+        "receiptSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "receiptType": "Mamullu Charges",
+        "receiptCategory": "Charges",
+        "receiptSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "receiptType": "Platform Coolie Charges",
+        "receiptCategory": "Charges",
+        "receiptSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "receiptType": "Transport Charges",
+        "receiptCategory": "Charges",
+        "receiptSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "receiptType": "Rents",
+        "receiptCategory": "Rents",
+        "receiptSource": "Customer Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    },
+    {
+        "receiptType": "Sale of Scrap",
+        "receiptCategory": "Others",
+        "receiptSource": "Other Receipts",
+        "creationDate": "2023-01-01T00:05:00.000+05:30",
+        "lastModifiedDate": "2023-01-01T00:05:00.000+05:30",
+        "activeFrom": "2020-01-01T00:01:00.000+05:30",
+        "activeUntil": "2100-01-01T00:01:00.000+05:30"
+    }
+]

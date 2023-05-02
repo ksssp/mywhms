@@ -113,34 +113,34 @@ const routes = [
         component: () => import('@/pages/accounting/details/BankAccountTransactionDetails.vue')
       }, 
       {
-        path: 'expenses',
-        name: 'ExpensesList',
-        component: () => import('@/pages/accounting/lists/ExpensesList.vue')
+        path: 'payments',
+        name: 'PaymentsList',
+        component: () => import('@/pages/accounting/lists/PaymentsList.vue')
       },
       {
-        path: 'expenses/create',
-        name: 'ExpenseCreate',
-        component: () => import('@/pages/accounting/create/ExpenseCreate.vue')
+        path: 'payments/create',
+        name: 'PaymentCreate',
+        component: () => import('@/pages/accounting/create/PaymentCreate.vue')
       },      
       {
-        path: 'expenses/:_id',
-        name: 'ExpenseDetails',
-        component: () => import('@/pages/accounting/details/ExpenseDetails.vue')
+        path: 'payments/:_id',
+        name: 'PaymentDetails',
+        component: () => import('@/pages/accounting/details/PaymentDetails.vue')
       },  
       {
-        path: 'customerTransactions',
-        name: 'CustomerTransactionsList',
-        component: () => import('@/pages/accounting/lists/CustomerTransactionsList.vue')
+        path: 'receipts',
+        name: 'ReceiptsList',
+        component: () => import('@/pages/accounting/lists/ReceiptsList.vue')
       },
       {
-        path: 'customerTransactions/create',
-        name: 'CustomerTransactionCreate',
-        component: () => import('@/pages/accounting/create/CustomerTransactionCreate.vue')
+        path: 'receipts/create',
+        name: 'ReceiptCreate',
+        component: () => import('@/pages/accounting/create/ReceiptCreate.vue')
       },      
       {
-        path: 'customerTransactions/:_id',
-        name: 'CustomerTransactionDetails',
-        component: () => import('@/pages/accounting/details/CustomerTransactionDetails.vue')
+        path: 'receipts/:_id',
+        name: 'ReceiptDetails',
+        component: () => import('@/pages/accounting/details/ReceiptDetails.vue')
       },         
       {
         path: 'employeeTransactions',
@@ -229,34 +229,34 @@ const routes = [
         component: () => import('@/pages/administration/lists/BankAccountsList.vue')
       },
       {
-        path: 'incomeTypes',
-        name: 'IncomeTypesList',
-        component: () => import('@/pages/administration/lists/IncomeTypesList.vue')
+        path: 'receiptTypes',
+        name: 'ReceiptTypesList',
+        component: () => import('@/pages/administration/lists/ReceiptTypesList.vue')
       },
       {
-        path: 'incomeTypes/create',
-        name: 'IncomeTypeCreate',
-        component: () => import('@/pages/administration/create/IncomeTypeCreate.vue')
+        path: 'receiptTypes/create',
+        name: 'ReceiptTypeCreate',
+        component: () => import('@/pages/administration/create/ReceiptTypeCreate.vue')
       },
       {
-        path: 'incomeTypes/:_id',
-        name: 'IncomeTypeDetails',
-        component: () => import('@/pages/administration/details/IncomeTypeDetails.vue')
+        path: 'receiptTypes/:_id',
+        name: 'ReceiptTypeDetails',
+        component: () => import('@/pages/administration/details/ReceiptTypeDetails.vue')
       },
       {
-        path: 'expenseTypes',
-        name: 'ExpenseTypesList',
-        component: () => import('@/pages/administration/lists/ExpenseTypesList.vue')
+        path: 'paymentTypes',
+        name: 'PaymentTypesList',
+        component: () => import('@/pages/administration/lists/PaymentTypesList.vue')
       },
       {
-        path: 'expenseTypes/create',
-        name: 'ExpenseTypeCreate',
-        component: () => import('@/pages/administration/create/ExpenseTypeCreate.vue')
+        path: 'paymentTypes/create',
+        name: 'PaymentTypeCreate',
+        component: () => import('@/pages/administration/create/PaymentTypeCreate.vue')
       },
       {
-        path: 'expenseTypes/:_id',
-        name: 'ExpenseTypeDetails',
-        component: () => import('@/pages/administration/details/ExpenseTypeDetails.vue')
+        path: 'paymentTypes/:_id',
+        name: 'PaymentTypeDetails',
+        component: () => import('@/pages/administration/details/PaymentTypeDetails.vue')
       },
       {
         path: 'employeeTransactionTypes',

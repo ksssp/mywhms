@@ -1,0 +1,163 @@
+[
+  {
+    "paymentType": "22% Enhanced Hamali paid in Bulk",
+    "paymentCategory": "Employee Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Bank Charges Debited",
+    "paymentCategory": "Miscellaneous Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Bonus paid to Hamalies",
+    "paymentCategory": "Employee Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Bonus paid to staff",
+    "paymentCategory": "Employee Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Discount Allowed",
+    "paymentCategory": "Customer Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Donations to Local Institutions",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Electricity Bills",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Formalities paid to others",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Furnishing & Lighiting",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Interenet Bill paid",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Labor charges paid",
+    "paymentCategory": "Employee Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Medical charges paid to staff",
+    "paymentCategory": "Employee Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Miscellaneous Expenditure",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Office Equipment",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Office maintainance",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Plant Equipment",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Plant Maintenance",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Printing & Stationery",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Sadar Expenses",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Salaries paid to Staff",
+    "paymentCategory": "Employee Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Subscription to News papers",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Taxes & Licenses",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  },
+  {
+    "paymentType": "Telephone Bills",
+    "paymentCategory": "Other Payments",
+    "creationDate": "2023-05-01",
+    "activeFrom": "2020-01-01",
+    "activeUntil": "2100-01-01"
+  }
+]

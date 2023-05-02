@@ -1,0 +1,2308 @@
+transactionDate,employee_employeeId,employee_employeeCode,employee_employeeName,paymentType,transactionDetails,amount
+2/3/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+3/7/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+4/4/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+5/11/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+6/7/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+7/6/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+8/1/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+9/6/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+10/4/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+11/2/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+12/6/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+1/3/2021,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+2/6/2021,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+3/3/2021,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+4/7/2021,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+5/9/2021,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+6/6/2021,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+3/3/2021,,SSCS08,Kannayya,Salaries paid to Staff,A.Kannayya,5000
+4/7/2021,,SSCS08,Kannayya,Salaries paid to Staff,A.Kannayya,5000
+5/9/2021,,SSCS08,Kannayya,Salaries paid to Staff,A.Kannayya,5000
+6/6/2021,,SSCS08,Kannayya,Salaries paid to Staff,A.Kannayya,5000
+1/11/2021,,SSCS09,Lakshmi,Bonus paid to staff,Sweeper Pongal Bonus,2500
+1/4/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+2/3/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+3/7/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+4/4/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+5/11/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+6/7/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+7/6/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+8/1/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+9/6/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+10/4/2020,,SSCS09,Lakshmi,Salaries paid to Staff,sweeper Lakshmi,2500
+11/2/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+11/30/2020,,SSCS09,Lakshmi,Salaries paid to Staff,Sweeper Lakshmi,2500
+1/12/2020,,SSCS01,M.Nageswara Rao,Bonus paid to staff,M.Nageswara Rao,16000
+1/4/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+2/3/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+3/7/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+4/4/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+5/11/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+6/7/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+7/6/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+8/1/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+9/6/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+10/4/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+11/2/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+12/6/2020,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+1/3/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+2/6/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+3/3/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+4/7/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+5/9/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16000
+6/6/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,M.Nageswara Rao,16500
+1/11/2021,,SSCS01,M.Nageswara Rao,Bonus paid to staff,M.Nageswara Rao,16000
+2/5/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,1120
+10/12/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,60000
+10/23/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,5000
+10/24/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,5000
+10/25/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,15000
+10/29/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,20000
+11/1/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,5000
+11/2/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,15000
+11/4/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,2000
+11/5/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,20000
+11/6/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,15000
+11/7/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,20000
+11/8/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,20000
+11/8/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,10000
+11/9/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,15000
+11/13/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,2000
+11/21/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,10000
+12/19/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,54100
+12/13/2020,,NIL,NIL,30% Enhanced Hamali paid in Bulk,30% Enhanced Hamali paid in Bulk,3500
+1/12/2020,,NIL,NIL,Bonus paid to Hamalies,Hamalies,36210
+1/27/2020,,NIL,NIL,Bonus paid to Hamalies,Palkol parcel lorry Pongal bonus,600
+1/10/2021,,NIL,NIL,Bonus paid to Hamalies,Pongal Bonus,47090
+1/12/2020,,NIL,NIL,Bonus paid to staff,Sweeper Lakshmi,2500
+11/13/2020,,NIL,NIL,Bonus paid to staff,Deepavali Bonus,5300
+1/30/2020,,NIL,NIL,Donations to Local Institutions,Padala Sri rama Navami Chanda,5000
+2/1/2020,,NIL,NIL,Donations to Local Institutions,Antharvedi chanda,1130
+3/1/2020,,NIL,NIL,Donations to Local Institutions,Donations Sri Rama Navami,1500
+3/17/2020,,NIL,NIL,Donations to Local Institutions,Donation to Padala,200
+7/12/2020,,NIL,NIL,Donations to Local Institutions,Chanda,1100
+7/22/2020,,NIL,NIL,Donations to Local Institutions,Chanda,500
+8/19/2020,,NIL,NIL,Donations to Local Institutions,Chavithi,250
+8/20/2020,,NIL,NIL,Donations to Local Institutions,Old Age Home,800
+10/11/2020,,NIL,NIL,Donations to Local Institutions,"SC,ST Donation",1000
+10/22/2020,,NIL,NIL,Donations to Local Institutions,Electrical Department dussera mamulu,2000
+10/24/2020,,NIL,NIL,Donations to Local Institutions,Vizelence Department mamulu,5000
+12/12/2020,,NIL,NIL,Donations to Local Institutions,Chanda,1500
+12/13/2020,,NIL,NIL,Donations to Local Institutions,Sivalayam Donation,2000
+12/14/2020,,NIL,NIL,Donations to Local Institutions,Bhavanilu Chanda,1000
+1/3/2021,,SSCS04,CH.V.N.Dhanalakshmi,Salaries paid to Staff,CH.V.N.Dhanalakshmi,5000
+2/6/2021,,SSCS04,CH.V.N.Dhanalakshmi,Salaries paid to Staff,CH.V.N.Dhanalakshmi,5000
+3/3/2021,,SSCS04,CH.V.N.Dhanalakshmi,Salaries paid to Staff,CH.V.N.Dhanalakshmi,5000
+4/7/2021,,SSCS04,CH.V.N.Dhanalakshmi,Salaries paid to Staff,CH.V.N.Dhanalakshmi,5000
+5/9/2021,,SSCS04,CH.V.N.Dhanalakshmi,Salaries paid to Staff,CH.V.N.Dhanalakshmi,5000
+6/6/2021,,SSCS04,CH.V.N.Dhanalakshmi,Salaries paid to Staff,CH.V.N.Dhanalakshmi,5000
+1/12/2020,,SSCS07,K.ChakradharaRao,Bonus paid to staff,K.ChakradharaRao,5000
+1/11/2021,,SSCS07,K.ChakradharaRao,Bonus paid to staff,K.ChakradharaRao,8500
+1/4/2020,,SSCS07,K.ChakradharaRao,Salaries paid to Staff,K.ChakradharaRao,8500
+12/16/2020,,NIL,NIL,Donations to Local Institutions,Dalitha Satta,1000
+12/16/2020,,NIL,NIL,Donations to Local Institutions,Chanda,500
+12/17/2020,,NIL,NIL,Donations to Local Institutions,Panchayiti Gumasta mamulu,500
+12/18/2020,,NIL,NIL,Donations to Local Institutions,Chasti Chnada,3605
+1/3/2021,,NIL,NIL,Donations to Local Institutions,Chanda,1000
+1/9/2021,,NIL,NIL,Donations to Local Institutions,Velakarlu Chanda,2000
+1/10/2021,,NIL,NIL,Donations to Local Institutions,Sales Tax mamulu,1000
+1/10/2021,,NIL,NIL,Donations to Local Institutions,Incom Tax Mamulu,2000
+1/24/2021,,NIL,NIL,Donations to Local Institutions,Doantion,500
+2/21/2021,,NIL,NIL,Donations to Local Institutions,Anjaneyulu chanda,1500
+2/28/2021,,NIL,NIL,Donations to Local Institutions,Anthirvedi Chanda,1120
+4/2/2021,,NIL,NIL,Donations to Local Institutions,Jagajjeevan Rao Padala Chanda,1500
+5/16/2021,,NIL,NIL,Donations to Local Institutions,chanda,1500
+6/11/2021,,NIL,NIL,Donations to Local Institutions,dalitha charitable chanda,1000
+11/15/2020,,NIL,NIL,Formalities paid to others,SalesTax Durga,2000
+9/15/2020,,NIL,NIL,Formalities paid to others,To MNR adjustment,1500
+3/12/2021,,NIL,NIL,Formalities paid to others,Sales Tax Mamulu,500
+4/3/2021,,NIL,NIL,Formalities paid to others,MRT ELR Electrical Maintanence,3000
+4/29/2021,,NIL,NIL,Formalities paid to others,Factor Inspector,5000
+2/29/2020,,NIL,NIL,Labor charges paid,Ladies cooli 9 people,4500
+3/8/2020,,NIL,NIL,Labor charges paid,Labor for 2 cooli,700
+3/15/2020,,NIL,NIL,Labor charges paid,Labor 3 ladies,1200
+3/16/2020,,NIL,NIL,Labor charges paid,Labor 2 gents,1000
+3/23/2020,,NIL,NIL,Labor charges paid,Cement work 3 labor,1700
+5/25/2020,,NIL,NIL,Labor charges paid,Ladies 3 Plant Cleaning,1200
+6/28/2020,,NIL,NIL,Labor charges paid,Ladies 6 Members,2400
+7/29/2020,,NIL,NIL,Labor charges paid,Auto Kirayi Ammonia Gas,350
+8/21/2020,,NIL,NIL,Labor charges paid,Plant Claening,1000
+9/24/2020,,NIL,NIL,Labor charges paid,kalupu mandu Spray,200
+10/15/2020,,NIL,NIL,Labor charges paid,Plant Cleaning,800
+12/26/2020,,NIL,NIL,Labor charges paid,Advance by mestri/vij,500
+12/27/2020,,NIL,NIL,Labor charges paid, Vij/Mestri labour charges,4500
+12/27/2020,,NIL,NIL,Labor charges paid,Ladies-11,4400
+1/10/2021,,NIL,NIL,Labor charges paid,Ravi Vijayawada,300
+1/23/2021,,NIL,NIL,Labor charges paid,Welder Advance,5000
+1/23/2021,,NIL,NIL,Labor charges paid,Ravi advance,500
+1/27/2021,,NIL,NIL,Labor charges paid,Ladies labour10*400/-,4000
+3/14/2021,,NIL,NIL,Labor charges paid,Ravi VIJ Vadakam,500
+3/17/2021,,NIL,NIL,Labor charges paid,CHA Hamali Mamulu Paid,420
+3/24/2021,,NIL,NIL,Labor charges paid, Mestri Ravi/VIJ,500
+5/22/2021,,NIL,NIL,Labor charges paid,AVR/AMP Sample charges,100
+6/6/2021,,NIL,NIL,Labor charges paid,koolilu,4000
+4/8/2020,,NIL,NIL,Medical charges paid to staff,hamali medical,200
+5/2/2020,,NIL,NIL,Medical charges paid to staff,Hamali Medical,500
+5/11/2020,,NIL,NIL,Medical charges paid to staff,Hamali Medical,400
+8/25/2020,,NIL,NIL,Medical charges paid to staff,Kasi,200
+2/1/2021,,NIL,NIL,Medical charges paid to staff,RG Prasad,300
+6/4/2021,,NIL,NIL,Medical charges paid to staff,jattu kasi+Naga Raju Medical expences,1000
+2/16/2020,,NIL,NIL,Miscellaneous Expenditure,Shortage of notes from parties,2000
+7/29/2020,,NIL,NIL,Miscellaneous Expenditure,Soaps&AgaraBathi,160
+1/17/2021,,NIL,NIL,Miscellaneous Expenditure,Palakol Lorry Pongal Bonus,1000
+1/20/2021,,NIL,NIL,Miscellaneous Expenditure,Panchayathi Pongal Mamulu,200
+3/24/2020,,NIL,NIL,Miscellaneous Expenditure,HKT Mamullu,450
+1/25/2020,,NIL,NIL,Office Equipment,Kata purchased,15000
+2/11/2021,,NIL,NIL,Office Equipment,Calculator,280
+1/1/2020,,NIL,NIL,Office maintainance,Petrol,100
+1/18/2020,,NIL,NIL,Office maintainance,Sales tax staff pongal bonus,500
+1/23/2020,,NIL,NIL,Office maintainance,AMC License Assesment,5000
+1/27/2020,,NIL,NIL,Office maintainance,Agarabattis,50
+1/27/2020,,NIL,NIL,Office maintainance,Dish TV recharge,1340
+1/27/2020,,NIL,NIL,Office maintainance,Mirror fo MD,400
+1/27/2020,,NIL,NIL,Office maintainance,TV repair,1000
+2/4/2020,,NIL,NIL,Office maintainance,Rampachodavaram TA payments,1000
+2/4/2020,,NIL,NIL,Office maintainance,Rampachodavaram GCC Mamulu,4000
+2/5/2020,,NIL,NIL,Office maintainance,pooja payments,400
+2/5/2020,,NIL,NIL,Office maintainance,Auto kirai,250
+2/23/2020,,NIL,NIL,Office maintainance,Computer cable,100
+3/1/2020,,NIL,NIL,Office maintainance,Petrol,100
+3/19/2020,,NIL,NIL,Office maintainance,Water Bottles,140
+3/26/2020,,NIL,NIL,Office maintainance,Agarabattis,150
+3/26/2020,,NIL,NIL,Office maintainance,Masks,600
+3/28/2020,,NIL,NIL,Office maintainance,Identity Cards,300
+4/5/2020,,NIL,NIL,Office maintainance,Sanitizers,600
+4/5/2020,,NIL,NIL,Office maintainance,Surf&Glasses,50
+4/21/2020,,NIL,NIL,Office maintainance,Note Books,673
+4/22/2020,,NIL,NIL,Office maintainance,Sanitizers,700
+4/28/2020,,NIL,NIL,Office maintainance,Catridge Refill,600
+5/6/2020,,NIL,NIL,Office maintainance,Invertor Repair,500
+5/7/2020,,NIL,NIL,Office maintainance,News Paper Bill,220
+5/25/2020,,NIL,NIL,Office maintainance,Inverter Repair,400
+5/25/2020,,NIL,NIL,Office maintainance,Platfoam Books,1600
+5/25/2020,,NIL,NIL,Office maintainance,Saanitizers&Bottels,400
+6/8/2020,,NIL,NIL,Office maintainance,Sanitizers,200
+6/8/2020,,NIL,NIL,Office maintainance,Telephone bill paid,910
+6/11/2020,,NIL,NIL,Office maintainance,Plastic Covers&Tea glasses,150
+6/26/2020,,NIL,NIL,Office maintainance,Agarabathi,200
+6/27/2020,,NIL,NIL,Office maintainance,Soaps,40
+7/2/2020,,NIL,NIL,Office maintainance,Sanitezers,980
+7/8/2020,,NIL,NIL,Office maintainance,News paper bill,210
+7/12/2020,,NIL,NIL,Office maintainance,Masklu,355
+7/14/2020,,NIL,NIL,Office maintainance,Sanitizers,800
+7/14/2020,,NIL,NIL,Office maintainance,Sazitezer Spray Bottle,300
+7/17/2020,,NIL,NIL,Office maintainance,Pens,150
+7/30/2020,,NIL,NIL,Office maintainance,Hand Wash Bottle,210
+8/13/2020,,NIL,NIL,Office maintainance,News Paper Bill,210
+8/18/2020,,NIL,NIL,Office maintainance,Sanitizer Bottle,70
+8/19/2020,,NIL,NIL,Office maintainance,LapTap Repair,500
+8/21/2020,,NIL,NIL,Office maintainance,Chavithi Pooja Samanlu,900
+8/30/2020,,NIL,NIL,Office maintainance,Invertor,4550
+9/7/2020,,NIL,NIL,Office maintainance,Invertor Battery,11000
+9/13/2020,,NIL,NIL,Office maintainance,Spike Magnet,450
+10/3/2020,,NIL,NIL,Office maintainance,Purukosa,500
+10/11/2020,,NIL,NIL,Office maintainance,Coconuts,40
+10/11/2020,,NIL,NIL,Office maintainance,Net Adpter,1000
+10/11/2020,,NIL,NIL,Office maintainance,System Monitor,2200
+10/26/2020,,NIL,NIL,Office maintainance,Induction Stove,1500
+10/28/2020,,NIL,NIL,Office maintainance,News Paper bill,230
+11/4/2020,,NIL,NIL,Office maintainance,Balaji Vij Travelling,500
+11/11/2020,,NIL,NIL,Office maintainance,Electrical Lights,600
+11/11/2020,,NIL,NIL,Office maintainance,News paper bill,230
+11/13/2020,,NIL,NIL,Office maintainance,Agarabathi,200
+11/14/2020,,NIL,NIL,Office maintainance,Pooja Samanlu,600
+11/29/2020,,NIL,NIL,Office maintainance,Computer KeyBoard & Mouse,920
+12/3/2020,,NIL,NIL,Office maintainance,News Paper bill,230
+12/14/2020,,NIL,NIL,Office maintainance,Buckets&Samanlu,1100
+12/18/2020,,NIL,NIL,Office maintainance,Tube Lights,650
+12/25/2020,,NIL,NIL,Office maintainance,Computer usb cable,500
+12/26/2020,,NIL,NIL,Office maintainance,Catrizd refills,600
+1/9/2021,,NIL,NIL,Office maintainance,Printer Cable,150
+1/9/2021,,NIL,NIL,Office maintainance,Masket Koils,75
+1/10/2021,,NIL,NIL,Office maintainance,BathRoom samanlu,440
+1/11/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+1/22/2021,,NIL,NIL,Office maintainance,Petrol,100
+1/23/2021,,NIL,NIL,Office maintainance,Car battery charging,150
+1/30/2021,,NIL,NIL,Office maintainance,A-4 Sheets box,1620
+2/5/2021,,NIL,NIL,Office maintainance,Agar bathies,120
+2/28/2021,,NIL,NIL,Office maintainance,Jaggery Muhurtham mamulu,1500
+4/10/2021,,NIL,NIL,Subscription to News papers,News paper bill,230
+4/16/2021,,NIL,NIL,Office maintainance,Coconuts+Agarabathies,160
+4/26/2021,,NIL,NIL,Interenet Bill paid,Net bill paid 1year,5750
+5/7/2021,,NIL,NIL,Office maintainance,Coconuts,40
+5/10/2021,,NIL,NIL,Subscription to News papers,News Paper BiLL,230
+5/16/2021,,NIL,NIL,Office maintainance,Identity cards,1200
+5/29/2021,,NIL,NIL,Office maintainance,Agara batties+chips,180
+1/2/2020,,NIL,NIL,Plant Maintenance,Electrical items,100
+1/4/2020,,NIL,NIL,Plant Maintenance,Challan payments,50
+1/27/2020,,NIL,NIL,Plant Maintenance,Electrical items,354
+2/6/2020,,NIL,NIL,Plant Maintenance,Compressor welding Ramu,1200
+2/6/2020,,NIL,NIL,Plant Maintenance,Pipe welding,50
+2/9/2020,,NIL,NIL,Plant Maintenance,Ravi cooli for 2 days,2000
+2/9/2020,,NIL,NIL,Plant Maintenance,Petrol for generator,100
+2/9/2020,,NIL,NIL,Plant Maintenance,Ravi travelling charges,500
+2/23/2020,,NIL,NIL,Plant Maintenance,Electrical items,1000
+2/23/2020,,NIL,NIL,Plant Maintenance,Two labor charges,500
+2/24/2020,,NIL,NIL,Plant Maintenance,Compressor oil,2800
+3/2/2020,,NIL,NIL,Plant Maintenance,Motor items,300
+3/4/2020,,NIL,NIL,Plant Maintenance,Diesel oil,600
+3/5/2020,,NIL,NIL,Plant Maintenance,Gunny bags,400
+3/6/2020,,NIL,NIL,Plant Maintenance,Ladies cooli,6000
+3/8/2020,,NIL,NIL,Plant Maintenance,Welding rods box,250
+3/9/2020,,NIL,NIL,Plant Maintenance,Condensor pipe welding Ramu,1500
+3/10/2020,,NIL,NIL,Plant Maintenance,Iron plates,100
+3/10/2020,,NIL,NIL,Plant Maintenance,Condensor pipe welding Ramu,600
+3/11/2020,,NIL,NIL,Plant Maintenance,Mekulu,570
+3/14/2020,,NIL,NIL,Plant Maintenance,Water proofing gum,1300
+3/14/2020,,NIL,NIL,Plant Maintenance,Tap items,610
+3/14/2020,,NIL,NIL,Plant Maintenance,Mekulu,550
+3/15/2020,,NIL,NIL,Plant Maintenance,Gangayya machine rent,2000
+3/15/2020,,NIL,NIL,Plant Maintenance,Vadrangi mestrulu cooli,5950
+3/15/2020,,NIL,NIL,Plant Maintenance,Cement bags kirai,500
+3/16/2020,,NIL,NIL,Plant Maintenance,Water proofing loquid,900
+3/16/2020,,NIL,NIL,Plant Maintenance,Sand,8200
+3/16/2020,,NIL,NIL,Plant Maintenance,Gangayya mission,1000
+3/16/2020,,NIL,NIL,Plant Maintenance,Mekulu,460
+3/17/2020,,NIL,NIL,Plant Maintenance,Cheepurlu,100
+3/18/2020,,NIL,NIL,Plant Maintenance,Gangayya cooli,2000
+3/18/2020,,NIL,NIL,Plant Maintenance,Sand,4100
+3/18/2020,,NIL,NIL,Plant Maintenance,Vadrangi mestry cooli,1000
+3/18/2020,,NIL,NIL,Plant Maintenance,Cement bags kirai,200
+3/19/2020,,NIL,NIL,Plant Maintenance,Cement bags,9700
+3/19/2020,,NIL,NIL,Plant Maintenance,Gangayya,10000
+3/20/2020,,NIL,NIL,Plant Maintenance,Mekulu,940
+3/23/2020,,NIL,NIL,Plant Maintenance,Vadrangi mestry cooli,7700
+4/4/2020,,NIL,NIL,Plant Maintenance,Dummys,250
+4/4/2020,,NIL,NIL,Plant Maintenance,Petrol,100
+4/4/2020,,NIL,NIL,Plant Maintenance,Welding Siva,1600
+4/5/2020,,NIL,NIL,Plant Maintenance,Gas Auto Kirayi,500
+4/5/2020,,NIL,NIL,Plant Maintenance,Petrol,100
+4/6/2020,,NIL,NIL,Plant Maintenance,Petrol,50
+4/6/2020,,NIL,NIL,Plant Maintenance,Welding Siva,2500
+4/9/2020,,NIL,NIL,Plant Maintenance,Diesel oil,600
+4/10/2020,,NIL,NIL,Plant Maintenance,Compressor oil,3100
+4/15/2020,,NIL,NIL,Plant Maintenance,Gas Auto kirayi,300
+4/17/2020,,NIL,NIL,Plant Maintenance,Welding Work,1500
+4/18/2020,,NIL,NIL,Plant Maintenance,Petrol,100
+4/18/2020,,NIL,NIL,Plant Maintenance,Pipes Kirayi BVRM,1200
+4/19/2020,,NIL,NIL,Plant Maintenance,Oxygen Gas Cylender,2000
+4/22/2020,,NIL,NIL,Plant Maintenance,Welder,2000
+4/24/2020,,NIL,NIL,Plant Maintenance,Oxygen Gas Auto Kirayi,600
+4/24/2020,,NIL,NIL,Plant Maintenance,welding Work,11000
+4/26/2020,,NIL,NIL,Plant Maintenance,Welding Work,3600
+5/13/2020,,NIL,NIL,Plant Maintenance,Motor Watchers,100
+5/13/2020,,NIL,NIL,Plant Maintenance,Petrol,200
+5/18/2020,,NIL,NIL,Plant Maintenance,Diesel oil,600
+5/23/2020,,NIL,NIL,Plant Maintenance,Electrical Samanlu,2230
+5/26/2020,,NIL,NIL,Plant Maintenance,Gas,500
+5/28/2020,,NIL,NIL,Plant Maintenance,Plastic Wire,500
+6/5/2020,,NIL,NIL,Plant Maintenance,Pipes,200
+6/6/2020,,NIL,NIL,Plant Maintenance,Barakalu,600
+6/6/2020,,NIL,NIL,Plant Maintenance, Diesel Oil,600
+6/10/2020,,NIL,NIL,Plant Maintenance,Compressor oil,3100
+6/18/2020,,NIL,NIL,Plant Maintenance,Muggu,150
+6/18/2020,,NIL,NIL,Plant Maintenance,Tourch Light,540
+6/19/2020,,NIL,NIL,Plant Maintenance,Transformer Insulater,450
+6/27/2020,,NIL,NIL,Plant Maintenance,Sintex Water Tank Auto Kirayi,200
+6/27/2020,,NIL,NIL,Plant Maintenance,Water Tank Sintex,7600
+6/28/2020,,NIL,NIL,Plant Maintenance,Paints MD Garu,8000
+6/28/2020,,NIL,NIL,Plant Maintenance,Pipes,1275
+7/8/2020,,NIL,NIL,Plant Maintenance,Deisel oil,600
+7/19/2020,,NIL,NIL,Plant Maintenance,Petrol,100
+7/22/2020,,NIL,NIL,Plant Maintenance,Condencer Pipes welding,1700
+7/29/2020,,NIL,NIL,Plant Maintenance,Ammonia Gas,11100
+7/29/2020,,NIL,NIL,Plant Maintenance,Comkpressor Oil,3640
+7/31/2020,,NIL,NIL,Plant Maintenance,Bulbs,850
+8/12/2020,,NIL,NIL,Plant Maintenance,Deisel,600
+8/12/2020,,NIL,NIL,Plant Maintenance,Pipe &Tap,490
+8/24/2020,,NIL,NIL,Plant Maintenance,Pully Motor Reapir,500
+8/31/2020,,NIL,NIL,Plant Maintenance,Motor Samanlu,1390
+9/1/2020,,NIL,NIL,Plant Maintenance,Motor Samanlu,1490
+9/1/2020,,NIL,NIL,Plant Maintenance,Welder,600
+9/7/2020,,NIL,NIL,Plant Maintenance,Transformer Repair,1200
+9/10/2020,,NIL,NIL,Plant Maintenance,Electrical Bulbs,2000
+9/11/2020,,NIL,NIL,Plant Maintenance,Diesel,600
+9/12/2020,,NIL,NIL,Plant Maintenance,Krank,500
+9/12/2020,,NIL,NIL,Plant Maintenance,Motor,7800
+9/12/2020,,NIL,NIL,Plant Maintenance,Motor Auto Lirayi,250
+9/17/2020,,NIL,NIL,Plant Maintenance,Pipes Kirayi,800
+9/17/2020,,NIL,NIL,Plant Maintenance,Welding samanlu,1000
+9/18/2020,,NIL,NIL,Plant Maintenance,Oxygen Cylender Auto Kirayi,800
+9/18/2020,,NIL,NIL,Plant Maintenance,Oxygen Cyllinder advance,5000
+9/19/2020,,NIL,NIL,Plant Maintenance,welding work,3000
+9/21/2020,,NIL,NIL,Plant Maintenance,1 Hp Opevwell Motor,4200
+9/21/2020,,NIL,NIL,Plant Maintenance,2 Inch Covdencer Pipes,19800
+9/21/2020,,NIL,NIL,Plant Maintenance,Oxygen cylender auto kirayi,200
+9/21/2020,,NIL,NIL,Plant Maintenance,Welding samanlu,400
+9/21/2020,,NIL,NIL,Plant Maintenance,Welding work,5200
+9/27/2020,,NIL,NIL,Plant Maintenance,Pipe Bends,230
+9/28/2020,,NIL,NIL,Plant Maintenance,Pipe Samanlu,450
+9/28/2020,,NIL,NIL,Plant Maintenance,Water motor Poundry Work,1300
+9/28/2020,,NIL,NIL,Plant Maintenance,Welding Work,600
+10/1/2020,,NIL,NIL,Plant Maintenance,water pipes& Clamps,150
+10/4/2020,,NIL,NIL,Plant Maintenance,Motor bill,600
+10/8/2020,,NIL,NIL,Plant Maintenance,Water Motor samanlu,100
+10/10/2020,,NIL,NIL,Plant Maintenance,Water motor samanlu,150
+10/29/2020,,NIL,NIL,Plant Maintenance,Poundry Work,200
+11/1/2020,,NIL,NIL,Plant Maintenance,Samanlu,100
+11/1/2020,,NIL,NIL,Plant Maintenance,diesel oil,600
+11/3/2020,,NIL,NIL,Plant Maintenance,Petrol,150
+11/14/2020,,NIL,NIL,Plant Maintenance,Electrical Edge Fuse,100
+11/16/2020,,NIL,NIL,Plant Maintenance,Bore Clamp,250
+11/23/2020,,NIL,NIL,Plant Maintenance,Welding work,600
+11/28/2020,,NIL,NIL,Plant Maintenance,Tags,100
+11/29/2020,,NIL,NIL,Plant Maintenance,Mekulu,200
+12/7/2020,,NIL,NIL,Plant Maintenance,Weding Work,800
+12/9/2020,,NIL,NIL,Plant Maintenance,compressor oil,3100
+12/9/2020,,NIL,NIL,Plant Maintenance,Bulbs Box,2250
+12/11/2020,,NIL,NIL,Plant Maintenance,Diesel oil,600
+12/13/2020,,NIL,NIL,Plant Maintenance,Ammonia Gas Bill,18800
+12/21/2020,,NIL,NIL,Plant Maintenance,Welding Work,500
+12/25/2020,,NIL,NIL,Plant Maintenance,Plant samanulu,3030
+12/26/2020,,NIL,NIL,Plant Maintenance,Cements bags,1940
+12/26/2020,,NIL,NIL,Plant Maintenance,Mekulu,50
+12/26/2020,,NIL,NIL,Plant Maintenance,Drill bits,200
+12/27/2020,,NIL,NIL,Plant Maintenance,Petrol,200
+12/31/2020,,NIL,NIL,Plant Maintenance,Michenary work,200
+12/31/2020,,NIL,NIL,Plant Maintenance,Welding work,700
+12/31/2020,,NIL,NIL,Plant Maintenance,Pipes kirayi,450
+1/2/2021,,NIL,NIL,Plant Maintenance,Water drum,100
+1/2/2021,,NIL,NIL,Plant Maintenance,Nuts& bolts,50
+1/8/2021,,NIL,NIL,Plant Maintenance,Sand,3000
+1/10/2021,,NIL,NIL,Plant Maintenance,Gum Bottle,1360
+1/10/2021,,NIL,NIL,Plant Maintenance,Samanlu,740
+1/10/2021,,NIL,NIL,Plant Maintenance,welding Work,800
+1/10/2021,,NIL,NIL,Plant Maintenance,Petrol,100
+1/10/2021,,NIL,NIL,Plant Maintenance,Nuts&Bolts,130
+1/22/2021,,NIL,NIL,Plant Maintenance,Oxizen gas advance,10000
+1/22/2021,,NIL,NIL,Plant Maintenance,Oxizen Gas,800
+1/23/2021,,NIL,NIL,Plant Maintenance,Conduncer pipes samanulu,3080
+1/23/2021,,NIL,NIL,Plant Maintenance,4 bags cement bill,1480
+1/23/2021,,NIL,NIL,Plant Maintenance,Liquid bottle,4150
+1/23/2021,,NIL,NIL,Plant Maintenance,water drum,700
+1/23/2021,,NIL,NIL,Plant Maintenance,petrol,100
+1/23/2021,,NIL,NIL,Plant Maintenance,Auto kiray,300
+1/22/2021,,NIL,NIL,Plant Maintenance,4 inch pipes purchased by MD,5000
+1/24/2021,,NIL,NIL,Plant Maintenance,4 and 1.5 inch pipes purchased by MD,5000
+1/24/2021,,NIL,NIL,Plant Maintenance,Petrol,200
+1/24/2021,,NIL,NIL,Plant Maintenance,Cement Bags-3,740
+1/24/2021,,NIL,NIL,Plant Maintenance,Pipes Auto kirayi,300
+1/24/2021,,NIL,NIL,Plant Maintenance,VIJ Pipes kirayi,240
+1/24/2021,,NIL,NIL,Plant Maintenance,Nut&Bolts,250
+1/25/2021,,NIL,NIL,Plant Maintenance,Volves-MD Garu,60000
+1/25/2021,,NIL,NIL,Plant Maintenance,Damage Notes-MD Garu,2400
+1/25/2021,,NIL,NIL,Plant Maintenance,Nut&bolts,1470
+1/25/2021,,NIL,NIL,Plant Maintenance,M-Seal,50
+1/25/2021,,NIL,NIL,Plant Maintenance,Petrol,100
+1/27/2021,,NIL,NIL,Plant Maintenance,Pipes welding,15000
+1/28/2021,,NIL,NIL,Plant Maintenance,Oxizen gasAuto Kirayi,300
+1/29/2021,,NIL,NIL,Plant Maintenance,Pipes&bends,70
+1/29/2021,,NIL,NIL,Plant Maintenance,Gas+sponge,560
+2/1/2021,,NIL,NIL,Plant Maintenance,Mekulu-1Bag,3475
+2/1/2021,,NIL,NIL,Plant Maintenance,Tablets,250
+2/1/2021,,NIL,NIL,Plant Maintenance,Auto kirayi,200
+2/5/2021,,NIL,NIL,Plant Maintenance,Electrical Samanulu,600
+2/5/2021,,NIL,NIL,Plant Maintenance,Compresor oil,3100
+2/7/2021,,NIL,NIL,Plant Maintenance,water pipe,1500
+2/7/2021,,NIL,NIL,Plant Maintenance,Carpenter labour charges,5170
+2/10/2021,,NIL,NIL,Plant Maintenance,Water Pipes,350
+2/10/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+2/10/2021,,NIL,NIL,Plant Maintenance,Purchased Surf,50
+2/11/2021,,NIL,NIL,Plant Maintenance,Ladies-12*400,4800
+2/12/2021,,NIL,NIL,Plant Maintenance,10 BAGS MIR PALA Charges-50/-,500
+2/12/2021,,NIL,NIL,Plant Maintenance,Gunny Bags,500
+2/14/2021,,NIL,NIL,Plant Maintenance,Carpenters Labour Charges Paid,8010
+2/15/2021,,NIL,NIL,Plant Maintenance,Diesel OIL,600
+2/17/2021,,NIL,NIL,Plant Maintenance,Carpenter Labour Charges,1500
+2/18/2021,,NIL,NIL,Plant Maintenance,Tea Glasses,50
+2/20/2021,,NIL,NIL,Plant Maintenance,Carpenters Labour Charges Paid,6780
+2/22/2021,,NIL,NIL,Plant Maintenance,Water Tube+Samanulu,900
+2/24/2021,,NIL,NIL,Plant Maintenance,Carpenter Vadakam,1500
+2/25/2021,,NIL,NIL,Plant Maintenance,Water pipe samanulu,400
+2/25/2021,,NIL,NIL,Plant Maintenance,Chamber of Comarce,1500
+2/28/2021,,NIL,NIL,Plant Maintenance,Carpenter Labour Charges,6410
+2/28/2021,,NIL,NIL,Plant Maintenance,Welder Charges,2000
+3/4/2021,,NIL,NIL,Plant Maintenance,JK Electrical Pipes,9900
+3/5/2021,,NIL,NIL,Plant Maintenance,Door Samanulu,330
+3/6/2021,,NIL,NIL,Plant Maintenance,Mekulu,410
+3/6/2021,,NIL,NIL,Plant Maintenance,Sri Sai Pala-Kamanukooli,400
+3/8/2021,,NIL,NIL,Plant Maintenance,Carpenters Labour Charges,7910
+3/13/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+3/14/2021,,NIL,NIL,Plant Maintenance,Petrol,100
+3/16/2021,,NIL,NIL,Plant Maintenance,Tapi Purchased,100
+3/16/2021,,NIL,NIL,Plant Maintenance,Purchased Broom,60
+3/18/2021,,NIL,NIL,Plant Maintenance,Compresser Oil Bill(28/02/2021),2080
+3/18/2021,,NIL,NIL,Plant Maintenance,Bends Bill(05-03-2021),3100
+3/18/2021,,NIL,NIL,Plant Maintenance,Deasil OIL,400
+3/19/2021,,NIL,NIL,Plant Maintenance,Plastic wire,600
+3/24/2021,,NIL,NIL,Plant Maintenance,Sri Sai Kamanu Kooli,400
+3/22/2021,,NIL,NIL,Plant Maintenance,Pipe Samanlu,600
+3/23/2021,,NIL,NIL,Plant Maintenance,Pipe Samanlu(MD Garu),2200
+3/23/2021,,NIL,NIL,Plant Maintenance,Dummies,300
+3/26/2021,,NIL,NIL,Plant Maintenance,welding worker,1000
+4/5/2021,,NIL,NIL,Plant Maintenance,Diesol oil bill,600
+4/8/2021,,NIL,NIL,Plant Maintenance,Panchayathi Pipe Repair,1100
+4/8/2021,,NIL,NIL,Plant Maintenance,Compresser Oil,3100
+4/11/2021,,NIL,NIL,Labor charges paid,Sri Sai Pala Kamanu cooli,500
+4/10/2021,,NIL,NIL,Plant Maintenance,Cement bag,380
+4/11/2021,,NIL,NIL,Plant Maintenance,Pipe Samanulu,1100
+4/11/2021,,NIL,NIL,Plant Maintenance,Petro,100
+4/11/2021,,NIL,NIL,Plant Maintenance,Gum,80
+4/17/2021,,NIL,NIL,Labor charges paid,Sri Sai Pala -Kamanu kooli,500
+4/19/2021,,NIL,NIL,Labor charges paid,SRI SAI PALA Kamanu Kooli,500
+4/22/2021,,NIL,NIL,Labor charges paid,Sri Sai Pala Kamanu Kooli,500
+4/19/2021,,NIL,NIL,Plant Maintenance,Purchased Barakalu,700
+4/30/2021,,NIL,NIL,Labor charges paid,Sri Sai pala Kamanu Kooli,500
+5/7/2021,,NIL,NIL,Labor charges paid,Sri Sai pala Kamanu Kooli,500
+4/23/2021,,NIL,NIL,Medical charges paid to staff,Medical Expenses,200
+4/23/2021,,NIL,NIL,Office maintainance,Coconuts,80
+4/25/2021,,NIL,NIL,Plant Maintenance,Compressure  Belts,3000
+4/30/2021,,NIL,NIL,Plant Maintenance,bucket,250
+4/30/2021,,NIL,NIL,Office maintainance,Coconuts,40
+5/3/2021,,NIL,NIL,Plant Maintenance,Barakam,350
+5/7/2021,,NIL,NIL,Plant Maintenance,barakalu,1400
+5/7/2021,,NIL,NIL,Plant Maintenance,bolts,210
+5/8/2021,,NIL,NIL,Plant Maintenance,Cement bags,1140
+5/8/2021,,NIL,NIL,Plant Maintenance,cements bags kirayi,100
+5/9/2021,,NIL,NIL,Plant Maintenance,Cement Poles,3400
+5/9/2021,,NIL,NIL,Plant Maintenance,Water drum,650
+5/9/2021,,NIL,NIL,Plant Maintenance,Auto kirayi,300
+5/11/2021,,NIL,NIL,Labor charges paid,Sri Sai Pala Kamanu Kooli,1000
+5/9/2021,,NIL,NIL,Office maintainance,Damage Notes,3800
+5/9/2021,,NIL,NIL,Plant Maintenance,Ammonia Gas+Copressure Oil,18700
+5/11/2021,,NIL,NIL,Office maintainance,Dish TV Recharge,1460
+5/11/2021,,NIL,NIL,Plant Maintenance,Barakalu,1400
+5/12/2021,,NIL,NIL,Office maintainance,Set of Box  Exchange Registration,1000
+5/13/2021,,NIL,NIL,Plant Maintenance,Iron rods,800
+5/19/2021,,NIL,NIL,Plant Maintenance,Purchased Bleaching Powder -50kgs,2400
+5/27/2021,,NIL,NIL,Plant Maintenance,Deosil oil,800
+5/29/2021,,NIL,NIL,Office maintainance,TV Stand,230
+5/29/2021,,NIL,NIL,Plant Maintenance,Rat biscuits,2400
+5/29/2021,,NIL,NIL,Plant Maintenance,kalupu mandu,800
+6/3/2021,,NIL,NIL,Plant Maintenance,Iron bends+Tapies general,410
+6/3/2021,,NIL,NIL,Plant Maintenance,Compressure oil on 26-05-2021,3100
+6/4/2021,,NIL,NIL,Plant Maintenance,20 ltrs gum,4250
+6/4/2021,,NIL,NIL,Plant Maintenance,petrol by satyanarayana,50
+6/12/2021,,NIL,NIL,Plant Maintenance,500+300 Nut+Bolts+Samanulu,800
+9/21/2020,,NIL,NIL,Plant Maintenance,Oxygen cylinder amount,-5000
+1/28/2021,,NIL,NIL,Plant Maintenance,Oxizen gas advance,-10000
+2/28/2021,,NIL,NIL,Plant Maintenance,R.G.Prasad Petrol,100
+1/18/2020,,NIL,NIL,Printing & Stationery,Books bill,290
+1/27/2020,,NIL,NIL,Printing & Stationery,Accounts Books bill,1640
+2/1/2020,,NIL,NIL,Printing & Stationery,Note Books,300
+2/23/2020,,NIL,NIL,Printing & Stationery,Note Books,700
+3/9/2020,,NIL,NIL,Printing & Stationery,Pens,150
+3/19/2020,,NIL,NIL,Printing & Stationery,Rubber stamps,360
+3/20/2020,,NIL,NIL,Printing & Stationery,Pens,70
+7/22/2020,,NIL,NIL,Printing & Stationery,A 4 Sheets Box,1700
+10/15/2020,,NIL,NIL,Printing & Stationery,Note Books,780
+12/18/2020,,NIL,NIL,Printing & Stationery,Pens&Pastic Folders&Files,580
+6/9/2021,,NIL,NIL,Printing & Stationery,Tea,50
+1/1/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/2/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/3/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/4/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/5/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/6/2020,,NIL,NIL,Sadar Expenses,Tea,80
+1/7/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/9/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/10/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/11/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/12/2020,,NIL,NIL,Sadar Expenses,Tea,80
+1/13/2020,,NIL,NIL,Sadar Expenses,Tea,50
+1/13/2020,,NIL,NIL,Sadar Expenses,Tea & tiffins,150
+1/18/2020,,NIL,NIL,Sadar Expenses,Tea,50
+1/19/2020,,NIL,NIL,Sadar Expenses,Tea,50
+1/20/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/22/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/23/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/24/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/25/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/27/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/29/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/30/2020,,NIL,NIL,Sadar Expenses,Tea,40
+1/31/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/1/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/2/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/3/2020,,NIL,NIL,Sadar Expenses,Tea,80
+2/5/2020,,NIL,NIL,Sadar Expenses,Tea,50
+2/6/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/7/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/8/2020,,NIL,NIL,Sadar Expenses,Cool Drinks,100
+2/8/2020,,NIL,NIL,Sadar Expenses,Meals,240
+2/8/2020,,NIL,NIL,Sadar Expenses,Tea,100
+2/9/2020,,NIL,NIL,Sadar Expenses,Tea,150
+2/9/2020,,NIL,NIL,Sadar Expenses,Tea,50
+2/10/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/12/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/13/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/14/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/15/2020,,NIL,NIL,Sadar Expenses,Tea,50
+2/16/2020,,NIL,NIL,Sadar Expenses,Tea & tiffins,160
+2/17/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/19/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/20/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/22/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/23/2020,,NIL,NIL,Sadar Expenses,Tea,50
+2/24/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/25/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/26/2020,,NIL,NIL,Sadar Expenses,Tea,40
+2/27/2020,,NIL,NIL,Sadar Expenses,Tea,100
+2/28/2020,,NIL,NIL,Sadar Expenses,Tea,100
+2/29/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/1/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/2/2020,,NIL,NIL,Sadar Expenses,Tea and tiffins,100
+3/2/2020,,NIL,NIL,Sadar Expenses,Tea,120
+3/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/4/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/5/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/6/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/7/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/8/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/9/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/10/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/11/2020,,NIL,NIL,Sadar Expenses,Tea,80
+3/12/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/13/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/14/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/15/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/16/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/17/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/18/2020,,NIL,NIL,Sadar Expenses,Tea,150
+3/19/2020,,NIL,NIL,Sadar Expenses,Tea,150
+3/19/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/20/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/21/2020,,NIL,NIL,Sadar Expenses,Tea,100
+3/23/2020,,NIL,NIL,Sadar Expenses,Tea,80
+3/24/2020,,NIL,NIL,Sadar Expenses,Tea,80
+3/26/2020,,NIL,NIL,Sadar Expenses,Tea,80
+3/27/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/28/2020,,NIL,NIL,Sadar Expenses,Tea,80
+3/29/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/30/2020,,NIL,NIL,Sadar Expenses,Tea,50
+3/31/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/1/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/2/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/4/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/5/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/6/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/7/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/8/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/9/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/10/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/11/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/12/2020,,NIL,NIL,Sadar Expenses,Tea & Tiffins,500
+4/13/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/14/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/15/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/16/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/17/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/18/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/19/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/20/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/21/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/22/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/23/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/24/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/25/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/26/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/27/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/28/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/29/2020,,NIL,NIL,Sadar Expenses,Tea,50
+4/30/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/2/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/4/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/6/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/7/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/8/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/9/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/10/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/11/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/12/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/13/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/14/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/15/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/16/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/17/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/18/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/20/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/21/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/22/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/23/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/24/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/25/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/26/2020,,NIL,NIL,Sadar Expenses,Tea & Tiffin,80
+5/27/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/28/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/28/2020,,NIL,NIL,Sadar Expenses,Tea&Tiffin&Drinks,500
+5/29/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/30/2020,,NIL,NIL,Sadar Expenses,Tea,50
+5/31/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/1/2020,,NIL,NIL,Sadar Expenses,Tea&Tiffin,50
+6/1/2020,,NIL,NIL,Sadar Expenses,Tiffin,30
+6/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/4/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/5/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/6/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/7/2020,,NIL,NIL,Sadar Expenses,Tea,40
+6/8/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/10/2020,,NIL,NIL,Sadar Expenses,Tea,40
+6/11/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/12/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/13/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/14/2020,,NIL,NIL,Sadar Expenses,Tea,150
+6/18/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/19/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/20/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/21/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/22/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/23/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/24/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/25/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/26/2020,,NIL,NIL,Sadar Expenses,Tea,50
+6/27/2020,,NIL,NIL,Sadar Expenses,Tea,100
+6/28/2020,,NIL,NIL,Sadar Expenses,Tea,100
+6/29/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/1/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/2/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/4/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/5/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/6/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/8/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/9/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/10/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/11/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/12/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/13/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/15/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/16/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/17/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/18/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/19/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/20/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/22/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/23/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/24/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/25/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/26/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/27/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/28/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/29/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/30/2020,,NIL,NIL,Sadar Expenses,Tea,50
+7/31/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/1/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/4/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/5/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/5/2020,,NIL,NIL,Sadar Expenses,Tea Glasses,60
+8/6/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/7/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/8/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/10/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/11/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/12/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/14/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/15/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/17/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/18/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/19/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/20/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/21/2020,,NIL,NIL,Sadar Expenses,Tea,100
+8/21/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/23/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/24/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/26/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/27/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/28/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/29/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/30/2020,,NIL,NIL,Sadar Expenses,Tea,50
+8/31/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/1/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/2/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/4/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/5/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/6/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/9/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/10/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/11/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/11/2020,,NIL,NIL,Sadar Expenses,Tea&Glasses,60
+9/12/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/13/2020,,NIL,NIL,Sadar Expenses,Tea,100
+9/14/2020,,NIL,NIL,Sadar Expenses,Mousqe,100
+9/14/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/16/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/17/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/18/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/19/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/20/2020,,NIL,NIL,Sadar Expenses,Tea,100
+9/21/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/22/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/23/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/23/2020,,NIL,NIL,Sadar Expenses,Welder Meals,420
+9/24/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/25/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/26/2020,,NIL,NIL,Sadar Expenses,Tea&Glasses,160
+9/27/2020,,NIL,NIL,Sadar Expenses,Tea,100
+9/28/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/30/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/4/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/5/2020,,NIL,NIL,Sadar Expenses,Tea,80
+10/7/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/8/2020,,NIL,NIL,Sadar Expenses,Tea,80
+10/9/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/10/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/11/2020,,NIL,NIL,Sadar Expenses,Tea,80
+10/12/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/14/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/15/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/16/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/17/2020,,NIL,NIL,Sadar Expenses,Tea,80
+10/18/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/19/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/21/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/22/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/23/2020,,NIL,NIL,Sadar Expenses,Tea,80
+10/24/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/25/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/26/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/27/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/28/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/29/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/30/2020,,NIL,NIL,Sadar Expenses,Tea,50
+10/31/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/1/2020,,NIL,NIL,Sadar Expenses,Meals&Tiffin,220
+11/1/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/2/2020,,NIL,NIL,Sadar Expenses,Tea,80
+11/2/2020,,NIL,NIL,Sadar Expenses,Meals & Tiffin,220
+11/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/3/2020,,NIL,NIL,Sadar Expenses,Meals& Tiffin,220
+11/4/2020,,NIL,NIL,Sadar Expenses,Tea,80
+11/5/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/6/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/7/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/8/2020,,NIL,NIL,Sadar Expenses,Tea,80
+11/9/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/11/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/12/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/13/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/15/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/16/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/17/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/19/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/20/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/21/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/22/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/23/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/25/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/27/2020,,NIL,NIL,Sadar Expenses,Tea,50
+11/28/2020,,NIL,NIL,Sadar Expenses,Meals,160
+11/28/2020,,NIL,NIL,Sadar Expenses,Tea,100
+11/29/2020,,NIL,NIL,Sadar Expenses,Meals,100
+11/29/2020,,NIL,NIL,Sadar Expenses,Tea,150
+11/30/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/2/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/3/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/4/2020,,NIL,NIL,Sadar Expenses,Tea&Glasses,100
+12/5/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/6/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/7/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/9/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/10/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/11/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/12/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/13/2020,,NIL,NIL,Sadar Expenses,Tea,100
+12/14/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/14/2020,,NIL,NIL,Sadar Expenses,Tiffin,100
+12/15/2020,,NIL,NIL,Sadar Expenses,Tea&Tiffin,100
+12/16/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/17/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/18/2020,,NIL,NIL,Sadar Expenses,Tea&Tiffins,180
+12/19/2020,,NIL,NIL,Sadar Expenses,Tea&Tiffins,180
+12/21/2020,,NIL,NIL,Sadar Expenses,Tea,100
+12/23/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/24/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/25/2020,,NIL,NIL,Sadar Expenses,tea,100
+12/25/2020,,NIL,NIL,Sadar Expenses,Meals,220
+12/26/2020,,NIL,NIL,Sadar Expenses,Meals+Tiffens,600
+12/26/2020,,NIL,NIL,Sadar Expenses,Tea,150
+12/27/2020,,NIL,NIL,Sadar Expenses,Tea,150
+12/27/2020,,NIL,NIL,Sadar Expenses,Meals+tiffens,600
+12/28/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/30/2020,,NIL,NIL,Sadar Expenses,Tea,50
+12/31/2020,,NIL,NIL,Sadar Expenses,Tea,80
+1/1/2021,,NIL,NIL,Sadar Expenses,Chocolates,150
+1/1/2021,,NIL,NIL,Sadar Expenses,Tea,60
+1/2/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/3/2021,,NIL,NIL,Sadar Expenses,Tea,100
+1/4/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/6/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/7/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/8/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/9/2021,,NIL,NIL,Sadar Expenses,Tiffins,50
+1/9/2021,,NIL,NIL,Sadar Expenses,Meals,120
+1/9/2021,,NIL,NIL,Sadar Expenses,Tea,100
+1/9/2021,,NIL,NIL,Sadar Expenses,Meals,120
+1/10/2021,,NIL,NIL,Sadar Expenses,Tea,100
+1/10/2021,,NIL,NIL,Sadar Expenses,Meals,160
+1/10/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/11/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/21/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/18/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/20/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/22/2021,,NIL,NIL,Sadar Expenses,Meals,200
+1/22/2021,,NIL,NIL,Sadar Expenses,Meals,500
+1/23/2021,,NIL,NIL,Sadar Expenses,Meals,400
+1/23/2021,,NIL,NIL,Sadar Expenses,Tea,100
+1/23/2021,,NIL,NIL,Sadar Expenses,Tea,100
+1/23/2021,,NIL,NIL,Sadar Expenses,Meals,150
+1/24/2021,,NIL,NIL,Sadar Expenses,Meals,600
+1/24/2021,,NIL,NIL,Sadar Expenses,Tea,200
+1/25/2021,,NIL,NIL,Sadar Expenses,Tea,150
+1/25/2021,,NIL,NIL,Sadar Expenses,Meals,350
+1/25/2021,,NIL,NIL,Sadar Expenses,Tea,150
+1/25/2021,,NIL,NIL,Sadar Expenses,Meals+Tiffens,150
+8/13/2020,,NIL,NIL,Sadar Expenses,Tea,50
+9/7/2020,,NIL,NIL,Sadar Expenses,Tea,50
+1/27/2021,,NIL,NIL,Sadar Expenses,Tea,100
+1/28/2021,,NIL,NIL,Sadar Expenses,Tiffens&water,150
+1/28/2021,,NIL,NIL,Sadar Expenses,Tea,100
+1/28/2021,,NIL,NIL,Sadar Expenses,Water bottle,80
+1/29/2021,,NIL,NIL,Sadar Expenses,Tiffens,100
+1/29/2021,,NIL,NIL,Sadar Expenses,Meals+water,100
+1/29/2021,,NIL,NIL,Sadar Expenses,tea,100
+1/30/2021,,NIL,NIL,Sadar Expenses,Meals,300
+1/30/2021,,NIL,NIL,Sadar Expenses,Tiffin,50
+1/30/2021,,NIL,NIL,Sadar Expenses,Tea,100
+1/31/2021,,NIL,NIL,Sadar Expenses,Tiffen,50
+1/31/2021,,NIL,NIL,Sadar Expenses,Tea,100
+1/31/2021,,NIL,NIL,Sadar Expenses,Water Bottle,120
+2/1/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/2/2021,,NIL,NIL,Sadar Expenses,Tea,50
+2/3/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/3/2021,,NIL,NIL,Sadar Expenses,Tiffen,100
+2/4/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/5/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/6/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/7/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/8/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/9/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/10/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/11/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/12/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/13/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/14/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/15/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/16/2021,,NIL,NIL,Sadar Expenses,Tea,60
+2/17/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/18/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/19/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/20/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/21/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/22/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/23/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/24/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/25/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/26/2021,,NIL,NIL,Sadar Expenses,Tea,100
+2/27/2021,,NIL,NIL,Sadar Expenses,Tea+Tiffen,150
+2/27/2021,,NIL,NIL,Sadar Expenses,Meals,180
+2/27/2021,,NIL,NIL,Sadar Expenses,Tea,50
+2/27/2021,,NIL,NIL,Sadar Expenses,Meals,200
+2/28/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/1/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/3/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/4/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/5/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/6/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/7/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/8/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/9/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/10/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/12/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/13/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/14/2021,,NIL,NIL,Sadar Expenses,Meals,240
+3/14/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/15/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/16/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/18/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/19/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/20/2021,,NIL,NIL,Sadar Expenses,Tea,90
+3/21/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/22/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/23/2021,,NIL,NIL,Sadar Expenses,Tea,100
+3/24/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/25/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/26/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/27/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/28/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/29/2021,,NIL,NIL,Sadar Expenses,Tea,50
+3/31/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/1/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/2/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/3/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/4/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/5/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/6/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/7/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/8/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/9/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/10/2021,,NIL,NIL,Sadar Expenses,Tea,180
+4/11/2021,,NIL,NIL,Sadar Expenses,Meals+water bottle,420
+4/11/2021,,NIL,NIL,Sadar Expenses,Tea,100
+4/12/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/14/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/15/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/16/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/18/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/19/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/20/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/22/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/23/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/24/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/25/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/26/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/28/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/29/2021,,NIL,NIL,Sadar Expenses,Tea,50
+4/30/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/2/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/3/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/4/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/5/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/6/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/7/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/8/2021,,NIL,NIL,Sadar Expenses,Tea,80
+5/9/2021,,NIL,NIL,Sadar Expenses,Meals,200
+5/9/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/10/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/11/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/12/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/13/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/14/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/15/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/16/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/19/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/20/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/21/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/22/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/23/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/24/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/26/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/27/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/28/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/29/2021,,NIL,NIL,Sadar Expenses,Tea,50
+5/30/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/2/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/4/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/6/2021,,NIL,NIL,Sadar Expenses,Meals,350
+6/6/2021,,NIL,NIL,Sadar Expenses,Tea,100
+6/7/2021,,NIL,NIL,Sadar Expenses,Tea,30
+6/10/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/5/2021,,NIL,NIL,Sadar Expenses,Meals,350
+6/5/2021,,NIL,NIL,Sadar Expenses,Tea,120
+6/11/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/12/2021,,NIL,NIL,Sadar Expenses,Tea,50
+1/4/2020,,NIL,NIL,Subscription to News papers,News paper Bill,210
+2/8/2020,,NIL,NIL,Subscription to News papers,News paper Bill,210
+3/9/2020,,NIL,NIL,Subscription to News papers,News paper Bill,210
+6/10/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+12/17/2020,,NIL,NIL,Taxes & Licenses,Panchayiti Tax,48086
+12/17/2020,,NIL,NIL,Taxes & Licenses,Panchayiti Water Tax,1200
+1/4/2020,,NIL,NIL,Taxes & Licenses,Factory License Renewal,2400
+1/22/2020,,NIL,NIL,Telephone Bills,January 2020 bill,300
+2/20/2020,,NIL,NIL,Telephone Bills,Internet Bill,2875
+2/24/2020,,NIL,NIL,Telephone Bills,February 2020 bill,300
+3/16/2020,,NIL,NIL,Telephone Bills,March 2020 bill,300
+7/20/2020,,NIL,NIL,Telephone Bills,Telephone Bill,300
+8/26/2020,,NIL,NIL,Telephone Bills,Telaphone Bill,300
+10/6/2020,,NIL,NIL,Telephone Bills,Telephone bill,600
+11/25/2020,,NIL,NIL,Telephone Bills,Telephone,300
+1/21/2021,,NIL,NIL,Telephone Bills,Phone bill paid(2months),600
+4/1/2021,,NIL,NIL,Telephone Bills,Phone bill paid,610
+5/17/2021,,NIL,NIL,Telephone Bills,Telephone bill paid,610
+1/12/2020,,SSCS02,R.G.Prasad,Bonus paid to staff,R.G.Prasad,10000
+1/11/2021,,SSCS02,R.G.Prasad,Bonus paid to staff,R.G.Prasad,10000
+1/4/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+2/3/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+3/7/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+4/4/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+5/11/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+6/7/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+7/6/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+8/1/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+9/6/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+10/4/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+11/2/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+12/6/2020,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+1/3/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+2/6/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+3/3/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+4/7/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+5/9/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+6/6/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,R.G.Prasad,10000
+1/12/2020,,SSCS05,Satyanarayana,Bonus paid to staff,Satyanarayana,8000
+1/11/2021,,SSCS05,Satyanarayana,Bonus paid to staff,Satyanarayana,8000
+1/4/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+2/3/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+3/7/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+4/4/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+5/11/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+6/7/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+7/6/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+8/1/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+9/6/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+10/4/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+11/2/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+12/6/2020,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+1/3/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+2/6/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+3/3/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+4/7/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+5/9/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+6/6/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Satyanarayana,8000
+1/12/2020,,SSCS11,Subba Rao,Bonus paid to staff,Subba Rao,4500
+1/4/2020,,SSCS11,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+2/3/2020,,SSCS11,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+3/7/2020,,SSCS11,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+4/4/2020,,SSCS11,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+5/11/2020,,SSCS11,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+6/7/2020,,SSCS11,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+7/6/2020,,SSCS12,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+8/1/2020,,SSCS13,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+9/6/2020,,SSCS14,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+10/4/2020,,SSCS15,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+11/2/2020,,SSCS16,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+12/6/2020,,SSCS17,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+1/3/2021,,SSCS18,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+1/29/2021,,SSCS19,Subba Rao,Salaries paid to Staff,Subba Rao,4500
+1/11/2021,,SSCS11,Subba Rao,Bonus paid to staff,Subba Rao,4500
+1/11/2021,,SSCS06,Subrahmanyam,Bonus paid to staff,Subrahmanyam,7500
+1/12/2020,,SSCS06,Subrahmanyam,Bonus paid to staff,Subrahmanyam,7500
+1/4/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+2/3/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+3/7/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+4/4/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+5/11/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+6/7/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+7/6/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+8/1/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+9/6/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+10/4/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+11/2/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+12/6/2020,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+1/3/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+2/6/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+3/3/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+4/7/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+5/9/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+6/6/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Subrahmanyam,7500
+1/12/2020,,SSCS03,V.S.V.Prasad,Bonus paid to staff,V.S.V.Prasad,7500
+1/11/2021,,SSCS03,V.S.V.Prasad,Bonus paid to staff,V.S.V.Prasad,8500
+1/4/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,7500
+2/3/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,7500
+3/7/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+4/4/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+5/11/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+6/7/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+7/6/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+8/1/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+9/6/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+10/4/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+11/2/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+11/17/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,500
+12/6/2020,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+1/3/2021,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+2/6/2021,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+3/1/2021,,SSCS03,V.S.V.Prasad,Salaries paid to Staff,V.S.V.Prasad,8500
+1/3/2021,,SSCS12,Venkayamma,Salaries paid to Staff,Sweeper Venkayamma,3000
+2/6/2021,,SSCS12,Venkayamma,Salaries paid to Staff,Sweeper Venkayamma,3000
+3/3/2021,,SSCS12,Venkayamma,Salaries paid to Staff,Sweeper Venkayamma,3000
+4/7/2021,,SSCS12,Venkayamma,Salaries paid to Staff,Sweeper Venkayamma,3000
+5/9/2021,,SSCS12,Venkayamma,Salaries paid to Staff,Sweeper Venkayamma,3000
+6/6/2021,,SSCS12,Venkayamma,Salaries paid to Staff,Sweeper Venkayamma,3000
+6/14/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/13/2021,,NIL,NIL,Sadar Expenses,Tea,100
+6/16/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/18/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/19/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/20/2021,,NIL,NIL,Sadar Expenses,Ttea,50
+6/21/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/23/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/24/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/25/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/26/2021,,NIL,NIL,Sadar Expenses,Tea,50
+6/26/2021,,NIL,NIL,Sadar Expenses,Water Bottles For Madhav Garu,300
+6/27/2021,,NIL,NIL,Sadar Expenses,Tea,100
+6/28/2021,,NIL,NIL,Labor charges paid,Vij -paint Mestri,500
+6/28/2021,,NIL,NIL,Sadar Expenses,Tiffen+tea,200
+6/29/2021,,NIL,NIL,Sadar Expenses,Tea,100
+6/29/2021,,NIL,NIL,Formalities paid to others,Arjun Garu/rampachodavaram,30000
+6/30/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/1/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/2/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/3/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/4/2021,,NIL,NIL,Sadar Expenses,Tea,100
+7/5/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,10000
+6/3/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/5/2021,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+7/5/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Monthly Salary,8000
+7/5/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,7500
+7/5/2021,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,5000
+7/5/2021,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+7/5/2021,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+7/5/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,16000
+7/5/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/7/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/8/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/9/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+7/9/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/10/2021,,NIL,NIL,Furnishing & Lighiting,Led Bulbs Bill,1805
+7/10/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/11/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/12/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/11/2021,,NIL,NIL,Formalities paid to others,Court Case,1500
+7/16/2021,,NIL,NIL,Labor charges paid,Sri Sai Kamanu Kooli,100
+7/14/2021,,NIL,NIL,Plant Maintenance,Compressure Oil,4300
+7/14/2021,,NIL,NIL,Office maintainance,Pen Boxes,100
+7/14/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/15/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/16/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/18/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/19/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/21/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/22/2021,,NIL,NIL,Telephone Bills,Telephone Bill,600
+7/22/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/23/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/24/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/25/2021,,NIL,NIL,Sadar Expenses,Tea,100
+7/26/2021,,NIL,NIL,Plant Equipment,Electrical Solvent,400
+7/26/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/28/2021,,NIL,NIL,Plant Maintenance,Iron Beeruva,5200
+7/28/2021,,NIL,NIL,Plant Maintenance,Kirayi For Iron Beeruva,200
+7/28/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/28/2021,,NIL,NIL,Plant Equipment,Plastic Bends,300
+7/29/2021,,NIL,NIL,Furnishing & Lighiting,Electrical Bulbs,770
+7/29/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/30/2021,,NIL,NIL,Plant Maintenance,Diesil Oil,800
+7/30/2021,,NIL,NIL,Plant Maintenance,Blades,100
+7/30/2021,,NIL,NIL,Sadar Expenses,Tea,50
+7/31/2021,,NIL,NIL,Sadar Expenses,Tea,100
+7/31/2021,,NIL,NIL,Plant Maintenance,For Compressure Welding,1600
+7/31/2021,,NIL,NIL,Sadar Expenses,Meals,100
+3/2/2021,,NIL,NIL,Sadar Expenses,Tea,100
+7/31/2021,,NIL,NIL,Plant Maintenance,Barakam,200
+8/1/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/2/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/4/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/4/2021,,NIL,NIL,Plant Maintenance,Iron  Dummies,100
+8/4/2021,,NIL,NIL,Formalities paid to others,Vij Satyanarayana Lorry Mamullu,1100
+8/5/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/5/2021,,NIL,NIL,Office maintainance,Agar Battties,200
+8/6/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/7/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/8/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/9/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+8/9/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/5/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,16000
+8/5/2021,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+8/5/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Monthly Salary,8000
+8/5/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,7500
+8/5/2021,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,5000
+8/5/2021,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+8/5/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,10000
+8/5/2021,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+8/11/2021,,NIL,NIL,Plant Maintenance,Purchased Torch Light,370
+8/11/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/12/2021,,NIL,NIL,Plant Equipment,Pipes Transport Charges,600
+8/12/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/13/2021,,NIL,NIL,Plant Equipment,Welding Rods+ Meals,700
+8/13/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/14/2021,,NIL,NIL,Plant Maintenance,Welding Work,5500
+8/14/2021,,NIL,NIL,Sadar Expenses,Tea,150
+8/14/2021,,NIL,NIL,Sadar Expenses,Meals,300
+8/16/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/18/2021,,NIL,NIL,Labor charges paid,Pesticides Spray,300
+8/18/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/19/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/20/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/21/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/22/2021,,NIL,NIL,Donations to Local Institutions,Chanda,1000
+8/22/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/23/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/25/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/26/2021,,NIL,NIL,Office maintainance,Coconuts& Agara Bathies,100
+8/26/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/27/2021,,NIL,NIL,Sadar Expenses,Tea,50
+8/28/2021,,NIL,NIL,Sadar Expenses,Tea,100
+8/29/2021,,NIL,NIL,Furnishing & Lighiting,Electrical Samanulu,1400
+8/29/2021,,NIL,NIL,Plant Maintenance,Ammonia Gas Bill,22400
+8/29/2021,,NIL,NIL,Sadar Expenses,Meals+ Tea,200
+8/30/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/1/2021,,NIL,NIL,Sadar Expenses,Tea,30
+9/1/2021,,NIL,NIL,Office maintainance,Tea Flask Purchased,500
+9/2/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/3/2021,,NIL,NIL,Telephone Bills,Telephone Bill,310
+9/3/2021,,NIL,NIL,Sadar Expenses,Tea,40
+9/4/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,10000
+9/4/2021,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+9/4/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,16000
+9/4/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,7500
+9/4/2021,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,5000
+9/4/2021,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+9/4/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Monthly Salary,4700
+9/4/2021,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+9/4/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/2/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/6/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/6/2021,,NIL,NIL,Office maintainance,Torch Light,450
+9/8/2021,,NIL,NIL,Donations to Local Institutions,Burrakatha,1500
+9/8/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+9/8/2021,,NIL,NIL,Plant Maintenance,Brooms+knives,240
+9/8/2021,,NIL,NIL,Sadar Expenses,Tea,100
+9/9/2021,,NIL,NIL,Labor charges paid,Ladies-2 2days,2000
+9/9/2021,,NIL,NIL,Sadar Expenses,Tea,100
+9/9/2021,,NIL,NIL,Plant Maintenance,Vinayaka Pooja Samagri,910
+9/11/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/12/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/13/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/15/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/16/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/18/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/19/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/19/2021,,NIL,NIL,Plant Maintenance,Zerox + Meals,400
+9/20/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/22/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/22/2021,,NIL,NIL,Plant Maintenance,Deosil Oil,800
+9/22/2021,,NIL,NIL,Furnishing & Lighiting,Led Bulbs,800
+9/23/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/24/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/25/2021,,NIL,NIL,Plant Maintenance,20 Ltrs Liquid,4300
+9/25/2021,,NIL,NIL,Plant Maintenance,Brush,200
+9/25/2021,,NIL,NIL,Plant Maintenance,Tapes,60
+9/25/2021,,NIL,NIL,Plant Maintenance,Cement Bags 40*170,6800
+9/25/2021,,NIL,NIL,Labor charges paid,Hamali For Cement Bags,100
+9/25/2021,,NIL,NIL,Sadar Expenses,Meals,300
+9/25/2021,,NIL,NIL,Plant Maintenance,Auto Kirayi For Cement Bags,200
+9/25/2021,,NIL,NIL,Plant Maintenance,Transformer Repare Charges,1000
+9/25/2021,,NIL,NIL,Sadar Expenses,Tea,100
+9/26/2021,,NIL,NIL,Formalities paid to others,Income Tax Officers Dusserah Mamulu,2000
+9/26/2021,,NIL,NIL,Plant Maintenance,P.v.c Cement Bags 25*150,3750
+9/26/2021,,NIL,NIL,Plant Maintenance,For Cement Bags Kirayi,350
+9/26/2021,,NIL,NIL,Sadar Expenses,Meals+ Tiffens,400
+9/26/2021,,NIL,NIL,Office maintainance,Glouses,100
+9/26/2021,,NIL,NIL,Sadar Expenses,Tea,100
+9/28/2021,,NIL,NIL,Sadar Expenses,Tea,50
+9/29/2021,,NIL,NIL,Labor charges paid,Ladies - 7*400,2800
+9/29/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/1/2021,,NIL,NIL,Labor charges paid,Vr Tpg 6340/700 -100 Bags Hamali,365
+9/30/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/1/2021,,NIL,NIL,Plant Maintenance,Generator Repair,2200
+10/1/2021,,NIL,NIL,Plant Maintenance,Petrol (r.g.prasad),100
+10/1/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/3/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/4/2021,,NIL,NIL,Electricity Bills,Electricity Bill Paid,158415
+10/4/2021,,NIL,NIL,Plant Maintenance,Petrol( R. G. Prasad),100
+10/4/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/4/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,10000
+10/4/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Monthly Salary,8000
+10/4/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,7500
+10/4/2021,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,5000
+10/4/2021,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+10/6/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/7/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/8/2021,,NIL,NIL,Office maintainance,Purchased Coconuts& Agarbatties,120
+10/8/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+10/8/2021,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+10/8/2021,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+10/8/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,16000
+10/8/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/8/2021,,NIL,NIL,Office maintainance,Brooms,50
+10/9/2021,,NIL,NIL,Plant Maintenance,Sand+cement+rikshaw+meals+petrol,2260
+10/9/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/9/2021,,NIL,NIL,Formalities paid to others,Cto Office Helper Dasara Mamulu,500
+10/10/2021,,NIL,NIL,Plant Maintenance,Sand Tractor,4800
+10/10/2021,,NIL,NIL,Formalities paid to others,Sales Tax Officers Dasara Mamulu,2000
+10/10/2021,,NIL,NIL,Donations to Local Institutions,Chanda,500
+10/10/2021,,NIL,NIL,Formalities paid to others,Electrical Officers Dasara Mamulu,2000
+10/10/2021,,NIL,NIL,Sadar Expenses,Tea,100
+10/10/2021,,NIL,NIL,Plant Maintenance,Liquid Bottle,2600
+10/10/2021,,NIL,NIL,Plant Maintenance,Cement Bags,1150
+10/11/2021,,NIL,NIL,Telephone Bills,Telephone Bill Paid,610
+10/11/2021,,NIL,NIL,Plant Maintenance,Purchased Coconuts,100
+10/11/2021,,NIL,NIL,Labor charges paid,DK Prasad Chillies Hamali+kata,365
+10/15/2021,,NIL,NIL,Labor charges paid,Vr/tpg 6340/700 T/r 15kg 80 Bags Hamali Charges,290
+10/11/2021,,NIL,NIL,Plant Maintenance,Gunny Bags Pala,500
+10/11/2021,,NIL,NIL,Sadar Expenses,Tea,100
+10/11/2021,,NIL,NIL,Plant Maintenance,Welder-7-,2800
+10/11/2021,,NIL,NIL,Sadar Expenses,Meals,200
+10/13/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/14/2021,,NIL,NIL,Donations to Local Institutions,Vizilence,5000
+10/14/2021,,NIL,NIL,Plant Maintenance,Compressor Oil,3100
+10/14/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/15/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/16/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/17/2021,,NIL,NIL,Sadar Expenses,Tata Water Bottles,400
+10/17/2021,,NIL,NIL,Labor charges paid,Ladies-4,1200
+10/17/2021,,NIL,NIL,Sadar Expenses,Tiffen,70
+10/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/18/2021,,NIL,NIL,Donations to Local Institutions,Padala Devi Chanda,1000
+10/18/2021,,NIL,NIL,Sadar Expenses,Tea,100
+10/18/2021,,NIL,NIL,Sadar Expenses,Tiffen,70
+10/20/2021,,NIL,NIL,Sadar Expenses,Tea+ Tiffen,140
+10/21/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/22/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/23/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/24/2021,,NIL,NIL,Sadar Expenses,Tea+ Tiffen,170
+10/25/2021,,NIL,NIL,Plant Maintenance,Ammonia Gas,18000
+10/25/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/29/2021,,NIL,NIL,Labor charges paid,Vr/tpg T/r 6340/700 Lot Hamali Charges,255
+10/27/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/28/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/29/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/30/2021,,NIL,NIL,Printing & Stationery,A4 Sheets Box,1750
+10/30/2021,,NIL,NIL,Sadar Expenses,Tea,50
+10/31/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/1/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/3/2021,,NIL,NIL,Furnishing & Lighiting,Tube Lights+bulbs,900
+11/3/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/3/2021,,NIL,NIL,Office maintainance,Pooja Samanulu,600
+11/3/2021,,NIL,NIL,Bonus paid to staff,Deepavali Bonasulu Paid To Staff,6800
+11/3/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,10000
+11/3/2021,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+11/3/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Monthly Salary,8000
+11/3/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,7500
+11/3/2021,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,5000
+11/3/2021,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+11/3/2021,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+11/3/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,16000
+11/14/2021,,NIL,NIL,Labor charges paid,K.koti 4bags Mirchi Sample Charges,100
+11/5/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/7/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/6/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/10/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+11/10/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/11/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/12/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/13/2021,,NIL,NIL,Plant Maintenance,Compressure Oil(9-11-2021),3300
+11/13/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/14/2021,,NIL,NIL,Sadar Expenses,Meals,150
+11/14/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/15/2021,,NIL,NIL,Telephone Bills,Telephone Bill,300
+11/15/2021,,NIL,NIL,Office maintainance,Pooja Oil + Agarabatties,300
+11/15/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/17/2021,,NIL,NIL,Office maintainance,Dish Tv Recharge,1350
+11/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/18/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/19/2021,,NIL,NIL,Furnishing & Lighiting,Electrical Edge Fuse,100
+11/19/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/20/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/21/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/22/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/24/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/25/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/25/2021,,NIL,NIL,Labor charges paid,Water Pipe Repare,200
+11/26/2021,,NIL,NIL,Sadar Expenses,Tea,50
+11/27/2021,,NIL,NIL,Furnishing & Lighiting,Electrical Samanulu+ Meals,500
+11/27/2021,,NIL,NIL,Sadar Expenses,Tea,100
+11/28/2021,,NIL,NIL,Donations to Local Institutions,Shasti Chanda [relangi],560
+11/28/2021,,NIL,NIL,Plant Maintenance,Compressure Oil,3300
+11/28/2021,,NIL,NIL,Sadar Expenses,Tea,100
+11/29/2021,,NIL,NIL,Formalities paid to others,Chamber Of Commerce & I Receipt,1500
+10/29/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/1/2021,,NIL,NIL,Plant Maintenance,Plastic Wire,500
+12/1/2021,,NIL,NIL,Plant Maintenance,Samanulu+cheta,500
+12/1/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/2/2021,,NIL,NIL,Labor charges paid,Gents Labour -2,1100
+12/2/2021,,NIL,NIL,Sadar Expenses,Tea,80
+12/2/2021,,NIL,NIL,Office maintainance,Pens + Pooja Samanulu,480
+12/3/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/3/2021,,NIL,NIL,Plant Maintenance,Deisil Oil,800
+12/4/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/5/2021,,NIL,NIL,Donations to Local Institutions,Shashti Chanda,3605
+12/5/2021,,NIL,NIL,Sadar Expenses,Tea,80
+12/5/2021,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,10000
+12/5/2021,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+12/5/2021,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+12/5/2021,,SSCS05,Satyanarayana,Salaries paid to Staff,Monthly Salary,8000
+12/5/2021,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,7500
+12/5/2021,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,5000
+12/5/2021,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+12/5/2021,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,16000
+12/5/2021,,NIL,NIL,Labor charges paid,Gent Labour,550
+12/6/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/7/2021,,NIL,NIL,Labor charges paid,Gent Labour,550
+12/8/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/10/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/11/2021,,NIL,NIL,Plant Maintenance,Welding Work Siva,1500
+12/11/2021,,NIL,NIL,Labor charges paid,Gent Labour,500
+12/11/2021,,NIL,NIL,Sadar Expenses,Tea,100
+12/11/2021,,NIL,NIL,Plant Equipment,Welding Rods,100
+12/11/2021,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+12/11/2021,,NIL,NIL,Plant Equipment,Gas Auto Kirayi,500
+12/11/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/12/2021,,NIL,NIL,Donations to Local Institutions,Pagati Vesam,500
+12/12/2021,,NIL,NIL,Sadar Expenses,Tea,100
+12/12/2021,,NIL,NIL,Office maintainance,Computer Repair,250
+12/13/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/15/2021,,NIL,NIL,Office Equipment,Computer Mouse,200
+12/15/2021,,NIL,NIL,Plant Maintenance,Water Tap Repair,520
+12/15/2021,,NIL,NIL,Office Equipment,Pens+ Books,350
+12/15/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/18/2021,,NIL,NIL,Labor charges paid,Msr/relangi Bf Mirchi  Hamali For 23 Bags,330
+12/16/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/17/2021,,NIL,NIL,Formalities paid to others,C. I. T. U Office Mamullu,5000
+12/17/2021,,NIL,NIL,Plant Maintenance,Compressure Oil,500
+12/17/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/9/2021,,NIL,NIL,Formalities paid to others,Jattu Peddodu Daughter Marriage Gift,1500
+12/18/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/19/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/19/2021,,NIL,NIL,Donations to Local Institutions,Chanda,100
+12/20/2021,,NIL,NIL,Plant Equipment,Ammonia Gas Cylenders 3,13800
+12/20/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/22/2021,,NIL,NIL,Donations to Local Institutions,Dalitha Satta Chanda,1000
+12/22/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/23/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/24/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/25/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/26/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/27/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/29/2021,,NIL,NIL,Office maintainance,Computer Repair,1300
+12/29/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/30/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/27/2021,,NIL,NIL,Office maintainance,Cocnuts+ Agarabatties,100
+12/31/2021,,NIL,NIL,Sadar Expenses,Tea,50
+12/31/2021,,NIL,NIL,Telephone Bills,Telephone Bill,300
+1/1/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/2/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/3/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,10000
+1/3/2022,,SSCS05,Satyanarayana,Salaries paid to Staff,Monthly Salary,8000
+1/3/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,7500
+1/3/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+1/3/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,5000
+1/3/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+1/3/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,16000
+1/3/2022,,NIL,NIL,Plant Equipment,Compressure Oil,3500
+1/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/3/2022,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+1/5/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/6/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/7/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/7/2022,,NIL,NIL,Office maintainance,Agarbatties,300
+1/8/2022,,NIL,NIL,Plant Maintenance,10 Bags Cement,3300
+1/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/9/2022,,NIL,NIL,Sadar Expenses,Meals,700
+1/9/2022,,NIL,NIL,Sadar Expenses,Tea,100
+1/9/2022,,NIL,NIL,Bonus paid to Hamalies,Hamalies Pongal Bonus,47090
+1/9/2022,,NIL,NIL,Labor charges paid,Vij Ravi Advance,500
+1/10/2022,,NIL,NIL,Plant Maintenance,Kalupu Mandu,820
+1/10/2022,,NIL,NIL,Plant Maintenance,Sand Tractor,3500
+1/10/2022,,NIL,NIL,Plant Maintenance,Pvc Spares,1700
+1/10/2022,,NIL,NIL,Plant Maintenance,Pvc Pipes,1500
+1/10/2022,,NIL,NIL,Sadar Expenses,Meals,600
+1/10/2022,,NIL,NIL,Plant Maintenance,Gravel 1/2 Tractor,2050
+1/10/2022,,NIL,NIL,Sadar Expenses,Tea,100
+1/10/2022,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+1/11/2022,,NIL,NIL,Sadar Expenses,Night Meals,300
+1/10/2022,,NIL,NIL,Sadar Expenses,Tea+ Meals,200
+1/12/2022,,NIL,NIL,Labor charges paid,Ladies 9*400,3600
+1/12/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/13/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/13/2022,,NIL,NIL,Bonus paid to staff,R. G. Prasad Pongal Bonus,10000
+1/13/2022,,NIL,NIL,Bonus paid to staff,K. Chakradhara Rao Pongal Bonus,8500
+1/13/2022,,NIL,NIL,Bonus paid to staff,Satyanarayana Pongal Bonus,8000
+1/13/2022,,NIL,NIL,Bonus paid to staff,Subrahmanyam Pongal Bonus,7500
+1/13/2022,,NIL,NIL,Bonus paid to staff,Ch. V. N. Dhanalakshmi Pongal Bonus,5000
+1/13/2022,,NIL,NIL,Bonus paid to staff,A. Kannayya Pongal Bonus,5000
+1/13/2022,,NIL,NIL,Bonus paid to staff,Sweeper Venkayamma Pongal Bonus,3000
+1/13/2022,,NIL,NIL,Bonus paid to staff,M. Nageswara Rao Pongal Bonus,16000
+1/13/2022,,NIL,NIL,Formalities paid to others,Pkl Lorry Pongal Mamullu,800
+1/19/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/20/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/21/2022,,NIL,NIL,Plant Maintenance,Pipe Samanulu,2000
+1/21/2022,,NIL,NIL,Sadar Expenses,Tea,100
+1/21/2022,,NIL,NIL,Plant Maintenance,Tape Reals+ Tea,100
+1/22/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/22/2022,,NIL,NIL,Sadar Expenses,Meals+plates,130
+1/23/2022,,NIL,NIL,Sadar Expenses,Tea,100
+1/23/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+1/24/2022,,NIL,NIL,Telephone Bills,Telephone Bill,300
+1/24/2022,,NIL,NIL,Plant Maintenance,Compressure Oil,3500
+1/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/24/2022,,NIL,NIL,Labor charges paid,Ladies 3*400,1200
+1/24/2022,,NIL,NIL,Office maintainance,Coconuts,100
+1/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/27/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/27/2022,,NIL,NIL,Office maintainance,Purchase Mask,150
+1/28/2022,,NIL,NIL,Formalities paid to others,A.m.c.yard 2years Assesment,10000
+1/28/2022,,NIL,NIL,Donations to Local Institutions,A. M. C  Yard Pongal Mamulu,1000
+1/28/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/28/2022,,NIL,NIL,Office maintainance,Coconuts,50
+1/29/2022,,NIL,NIL,Sadar Expenses,Tea,50
+1/30/2022,,NIL,NIL,Sadar Expenses,Tea,100
+1/30/2022,,NIL,NIL,Sadar Expenses,Meals+ Water Bottle+ Tiffen,300
+1/31/2022,,NIL,NIL,Sadar Expenses,Tea,100
+2/1/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/2/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/3/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,7500
+2/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/3/2022,,SSCS05,Satyanarayana,Salaries paid to Staff,Monthly Salary,8000
+2/3/2022,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+2/3/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+2/3/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,10000
+2/3/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,5000
+2/3/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+2/3/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,16000
+2/4/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/5/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/6/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/7/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/9/2022,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+2/9/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/10/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/11/2022,,NIL,NIL,Plant Maintenance,Coconuts+ Pooja Samanulu,60
+2/11/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/12/2022,,NIL,NIL,Plant Maintenance,Paints Bill,7685
+2/12/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/12/2022,,NIL,NIL,Plant Maintenance,Pipe Samanulu,910
+2/12/2022,,NIL,NIL,Sadar Expenses,Meals [morning+ Night],600
+2/13/2022,,NIL,NIL,Sadar Expenses,Meals,350
+2/13/2022,,NIL,NIL,Formalities paid to others,Sales Tax Mamulu,500
+2/13/2022,,NIL,NIL,Sadar Expenses,Tea,100
+2/13/2022,,NIL,NIL,Sadar Expenses,Meals,300
+2/14/2022,,NIL,NIL,Plant Maintenance,Bricks 200*6= 1200+kirayi 300,1500
+2/14/2022,,NIL,NIL,Plant Maintenance,Cement Bags 10*350,3500
+2/14/2022,,NIL,NIL,Plant Maintenance,Cement Bags Kirayi,200
+2/14/2022,,NIL,NIL,Sadar Expenses,Tea,100
+2/14/2022,,NIL,NIL,Sadar Expenses,Meals,300
+2/14/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+2/15/2022,,NIL,NIL,Sadar Expenses,Tea,100
+2/15/2022,,NIL,NIL,Plant Maintenance,Compressure Oilbill 10/02/2022,3500
+2/16/2022,,NIL,NIL,Office maintainance,Computer Repair,1800
+2/16/2022,,NIL,NIL,Sadar Expenses,Meals + Corier,500
+2/16/2022,,NIL,NIL,Sadar Expenses,Tea,100
+2/17/2022,,NIL,NIL,Sadar Expenses,Meals,450
+2/17/2022,,NIL,NIL,Labor charges paid,Ladies -4 Days-4*5=20*400/-,8000
+2/17/2022,,NIL,NIL,Plant Maintenance,Ammonium Gas 3sylenders On 12-02-2022,18400
+2/17/2022,,NIL,NIL,Sadar Expenses,Tea,100
+2/18/2022,,NIL,NIL,Office maintainance,Cocnuts,50
+2/18/2022,,NIL,NIL,Office maintainance,Muhurtham Mamulu,1500
+2/18/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/19/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/20/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/21/2022,,NIL,NIL,Electricity Bills,Electricity Bill Paid,142230
+2/24/2022,,NIL,NIL,Labor charges paid,Kamanu Kooli,1200
+2/21/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/22/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/23/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/26/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/26/2022,,NIL,NIL,Furnishing & Lighiting,Led Lights- 2,260
+2/26/2022,,NIL,NIL,Office maintainance,Coconuts+ Agarbatties,180
+3/5/2022,,NIL,NIL,Labor charges paid,Chillies Kamanu Kooli,300
+2/27/2022,,NIL,NIL,Sadar Expenses,Tea+ Meals,150
+2/28/2022,,NIL,NIL,Sadar Expenses,Tea,50
+2/28/2022,,NIL,NIL,Subscription to News papers,Sakshi News Paper Advance,600
+3/3/2022,,NIL,NIL,Subscription to News papers,News Paper Bill,230
+3/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/2/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/7/2022,,NIL,NIL,Labor charges paid,Chillies Kamanu Kooli,200
+3/3/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+3/3/2022,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+3/3/2022,,SSCS05,Satyanarayana,Salaries paid to Staff,Monthly Salary,8000
+3/3/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+3/3/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+3/3/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+3/3/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+3/4/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/5/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,600
+3/5/2022,,NIL,NIL,Office maintainance,Whitener Pen,30
+3/5/2022,,NIL,NIL,Office maintainance,Printer Repair,100
+3/5/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/6/2022,,NIL,NIL,Furnishing & Lighiting,Electrical Bulbs,1500
+3/6/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/9/2022,,NIL,NIL,Labor charges paid,Chillies Kamanu Kooli,250
+3/7/2022,,NIL,NIL,Plant Maintenance,Compressure Oil Bill On 04-03-2022,3500
+3/7/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/9/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/10/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/13/2022,,NIL,NIL,Labor charges paid,Chillies Kamanu Kooli,200
+3/16/2022,,NIL,NIL,Labor charges paid,Chillies Kamanu Kooli,200
+3/3/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+3/11/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/12/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/12/2022,,NIL,NIL,Plant Maintenance,Motor Samanulu,100
+3/13/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/14/2022,,NIL,NIL,Plant Maintenance,Tarpan Cloth,2950
+3/14/2022,,NIL,NIL,Taxes & Licenses,Panchayathi Tax 2021,50492
+3/14/2022,,NIL,NIL,Plant Maintenance,Panchayathi Tap Bill,1200
+3/14/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,1000
+3/14/2022,,NIL,NIL,Office maintainance,Agarabatties,100
+3/14/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/14/2022,,NIL,NIL,Furnishing & Lighiting,3 Face Plug,100
+3/16/2022,,NIL,NIL,Plant Maintenance,Motor Belt,200
+3/16/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/20/2022,,NIL,NIL,Labor charges paid,Chillies Kamanu Kooli,200
+3/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/18/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/19/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/19/2022,,NIL,NIL,Medical charges paid to staff,Medical Expenses For Hamali,500
+3/20/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/21/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/23/2022,,NIL,NIL,Telephone Bills,Telephone Bill,600
+3/25/2022,,NIL,NIL,Labor charges paid,Chillies Kamanu Kooli,300
+3/23/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/25/2022,,NIL,NIL,Formalities paid to others,Gcc Mamullu,4500
+3/25/2022,,NIL,NIL,Office maintainance,Transport Charges,500
+3/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/26/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Kooli,300
+4/3/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Koolifor 2 Days,600
+3/26/2022,,NIL,NIL,Sadar Expenses,Tea,100
+3/27/2022,,NIL,NIL,Sadar Expenses,Tea,100
+3/30/2022,,NIL,NIL,Sadar Expenses,Tea,50
+3/31/2022,,NIL,NIL,Donations to Local Institutions,Padala Jagajjeevarao Chanda,3000
+3/31/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/1/2022,,NIL,NIL,Plant Maintenance,For Welding Rods,1000
+4/1/2022,,NIL,NIL,Sadar Expenses,Tea+ Glasses,100
+4/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/4/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Kooli,400
+4/6/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Kooli,200
+4/4/2022,,NIL,NIL,Electricity Bills,Electricity Bill Paid,142240
+4/4/2022,,NIL,NIL,Sadar Expenses,Tiffen+ Tea,100
+4/4/2022,,NIL,NIL,Labor charges paid,Welder Siva,2250
+4/4/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+4/4/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+4/4/2022,,SSCS20,K.Eswar,Salaries paid to Staff,Monthly Salary,5600
+4/4/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+4/4/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+4/4/2022,,SSCS07,K.Chakradhara Rao,Salaries paid to Staff,Monthly Salary,8500
+4/4/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+4/4/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+4/4/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/6/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/7/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,700
+4/7/2022,,NIL,NIL,Plant Maintenance,News Paper Bill,230
+4/7/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/8/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Kooli,200
+4/9/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Kooli,120
+4/8/2022,,NIL,NIL,Plant Maintenance,Generator Repair,1000
+4/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/9/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/11/2022,,NIL,NIL,Plant Maintenance,Kamanu Kooli,400
+4/14/2022,,NIL,NIL,Plant Maintenance,Kamanu Kooli,400
+4/11/2022,,NIL,NIL,Plant Maintenance,Pooja Samanulu,150
+4/11/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/13/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/14/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/15/2022,,NIL,NIL,Plant Maintenance,For Water Pipes,600
+4/16/2022,,NIL,NIL,Plant Maintenance,Kamanu Kooli,400
+4/15/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/16/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/17/2022,,NIL,NIL,Donations to Local Institutions,Tpg Kalakarula Chanda,1000
+4/17/2022,,NIL,NIL,Interenet Bill paid,Bsnl Inter Net Connection,5000
+4/17/2022,,NIL,NIL,Plant Maintenance,Comnpresure Oil Bill On 02-04-2022,3500
+4/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/18/2022,,NIL,NIL,Sadar Expenses,Meals,100
+4/18/2022,,NIL,NIL,Sadar Expenses,Tea,100
+4/19/2022,,NIL,NIL,Sadar Expenses,Tea+ Tiffen,130
+4/19/2022,,NIL,NIL,Office maintainance,Pooja Samanulu,120
+4/20/2022,,NIL,NIL,Plant Maintenance,Welding Rods,350
+4/20/2022,,NIL,NIL,Sadar Expenses,Tea,100
+4/20/2022,,NIL,NIL,Labor charges paid,Welding Siva,1500
+4/20/2022,,NIL,NIL,Plant Maintenance,Brooms 2+2,200
+4/21/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/22/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/23/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/25/2022,,NIL,NIL,Plant Maintenance,Electrical Samanulu,300
+4/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/27/2022,,NIL,NIL,Sadar Expenses,Meals+tea,350
+4/28/2022,,NIL,NIL,Plant Maintenance,Damaged Chillies Kamanu Kooli,300
+4/28/2022,,NIL,NIL,Sadar Expenses,Tea,100
+4/28/2022,,NIL,NIL,Sadar Expenses,Meals,300
+4/28/2022,,NIL,NIL,Medical charges paid to staff,Medicals For Eswar,200
+4/28/2022,,NIL,NIL,Labor charges paid,Vij Ravi Advance,100
+4/28/2022,,NIL,NIL,Plant Maintenance,Petrol,50
+4/29/2022,,NIL,NIL,Sadar Expenses,Meals 400+400,800
+4/29/2022,,NIL,NIL,Sadar Expenses,Tea,50
+4/30/2022,,NIL,NIL,Plant Maintenance,Rat Killers,160
+4/30/2022,,NIL,NIL,Sadar Expenses,Tea,100
+4/30/2022,,NIL,NIL,Sadar Expenses,Meals,300
+5/2/2022,,NIL,NIL,Sadar Expenses,Sarveswara Rao Meals,100
+5/2/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/4/2022,,NIL,NIL,Plant Maintenance,Motor Repare Work,2100
+5/4/2022,,NIL,NIL,Labor charges paid,Ladies Labour 3*5=15*400,6000
+5/4/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/5/2022,,NIL,NIL,Plant Maintenance,Motor Winding,6000
+5/5/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/5/2022,,NIL,NIL,Plant Maintenance,Torch Light,650
+5/5/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+5/5/2022,,SSCS18,T.Sarveswara Rao,Salaries paid to Staff,Monthly Salary,7500
+5/5/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+5/5/2022,,SSCS20,K.Eswar,Salaries paid to Staff,Monthly Salary,7500
+5/5/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+5/6/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,1000
+5/6/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/6/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+5/6/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+5/6/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+5/7/2022,,NIL,NIL,Office maintainance,News Paper Bill,230
+5/7/2022,,NIL,NIL,Plant Maintenance,Meals+ Samanulu,670
+5/7/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/6/2022,,NIL,NIL,Office maintainance,Pooja Samnulu,160
+5/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/9/2022,,NIL,NIL,Printing & Stationery,Note Books,300
+5/9/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/9/2022,,NIL,NIL,Plant Maintenance,Gas+compressure Oil On 25-04-2022,28800
+5/11/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/11/2022,,NIL,NIL,Plant Maintenance,Dish Tv Recharge,1000
+5/12/2022,,NIL,NIL,Donations to Local Institutions,Chanda,100
+5/12/2022,,NIL,NIL,Plant Maintenance,Bsnl 1 Yr Plan Bill Paid,8863
+5/12/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/13/2022,,NIL,NIL,Plant Maintenance,2 Fans Repair,800
+5/13/2022,,NIL,NIL,Office maintainance,Printer Catdride Refilling,600
+5/13/2022,,NIL,NIL,Plant Maintenance,Pooja Samanulu,260
+5/13/2022,,NIL,NIL,Plant Maintenance,R. G. Prasad Petrol,200
+5/13/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/14/2022,,NIL,NIL,Formalities paid to others,Amc Notary,1200
+5/14/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/14/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+5/15/2022,,NIL,NIL,Plant Maintenance,Oxygen Gas Cylender Advance,8000
+5/15/2022,,NIL,NIL,Plant Maintenance,Gas Cylenders Auto Kirayi,650
+5/15/2022,,NIL,NIL,Plant Maintenance,Gas,400
+5/15/2022,,NIL,NIL,Plant Maintenance,Pipes Transport+ Kirayi,600
+5/15/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/16/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/17/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+5/18/2022,,NIL,NIL,Sadar Expenses,Tea,100
+5/18/2022,,NIL,NIL,Sadar Expenses,Meals,800
+5/18/2022,,NIL,NIL,Labor charges paid,Ravi+1 = 5days Working,10000
+5/18/2022,,NIL,NIL,Plant Maintenance,M. S. Pipes,14100
+5/18/2022,,NIL,NIL,Plant Maintenance,M. S. Pipes,3500
+5/18/2022,,NIL,NIL,Plant Maintenance,Sub Mercible Motors-2,10000
+5/18/2022,,NIL,NIL,Plant Maintenance,Starter Boxes,3000
+5/18/2022,,NIL,NIL,Plant Maintenance,Wire Boxes,1000
+5/18/2022,,NIL,NIL,Office maintainance,Sticker Lables-10,1900
+5/18/2022,,NIL,NIL,Office maintainance,Ribbons- 2,500
+5/18/2022,,NIL,NIL,Plant Maintenance,Air Cutter Motor,2000
+5/18/2022,,NIL,NIL,Plant Maintenance,Welding Rods,750
+5/18/2022,,NIL,NIL,Plant Maintenance,Dummies,550
+5/18/2022,,NIL,NIL,Plant Maintenance,Grinding Wheel,50
+5/18/2022,,NIL,NIL,Plant Maintenance,Welding Glass,20
+5/18/2022,,NIL,NIL,Plant Maintenance,Starter connector,140
+5/18/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+5/19/2022,,NIL,NIL,Plant Maintenance,Greese 1kg,200
+5/19/2022,,NIL,NIL,Plant Maintenance,Greese Pair Oil,130
+5/19/2022,,NIL,NIL,Plant Maintenance,Trans Port,60
+5/23/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Kooli,1500
+5/19/2022,,NIL,NIL,Plant Maintenance,Welding Rods,1000
+5/19/2022,,NIL,NIL,Sadar Expenses,Meals,950
+5/19/2022,,NIL,NIL,Sadar Expenses,Tea,150
+5/16/2022,,NIL,NIL,Sadar Expenses,Night Meals,500
+5/19/2022,,NIL,NIL,Plant Maintenance,Pipes Kirayi,300
+5/19/2022,,NIL,NIL,Plant Maintenance,Oxygen Gas+ Kirayi,850
+5/20/2022,,NIL,NIL,Sadar Expenses,Meals,600
+5/20/2022,,NIL,NIL,Plant Maintenance,Plastic Wire,1650
+5/20/2022,,NIL,NIL,Plant Maintenance,Cement 5 Bags+ Kirayi,2050
+5/20/2022,,NIL,NIL,Sadar Expenses,Meals+ Tiffen,400
+5/20/2022,,NIL,NIL,Plant Maintenance,Coconuts,60
+5/21/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,1100
+5/21/2022,,NIL,NIL,Plant Maintenance,Old Cloths,100
+5/21/2022,,NIL,NIL,Sadar Expenses,Meals,600
+5/21/2022,,NIL,NIL,Plant Maintenance,Diesil Oil+ Petrol,1100
+5/21/2022,,NIL,NIL,Plant Maintenance,Surf+ Spong,150
+5/21/2022,,NIL,NIL,Sadar Expenses,Tea,150
+5/21/2022,,NIL,NIL,Sadar Expenses,Night Meals+ Water Bottles,800
+5/22/2022,,NIL,NIL,Donations to Local Institutions,Chanda,100
+5/22/2022,,NIL,NIL,Sadar Expenses,Meals,400
+5/22/2022,,NIL,NIL,Labor charges paid,Welding Work,20000
+5/22/2022,,NIL,NIL,Sadar Expenses,Tea,100
+5/22/2022,,NIL,NIL,Sadar Expenses,Night Meals,550
+5/20/2022,,NIL,NIL,Sadar Expenses,Tea,200
+5/27/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Kooli,1200
+5/22/2022,,NIL,NIL,Donations to Local Institutions,Chanda,100
+5/23/2022,,NIL,NIL,Medical charges paid to staff,Doctor Fee+ Medicines,270
+5/23/2022,,NIL,NIL,Sadar Expenses,Meals,460
+5/23/2022,,NIL,NIL,Sadar Expenses,Tea,100
+5/23/2022,,NIL,NIL,Labor charges paid,Ladies Labour Charges 33*400,13200
+5/23/2022,,NIL,NIL,Plant Maintenance,Cement Bags 5,2060
+5/23/2022,,NIL,NIL,Plant Maintenance,Auto Kirayi,500
+5/23/2022,,NIL,NIL,Plant Maintenance,Gas+ Nippols,600
+5/23/2022,,NIL,NIL,Sadar Expenses,Tea,200
+5/23/2022,,NIL,NIL,Sadar Expenses,Night Meals,400
+5/24/2022,,NIL,NIL,Sadar Expenses,Meals,400
+5/24/2022,,NIL,NIL,Sadar Expenses,Tea,200
+5/24/2022,,NIL,NIL,Plant Maintenance,Petrol,200
+5/24/2022,,NIL,NIL,Plant Maintenance,Damaged Chillies Kamanu Kooli,1000
+5/24/2022,,NIL,NIL,Sadar Expenses,Drink,100
+5/25/2022,,NIL,NIL,Sadar Expenses,Tea,150
+5/25/2022,,NIL,NIL,Sadar Expenses,Meals,650
+5/25/2022,,NIL,NIL,Sadar Expenses,Meals,550
+5/26/2022,,NIL,NIL,Sadar Expenses,Meals,300
+5/26/2022,,NIL,NIL,Sadar Expenses,Tea,150
+5/27/2022,,NIL,NIL,Plant Maintenance,Coconuts,80
+5/27/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/23/2022,,NIL,NIL,Plant Maintenance,Paints,900
+5/28/2022,,NIL,NIL,Plant Maintenance,Poundry Work,300
+5/28/2022,,NIL,NIL,Plant Maintenance,Petrol,150
+5/28/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/28/2022,,NIL,NIL,Sadar Expenses,Tiffen+ Petrol,500
+5/29/2022,,NIL,NIL,Plant Maintenance,Water Pipe Samanulu,500
+5/29/2022,,NIL,NIL,Sadar Expenses,Tea,50
+5/30/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/1/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/2/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/2/2022,,SSCS19,T.Sarveswara Rao,Salaries paid to Staff,Monthly Salary,7500
+6/2/2022,,NIL,NIL,Plant Maintenance,Rat Biscuits,420
+6/4/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/5/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/6/2022,,NIL,NIL,Sadar Expenses,Tea+ Tiffen,180
+6/6/2022,,NIL,NIL,Plant Maintenance,Amc Licence Fee,5100
+6/6/2022,,NIL,NIL,Formalities paid to others,Amc Licence Officers Mamullu,10000
+6/6/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+6/6/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+6/6/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+6/6/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+6/6/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+6/6/2022,,SSCS20,K.Eswar,Salaries paid to Staff,Monthly Salary,7500
+6/6/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+6/8/2022,,NIL,NIL,Plant Maintenance,For Motor Samanulu,100
+6/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/9/2022,,NIL,NIL,Sadar Expenses,Meals,300
+6/9/2022,,NIL,NIL,Sadar Expenses,Tea,100
+6/9/2022,,NIL,NIL,Plant Maintenance,Paints,600
+6/9/2022,,NIL,NIL,Plant Maintenance,Petrol+ Detergent,100
+6/9/2022,,NIL,NIL,Formalities paid to others,Amc Notary+ Mamulu,1000
+6/10/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/13/2022,,NIL,NIL,Sadar Expenses,Tea+ Meals,300
+6/13/2022,,NIL,NIL,Plant Maintenance,News Paper Bill,230
+6/11/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/12/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/12/2022,,NIL,NIL,Plant Maintenance,Petrol,50
+6/13/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/15/2022,,NIL,NIL,Plant Maintenance,Pooja Samanulu,150
+6/16/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/17/2022,,NIL,NIL,Plant Maintenance,Sealed Plaster,150
+6/17/2022,,NIL,NIL,Plant Maintenance,Pooja Samanulu,150
+6/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/17/2022,,NIL,NIL,Office maintainance,Anjali Net Bill Remaining Balance,5000
+6/19/2022,,NIL,NIL,Sadar Expenses,Tea,100
+6/18/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/20/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/20/2022,,NIL,NIL,Plant Maintenance,Xerox Copies,100
+6/21/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/21/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,1000
+6/21/2022,,NIL,NIL,Plant Maintenance,Printer Catridge Refilling,300
+6/22/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/22/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+6/23/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/24/2022,,NIL,NIL,Plant Maintenance,Pooja Samanulu,100
+6/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/26/2022,,NIL,NIL,Donations to Local Institutions,Chanda,100
+6/26/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/29/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/30/2022,,NIL,NIL,Sadar Expenses,Tea,50
+6/30/2022,,NIL,NIL,Donations to Local Institutions,Chanda,100
+6/30/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Kool,450
+7/1/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/1/2022,,NIL,NIL,Plant Maintenance,Coconuts+ Agarabatties,230
+7/2/2022,,NIL,NIL,Plant Maintenance,Pooja Samanulu,100
+7/2/2022,,NIL,NIL,Sadar Expenses,Tea,100
+7/2/2022,,NIL,NIL,Labor charges paid,Ladies 3*400,1200
+7/3/2022,,NIL,NIL,Donations to Local Institutions,Chanda,100
+7/3/2022,,NIL,NIL,Plant Maintenance,Water Filter Coil,150
+7/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/4/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+7/4/2022,,NIL,NIL,Plant Maintenance,Pesticides,600
+7/4/2022,,NIL,NIL,Labor charges paid,Ladies 3*400,1200
+7/4/2022,,NIL,NIL,Sadar Expenses,Tea,100
+7/6/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+7/6/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+7/6/2022,,SSCS20,K.Eswar,Salaries paid to Staff,Monthly Salary,7500
+7/6/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+7/6/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+7/6/2022,,SSCS19,T.Sarveswara Rao,Salaries paid to Staff,Monthly Salary,7500
+7/6/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+7/6/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/7/2022,,NIL,NIL,Labor charges paid,Ladies2*400,800
+7/7/2022,,NIL,NIL,Sadar Expenses,Tea,100
+7/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/8/2022,,NIL,NIL,Plant Maintenance,Coconuts,50
+7/9/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/10/2022,,NIL,NIL,Plant Maintenance,Compressure Oil+ Samanulu On 8/06/2022,8000
+7/10/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/11/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/13/2022,,NIL,NIL,Plant Maintenance,News Paper Bill,230
+7/13/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/14/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/15/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,500
+7/15/2022,,NIL,NIL,Sadar Expenses,Tiffen+ Tea,200
+7/16/2022,,NIL,NIL,Sadar Expenses,Tea+tiffen+meals+ Curd,300
+7/16/2022,,NIL,NIL,Office maintainance,Computer Repare,300
+7/16/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/17/2022,,NIL,NIL,Sadar Expenses,Tea,100
+7/18/2022,,NIL,NIL,Electricity Bills,Electricicty Bill Paid,180000
+7/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/20/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/20/2022,,NIL,NIL,Labor charges paid,Gents Labour -2,1000
+7/21/2022,,NIL,NIL,Plant Maintenance,Electrical Edge Fuse,200
+7/21/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/22/2022,,NIL,NIL,Electricity Bills,Electricity Bill Remaining Bill Paid,21800
+7/22/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/23/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/27/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/28/2022,,NIL,NIL,Sadar Expenses,Tea,50
+7/29/2022,,NIL,NIL,Plant Maintenance,Cocnuts,30
+7/29/2022,,NIL,NIL,Sadar Expenses,Tea,100
+7/31/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu Kooli,600
+7/30/2022,,NIL,NIL,Labor charges paid,Ladies 10*400,4000
+7/30/2022,,NIL,NIL,Sadar Expenses,Tea,100
+7/31/2022,,NIL,NIL,Plant Maintenance,Muggu,160
+7/31/2022,,NIL,NIL,Sadar Expenses,Meals+ Tiffen,150
+7/31/2022,,NIL,NIL,Sadar Expenses,Tea,100
+7/31/2022,,NIL,NIL,Plant Maintenance,Gunny Bags[ Gone Sanchulu],500
+8/1/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/3/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+8/3/2022,,SSCS19,T.Sarveswara Rao,Salaries paid to Staff,Monthly Salary,8000
+8/3/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+8/3/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+8/3/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+8/3/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+8/3/2022,,SSCS20,K.Eswar,Salaries paid to Staff,Monthly Salary,7500
+8/3/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+8/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/4/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/5/2022,,NIL,NIL,Plant Maintenance,Pooja Samanulu,30
+8/5/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/6/2022,,NIL,NIL,Plant Maintenance,Kata Seal Charges,1000
+8/6/2022,,NIL,NIL,Donations to Local Institutions,Dalitha Satta Chanda,1000
+8/6/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/7/2022,,NIL,NIL,Plant Maintenance,Kata New  Battery,600
+8/7/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/8/2022,,NIL,NIL,Office maintainance,News Paper Bill,230
+8/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/10/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/11/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/12/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/13/2022,,NIL,NIL,Plant Maintenance,Electrical Av Switch,2500
+8/13/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/14/2022,,NIL,NIL,Plant Maintenance,Compressure Oil Bill 12-08-2022,3600
+8/14/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/16/2022,,NIL,NIL,Plant Maintenance,Water Filter Candles,300
+8/17/2022,,NIL,NIL,Electricity Bills,Electrical Bill Paid,130400
+8/17/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+8/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/18/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/19/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/20/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/21/2022,,NIL,NIL,Donations to Local Institutions,Chanda,500
+8/21/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/22/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/26/2022,,NIL,NIL,Plant Maintenance,Diesil,600
+8/26/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/27/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/28/2022,,NIL,NIL,Donations to Local Institutions,Vinayaka Chanda,300
+8/28/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/29/2022,,NIL,NIL,Sadar Expenses,Tea,50
+8/30/2022,,NIL,NIL,Plant Maintenance,Pooja Samanulu,800
+9/1/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,600
+9/1/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/2/2022,,NIL,NIL,Plant Maintenance,Coconuts,30
+9/2/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/3/2022,,NIL,NIL,Sadar Expenses,Meals For Sarveswara Rao,100
+9/3/2022,,NIL,NIL,Office maintainance,A-4 Sheets Box,2600
+9/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/4/2022,,NIL,NIL,Donations to Local Institutions,Chanda,200
+9/4/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/5/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+9/5/2022,,SSCS19,T.Sarveswara Rao,Salaries paid to Staff,Monthly Salary,8000
+9/5/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+9/5/2022,,SSCS20,K.Eswar,Salaries paid to Staff,Monthly Salary,7500
+9/5/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+9/5/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+9/5/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+9/5/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+9/5/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/5/2022,,NIL,NIL,Plant Maintenance,Gunny Bags,1000
+9/7/2022,,NIL,NIL,Plant Maintenance,Diesil Oil Pipe,150
+9/7/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/21/2022,,NIL,NIL,Plant Maintenance,Chillies Kamanu,270
+9/8/2022,,NIL,NIL,Medical charges paid to staff,Medicines,500
+9/8/2022,,NIL,NIL,Plant Maintenance,News Paper Bill,230
+9/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/9/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/10/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/10/2022,,NIL,NIL,Plant Maintenance,Water Filter Samanulu,650
+9/11/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/12/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/14/2022,,NIL,NIL,Plant Maintenance,Electrical Samanulu,1250
+9/14/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/15/2022,,NIL,NIL,22% Enhanced Hamali paid in Bulk,22% Enhanced Hamali [mestri Sreenu],6000
+9/14/2022,,NIL,NIL,Plant Maintenance,Kamanu Jonnalu,200
+9/15/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/16/2022,,NIL,NIL,22% Enhanced Hamali paid in Bulk,22% Enhanced Hamali[ Jattu Subbanna],5000
+9/16/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/17/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+9/18/2022,,NIL,NIL,Formalities paid to others,Income Tax Dasarah Mamullu,2000
+1/8/2022,,NIL,NIL,Office maintainance,Cement Bags Auto Kirayi,200
+9/18/2022,,NIL,NIL,22% Enhanced Hamali paid in Bulk,22% Enhanced Hamali Charges,35000
+9/18/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/19/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/19/2022,,NIL,NIL,22% Enhanced Hamali paid in Bulk,22% Enhanced Hamali Charges,10000
+9/21/2022,,NIL,NIL,Sadar Expenses,Meals,100
+9/21/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/21/2022,,NIL,NIL,Office maintainance,A4 Sheets Cutting,50
+9/22/2022,,NIL,NIL,Plant Equipment,Electrical Samanulu,70
+9/22/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/23/2022,,NIL,NIL,Sadar Expenses,Meals,100
+9/23/2022,,NIL,NIL,Plant Equipment,L.e.d Bulbs- 6,480
+9/23/2022,,NIL,NIL,Plant Maintenance,Coconuts,30
+9/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/25/2022,,NIL,NIL,Plant Equipment,Compressure Oil Bill,3600
+9/25/2022,,NIL,NIL,22% Enhanced Hamali paid in Bulk,22% Enhanced Hamali Charges[ Konda-5000; Pandu-2000],7000
+9/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/26/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/28/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/29/2022,,NIL,NIL,Sadar Expenses,Tea,50
+9/29/2022,,NIL,NIL,Formalities paid to others,Visilence Officers Dasara Mamulu,5000
+9/30/2022,,NIL,NIL,Formalities paid to others,Electricity Officers Dasara Mamulu,2000
+9/30/2022,,NIL,NIL,Plant Maintenance,Coconuts,40
+9/30/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/1/2022,,NIL,NIL,Donations to Local Institutions,Sales Tax Officers Dasara  Mamullu,2000
+10/1/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/5/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/6/2022,,NIL,NIL,Plant Maintenance,Diesil Oil Bill,500
+10/6/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/7/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/7/2022,,NIL,NIL,Plant Equipment,God Photoes,120
+10/7/2022,,SSCS20,K.Eswar,Salaries paid to Staff,Monthly Salary,7250
+10/8/2022,,NIL,NIL,Plant Maintenance,Battery Water,200
+10/7/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+10/7/2022,,SSCS19,T.Sarveswara Rao,Salaries paid to Staff,Monthly Salary,8000
+10/7/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+10/7/2022,,SSCS08,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+10/7/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+10/7/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+10/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/9/2022,,NIL,NIL,Sadar Expenses,Tea+ Tiffen+ Meals,250
+10/9/2022,,NIL,NIL,Donations to Local Institutions,Chanda,300
+10/9/2022,,NIL,NIL,Plant Maintenance,Agarbatties+ Brown Tape,200
+10/10/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+10/10/2022,,NIL,NIL,Sadar Expenses,Meals+ Tea,150
+10/10/2022,,NIL,NIL,Plant Maintenance,News Paper Bill,280
+10/10/2022,,NIL,NIL,Electricity Bills,Electricity Bill Paid,156220
+10/10/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/12/2022,,NIL,NIL,Sadar Expenses,Tea,120
+10/13/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/14/2022,,NIL,NIL,Donations to Local Institutions,Sales Tax Dasara Mamulu,500
+10/14/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/20/2022,,NIL,NIL,Plant Maintenance,Kamanu Kooli[ Jonnalu],1000
+10/15/2022,,NIL,NIL,Sadar Expenses,Meals+ Petrol+ Tiffen,500
+10/15/2022,,NIL,NIL,Plant Equipment,Birla White Bag,1200
+10/15/2022,,NIL,NIL,Sadar Expenses,Tea,100
+10/16/2022,,NIL,NIL,Donations to Local Institutions,Chanda,200
+10/16/2022,,NIL,NIL,Sadar Expenses,Tea,120
+10/16/2022,,NIL,NIL,Sadar Expenses,Meals+coffee+tiffen,500
+10/16/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+10/16/2022,,NIL,NIL,Plant Maintenance,Auto Kirayi,200
+10/16/2022,,NIL,NIL,Plant Equipment,Fans -4,19000
+10/16/2022,,NIL,NIL,Office maintainance,Bricks,2000
+10/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/17/2022,,NIL,NIL,Plant Maintenance,Auto Kirayi,2700
+10/19/2022,,NIL,NIL,Office maintainance,Gunny Bags,1000
+10/19/2022,,NIL,NIL,Sadar Expenses,Tea,120
+10/20/2022,,NIL,NIL,Plant Maintenance,Gunny Bags,1000
+10/20/2022,,NIL,NIL,Labor charges paid,Ladies 18*400,7200
+10/20/2022,,NIL,NIL,Sadar Expenses,Tea,120
+10/20/2022,,NIL,NIL,Plant Maintenance,Ele Bulb Holders,50
+10/21/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,600
+10/21/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/22/2022,,NIL,NIL,Labor charges paid,Ladies-2,800
+10/22/2022,,NIL,NIL,Sadar Expenses,Tea,60
+10/22/2022,,NIL,NIL,Plant Maintenance,Transformer Fuse,150
+10/23/2022,,NIL,NIL,Plant Maintenance,Deepavali Crakers,500
+10/23/2022,,NIL,NIL,Plant Maintenance,Wire+ Lighting Garlands,850
+10/23/2022,,NIL,NIL,Plant Maintenance,Pramidalu+ Pooja Samanulu,300
+10/23/2022,,NIL,NIL,Bonus paid to staff,Staff Deepavali Bonus,6800
+10/23/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/26/2022,,NIL,NIL,Electricity Bills,Electricity Bill Paid,149500
+10/26/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/27/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/30/2022,,NIL,NIL,22% Enhanced Hamali paid in Bulk,22% Dfference Hamali,43500
+10/30/2022,,NIL,NIL,22% Enhanced Hamali paid in Bulk,22% Hamali For Recovery Of Old Dues,38500
+10/30/2022,,NIL,NIL,Plant Maintenance,Agaravattulu+ Match Boxes,50
+10/30/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/31/2022,,NIL,NIL,Plant Maintenance,Muggu+ Brooms[2+2],300
+10/31/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/28/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/2/2022,,NIL,NIL,Labor charges paid,For Jcb Work,5000
+11/2/2022,,NIL,NIL,Sadar Expenses,Meals[lunch+ Dinner],600
+11/2/2022,,NIL,NIL,Plant Equipment,Petrol [ Subrahmanyam],50
+11/2/2022,,NIL,NIL,Labor charges paid,Vja Ravi Advance,100
+11/2/2022,,NIL,NIL,Plant Maintenance,Petrol[ R. G. P For 2days],100
+11/2/2022,,NIL,NIL,Sadar Expenses,Tea,200
+11/3/2022,,NIL,NIL,Sadar Expenses,Meals[ Lunch+dinner],600
+11/3/2022,,NIL,NIL,Plant Maintenance,Petrol,50
+11/3/2022,,NIL,NIL,Labor charges paid,Road Roller Adv,1500
+11/3/2022,,NIL,NIL,Office maintainance,Dust Bins,300
+11/3/2022,,NIL,NIL,Plant Maintenance,Cement Rekulu,5760
+11/3/2022,,NIL,NIL,Plant Maintenance,Auto Kirayi For Cement Rekulu,650
+11/3/2022,,NIL,NIL,Sadar Expenses,Tea,120
+10/13/2022,,NIL,NIL,Medical charges paid to staff,K. Eswar,200
+11/4/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,600
+11/4/2022,,NIL,NIL,Plant Maintenance,Electrical Samanulu,360
+11/4/2022,,NIL,NIL,Sadar Expenses,Meals[lunch+ Dinner],600
+11/4/2022,,NIL,NIL,Plant Equipment,Petrol,50
+11/4/2022,,NIL,NIL,Labor charges paid,Road Roller Adv,1000
+11/4/2022,,NIL,NIL,Plant Maintenance,Cutting Blades,300
+11/4/2022,,NIL,NIL,Labor charges paid,Vja Ravi Adv,100
+11/4/2022,,NIL,NIL,Sadar Expenses,Tea,120
+11/5/2022,,NIL,NIL,Plant Maintenance,Auto Kirayi[ Sathish],150
+11/5/2022,,NIL,NIL,Plant Maintenance,Cement Bags,2040
+11/5/2022,,NIL,NIL,Plant Maintenance,Sand,4000
+11/5/2022,,NIL,NIL,Medical charges paid to staff,K. Eswar Medical Charges,2000
+11/5/2022,,NIL,NIL,Sadar Expenses,Meals,600
+11/5/2022,,NIL,NIL,Labor charges paid,Road Roller Bill,3500
+11/5/2022,,NIL,NIL,Labor charges paid,Ravi+ 1 Labour Charges[ 5days],10000
+11/5/2022,,NIL,NIL,Sadar Expenses,Tea,120
+11/5/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+11/5/2022,,SSCS24,K.Eswar,Salaries paid to Staff,Monthly Salary,7500
+11/5/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+11/5/2022,,SSCS08,T.Sarveswara Rao,Salaries paid to Staff,Monthly Salary,8000
+11/5/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+11/5/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+11/5/2022,,SSCS27,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+11/6/2022,,NIL,NIL,Plant Maintenance,Cement Bags,700
+11/6/2022,,NIL,NIL,Plant Maintenance,Pipes+ Kirayi,1600
+11/6/2022,,NIL,NIL,Sadar Expenses,Tea,120
+11/7/2022,,NIL,NIL,Plant Maintenance,Tea,120
+11/7/2022,,NIL,NIL,Sadar Expenses,Tiffen+ Meals+ Petrol[ Sarveswara Rao,200
+11/7/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/9/2022,,NIL,NIL,Labor charges paid,Ladies 8*400,3200
+11/9/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/11/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+11/11/2022,,NIL,NIL,Plant Maintenance,Compressure Oil Bill,3600
+11/11/2022,,NIL,NIL,Plant Maintenance,"Hardware Samanulu[ Brush, Gum Etc",250
+11/11/2022,,NIL,NIL,Plant Maintenance,Coconuts,40
+11/11/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/10/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/12/2022,,NIL,NIL,Sadar Expenses,Tea+ Tiffen,150
+11/13/2022,,NIL,NIL,Plant Maintenance,For Sound Boxes Return Charges,600
+11/13/2022,,NIL,NIL,Plant Maintenance,"Tiffen Plates+ Water, Tea Glasses Purchased+ Salt",460
+11/13/2022,,NIL,NIL,Plant Maintenance,Petrol,50
+11/13/2022,,NIL,NIL,Donations to Local Institutions,Sasti Chanda [ Relangi],560
+11/13/2022,,NIL,NIL,Plant Maintenance,Water Tins,100
+11/13/2022,,NIL,NIL,Plant Maintenance,Catering[ Meals+ Tiffen],15000
+11/13/2022,,NIL,NIL,Plant Maintenance,Shamiyana Suppliers,1700
+11/13/2022,,NIL,NIL,Plant Maintenance,Ladies Labour,1400
+11/14/2022,,NIL,NIL,Office maintainance,News Paper Bill,230
+11/14/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/16/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/18/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/19/2022,,NIL,NIL,Sadar Expenses,Meals[ Sarveswara Rao],100
+11/19/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/20/2022,,NIL,NIL,Donations to Local Institutions,Shasti Chanda [ Attili],3605
+11/20/2022,,NIL,NIL,Plant Maintenance,Tube Lights+ Wire,4600
+11/20/2022,,NIL,NIL,Plant Maintenance,Tv Rechrge [6 Months],1300
+11/20/2022,,NIL,NIL,Plant Maintenance,Pooja Oil 1ltr,200
+11/20/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/21/2022,,NIL,NIL,Sadar Expenses,Tea,100
+11/23/2022,,NIL,NIL,Plant Maintenance,Tube Lights+ Samanulu,8260
+11/23/2022,,NIL,NIL,Labor charges paid,Electrical Worker,1800
+11/23/2022,,NIL,NIL,Plant Maintenance,Petrol,100
+11/23/2022,,NIL,NIL,Sadar Expenses,Tea,100
+11/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/25/2022,,NIL,NIL,Plant Maintenance,Work At Transformer,200
+11/26/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/27/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/28/2022,,NIL,NIL,Electricity Bills,Electricity Bill Paid,156250
+11/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/28/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/29/2022,,NIL,NIL,Sadar Expenses,Tea,50
+11/30/2022,,NIL,NIL,Plant Maintenance,Diesil Oil,600
+11/30/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/1/2022,,NIL,NIL,Medical charges paid to staff,Medical Charges [sarveswara Rao],450
+12/1/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/2/2022,,NIL,NIL,Plant Maintenance,Electrical Samanulu,70
+12/2/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/3/2022,,SSCS01,M.Nageswara Rao,Salaries paid to Staff,Monthly Salary,18000
+12/3/2022,,SSCS02,R.G.Prasad,Salaries paid to Staff,Monthly Salary,11500
+12/3/2022,,SSCS06,Subrahmanyam,Salaries paid to Staff,Monthly Salary,8500
+12/3/2022,,SSCS08,T.Sarveswara Rao,Salaries paid to Staff,Monthly Salary,8000
+12/3/2022,,SSCS24,K.Eswar,Salaries paid to Staff,Monthly Salary,7500
+12/3/2022,,SSCS04,Ch.V.N.Dhana Lakshmi,Salaries paid to Staff,Monthly Salary,6000
+12/3/2022,,SSCS27,WatchmanKannyya,Salaries paid to Staff,Monthly Salary,5000
+12/3/2022,,SSCS12,SweeperVenkayamma,Salaries paid to Staff,Monthly Salary,3000
+12/3/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/4/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/5/2022,,NIL,NIL,Sadar Expenses,Tea,50
+10/30/2020,,NIL,NIL,Labor charges paid,For M. N.r Advance Purpose,3000
+12/6/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/7/2022,,NIL,NIL,Sadar Expenses,Tea,100
+12/8/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/9/2022,,NIL,NIL,Sadar Expenses,Tiffen+ Coffee+ Tea,200
+12/9/2022,,NIL,NIL,Sadar Expenses,Meals-2,200
+12/9/2022,,NIL,NIL,Office maintainance,Agarbatties,50
+12/10/2022,,NIL,NIL,Printing & Stationery,A4 Sheets Cutting,50
+12/10/2022,,NIL,NIL,Taxes & Licenses,Gram Panchayathi Tax,54220
+12/10/2022,,NIL,NIL,Sadar Expenses,Tea+ Coffee,150
+12/11/2022,,NIL,NIL,Formalities paid to others,C. I. T. U  Office Donation,5000
+12/11/2022,,NIL,NIL,Sadar Expenses,Tiffen+ Meals+ Tea,200
+12/11/2022,,NIL,NIL,Plant Maintenance,Hard Ware Samanulu,100
+12/12/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/13/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/14/2022,,NIL,NIL,Sadar Expenses,Meals[ Sarveswara Rao],100
+12/14/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/15/2022,,NIL,NIL,Plant Maintenance,Michenery Voucher,100
+12/15/2022,,NIL,NIL,Plant Maintenance,Vja Auto Kirayi For Motors,3500
+12/15/2022,,NIL,NIL,Subscription to News papers,News Paper Bill,240
+12/15/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/16/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/17/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/18/2022,,NIL,NIL,22% Enhanced Hamali paid in Bulk,22% Enhanced Hamali Paid [ Jattu Nagaraju],5000
+12/18/2022,,NIL,NIL,Sadar Expenses,Tea+ Water Bottles,90
+12/18/2022,,NIL,NIL,Plant Maintenance,For Rat Trapping Royya Pottu,150
+12/19/2022,,NIL,NIL,Sadar Expenses,Tiffen+coffee+meals,200
+12/19/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/21/2022,,NIL,NIL,Sadar Expenses,Meals+tiffen+tea,300
+12/22/2022,,NIL,NIL,Miscellaneous Expenditure,Mirchi Damaged Purpose Paid,5000
+12/22/2022,,NIL,NIL,Sadar Expenses,Tea+ Coffee,100
+12/22/2022,,NIL,NIL,Plant Maintenance,Ammonium Gas 2 Cylenders Bill On 9-12-2022,13500
+12/23/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/24/2022,,NIL,NIL,Medical charges paid to staff,Medical Expences,300
+12/24/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/25/2022,,NIL,NIL,22% Enhanced Hamali paid in Bulk,Joint Hamali 22% Enhanced Hamali,8000
+12/25/2022,,NIL,NIL,Medical charges paid to staff,Medical Expenses,500
+12/25/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/26/2022,,NIL,NIL,Formalities paid to others,For Jaggery Mamullu,25000
+12/26/2022,,NIL,NIL,Donations to Local Institutions,Dalith Satta Chanda,1000
+12/26/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/26/2022,,SSCS29,B. Prasad,Salaries paid to Staff,Monthly Salary,2500
+12/28/2022,,NIL,NIL,Plant Maintenance,Compressure Oil,3600
+12/28/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/29/2022,,NIL,NIL,Sadar Expenses,Tea,50
+12/30/2022,,NIL,NIL,Sadar Expenses,Tea,50
